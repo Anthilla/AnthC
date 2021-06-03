@@ -1,2 +1,2 @@
-# AnthC
-Anthilla AnthC Board
+# Anthilla AnthC
+Anthilla Controller Board

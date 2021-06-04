@@ -1,5 +1,8 @@
-# Anthilla AnthC
-Anthilla Controller Board
+#AnthC
+"Anthilla Controller" Board
+Anthilla General Purpose control board to make smart/automation projects
+
+*Do you need a PLC anymore?*
 
 Serious Baseline ESP32 WROOM/WROVER based general purpose controller as "Product" NOT dev board.
 

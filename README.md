@@ -11,11 +11,11 @@ https://www.linkedin.com/posts/ivandorna_internetofthings-iot-hardware-activity-
 
 Thanks @EstebanCorredor. Thanks for the #passionate hard work, costructive and positive discussions, difficult moment and the time spent on the #project, and the given patience and support. Thanks for respecting the requirements and extending the possibilities.
 
-After a lot of work we are proud to present the Model 1, Release 1 of Anthilla 's #GeneralPurpose #Iot #IIot #Controller "#AnthillaController" or #AnthC made to be a #baseline brick to build real #industrial40 or for #smart projects. This is NOT designed to be a devboard but a finite element. So #notadevboard but a #product.
+After a lot of work we are proud to present the Model 1, Release 1 of Anthilla 's #GeneralPurpose Iot IIot Controller "Anthilla Controller" or AnthC made to be a baseline brick to build real industry4.0 or for smart projects. This is NOT designed to be a devboard but a finite element. So not a developer board but a product.
 
 *Are you serious?*
 
-Yes, anyone can collaborate as #opensource #oshw project, we want collaborate to collate and consider all suggested checklist to apply any changes to permit the compatibility with a large set of certifications.
+Yes, anyone can collaborate as opensource oshw project, we want collaborate to collate and consider all suggested checklist to apply any changes to permit the compatibility with a large set of certifications.
 
 Some other features
 - all informations are on board

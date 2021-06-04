@@ -13,7 +13,7 @@ Thanks @EstebanCorredor. Thanks for the #passionate hard work, costructive and p
 
 After a lot of work we are proud to present the Model 1, Release 1 of Anthilla 's #GeneralPurpose #Iot #IIot #Controller "#AnthillaController" or #AnthC made to be a #baseline brick to build real #industrial40 or for #smart projects. This is NOT designed to be a devboard but a finite element. So #notadevboard but a #product.
 
-"Are you serious?"
+*Are you serious?*
 
 Yes, anyone can collaborate as #opensource #oshw project, we want collaborate to collate and consider all suggested checklist to apply any changes to permit the compatibility with a large set of certifications.
 

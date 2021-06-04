@@ -28,7 +28,6 @@ We need your help,
 
 So visit the project https://github.com/Open-Hardware-Skunkworks/AnthC
 
-And share this post.
 Thanks.
 
 Ivan Dorna

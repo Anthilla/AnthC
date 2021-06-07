@@ -17,14 +17,35 @@ After a lot of work we are proud to present the Model 1, Release 1 of Anthilla '
 
 Yes, anyone can collaborate as opensource oshw project, we want collaborate to collate and consider all suggested checklist to apply any changes to permit the compatibility with a large set of certifications.
 
-Some other features
+Some features
 - all informations are on board
 - extended range temperature
 - independent 5/3.3v power section from 12/24v section. If you don't need 12/24v you can power only the 5/3.3v section.
 - no buttons
 - Esp32 Wroom/Wrover compatibility
+- Digital inputs
+- Open collector outputs for relays
+- Analog 16 bits inputs, 5V and 4-20mA switchable
+- RS485 communication
+- Raspberry form factor
+- Voltage input 7-24V
+- Real time clock
+- Rechargeable LiPo battery
+- I2C and spi communication
+- RGB Led
+- Programming by USB port
 
-We need your help,
+Baseline Certification we wants (to update, please request freely, or propose)
+
+CE
+CE EMI
+General/National EMS
+EN 61131-2:2007
+EN 61010-1:2010+A1:2019
+EN IEC 61010-2-201:2018
+Other Home/Civil/Industrial/Medical
+
+We need your help, propose suggest, give your tips and tricks and help Us to make a great work.
 
 So visit the project https://github.com/Open-Hardware-Skunkworks/AnthC
 

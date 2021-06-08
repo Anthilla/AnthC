@@ -37,6 +37,7 @@ Some features
 
 Baseline Certification we wants (to update, please request freely, or propose)
 
+- RoHS
 - CE
 - CE EMI
 - General/National EMS

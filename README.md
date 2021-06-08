@@ -37,13 +37,13 @@ Some features
 
 Baseline Certification we wants (to update, please request freely, or propose)
 
-CE
-CE EMI
-General/National EMS
-EN 61131-2:2007
-EN 61010-1:2010+A1:2019
-EN IEC 61010-2-201:2018
-Other Home/Civil/Industrial/Medical
+- CE
+- CE EMI
+- General/National EMS
+- EN 61131-2:2007
+- EN 61010-1:2010+A1:2019
+- EN IEC 61010-2-201:2018
+- Other Home/Civil/Industrial/Medical
 
 We need your help, propose suggest, give your tips and tricks and help Us to make a great work.
 

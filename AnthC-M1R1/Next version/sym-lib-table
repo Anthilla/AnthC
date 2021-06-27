@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name MinitronicV-0.1-rescue)(type Legacy)(uri ${KIPRJMOD}/MinitronicV-0.1-rescue.lib)(options "")(descr ""))
-  (lib (name End-node-L--V-0.1-rescue)(type Legacy)(uri "${KIPRJMOD}/End node L  V-0.1-rescue.lib")(options "")(descr ""))
-  (lib (name esp32-Core--V-0.1-rescue)(type Legacy)(uri "${KIPRJMOD}/esp32 Core  V-0.1-rescue.lib")(options "")(descr ""))
-)

@@ -1,4 +1,4 @@
-19412361220809485
+19457788174922386
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -66773,6 +66773,13 @@ lga land grid array
 14
 14
 Package_LGA
+LGA-8_3.6x3.8x0.9
+Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+Bosch LGA NoLead
+0
+8
+8
+Package_LGA
 LGA-8_3x5mm_P1.25mm
 LGA-8
 lga land grid array
@@ -83335,6 +83342,20 @@ Connector
 5
 4
 nodemcu
+EVQ-P44
+
+
+0
+4
+2
+nodemcu
+EVQ-P44B3M
+EVPAEDB2A-2
+Connector
+0
+5
+4
+nodemcu
 FUSEHOLDER_SMD_5X20MM
 
 
@@ -83391,6 +83412,20 @@ CONN JACK
 2
 2
 nodemcu
+KSF_IFGICT_11mm
+
+
+0
+0
+0
+nodemcu
+KSF_IFGICT_20mm
+
+
+0
+0
+0
+nodemcu
 L-4.2x4.4
 Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-4040, 4.0mmx4.0mm
 inductor taiyo-yuden md smd
@@ -83419,6 +83454,13 @@ LED RGB NeoPixel
 6
 4
 nodemcu
+LGA-8_3.6x3.8x0.9
+Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+Bosch LGA NoLead
+0
+8
+8
+nodemcu
 L_2x1.6mm
 Inductor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
 inductor
@@ -83429,6 +83471,13 @@ nodemcu
 L_5.4x5.2mm
 Inductor, Sunlord, MWSA0518, 5.4mmx5.2mm
 inductor Sunlord smd
+0
+2
+2
+nodemcu
+L_6.6x7.0H3
+Choke, SMD, 6.3x6.3mm 3mm height
+Choke SMD
 0
 2
 2
@@ -83461,12 +83510,40 @@ MMF2_QFN8
 9
 9
 nodemcu
+Mini2
+
+
+0
+35
+35
+nodemcu
+Mini2_sockets
+
+
+0
+39
+35
+nodemcu
+Mini4
+
+
+0
+37
+37
+nodemcu
 NODE_SMALL
 Mesurement Point, Square, Trough Hole,  DM 1.5mm, Drill 0.8mm,
 Mesurement Point Round Trough Hole 1.5mm Drill 0.8mm
 0
 1
 1
+nodemcu
+NanoJust
+
+
+0
+11
+11
 nodemcu
 NodeMCU_0.9
 Through-hole-mounted NodeMCU 0.9
@@ -83481,6 +83558,13 @@ nodemcu
 0
 30
 30
+nodemcu
+OPLGA
+
+
+0
+4
+4
 nodemcu
 OV2640
 
@@ -83685,6 +83769,55 @@ Thebe-II
 23
 23
 nodemcu
+Touch10mm
+
+
+0
+1
+1
+nodemcu
+Touch12mm
+
+
+0
+1
+1
+nodemcu
+Touch_bar_10x4mm
+
+
+0
+20
+10
+nodemcu
+Touch_bar_10x8mm
+
+
+0
+20
+10
+nodemcu
+Touch_matrix3x3
+
+
+0
+44
+6
+nodemcu
+Touch_radial_30mm
+
+
+0
+8
+8
+nodemcu
+Touch_radial_50mm
+
+
+0
+8
+8
+nodemcu
 Trafo_ADN1
 
 
@@ -83713,12 +83846,26 @@ XCVR_L86-M33
 12
 12
 nodemcu
+XCVR_M66
+
+
+0
+44
+44
+nodemcu
 XCVR_MC60
 
 
 0
 68
 68
+nodemcu
+XCVR_NEO-7N-0-522
+
+
+0
+24
+24
 nodemcu
 XCVR_RFM95W-868S2
 
@@ -84091,6 +84238,13 @@ farmfluencelogo10mm
 0
 0
 nodemcu
+fill
+
+
+0
+1
+1
+nodemcu
 footRJ45
 
 
@@ -84224,6 +84378,27 @@ justworx_51mm
 0
 0
 nodemcu
+ksf_9mm
+
+
+0
+0
+0
+nodemcu
+ksf_15mm
+
+
+0
+0
+0
+nodemcu
+ksf_20mm
+
+
+0
+0
+0
+nodemcu
 logo anthilla 10mm
 
 
@@ -84274,6 +84449,27 @@ monOut
 0
 nodemcu
 moonHand
+
+
+0
+0
+0
+nodemcu
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+nodemcu
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+nodemcu
+mouse-bite-2mm-slot
 
 
 0

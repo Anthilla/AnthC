@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
+DEF ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
 F0 "U" -700 1250 60 H V C CNN
-F1 "ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 500 1250 60 H V C CNN
+F1 "ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 500 1250 60 H V C CNN
 F2 "ESP32-footprints-Lib:ESP32-WROOM" 350 1350 60 H I C CNN
 F3 "" -450 450 60 H I C CNN
 DRAW
@@ -53,11 +53,11 @@ X IO33 9 -950 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 20 Y Y 1 F N
+DEF MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 20 Y Y 1 F N
 F0 "U" -100 350 50 H V L CNN
-F1 "MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" -150 250 50 H V L CNN
+F1 "MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" -150 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
 F3 "" -250 450 50 H I C CNN
 $FPLIST
@@ -73,11 +73,11 @@ X IN 5 -300 100 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
+DEF TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
 F0 "U" -50 700 50 H V C CNN
-F1 "TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 600 50 H V C CNN
+F1 "TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 600 50 H V C CNN
 F2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias" 50 -100 50 H I C CNN
 F3 "" 50 -100 50 H I C CNN
 DRAW

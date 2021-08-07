@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "ESP32 CORE"
-Date "2021-05-25"
+Date "2021-06-26"
 Rev ""
 Comp "ANTHILLA"
 Comment1 "ESTEBAN CORREDOR"
@@ -20,7 +20,7 @@ RXD
 Text Label 10000 1550 0    50   ~ 0
 TXD
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C22
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C22
 U 1 1 5DD164A6
 P 1150 4200
 F 0 "C22" H 1200 4250 50  0000 L CNN
@@ -113,7 +113,7 @@ Wire Wire Line
 Text Label 7800 2800 0    50   ~ 0
 GND
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R7
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R7
 U 1 1 5E349124
 P 8900 3650
 F 0 "R7" V 8800 3600 50  0000 L CNN
@@ -135,7 +135,7 @@ NoConn ~ 8900 3150
 NoConn ~ 8800 3150
 NoConn ~ 8700 3150
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R12
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R12
 U 1 1 5E647966
 P 8100 3650
 F 0 "R12" V 8000 3600 50  0000 L CNN
@@ -198,7 +198,7 @@ $EndComp
 Wire Wire Line
 	1800 4450 1800 4300
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C5
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C5
 U 1 1 5F01CA06
 P 2100 4200
 F 0 "C5" H 1900 4250 50  0000 L CNN
@@ -246,7 +246,7 @@ $EndComp
 Wire Wire Line
 	1450 4450 1450 4100
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R14
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R14
 U 1 1 5F1C5C36
 P 5750 3100
 F 0 "R14" H 5820 3146 50  0000 L CNN
@@ -275,7 +275,7 @@ $EndComp
 Wire Wire Line
 	5750 2950 5750 2900
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R16
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R16
 U 1 1 5F1EFF39
 P 6150 3100
 F 0 "R16" H 6220 3146 50  0000 L CNN
@@ -346,7 +346,7 @@ Connection ~ 950  3800
 Text Notes 4300 5600 0    50   ~ 0
 COMMUNICATION PORTS
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 6031F46A
 P 3700 3900
 AR Path="/602E71BC/6031F46A" Ref="D?"  Part="1" 
@@ -362,7 +362,7 @@ F 6 "C8678" H 3700 3900 50  0001 C CNN "LCSC-PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L?
+L esp32-Core--V-0.1-rescue:L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L?
 U 1 1 6031F473
 P 2600 950
 AR Path="/602E71BC/6031F473" Ref="L?"  Part="1" 
@@ -380,7 +380,7 @@ $EndComp
 Text Label 3700 4200 0    50   ~ 0
 VIN
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 6031F487
 P 2350 1150
 AR Path="/602E71BC/6031F487" Ref="D?"  Part="1" 
@@ -414,7 +414,7 @@ Wire Wire Line
 	2350 1000 2350 950 
 Connection ~ 2350 950 
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6031F4EA
 P 2350 800
 AR Path="/602E71BC/6031F4EA" Ref="C?"  Part="1" 
@@ -447,7 +447,7 @@ $EndComp
 Text Notes 750  4800 0    50   ~ 0
 POWER SUPPLY
 $Comp
-L esp32-Core--V-0.1-rescue:TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U?
+L esp32-Core--V-0.1-rescue:TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U?
 U 1 1 6031F529
 P 1750 1200
 AR Path="/602E71BC/6031F529" Ref="U?"  Part="1" 
@@ -463,7 +463,7 @@ F 6 "Texas Instruments" H 1750 1200 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6031F532
 P 2800 1200
 AR Path="/602E71BC/6031F532" Ref="C?"  Part="1" 
@@ -496,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1100 2800 950 
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6031F543
 P 850 950
 AR Path="/602E71BC/6031F543" Ref="C?"  Part="1" 
@@ -573,7 +573,7 @@ $EndComp
 Wire Wire Line
 	1200 1800 1200 1750
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6031F56C
 P 1000 1550
 AR Path="/602E71BC/6031F56C" Ref="C?"  Part="1" 
@@ -609,7 +609,7 @@ $EndComp
 Wire Wire Line
 	1000 1800 1000 1650
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6031F57F
 P 750 1550
 AR Path="/602E71BC/6031F57F" Ref="C?"  Part="1" 
@@ -642,7 +642,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 1250 1200 1250
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
 U 1 1 6031F590
 P 3300 1150
 AR Path="/602E71BC/6031F590" Ref="R?"  Part="1" 
@@ -658,7 +658,7 @@ F 6 "Uniroyal Elec" H 3300 1150 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6031F599
 P 3050 1200
 AR Path="/602E71BC/6031F599" Ref="C?"  Part="1" 
@@ -709,7 +709,7 @@ F 3 "" H 3900 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
 U 1 1 6031F5B4
 P 3300 1600
 AR Path="/602E71BC/6031F5B4" Ref="R?"  Part="1" 
@@ -801,7 +801,7 @@ Wire Wire Line
 Wire Wire Line
 	850  1050 850  1100
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6031F5E4
 P 3600 1250
 AR Path="/602E71BC/6031F5E4" Ref="C?"  Part="1" 
@@ -889,7 +889,7 @@ F 3 "" H 6850 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C13
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C13
 U 1 1 60746CFB
 P 6850 1900
 AR Path="/60746CFB" Ref="C13"  Part="1" 
@@ -939,7 +939,7 @@ $EndComp
 Wire Wire Line
 	5750 900  5750 950 
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R5
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R5
 U 1 1 60746D13
 P 6350 1500
 AR Path="/60746D13" Ref="R5"  Part="1" 
@@ -1039,7 +1039,7 @@ Wire Wire Line
 Wire Wire Line
 	14850 2050 14800 2050
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R24
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R24
 U 1 1 60746DAB
 P 15400 2250
 AR Path="/60746DAB" Ref="R24"  Part="1" 
@@ -1077,7 +1077,7 @@ Wire Wire Line
 Wire Wire Line
 	15300 2050 15400 2050
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R22
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R22
 U 1 1 60746DC4
 P 15150 2050
 AR Path="/60746DC4" Ref="R22"  Part="1" 
@@ -1203,7 +1203,7 @@ Wire Wire Line
 Wire Wire Line
 	14850 1100 14800 1100
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R27
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R27
 U 1 1 607CC750
 P 15400 1300
 AR Path="/607CC750" Ref="R27"  Part="1" 
@@ -1241,7 +1241,7 @@ Wire Wire Line
 Wire Wire Line
 	15300 1100 15400 1100
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R13
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R13
 U 1 1 607CC771
 P 15150 1100
 AR Path="/607CC771" Ref="R13"  Part="1" 
@@ -1286,7 +1286,7 @@ F 3 "" H 8300 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q5
+L esp32-Core--V-0.1-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q5
 U 1 1 6099408C
 P 4950 3300
 F 0 "Q5" V 5111 3300 60  0000 C CNN
@@ -1307,7 +1307,7 @@ F 13 "C8545" H 4950 3300 50  0001 C CNN "LCSC-PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R11
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R11
 U 1 1 60994E4F
 P 5300 3100
 F 0 "R11" H 5370 3146 50  0000 L CNN
@@ -1321,7 +1321,7 @@ F 6 "0402WGF1002TCE" H 5300 3100 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R9
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R9
 U 1 1 60994E5C
 P 4550 3100
 F 0 "R9" H 4620 3146 50  0000 L CNN
@@ -1494,7 +1494,7 @@ F 6 "STMicroelectronics" H 14500 2050 50  0001 C CNN "Manufacturer"
 	1    0    0    1   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R29
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R29
 U 1 1 60765A85
 P 15500 4150
 AR Path="/60765A85" Ref="R29"  Part="1" 
@@ -1537,7 +1537,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 3200 14200 3200
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R32
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R32
 U 1 1 608A1C5B
 P 15400 3300
 AR Path="/608A1C5B" Ref="R32"  Part="1" 
@@ -1612,7 +1612,7 @@ Wire Wire Line
 Wire Wire Line
 	11750 1150 11700 1150
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R33
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R33
 U 1 1 6060B2ED
 P 6100 6350
 AR Path="/6060B2ED" Ref="R33"  Part="1" 
@@ -1666,7 +1666,7 @@ AN3
 Wire Wire Line
 	14000 1200 14200 1200
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R10
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R10
 U 1 1 60BA52DD
 P 15150 3100
 AR Path="/60BA52DD" Ref="R10"  Part="1" 
@@ -1683,7 +1683,7 @@ F 6 "Uniroyal Elec" H 15150 3100 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R23
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R23
 U 1 1 60BA5B72
 P 15250 3950
 AR Path="/60BA5B72" Ref="R23"  Part="1" 
@@ -1750,7 +1750,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 3250 13000 3350
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C15
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C15
 U 1 1 609CA30B
 P 12950 2600
 AR Path="/609CA30B" Ref="C15"  Part="1" 
@@ -1920,7 +1920,7 @@ $EndComp
 Text Label 15550 1100 0    50   ~ 0
 AN0
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R38
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R38
 U 1 1 608FD3AB
 P 3400 5650
 AR Path="/608FD3AB" Ref="R38"  Part="1" 
@@ -1937,7 +1937,7 @@ F 6 "Uniroyal Elec" H 3400 5650 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R39
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R39
 U 1 1 608FDCAB
 P 3400 6050
 AR Path="/608FDCAB" Ref="R39"  Part="1" 
@@ -1968,7 +1968,7 @@ F 6 "Microchip Tech" H 1600 5600 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C17
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C17
 U 1 1 60900498
 P 2200 5700
 AR Path="/60900498" Ref="C17"  Part="1" 
@@ -1985,7 +1985,7 @@ F 6 "C52923" H 2200 5700 50  0001 C CNN "LCSC-PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C18
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C18
 U 1 1 60901055
 P 2550 5700
 AR Path="/60901055" Ref="C18"  Part="1" 
@@ -2028,7 +2028,7 @@ F 3 "" H 2200 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C16
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C16
 U 1 1 60ADB562
 P 900 5700
 AR Path="/60ADB562" Ref="C16"  Part="1" 
@@ -2144,7 +2144,7 @@ $EndComp
 Wire Wire Line
 	1600 5900 1600 6000
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 60CAF7D2
 P 3750 950
 AR Path="/602E71BC/60CAF7D2" Ref="D?"  Part="1" 
@@ -2227,7 +2227,7 @@ $EndComp
 Wire Wire Line
 	2800 5350 2800 5500
 $Comp
-L esp32-Core--V-0.1-rescue:MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U12
+L esp32-Core--V-0.1-rescue:MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U12
 U 1 1 60EF7403
 P 2150 7150
 F 0 "U12" H 2150 7517 50  0000 C CNN
@@ -2241,7 +2241,7 @@ F 6 "XI'AN Aerosemi Tech" H 2150 7150 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R37
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R37
 U 1 1 60EF9438
 P 2950 7450
 AR Path="/60EF9438" Ref="R37"  Part="1" 
@@ -2258,7 +2258,7 @@ F 6 "Uniroyal Elec" H 2950 7450 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R36
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R36
 U 1 1 60EF9865
 P 2950 7000
 AR Path="/60EF9865" Ref="R36"  Part="1" 
@@ -2275,7 +2275,7 @@ F 6 "Uniroyal Elec" H 2950 7000 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 60F23856
 P 2750 6800
 AR Path="/602E71BC/60F23856" Ref="D?"  Part="1" 
@@ -2291,7 +2291,7 @@ F 6 "C8598" H 2750 6800 50  0001 C CNN "LCSC-PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L?
+L esp32-Core--V-0.1-rescue:L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L?
 U 1 1 60F4E9B0
 P 2150 6700
 AR Path="/602E71BC/60F4E9B0" Ref="L?"  Part="1" 
@@ -2379,7 +2379,7 @@ F 6 "Changjiang Electronics Tech (CJ)" H 1450 7400 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R30
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R30
 U 1 1 610E7336
 P 1000 7400
 F 0 "R30" V 900 7350 50  0000 L CNN
@@ -2411,7 +2411,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 7400 1150 7400
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R35
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R35
 U 1 1 61145E89
 P 1550 6950
 F 0 "R35" V 1450 6900 50  0000 L CNN
@@ -2467,37 +2467,35 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 61424C8C
-P 3300 6750
+P 3750 6750
 AR Path="/602E71BC/61424C8C" Ref="#PWR?"  Part="1" 
 AR Path="/61424C8C" Ref="#PWR0188"  Part="1" 
-F 0 "#PWR0188" H 3300 6600 50  0001 C CNN
-F 1 "+5V" H 3315 6923 50  0000 C CNN
-F 2 "" H 3300 6750 50  0001 C CNN
-F 3 "" H 3300 6750 50  0001 C CNN
-	1    3300 6750
+F 0 "#PWR0188" H 3750 6600 50  0001 C CNN
+F 1 "+5V" H 3765 6923 50  0000 C CNN
+F 2 "" H 3750 6750 50  0001 C CNN
+F 3 "" H 3750 6750 50  0001 C CNN
+	1    3750 6750
 	1    0    0    -1  
 $EndComp
 Connection ~ 2950 6800
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 6148A0E3
-P 3150 6800
+P 3600 6800
 AR Path="/602E71BC/6148A0E3" Ref="D?"  Part="1" 
 AR Path="/6148A0E3" Ref="D13"  Part="1" 
-F 0 "D13" V 3104 6879 50  0000 L CNN
-F 1 "B5819W" H 3050 6700 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3150 6625 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 3150 6800 50  0001 C CNN
-F 4 "B5819W" H 3150 6800 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 3150 6800 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 3150 6800 50  0001 C CNN "LCSC-PN"
-	1    3150 6800
+F 0 "D13" V 3554 6879 50  0000 L CNN
+F 1 "B5819W" H 3500 6700 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3600 6625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 3600 6800 50  0001 C CNN
+F 4 "B5819W" H 3600 6800 50  0001 C CNN "MPN"
+F 5 "Changjiang Electronics Tech (CJ)" H 3600 6800 50  0001 C CNN "Manufacturer"
+F 6 "C8598" H 3600 6800 50  0001 C CNN "LCSC-PN"
+	1    3600 6800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3300 6800 3300 6750
-Wire Wire Line
-	3000 6800 2950 6800
+	3750 6800 3750 6750
 Text Notes 850  8000 0    50   ~ 0
 BATTERY CHARGING SYSTEM
 Wire Notes Line
@@ -2604,7 +2602,7 @@ Wire Notes Line
 Wire Wire Line
 	8400 5850 8400 6100
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 5FE857E6
 P 8150 4850
 AR Path="/602E71BC/5FE857E6" Ref="D?"  Part="1" 
@@ -2658,7 +2656,7 @@ DM
 Text Label 9800 5650 0    50   ~ 0
 DP
 $Comp
-L esp32-Core--V-0.1-rescue:IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 6039ACCB
 P 9150 5750
 AR Path="/602E71BC/6039ACCB" Ref="D?"  Part="1" 
@@ -2698,7 +2696,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 5250 10150 5350
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R31
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R31
 U 1 1 5F43259E
 P 10000 5350
 F 0 "R31" V 10100 5300 50  0000 L CNN
@@ -2752,7 +2750,7 @@ F 3 "" H 9800 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q3
+L esp32-Core--V-0.1-rescue:MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q3
 U 1 1 5F3C278A
 P 8700 4400
 F 0 "Q3" H 8887 4453 60  0000 L CNN
@@ -2773,7 +2771,7 @@ F 13 "C2146" H 8700 4400 50  0001 C CNN "LCSC-PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q4
+L esp32-Core--V-0.1-rescue:MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q4
 U 1 1 5F39EFC5
 P 8700 5100
 F 0 "Q4" H 8887 5047 60  0000 L CNN
@@ -2855,7 +2853,7 @@ F 3 "" H 10150 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C6
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C6
 U 1 1 5F2F1A6B
 P 10150 4450
 F 0 "C6" H 9950 4500 50  0000 L CNN
@@ -2875,7 +2873,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 5150 10150 5150
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R19
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R19
 U 1 1 5F2CF93F
 P 10000 5150
 F 0 "R19" V 10100 5050 50  0000 L CNN
@@ -2903,7 +2901,7 @@ Wire Wire Line
 Wire Wire Line
 	11600 5150 11650 5150
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R20
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R20
 U 1 1 5F2934C5
 P 11450 5150
 F 0 "R20" V 11550 5100 50  0000 L CNN
@@ -2921,7 +2919,7 @@ RXD
 Text Label 9650 5350 0    50   ~ 0
 TXD
 $Comp
-L esp32-Core--V-0.1-rescue:CP2102-GMR_NRND-dk_Interface-Controllers-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U5
+L esp32-Core--V-0.1-rescue:CP2102-GMR_NRND-dk_Interface-Controllers-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U5
 U 1 1 5F290813
 P 10600 5250
 F 0 "U5" H 10650 4700 60  0000 C CNN
@@ -2973,7 +2971,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 4400 8900 4400
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R21
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R21
 U 1 1 5F23FF19
 P 9200 5100
 F 0 "R21" V 9350 5050 50  0000 L CNN
@@ -2987,7 +2985,7 @@ F 6 "0402WGF1002TCE" H 9200 5100 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R18
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R18
 U 1 1 5F23F3FC
 P 9200 4400
 F 0 "R18" V 9350 4300 50  0000 L CNN
@@ -3021,7 +3019,7 @@ F 3 "" H 7500 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:USB_B_Micro-Connector-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J1
+L esp32-Core--V-0.1-rescue:USB_B_Micro-Connector-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J1
 U 1 1 5DED7438
 P 7500 5050
 F 0 "J1" H 7555 5517 50  0000 C CNN
@@ -3035,7 +3033,7 @@ F 6 "SHOU HAN" H 7500 5050 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D15
+L esp32-Core--V-0.1-rescue:LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D15
 U 1 1 62197BA1
 P 3500 8850
 AR Path="/62197BA1" Ref="D15"  Part="1" 
@@ -3056,7 +3054,7 @@ F 7 "Hubei KENTO Elec" H 3500 8850 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R6
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R6
 U 1 1 5E27CE0B
 P 3500 9250
 F 0 "R6" H 3570 9296 50  0000 L CNN
@@ -3111,7 +3109,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 2150 14200 2150
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 60C24816
 P 3700 4350
 AR Path="/602E71BC/60C24816" Ref="D?"  Part="1" 
@@ -3127,7 +3125,7 @@ F 6 "C8598" H 3700 4350 50  0001 C CNN "LCSC-PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L?
+L esp32-Core--V-0.1-rescue:L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L?
 U 1 1 60C79DDF
 P 2600 2350
 AR Path="/602E71BC/60C79DDF" Ref="L?"  Part="1" 
@@ -3143,7 +3141,7 @@ F 6 "C408339" H 2600 2350 50  0001 C CNN "LCSC-PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 60C79DFE
 P 2350 2550
 AR Path="/602E71BC/60C79DFE" Ref="D?"  Part="1" 
@@ -3177,7 +3175,7 @@ Wire Wire Line
 	2350 2400 2350 2350
 Connection ~ 2350 2350
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 60C79E18
 P 2350 2200
 AR Path="/602E71BC/60C79E18" Ref="C?"  Part="1" 
@@ -3195,7 +3193,7 @@ $EndComp
 Wire Wire Line
 	2350 2350 2450 2350
 $Comp
-L esp32-Core--V-0.1-rescue:TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U?
+L esp32-Core--V-0.1-rescue:TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U?
 U 1 1 60C79E26
 P 1750 2600
 AR Path="/602E71BC/60C79E26" Ref="U?"  Part="1" 
@@ -3211,7 +3209,7 @@ F 6 "Texas Instruments" H 1750 2600 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 60C79E33
 P 2800 2600
 AR Path="/602E71BC/60C79E33" Ref="C?"  Part="1" 
@@ -3244,7 +3242,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2500 2800 2350
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 60C79E4C
 P 850 2350
 AR Path="/602E71BC/60C79E4C" Ref="C?"  Part="1" 
@@ -3319,7 +3317,7 @@ $EndComp
 Wire Wire Line
 	1200 3200 1200 3150
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 60C79E85
 P 1000 2950
 AR Path="/602E71BC/60C79E85" Ref="C?"  Part="1" 
@@ -3355,7 +3353,7 @@ $EndComp
 Wire Wire Line
 	1000 3200 1000 3050
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 60C79EA0
 P 750 2950
 AR Path="/602E71BC/60C79EA0" Ref="C?"  Part="1" 
@@ -3388,7 +3386,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 2650 1200 2650
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
 U 1 1 60C79EB9
 P 3300 2550
 AR Path="/602E71BC/60C79EB9" Ref="R?"  Part="1" 
@@ -3404,7 +3402,7 @@ F 6 "Uniroyal Elec" H 3300 2550 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 60C79EC6
 P 3050 2600
 AR Path="/602E71BC/60C79EC6" Ref="C?"  Part="1" 
@@ -3442,7 +3440,7 @@ F 3 "" H 3050 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
 U 1 1 60C79EEC
 P 3300 3000
 AR Path="/602E71BC/60C79EEC" Ref="R?"  Part="1" 
@@ -3534,7 +3532,7 @@ Wire Wire Line
 Wire Wire Line
 	850  2450 850  2500
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 60C79F2C
 P 3600 2650
 AR Path="/602E71BC/60C79F2C" Ref="C?"  Part="1" 
@@ -3606,7 +3604,7 @@ AIN2
 Text Label 13700 900  0    50   ~ 0
 AIN3
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6164ED02
 P 850 4200
 AR Path="/602E71BC/6164ED02" Ref="C?"  Part="1" 
@@ -3624,7 +3622,7 @@ $EndComp
 Wire Wire Line
 	850  3800 850  4100
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C14
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C14
 U 1 1 6169CD2F
 P 7600 1050
 AR Path="/6169CD2F" Ref="C14"  Part="1" 
@@ -3641,7 +3639,7 @@ F 6 "C1525" H 7600 1050 50  0001 C CNN "LCSC-PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C30
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C30
 U 1 1 6169ED94
 P 7900 1050
 AR Path="/6169ED94" Ref="C30"  Part="1" 
@@ -3658,7 +3656,7 @@ F 6 "C15525" H 7900 1050 50  0001 C CNN "LCSC-PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 616A19DB
 P 1800 4200
 AR Path="/602E71BC/616A19DB" Ref="C?"  Part="1" 
@@ -3705,7 +3703,7 @@ Connection ~ 7600 1250
 Wire Wire Line
 	7600 1250 7600 1300
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6198D738
 P 2750 4300
 AR Path="/602E71BC/6198D738" Ref="C?"  Part="1" 
@@ -3721,7 +3719,7 @@ F 6 "C14663" H 2750 4300 50  0001 C CNN "LCSC-PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 61992C96
 P 2400 4300
 AR Path="/602E71BC/61992C96" Ref="C?"  Part="1" 
@@ -3778,7 +3776,7 @@ O25
 Text Label 14350 6300 0    50   ~ 0
 O33
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R25
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R25
 U 1 1 60967DA9
 P 12500 1600
 AR Path="/60967DA9" Ref="R25"  Part="1" 
@@ -3829,7 +3827,7 @@ Wire Wire Line
 Wire Wire Line
 	12500 1000 12500 900 
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R26
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R26
 U 1 1 60A292E8
 P 12900 1600
 AR Path="/60A292E8" Ref="R26"  Part="1" 
@@ -3880,7 +3878,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 1000 12900 900 
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R28
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R28
 U 1 1 60A67E25
 P 13300 1600
 AR Path="/60A67E25" Ref="R28"  Part="1" 
@@ -3931,7 +3929,7 @@ Wire Wire Line
 Wire Wire Line
 	13300 1000 13300 900 
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R34
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R34
 U 1 1 60A69193
 P 13700 1600
 AR Path="/60A69193" Ref="R34"  Part="1" 
@@ -4022,7 +4020,7 @@ $EndComp
 Wire Wire Line
 	1000 8600 1000 8650
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R40
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R40
 U 1 1 60BF98BC
 P 1500 8950
 F 0 "R40" V 1600 8850 50  0000 L CNN
@@ -4080,7 +4078,7 @@ $EndComp
 Wire Wire Line
 	1000 9800 1000 9850
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R44
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R44
 U 1 1 60CC477E
 P 1550 10150
 F 0 "R44" V 1650 10050 50  0000 L CNN
@@ -4136,7 +4134,7 @@ $EndComp
 Wire Wire Line
 	2150 8550 2150 8600
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R45
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R45
 U 1 1 60D075C5
 P 2700 8900
 F 0 "R45" V 2800 8800 50  0000 L CNN
@@ -4294,7 +4292,7 @@ AIN2
 Text Label 14350 6700 0    50   ~ 0
 AIN3
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C23
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C23
 U 1 1 6163C2E4
 P 12550 2600
 AR Path="/6163C2E4" Ref="C23"  Part="1" 
@@ -4356,7 +4354,7 @@ RX25
 Text Label 5600 4200 0    50   ~ 0
 TX2
 $Comp
-L esp32-Core--V-0.1-rescue:ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U6
+L esp32-Core--V-0.1-rescue:ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U6
 U 1 1 60316FA6
 P 8950 2100
 F 0 "U6" H 8925 3487 60  0000 C CNN
@@ -4372,7 +4370,7 @@ $EndComp
 Text Label 15300 5500 0    50   ~ 0
 IO4
 $Comp
-L esp32-Core--V-0.1-rescue:Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J2
+L esp32-Core--V-0.1-rescue:Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J2
 U 1 1 60746D2F
 P 6800 1350
 AR Path="/60746D2F" Ref="J2"  Part="1" 
@@ -4389,7 +4387,7 @@ F 6 "Ningbo Kangnex Elec" H 6800 1350 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J13
+L esp32-Core--V-0.1-rescue:Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J13
 U 1 1 609D9526
 P 6000 4100
 F 0 "J13" H 6080 4092 50  0000 L CNN
@@ -4451,7 +4449,7 @@ F 3 "" H 12600 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C32
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C32
 U 1 1 60ABFFBF
 P 12600 5300
 AR Path="/60ABFFBF" Ref="C32"  Part="1" 
@@ -4510,7 +4508,7 @@ F 3 "" H 13200 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J4
+L esp32-Core--V-0.1-rescue:Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J4
 U 1 1 60CCDADD
 P 6200 4950
 AR Path="/60CCDADD" Ref="J4"  Part="1" 
@@ -4625,7 +4623,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 3450 2550 3450
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 60EF5D88
 P 3300 4350
 AR Path="/602E71BC/60EF5D88" Ref="D?"  Part="1" 
@@ -4662,7 +4660,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 4550 3300 4500
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C33
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C33
 U 1 1 611004F9
 P 11650 3150
 AR Path="/611004F9" Ref="C33"  Part="1" 
@@ -4709,8 +4707,6 @@ F 3 "" H 11650 2950 50  0001 C CNN
 	1    11650 2950
 	1    0    0    -1  
 $EndComp
-Text Label 5000 1450 0    50   ~ 0
-IO13
 Wire Notes Line
 	10500 2500 11850 2500
 Wire Notes Line
@@ -4731,7 +4727,7 @@ F 3 "" H 3300 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 60B02058
 P 3300 3900
 AR Path="/602E71BC/60B02058" Ref="D?"  Part="1" 
@@ -4824,7 +4820,7 @@ F 6 "Keystone" H 6250 6300 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q1
+L esp32-Core--V-0.1-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q1
 U 1 1 611CD3EA
 P 4950 4350
 F 0 "Q1" V 5111 4350 60  0000 C CNN
@@ -4845,7 +4841,7 @@ F 13 "C8545" H 4950 4350 50  0001 C CNN "LCSC-PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R47
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R47
 U 1 1 611CD425
 P 5300 4150
 F 0 "R47" H 5370 4196 50  0000 L CNN
@@ -4859,7 +4855,7 @@ F 6 "0402WGF1002TCE" H 5300 4150 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R15
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R15
 U 1 1 611CD432
 P 4550 4150
 F 0 "R15" H 4620 4196 50  0000 L CNN
@@ -4930,7 +4926,7 @@ SCL
 Text Label 5350 4350 0    50   ~ 0
 SCL5
 $Comp
-L esp32-Core--V-0.1-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q2
+L esp32-Core--V-0.1-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q2
 U 1 1 6121447F
 P 5000 5300
 F 0 "Q2" V 5161 5300 60  0000 C CNN
@@ -4951,7 +4947,7 @@ F 13 "C8545" H 5000 5300 50  0001 C CNN "LCSC-PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R48
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R48
 U 1 1 612144BA
 P 5350 5100
 F 0 "R48" H 5420 5146 50  0000 L CNN
@@ -4965,7 +4961,7 @@ F 6 "0402WGF1002TCE" H 5350 5100 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R17
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R17
 U 1 1 612144C7
 P 4600 5100
 F 0 "R17" H 4670 5146 50  0000 L CNN
@@ -5119,7 +5115,7 @@ F 3 "" H 4800 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D4
+L esp32-Core--V-0.1-rescue:LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D4
 U 1 1 60746D65
 P 4800 1800
 AR Path="/60746D65" Ref="D4"  Part="1" 
@@ -5138,7 +5134,7 @@ F 7 "Everlight Elec" H 4800 1800 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D3
+L esp32-Core--V-0.1-rescue:LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D3
 U 1 1 60746D5B
 P 4400 1800
 AR Path="/60746D5B" Ref="D3"  Part="1" 
@@ -5159,7 +5155,7 @@ F 7 "Hubei KENTO Elec" H 4400 1800 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R3
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R3
 U 1 1 60746D51
 P 4400 1400
 AR Path="/60746D51" Ref="R3"  Part="1" 
@@ -5179,7 +5175,7 @@ F 6 "Uniroyal Elec" H 4400 1400 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R4
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R4
 U 1 1 60746D48
 P 4800 1400
 AR Path="/60746D48" Ref="R4"  Part="1" 
@@ -5251,7 +5247,7 @@ $EndComp
 Wire Wire Line
 	4300 6050 4300 6150
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C34
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C34
 U 1 1 61369AA5
 P 4300 6250
 F 0 "C34" H 4100 6300 50  0000 L CNN
@@ -5275,7 +5271,7 @@ Wire Wire Line
 Text Label 15300 5700 0    50   ~ 0
 IO2
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
 U 1 1 60AAEE5B
 P 1300 9900
 AR Path="/602E71BC/60AAEE5B" Ref="R?"  Part="1" 
@@ -5298,7 +5294,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 9650 1300 9750
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
 U 1 1 60B3E21C
 P 1250 8700
 AR Path="/602E71BC/60B3E21C" Ref="R?"  Part="1" 
@@ -5321,7 +5317,7 @@ Connection ~ 1250 8950
 Wire Wire Line
 	1250 8950 1350 8950
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C36
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C36
 U 1 1 60B84763
 P 1300 10350
 F 0 "C36" H 1100 10400 50  0000 L CNN
@@ -5350,7 +5346,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 10250 1300 10150
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C35
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C35
 U 1 1 60CA02E6
 P 1250 9150
 F 0 "C35" H 1050 9200 50  0000 L CNN
@@ -5379,7 +5375,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 9050 1250 8950
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
 U 1 1 60CE8E2A
 P 2450 8650
 AR Path="/602E71BC/60CE8E2A" Ref="R?"  Part="1" 
@@ -5402,7 +5398,7 @@ Connection ~ 2450 8900
 Wire Wire Line
 	2450 8900 2550 8900
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C38
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C38
 U 1 1 60D336E8
 P 2450 9100
 F 0 "C38" H 2250 9150 50  0000 L CNN
@@ -5431,7 +5427,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 9000 2450 8900
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R?
 U 1 1 60D7BF90
 P 2400 9900
 AR Path="/602E71BC/60D7BF90" Ref="R?"  Part="1" 
@@ -5454,7 +5450,7 @@ Connection ~ 2400 10150
 Wire Wire Line
 	2400 10150 2500 10150
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C37
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C37
 U 1 1 60DC7C8E
 P 2400 10350
 F 0 "C37" H 2200 10400 50  0000 L CNN
@@ -5483,7 +5479,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 10250 2400 10150
 $Comp
-L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R46
+L esp32-Core--V-0.1-rescue:R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R46
 U 1 1 60D075F7
 P 2650 10150
 F 0 "R46" V 2750 10050 50  0000 L CNN
@@ -5600,7 +5596,7 @@ F 3 "" H 7400 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
+L esp32-Core--V-0.1-rescue:1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D?
 U 1 1 60EC1983
 P 6650 6250
 AR Path="/602E71BC/60EC1983" Ref="D?"  Part="1" 
@@ -5634,7 +5630,7 @@ $EndComp
 Wire Wire Line
 	6650 6500 6650 6400
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 60FFB5B9
 P 4900 7000
 AR Path="/602E71BC/60FFB5B9" Ref="C?"  Part="1" 
@@ -5654,7 +5650,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 6650 4950 6650
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6127FA9C
 P 4450 6950
 AR Path="/602E71BC/6127FA9C" Ref="C?"  Part="1" 
@@ -5705,8 +5701,8 @@ L power:GND #PWR?
 U 1 1 615134E3
 P 4450 7150
 AR Path="/602E71BC/615134E3" Ref="#PWR?"  Part="1" 
-AR Path="/615134E3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4450 6900 50  0001 C CNN
+AR Path="/615134E3" Ref="#PWR0231"  Part="1" 
+F 0 "#PWR0231" H 4450 6900 50  0001 C CNN
 F 1 "GND" H 4455 6977 50  0000 C CNN
 F 2 "" H 4450 7150 50  0001 C CNN
 F 3 "" H 4450 7150 50  0001 C CNN
@@ -5715,4 +5711,46 @@ F 3 "" H 4450 7150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4450 7150 4450 7050
+Text Label 5000 1450 0    50   ~ 0
+GPIO0
+$Comp
+L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C41
+U 1 1 6114E901
+P 3350 7200
+AR Path="/6114E901" Ref="C41"  Part="1" 
+AR Path="/5EEADDE8/6114E901" Ref="C?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/6114E901" Ref="C?"  Part="1" 
+F 0 "C41" H 3150 7250 50  0000 L CNN
+F 1 "10uF" H 3100 7100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3350 7200 50  0001 C CNN
+F 3 "~" H 3350 7200 50  0001 C CNN
+F 4 "CL05A106MQ5NUNC" H 3350 7200 50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 3350 7200 50  0001 C CNN "Manufacturer"
+F 6 "C15525" H 3350 7200 50  0001 C CNN "LCSC-PN"
+	1    3350 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7100 3350 6800
+Wire Wire Line
+	3350 6800 3450 6800
+Wire Wire Line
+	2950 6800 3350 6800
+Connection ~ 3350 6800
+$Comp
+L power:GND #PWR0232
+U 1 1 611F7E53
+P 3350 7350
+AR Path="/611F7E53" Ref="#PWR0232"  Part="1" 
+AR Path="/5EEADDE8/611F7E53" Ref="#PWR?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/611F7E53" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0232" H 3350 7100 50  0001 C CNN
+F 1 "GND" H 3355 7177 50  0000 C CNN
+F 2 "" H 3350 7350 50  0001 C CNN
+F 3 "" H 3350 7350 50  0001 C CNN
+	1    3350 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7350 3350 7300
 $EndSCHEMATC

@@ -553,11 +553,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D 0 40 N N 1 F N
+DEF esp32-Core--V-0.1-rescue_1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "esp32-Core--V-0.1-rescue_1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -100 50 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_1N5820-diode-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -572,11 +572,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q 0 0 Y Y 1 F N
+DEF esp32-Core--V-0.1-rescue_2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
-F1 "esp32-Core--V-0.1-rescue_2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 136 0 60 V V C CNN
+F1 "esp32-Core--V-0.1-rescue_2N7002-dk_Transistors-FETs-MOSFETs-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 136 0 60 V V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 300 60 H I L CNN
 F4 "2N7002NCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -612,11 +612,11 @@ X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_CP2102-GMR_NRND-dk_Interface-Controllers-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_CP2102-GMR_NRND-dk_Interface-Controllers-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_CP2102-GMR_NRND-dk_Interface-Controllers-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
+DEF esp32-Core--V-0.1-rescue_CP2102-GMR_NRND-dk_Interface-Controllers-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
 F0 "U" -100 750 60 H V C CNN
-F1 "esp32-Core--V-0.1-rescue_CP2102-GMR_NRND-dk_Interface-Controllers-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 100 -200 60 V V C CNN
+F1 "esp32-Core--V-0.1-rescue_CP2102-GMR_NRND-dk_Interface-Controllers-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 100 -200 60 V V C CNN
 F2 "digikey-footprints:VFQFN-28-1EP_5x5mm" 200 200 60 H I L CNN
 F3 "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" 200 300 60 H I L CNN
 F4 "336-1160-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -663,11 +663,11 @@ X RST 9 -300 100 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C 0 10 N N 1 F N
+DEF esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 10 -80 50 H V L CNN
+F1 "esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -681,11 +681,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J 0 40 Y N 1 F N
+DEF esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -300 50 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -709,11 +709,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
+DEF esp32-Core--V-0.1-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
 F0 "U" -700 1250 60 H V C CNN
-F1 "esp32-Core--V-0.1-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 500 1250 60 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 500 1250 60 H V C CNN
 F2 "ESP32-footprints-Lib:ESP32-WROOM" 350 1350 60 H I C CNN
 F3 "" -450 450 60 H I C CNN
 DRAW
@@ -761,11 +761,11 @@ X IO33 9 -950 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D 0 0 Y Y 1 F N
+DEF esp32-Core--V-0.1-rescue_IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D 0 0 Y Y 1 F N
 F0 "D" -278 294 60 H V L CNN
-F1 "esp32-Core--V-0.1-rescue_IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 2 -510 60 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 2 -510 60 H V C CNN
 F2 "digikey-footprints:SC-74" 200 200 60 H I L CNN
 F3 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" 200 300 60 H I L CNN
 F4 "1727-3578-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -834,11 +834,11 @@ X I/O_4 6 500 100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L 0 40 N N 1 F N
+DEF esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 75 0 50 V V C CNN
+F1 "esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -857,11 +857,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D 0 40 N N 1 F N
+DEF esp32-Core--V-0.1-rescue_LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "esp32-Core--V-0.1-rescue_LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -100 50 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_LED_ALT-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -880,11 +880,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q 0 0 Y Y 1 F N
+DEF esp32-Core--V-0.1-rescue_MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue Q 0 0 Y Y 1 F N
 F0 "Q" -126 166 60 H V L CNN
-F1 "esp32-Core--V-0.1-rescue_MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 206 0 60 V V C CNN
+F1 "esp32-Core--V-0.1-rescue_MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 206 0 60 V V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf" 200 300 60 H I L CNN
 F4 "MMSS8050-H-TPMSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -910,11 +910,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 20 Y Y 1 F N
+DEF esp32-Core--V-0.1-rescue_MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 20 Y Y 1 F N
 F0 "U" -100 350 50 H V L CNN
-F1 "esp32-Core--V-0.1-rescue_MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" -150 250 50 H V L CNN
+F1 "esp32-Core--V-0.1-rescue_MT3540-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" -150 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
 F3 "" -250 450 50 H I C CNN
 $FPLIST
@@ -930,11 +930,11 @@ X IN 5 -300 100 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R 0 0 N Y 1 F N
+DEF esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 0 50 V V C CNN
+F1 "esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -947,11 +947,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J 0 40 Y N 1 F N
+DEF esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -200 50 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -971,11 +971,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
+DEF esp32-Core--V-0.1-rescue_TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
 F0 "U" -50 700 50 H V C CNN
-F1 "esp32-Core--V-0.1-rescue_TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 600 50 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_TPS54331DR-esteban-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 600 50 H V C CNN
 F2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias" 50 -100 50 H I C CNN
 F3 "" 50 -100 50 H I C CNN
 DRAW
@@ -992,11 +992,11 @@ X PAD 9 100 -400 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# esp32-Core--V-0.1-rescue_USB_B_Micro-Connector-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+# esp32-Core--V-0.1-rescue_USB_B_Micro-Connector-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
-DEF esp32-Core--V-0.1-rescue_USB_B_Micro-Connector-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J 0 40 Y Y 1 F N
+DEF esp32-Core--V-0.1-rescue_USB_B_Micro-Connector-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "esp32-Core--V-0.1-rescue_USB_B_Micro-Connector-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" -200 350 50 H V L CNN
+F1 "esp32-Core--V-0.1-rescue_USB_B_Micro-Connector-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST

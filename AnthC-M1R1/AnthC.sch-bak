@@ -4354,7 +4354,7 @@ RX25
 Text Label 5600 4200 0    50   ~ 0
 TX2
 $Comp
-L AnthC-Lib-Symbols:ESP32-WROOM-ESP32 U6
+L esp32-Core--V-0.1-rescue:ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U6
 U 1 1 60316FA6
 P 8950 2100
 F 0 "U6" H 8925 3487 60  0000 C CNN

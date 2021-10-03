@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002
+F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$ENDCMP
+#
+$CMP CP2102
+F https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf
+$ENDCMP
+#
+$CMP IP4220CZ6_125_TVS
+F https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf
+$ENDCMP
+#
+$CMP MMSS8050-H-TP
+F https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name MinitronicV-0.1-rescue)(type Legacy)(uri ${KIPRJMOD}/MinitronicV-0.1-rescue.lib)(options "")(descr ""))
-  (lib (name End-node-L--V-0.1-rescue)(type Legacy)(uri "${KIPRJMOD}/End node L  V-0.1-rescue.lib")(options "")(descr ""))
-  (lib (name esp32-Core--V-0.1-rescue)(type Legacy)(uri "${KIPRJMOD}/esp32 Core  V-0.1-rescue.lib")(options "")(descr ""))
+  (lib (name esp32-Core--V-0.1-rescue)(type Legacy)(uri D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/esp32-Core--V-0.1-rescue.lib)(options "")(descr ""))
+  (lib (name AnthC-Lib-Symbols)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/AnthC-Lib-Symbols.lib)(options "")(descr ""))
 )

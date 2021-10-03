@@ -1,0 +1,79 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 33K
+#
+DEF 33K R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "33K" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_1206_3216Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RT1206FRE0733KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
+F7 "13-RT1206FRE0733KLCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "1%" 0 750 50 H I C CNN "Tolerance"
+F9 "33 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Thin Film" 0 925 50 H I C CNN "Description"
+F10 "250mW" 0 1400 50 H I C CNN "Power"
+F11 "0.12" 0 825 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 470K
+#
+DEF 470K R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "470K" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_1206_3216Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RC1206FR-07470KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
+F7 "311-470KFRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "250mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.09" 0 825 50 H I C CNN "Price"
+F11 "4700 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 510K
+#
+DEF 510K R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "510K" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_1206_3216Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RC1206FR-07510KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
+F7 "311-510KFRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "1%" 0 750 50 H I C CNN "Tolerance"
+F9 "510 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
+F10 "250mW" 0 1400 50 H I C CNN "Power"
+F11 "0.09" 0 825 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

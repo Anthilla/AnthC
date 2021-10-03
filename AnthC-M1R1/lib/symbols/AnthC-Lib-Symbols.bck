@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 100
+D Resistor 100 ohm 1206
+$ENDCMP
+#
 $CMP 2N7002
 F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
 $ENDCMP
@@ -19,6 +23,10 @@ $ENDCMP
 #
 $CMP MMSS8050-H-TP
 F https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf
+$ENDCMP
+#
+$CMP RES_1206_100
+D Resistor 100 ohm 1206
 $ENDCMP
 #
 $CMP VIN

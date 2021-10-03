@@ -491,7 +491,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1100 2800 950 
 $Comp
-L esp32-Core--V-0.1-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
+L AnthC-rescue:C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C?
 U 1 1 6031F543
 P 850 950
 AR Path="/602E71BC/6031F543" Ref="C?"  Part="1" 
@@ -948,10 +948,6 @@ F 6 "Uniroyal Elec" H 6350 1500 50  0001 C CNN "Manufacturer"
 	1    6350 1500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6350 1350 6150 1350
-Wire Wire Line
-	6150 1650 6350 1650
 $Comp
 L power:GND #PWR0153
 U 1 1 60746D1B
@@ -985,12 +981,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 1450 5250 1450
 Connection ~ 5250 1450
-Wire Wire Line
-	6600 1350 6350 1350
-Connection ~ 6350 1350
-Wire Wire Line
-	6600 1650 6350 1650
-Connection ~ 6350 1650
 Wire Notes Line
 	7150 650  7150 2350
 Wire Notes Line
@@ -2045,7 +2035,6 @@ F 6 "C8598" H 3750 950 50  0001 C CNN "LCSC-PN"
 	1    3750 950 
 	-1   0    0    1   
 $EndComp
-Connection ~ 3600 950 
 Wire Notes Line
 	550  550  4000 550 
 $Comp
@@ -3650,14 +3639,14 @@ F 3 "" H 13150 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32-Core--V-0.1-rescue:Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J4
+L AnthC-Lib-Symbols:Screw_Terminal J
 U 1 1 60CCDADD
 P 6200 4950
-AR Path="/60CCDADD" Ref="J4"  Part="1" 
+AR Path="/60CCDADD" Ref="J"  Part="1" 
 AR Path="/5EEADDE8/60CCDADD" Ref="J?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60CCDADD" Ref="J?"  Part="1" 
-F 0 "J4" H 6280 4942 50  0000 L CNN
-F 1 "12V" H 6280 4851 50  0000 L CNN
+F 0 "J" H 6280 4942 50  0000 L CNN
+F 1 "Screw_Terminal" H 6280 4851 50  0000 L CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal" H 6200 4950 50  0001 C CNN
 F 3 "~" H 6200 4950 50  0001 C CNN
 F 4 "C8445" H 6200 4950 50  0001 C CNN "LCSC-PN"
@@ -5597,4 +5586,8 @@ Wire Wire Line
 Connection ~ 13050 2050
 Wire Wire Line
 	13050 2050 13100 2050
+Wire Wire Line
+	6150 1350 6600 1350
+Wire Wire Line
+	6150 1650 6600 1650
 $EndSCHEMATC

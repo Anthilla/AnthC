@@ -4,6 +4,11 @@ $CMP 2N7002
 F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
 $ENDCMP
 #
+$CMP ADS1120IRVAR
+D 16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs & SPI interface
+F https://www.ti.com/lit/gpn/ads1120
+$ENDCMP
+#
 $CMP CP2102
 F https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf
 $ENDCMP
@@ -14,6 +19,11 @@ $ENDCMP
 #
 $CMP MMSS8050-H-TP
 F https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf
+$ENDCMP
+#
+$CMP VIN
+D Power symbol creates a global label with name "VIN"
+K power-flag
 $ENDCMP
 #
 #End Doc Library

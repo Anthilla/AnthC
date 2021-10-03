@@ -38,6 +38,92 @@ X V+ 4 -100 300 150 D 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
+# AnthC-Lib-Symbols_100
+#
+DEF AnthC-Lib-Symbols_100 R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "AnthC-Lib-Symbols_100" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RC0603FR-07100RL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
+F7 "311-100HRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "1%" 0 750 50 H I C CNN "Tolerance"
+F9 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
+F10 "100mW" 0 1400 50 H I C CNN "Power"
+F11 "0.09" 0 825 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AnthC-Lib-Symbols_1N5820
+#
+DEF AnthC-Lib-Symbols_1N5820 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "AnthC-Lib-Symbols_1N5820" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "On Semiconductor" 0 0 50 H I C CNN "Manufacturer"
+F5 "1N5820" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ D*DO?201AD*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AnthC-Lib-Symbols_2N7002
+#
+DEF AnthC-Lib-Symbols_2N7002 Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "AnthC-Lib-Symbols_2N7002" 136 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "2N7002NCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "2N7002" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 60V 115MA SOT-23" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # AnthC-Lib-Symbols_ADS1120IRVAR
 #
 DEF AnthC-Lib-Symbols_ADS1120IRVAR U 0 40 Y Y 1 F N
@@ -63,6 +149,75 @@ X REFN0 6 -650 -250 100 R 50 50 1 1 P
 X REFP0 7 -650 -150 100 R 50 50 1 1 P
 X AIN1 8 -650 250 100 R 50 50 1 1 I
 X AIN0/REFP1 9 -650 350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AnthC-Lib-Symbols_CP2102
+#
+DEF AnthC-Lib-Symbols_CP2102 U 0 40 Y Y 1 F N
+F0 "U" -100 750 60 H V C CNN
+F1 "AnthC-Lib-Symbols_CP2102" 100 -200 60 V V C CNN
+F2 "digikey-footprints:VFQFN-28-1EP_5x5mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "336-1160-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "CP2102-GMR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Interface - Controllers" 200 700 60 H I L CNN "Family"
+F8 "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/silicon-labs/CP2102-GMR/336-1160-1-ND/3672615" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC USB-TO-UART BRIDGE 28VQFN" 200 1000 60 H I L CNN "Description"
+F11 "Silicon Labs" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Not For New Designs" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 700 400 -900 0 1 0 f
+X DCD 1 -300 600 100 R 50 50 1 1 I
+X NC 10 -300 -300 100 R 50 50 1 1 N
+X ~SUSPEND 11 500 400 100 L 50 50 1 1 O
+X SUSPEND 12 500 300 100 L 50 50 1 1 O
+X NC 13 -300 -400 100 R 50 50 1 1 N
+X NC 14 -300 -500 100 R 50 50 1 1 N
+X NC 15 -300 -600 100 R 50 50 1 1 N
+X NC 16 -300 -700 100 R 50 50 1 1 N
+X NC 17 500 -100 100 L 50 50 1 1 N
+X NC 18 500 -200 100 L 50 50 1 1 N
+X VPP 18 200 800 100 D 50 50 1 1 W
+X NC 19 500 -300 100 L 50 50 1 1 N
+X RI 2 -300 500 100 R 50 50 1 1 I
+X NC 20 500 -400 100 L 50 50 1 1 N
+X NC 21 500 -500 100 L 50 50 1 1 N
+X NC 22 500 -600 100 L 50 50 1 1 N
+X CTS 23 -300 -100 100 R 50 50 1 1 I
+X RTS 24 500 200 100 L 50 50 1 1 O
+X RXD 25 -300 0 100 R 50 50 1 1 I
+X TXD 26 500 100 100 L 50 50 1 1 O
+X DSR 27 -300 -200 100 R 50 50 1 1 I
+X DTR 28 500 0 100 L 50 50 1 1 O
+X GND_PAD 29 200 -1000 100 U 50 50 1 1 W
+X GND 3 100 -1000 100 U 50 50 1 1 W
+X D+ 4 -300 400 100 R 50 50 1 1 B
+X D- 5 -300 300 100 R 50 50 1 1 B
+X VDD 6 100 800 100 D 50 50 1 1 P
+X REGIN 7 300 800 100 D 50 50 1 1 W
+X VBUS 8 -300 200 100 R 50 50 1 1 I
+X RST 9 -300 100 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# AnthC-Lib-Symbols_Capa
+#
+DEF AnthC-Lib-Symbols_Capa C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "AnthC-Lib-Symbols_Capa" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -118,20 +273,204 @@ X IO33 9 -950 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# AnthC-Lib-Symbols_R
+# AnthC-Lib-Symbols_IP4220CZ6_125_TVS
 #
-DEF AnthC-Lib-Symbols_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "AnthC-Lib-Symbols_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
+DEF AnthC-Lib-Symbols_IP4220CZ6_125_TVS D 0 0 Y Y 1 F N
+F0 "D" -278 294 60 H V L CNN
+F1 "AnthC-Lib-Symbols_IP4220CZ6_125_TVS" 2 -510 60 H V C CNN
+F2 "digikey-footprints:SC-74" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "1727-3578-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "IP4220CZ6,125" 200 500 60 H I L CNN "MPN"
+F6 "Circuit Protection" 200 600 60 H I L CNN "Category"
+F7 "TVS - Diodes" 200 700 60 H I L CNN "Family"
+F8 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/nexperia-usa-inc/IP4220CZ6,125/1727-3578-1-ND/1133548" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TVS DIODE 5.5V 6TSOP" 200 1000 60 H I L CNN "Description"
+F11 "Nexperia USA Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -250 -225 10 0 1 0 F
+C -250 -100 10 0 1 0 F
+C -250 25 10 0 1 0 F
+C -50 -375 10 0 1 0 F
+C -50 175 10 0 1 0 F
+C 50 -225 10 0 1 0 F
+C 50 25 10 0 1 0 F
+C 250 -225 10 0 1 0 F
+C 250 -100 10 0 1 0 F
+C 250 25 10 0 1 0 F
+S -278 246 282 -452 0 1 0 f
+P 2 0 1 0 -250 -375 -250 175 N
+P 2 0 1 0 -250 -375 250 -375 N
+P 2 0 1 0 -250 25 250 25 N
+P 2 0 1 0 -250 175 250 175 N
+P 2 0 1 0 -100 -325 -100 -425 N
+P 2 0 1 0 -100 -175 -100 -275 N
+P 2 0 1 0 -100 75 -100 -25 N
+P 2 0 1 0 -100 225 -100 125 N
+P 2 0 1 0 -50 -350 -50 -375 N
+P 2 0 1 0 -50 -100 -300 -100 N
+P 2 0 1 0 -50 -100 50 -100 N
+P 2 0 1 0 -50 150 -50 175 N
+P 2 0 1 0 50 -225 50 -250 N
+P 2 0 1 0 50 -150 25 -150 N
+P 2 0 1 0 50 -100 300 -100 N
+P 2 0 1 0 50 -50 50 -150 N
+P 2 0 1 0 50 25 50 50 N
+P 2 0 1 0 200 -325 200 -425 N
+P 2 0 1 0 200 -175 200 -275 N
+P 2 0 1 0 200 75 200 -25 N
+P 2 0 1 0 200 225 200 125 N
+P 2 0 1 0 250 -225 -250 -225 N
+P 2 0 1 0 250 175 250 -375 N
+P 3 0 1 0 -50 -350 -50 -300 -300 -300 N
+P 3 0 1 0 -50 150 -50 100 -300 100 N
+P 3 0 1 0 50 50 50 100 300 100 N
+P 3 0 1 0 300 -300 50 -300 50 -250 N
+P 4 0 1 0 -200 -325 -200 -425 -100 -375 -200 -325 F
+P 4 0 1 0 -200 -175 -200 -275 -100 -225 -200 -175 F
+P 4 0 1 0 -200 75 -200 -25 -100 25 -200 75 F
+P 4 0 1 0 -200 225 -200 125 -100 175 -200 225 F
+P 4 0 1 0 -50 -50 -50 -150 50 -100 -50 -50 F
+P 4 0 1 0 100 -325 100 -425 200 -375 100 -325 F
+P 4 0 1 0 100 75 100 -25 200 25 100 75 F
+P 4 0 1 0 200 -225 100 -175 100 -275 200 -225 F
+P 4 0 1 0 200 175 100 225 100 125 200 175 F
+X I/O_1 1 -500 100 200 R 50 50 1 1 P
+X GND 2 -500 -100 200 R 50 50 1 1 W
+X I/O_2 3 -500 -300 200 R 50 50 1 1 P
+X I/O_3 4 500 -300 200 L 50 50 1 1 P
+X VP 5 500 -100 200 L 50 50 1 1 W
+X I/O_4 6 500 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AnthC-Lib-Symbols_LED_ALT
+#
+DEF AnthC-Lib-Symbols_LED_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "AnthC-Lib-Symbols_LED_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
+ LED*
+ LED_SMD:*
+ LED_THT:*
 $ENDFPLIST
 DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 F
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AnthC-Lib-Symbols_MMSS8050-H-TP
+#
+DEF AnthC-Lib-Symbols_MMSS8050-H-TP Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "AnthC-Lib-Symbols_MMSS8050-H-TP" 206 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "MMSS8050-H-TPMSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MMSS8050-H-TP" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS NPN 25V 1.5A SOT23" 200 1000 60 H I L CNN "Description"
+F11 "Micro Commercial Co" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X B 1 -200 0 100 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AnthC-Lib-Symbols_MT3540
+#
+DEF AnthC-Lib-Symbols_MT3540 U 0 20 Y Y 1 F N
+F0 "U" -100 350 50 H V L CNN
+F1 "AnthC-Lib-Symbols_MT3540" -150 250 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
+F3 "" -250 450 50 H I C CNN
+$FPLIST
+ SOT*23*
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 10 f
+X SW 1 300 100 100 L 50 50 1 1 P
+X GND 2 0 -300 100 U 50 50 1 1 W
+X FB 3 300 -100 100 L 50 50 1 1 I
+X EN 4 -300 -100 100 R 50 50 1 1 I
+X IN 5 -300 100 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# AnthC-Lib-Symbols_PESD3V3L4UW
+#
+DEF AnthC-Lib-Symbols_PESD3V3L4UW D 0 0 Y Y 1 F N
+F0 "D" 425 50 60 H V L CNN
+F1 "AnthC-Lib-Symbols_PESD3V3L4UW" 675 150 60 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-665" -1775 900 60 H I L CNN
+F3 "" -1775 1000 60 H I L CNN
+F4 "1727-5790-1-ND" -1775 1100 60 H I L CNN "Digi-Key_PN"
+F5 "PESD3V3L4UW,115" -1775 1200 60 H I L CNN "MPN"
+F6 "Circuit Protection" -1775 1300 60 H I L CNN "Category"
+F7 "ESD - Diodes" -1775 1400 60 H I L CNN "Family"
+F8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" -1775 1500 60 H I L CNN "DK_Datasheet_Link"
+F9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" -1775 1600 60 H I L CNN "DK_Detail_Page"
+F10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" -1775 1700 60 H I L CNN "Description"
+F11 "Nexperia" -1775 1800 60 H I L CNN "Manufacturer"
+F12 "Active" -1775 1900 60 H I L CNN "Status"
+DRAW
+S -400 200 400 -200 0 1 0 f
+P 2 0 1 0 -375 25 -350 0 N
+P 2 0 1 0 -300 -150 300 -150 N
+P 2 0 1 0 -300 -75 -300 -150 N
+P 2 0 1 0 -225 -25 -250 0 N
+P 2 0 1 0 -100 -75 -100 -150 N
+P 2 0 1 0 -100 200 -100 75 N
+P 2 0 1 0 0 -150 0 -200 N
+P 2 0 1 0 100 -75 100 -150 N
+P 2 0 1 0 100 200 100 75 N
+P 2 0 1 0 300 -75 300 -150 N
+P 2 0 1 0 300 200 300 75 N
+P 2 1 1 0 -350 0 -250 0 N
+P 2 1 1 0 -175 25 -150 0 N
+P 2 1 1 0 -150 0 -50 0 N
+P 2 1 1 0 -25 -25 -50 0 N
+P 2 1 1 0 25 25 50 0 N
+P 2 1 1 0 50 0 150 0 N
+P 2 1 1 0 175 -25 150 0 N
+P 2 1 1 0 225 25 250 0 N
+P 2 1 1 0 250 0 350 0 N
+P 2 1 1 0 375 -25 350 0 N
+P 4 1 1 0 -350 -75 -250 -75 -300 0 -350 -75 F
+P 4 1 1 0 -250 75 -350 75 -300 0 -250 75 F
+P 4 1 1 0 -150 -75 -50 -75 -100 0 -150 -75 F
+P 4 1 1 0 -50 75 -150 75 -100 0 -50 75 F
+P 4 1 1 0 50 -75 150 -75 100 0 50 -75 F
+P 4 1 1 0 150 75 50 75 100 0 150 75 F
+P 4 1 1 0 250 -75 350 -75 300 0 250 -75 F
+P 4 1 1 0 350 75 250 75 300 0 350 75 F
+X IO1 1 -300 400 200 D 50 50 1 1 B
+X GND 2 0 -400 200 U 50 50 1 1 W
+X IO2 3 -100 400 200 D 50 50 1 1 B
+X IO3 4 100 400 200 D 50 50 1 1 B
+X IO4 5 300 400 200 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -192,24 +531,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X VIN 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# AnthC-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
-#
-DEF AnthC-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "AnthC-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -353,6 +674,64 @@ P 2 1 1 6 -14 120 20 87 N
 X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_USB_C_Receptacle_USB2.0
+#
+DEF Connector_USB_C_Receptacle_USB2.0 J 0 40 Y Y 1 F N
+F0 "J" -400 750 50 H V L CNN
+F1 "Connector_USB_C_Receptacle_USB2.0" 750 750 50 H V R CNN
+F2 "" 150 0 50 H I C CNN
+F3 "" 150 0 50 H I C CNN
+$FPLIST
+ USB*C*Receptacle*
+$ENDFPLIST
+DRAW
+A -275 -150 75 -1799 -1 0 1 20 N -350 -150 -200 -150
+A -275 -150 25 -1799 -1 0 1 10 N -300 -150 -250 -150
+A -275 -150 25 -1799 -1 0 1 10 F -300 -150 -250 -150
+A -275 150 25 1 1799 0 1 10 F -250 150 -300 150
+A -275 150 25 1 1799 0 1 10 N -250 150 -300 150
+A -275 150 75 1 1799 0 1 20 N -200 150 -350 150
+C -100 45 25 0 1 10 F
+C 0 -230 50 0 1 0 F
+S -10 -700 10 -660 0 0 0 N
+S 400 -590 360 -610 0 0 0 N
+S 400 -490 360 -510 0 0 0 N
+S 400 -190 360 -210 0 0 0 N
+S 400 -90 360 -110 0 0 0 N
+S 400 10 360 -10 0 0 0 N
+S 400 110 360 90 0 0 0 N
+S 400 310 360 290 0 0 0 N
+S 400 410 360 390 0 0 0 N
+S 400 610 360 590 0 0 0 N
+S -400 700 400 -700 0 1 10 f
+S -300 -150 -250 150 0 1 10 F
+S 75 70 125 120 0 1 10 F
+P 2 0 1 20 -350 -150 -350 150 N
+P 2 0 1 20 -200 150 -200 -150 N
+P 2 0 1 20 0 -230 0 170 N
+P 3 0 1 20 0 -130 -100 -30 -100 20 N
+P 3 0 1 20 0 -80 100 20 100 70 N
+P 4 0 1 10 -50 170 0 270 50 170 -50 170 F
+X GND A1 0 -900 200 U 50 50 1 1 P
+X GND A12 0 -900 200 U 50 50 1 1 P N
+X VBUS A4 600 600 200 L 50 50 1 1 P
+X CC1 A5 600 400 200 L 50 50 1 1 B
+X D+ A6 600 -100 200 L 50 50 1 1 B
+X D- A7 600 100 200 L 50 50 1 1 B
+X SBU1 A8 600 -500 200 L 50 50 1 1 B
+X VBUS A9 600 600 200 L 50 50 1 1 P N
+X GND B1 0 -900 200 U 50 50 1 1 P N
+X GND B12 0 -900 200 U 50 50 1 1 P N
+X VBUS B4 600 600 200 L 50 50 1 1 P N
+X CC2 B5 600 300 200 L 50 50 1 1 B
+X D+ B6 600 -200 200 L 50 50 1 1 B
+X D- B7 600 0 200 L 50 50 1 1 B
+X SBU2 B8 600 -600 200 L 50 50 1 1 B
+X VBUS B9 600 600 200 L 50 50 1 1 P N
+X SHIELD S1 -300 -900 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -713,6 +1092,116 @@ P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
 X B 1 -200 0 225 R 50 50 1 1 I
 X E 2 100 -200 100 U 50 50 1 1 P
 X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+#
+DEF esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "esp32-Core--V-0.1-rescue_C_Small-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+#
+DEF esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_Conn_01x04-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+#
+DEF esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "esp32-Core--V-0.1-rescue_L-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+#
+DEF esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "esp32-Core--V-0.1-rescue_R-device-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+#
+DEF esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "esp32-Core--V-0.1-rescue_Screw_Terminal_01x02-conn-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*Terminal*Block*:*
+ TerminalBlock*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

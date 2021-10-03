@@ -157,6 +157,131 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+#
+DEF ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue U 0 40 Y Y 1 F N
+F0 "U" -700 1250 60 H V C CNN
+F1 "ESP32-WROOM-ESP32-footprints-Shem-Lib-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 500 1250 60 H V C CNN
+F2 "ESP32-footprints-Lib:ESP32-WROOM" 350 1350 60 H I C CNN
+F3 "" -450 450 60 H I C CNN
+DRAW
+S -750 1200 700 -850 0 1 0 f
+P 12 0 1 35 -500 650 -500 1100 -300 1100 -300 850 -100 850 -100 1100 100 1100 100 850 300 850 300 1100 500 1100 500 850 N
+X GND 1 -950 -700 200 R 50 50 1 1 w
+X IO25 10 -950 -200 200 R 50 50 1 1 B
+X IO26 11 -950 -300 200 R 50 50 1 1 B
+X IO27 12 -950 -400 200 R 50 50 1 1 B
+X IO14 13 -950 -500 200 R 50 50 1 1 B
+X IO12 14 -950 -600 200 R 50 50 1 1 B
+X GND 15 -450 -1050 200 U 50 50 1 1 W
+X IO13 16 -350 -1050 200 U 50 50 1 1 B
+X SD2 17 -250 -1050 200 U 50 50 1 1 B
+X SD3 18 -150 -1050 200 U 50 50 1 1 B
+X CMD 19 -50 -1050 200 U 50 50 1 1 B
+X 3V3 2 -950 600 200 R 50 50 1 1 W
+X CLK 20 50 -1050 200 U 50 50 1 1 I
+X SDO 21 150 -1050 200 U 50 50 1 1 B
+X SD1 22 250 -1050 200 U 50 50 1 1 B
+X IO15 23 350 -1050 200 U 50 50 1 1 B
+X IO2 24 450 -1050 200 U 50 50 1 1 B
+X IO0 25 900 -450 200 L 50 50 1 1 B
+X IO4 26 900 -350 200 L 50 50 1 1 I
+X IO16 27 900 -250 200 L 50 50 1 1 B
+X IO17 28 900 -150 200 L 50 50 1 1 B
+X IO5 29 900 -50 200 L 50 50 1 1 B
+X EN 3 -950 500 200 R 50 50 1 1 I
+X IO18 30 900 50 200 L 50 50 1 1 I
+X IO19 31 900 150 200 L 50 50 1 1 B
+X NC 32 900 250 200 L 50 50 1 1 N
+X IO21 33 900 350 200 L 50 50 1 1 B
+X RXD0 34 900 450 200 L 50 50 1 1 B
+X TXD0 35 900 550 200 L 50 50 1 1 B
+X IO22 36 900 650 200 L 50 50 1 1 B
+X IO23 37 900 750 200 L 50 50 1 1 B
+X GND 38 900 -650 200 L 50 50 1 1 W
+X GND-PAD 39 900 -550 200 L 50 50 1 1 W
+X SENSOR_VP 4 -950 400 200 R 50 50 1 1 I
+X SENSOR_VN 5 -950 300 200 R 50 50 1 1 I
+X IO34 6 -950 200 200 R 50 50 1 1 B
+X IO35 7 -950 100 200 R 50 50 1 1 B
+X IO32 8 -950 0 200 R 50 50 1 1 B
+X IO33 9 -950 -100 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
+#
+DEF IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D 0 0 Y Y 1 F N
+F0 "D" -278 294 60 H V L CNN
+F1 "IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue" 2 -510 60 H V C CNN
+F2 "digikey-footprints:SC-74" 200 200 60 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" 200 300 60 H I L CNN
+F4 "1727-3578-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "IP4220CZ6,125" 200 500 60 H I L CNN "MPN"
+F6 "Circuit Protection" 200 600 60 H I L CNN "Category"
+F7 "TVS - Diodes" 200 700 60 H I L CNN "Family"
+F8 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/nexperia-usa-inc/IP4220CZ6,125/1727-3578-1-ND/1133548" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TVS DIODE 5.5V 6TSOP" 200 1000 60 H I L CNN "Description"
+F11 "Nexperia USA Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -250 -225 10 0 1 0 F
+C -250 -100 10 0 1 0 F
+C -250 25 10 0 1 0 F
+C -50 -375 10 0 1 0 F
+C -50 175 10 0 1 0 F
+C 50 -225 10 0 1 0 F
+C 50 25 10 0 1 0 F
+C 250 -225 10 0 1 0 F
+C 250 -100 10 0 1 0 F
+C 250 25 10 0 1 0 F
+S -278 246 282 -452 0 1 0 f
+P 2 0 1 0 -250 -375 -250 175 N
+P 2 0 1 0 -250 -375 250 -375 N
+P 2 0 1 0 -250 25 250 25 N
+P 2 0 1 0 -250 175 250 175 N
+P 2 0 1 0 -100 -325 -100 -425 N
+P 2 0 1 0 -100 -175 -100 -275 N
+P 2 0 1 0 -100 75 -100 -25 N
+P 2 0 1 0 -100 225 -100 125 N
+P 2 0 1 0 -50 -350 -50 -375 N
+P 2 0 1 0 -50 -100 -300 -100 N
+P 2 0 1 0 -50 -100 50 -100 N
+P 2 0 1 0 -50 150 -50 175 N
+P 2 0 1 0 50 -225 50 -250 N
+P 2 0 1 0 50 -150 25 -150 N
+P 2 0 1 0 50 -100 300 -100 N
+P 2 0 1 0 50 -50 50 -150 N
+P 2 0 1 0 50 25 50 50 N
+P 2 0 1 0 200 -325 200 -425 N
+P 2 0 1 0 200 -175 200 -275 N
+P 2 0 1 0 200 75 200 -25 N
+P 2 0 1 0 200 225 200 125 N
+P 2 0 1 0 250 -225 -250 -225 N
+P 2 0 1 0 250 175 250 -375 N
+P 3 0 1 0 -50 -350 -50 -300 -300 -300 N
+P 3 0 1 0 -50 150 -50 100 -300 100 N
+P 3 0 1 0 50 50 50 100 300 100 N
+P 3 0 1 0 300 -300 50 -300 50 -250 N
+P 4 0 1 0 -200 -325 -200 -425 -100 -375 -200 -325 F
+P 4 0 1 0 -200 -175 -200 -275 -100 -225 -200 -175 F
+P 4 0 1 0 -200 75 -200 -25 -100 25 -200 75 F
+P 4 0 1 0 -200 225 -200 125 -100 175 -200 225 F
+P 4 0 1 0 -50 -50 -50 -150 50 -100 -50 -50 F
+P 4 0 1 0 100 -325 100 -425 200 -375 100 -325 F
+P 4 0 1 0 100 75 100 -25 200 25 100 75 F
+P 4 0 1 0 200 -225 100 -175 100 -275 200 -225 F
+P 4 0 1 0 200 175 100 225 100 125 200 175 F
+X I/O_1 1 -500 100 200 R 50 50 1 1 P
+X GND 2 -500 -100 200 R 50 50 1 1 W
+X I/O_2 3 -500 -300 200 R 50 50 1 1 P
+X I/O_3 4 500 -300 200 L 50 50 1 1 P
+X VP 5 500 -100 200 L 50 50 1 1 W
+X I/O_4 6 500 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue
 #
 DEF IP4220CZ6_125-dk_TVS-Diodes-MinitronicV-0.1-rescue-End-node-L--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue-esp32-Core--V-0.1-rescue D 0 0 Y Y 1 F N

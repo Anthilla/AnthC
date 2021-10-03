@@ -1,11 +1,139 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0
+D 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+K 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
+$ENDCMP
+#
 $CMP 100
-D Resistor 100 ohm 1206
+D 100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 100K
+D 100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 100nF
+D CAP CER 0.1UF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 100pF
+D CAP CER 100PF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 10K
+D 10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 10nF
+D CAP CER 10000PF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 10nF_C0G
+D CAP CER 10000PF 25V C0G/NP0 0603
+K cap capacitor
+F https://api.kemet.com/component-edge/download/datasheet/C0603C103F3GECAUTO.pdf
+$ENDCMP
+#
+$CMP 110K
+D 110 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 110 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 150pF
+D CAP CER 2700PF 50V X7R 0603
+K cap capacitor X7R 0603
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B272KB8NNNC.jsp
+$ENDCMP
+#
+$CMP 16K
+D 16 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 16 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 1K
+D 1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 1N5820
+D 1N5820: Schottky Barrier Rectifier, 3.0 A, 20 V
+F https://www.onsemi.com/pdf/datasheet/1n5820-d.pdf
+$ENDCMP
+#
+$CMP 1nF
+D CAP CER 1000PF 50V X7R 0603
+K cap capacitor X7R 0603
+F http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B102KB8NNN
+$ENDCMP
+#
+$CMP 1uF
+D CAP CER 1UF 25V X7R 0603
+K cap capacitor
+F http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN
+$ENDCMP
+#
+$CMP 22nF
+D CAP CER 10000PF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
 $ENDCMP
 #
 $CMP 2N7002
+D MOSFET N-CH 60V 115MA SOT-23
 F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$ENDCMP
+#
+$CMP 33K
+D 33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 4.7nF
+D CAP CER 4700PF 50V X7R 0603
+K cap capacitor X7R 0603
+F http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B472KB8NNN
+$ENDCMP
+#
+$CMP 43K
+D 43 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 43 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 470
+D 470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 47nF
+D CAP CER 0.047UF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 62K
+D 62 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K 62 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
 $CMP ADS1120IRVAR

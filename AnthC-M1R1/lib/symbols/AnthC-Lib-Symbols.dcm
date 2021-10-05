@@ -149,8 +149,16 @@ $CMP IP4220CZ6_125_TVS
 F https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf
 $ENDCMP
 #
+$CMP M41T00SM6F
+F https://www.st.com/resource/en/datasheet/m41t00s.pdf
+$ENDCMP
+#
 $CMP MMSS8050-H-TP
 F https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf
+$ENDCMP
+#
+$CMP PCF85063ATL
+F https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf
 $ENDCMP
 #
 $CMP PESD0603-240

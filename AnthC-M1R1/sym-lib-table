@@ -2,4 +2,6 @@
   (lib (name AnthC-Lib-Symbols)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/AnthC-Lib-Symbols.lib)(options "")(descr ""))
   (lib (name AnthC-rescue)(type Legacy)(uri ${KIPRJMOD}/AnthC-rescue.lib)(options "")(descr ""))
   (lib (name esp32-Core--V-0.1-rescue)(type Legacy)(uri "D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/esp32 Core  V-0.1-rescue.lib")(options "")(descr ""))
+  (lib (name Capacitor_1206)(type Legacy)(uri D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/Capacitor_1206.lib)(options "")(descr ""))
+  (lib (name Resistor_0603)(type Legacy)(uri D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/Resistor_0603.lib)(options "")(descr ""))
 )

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10uF
+D CAP CER 10UF 16V X7R 1206
+K cap capacitor X7R 1206
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+#End Doc Library

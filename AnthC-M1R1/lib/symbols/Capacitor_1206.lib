@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 10uF
+#
+DEF 10uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "10uF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_1206_3216Metric" 650 250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 300 650 50 H I C CNN "Manufacturer"
+F5 "CL31B106KOHNNWE" 600 550 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 300 450 50 H I C CNN "Supplier"
+F7 "1276-3105-1-ND" 850 350 50 H I C CNN "Supplier Nr."
+F8 "10%" 300 -50 50 H I C CNN "Tolerance"
+F9 "16V" 300 50 50 H I C CNN "Voltage"
+F10 "10µF ±10% 16V Ceramic Capacitor X7R 1206 (3216 Metric)" 1700 150 50 H I C CNN "Description"
+F11 "X7R" 600 50 50 H I C CNN "Dielectric"
+F12 "0.22" 1050 50 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

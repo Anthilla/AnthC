@@ -496,30 +496,6 @@ X IO4 5 300 400 200 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# AnthC-Lib-Symbols_Screw_Terminal
-#
-DEF AnthC-Lib-Symbols_Screw_Terminal J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "AnthC-Lib-Symbols_Screw_Terminal" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*Terminal*Block*:*
- TerminalBlock*
-$ENDFPLIST
-DRAW
-C 0 -100 25 1 1 6 N
-C 0 0 25 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-P 2 1 1 6 -21 -87 13 -120 N
-P 2 1 1 6 -21 13 13 -20 N
-P 2 1 1 6 -14 -80 20 -113 N
-P 2 1 1 6 -14 20 20 -13 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # AnthC-Lib-Symbols_TPS54331DR
 #
 DEF AnthC-Lib-Symbols_TPS54331DR U 0 40 Y Y 1 F N
@@ -959,6 +935,33 @@ X DIN 4 -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Maglab_Capacitors_0603_1uF
+#
+DEF Maglab_Capacitors_0603_1uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Maglab_Capacitors_0603_1uF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 650 250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 250 650 50 H I C CNN "Manufacturer"
+F5 "CL10B105KA8NNNC" 700 550 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 350 450 50 H I C CNN "Supplier"
+F7 "1276-1184-1-ND" 550 350 50 H I C CNN "Supplier Nr."
+F8 "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" 1950 150 50 H I C CNN "Description"
+F9 "10%" 300 -50 50 H I C CNN "Tolerance"
+F10 "25V" 300 50 50 H I C CNN "Voltage"
+F11 "X7R" 600 50 50 H I C CNN "Dielectric"
+F12 "0.09" 1050 50 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Mechanical_MountingHole
 #
 DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
@@ -1030,6 +1033,56 @@ F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-100HRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "1%" 0 750 50 H I C CNN "Tolerance"
 F9 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
+F10 "100mW" 0 1400 50 H I C CNN "Power"
+F11 "0.09" 0 825 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_0603_10K
+#
+DEF Resistor_0603_10K R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "Resistor_0603_10K" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RC0603FR-0710KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
+F7 "311-10.0KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.09" 0 825 50 H I C CNN "Price"
+F11 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_0603_4K7
+#
+DEF Resistor_0603_4K7 R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "Resistor_0603_4K7" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "TE CONNECTIVITY" 0 1325 50 H I C CNN "Manufacturer"
+F5 "CRGH0603F4K7" 0 1125 50 H I C CNN "Manufacturer Nr."
+F6 "Farnell" 0 1225 50 H I C CNN "Supplier"
+F7 "2332011" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "1%" 0 750 50 H I C CNN "Tolerance"
+F9 "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
 F10 "100mW" 0 1400 50 H I C CNN "Power"
 F11 "0.09" 0 825 50 H I C CNN "Price"
 $FPLIST
@@ -1276,21 +1329,6 @@ P 2 1 1 6 -14 -80 20 -113 N
 P 2 1 1 6 -14 20 20 -13 N
 X Pin_1 1 -200 0 150 R 50 50 1 1 P
 X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+12V
-#
-DEF power_+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

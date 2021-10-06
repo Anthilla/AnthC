@@ -60,6 +60,12 @@ K R res resistor
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
+$CMP 4K7
+D Surface Mount Thick Film Resistor, CRG Series, 4.7 kohm, 200 mW, - 1%, 50 V RoHS Compliant: Yes
+K Surface Mount Thick Film Resistor, CRG Series, 4.7 kohm, 200 mW, - 1%, 50 V RoHS Compliant: Yes
+F https://www.farnell.com/datasheets/1610603.pdf
+$ENDCMP
+#
 $CMP 62K
 D 62 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
 K 62 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film

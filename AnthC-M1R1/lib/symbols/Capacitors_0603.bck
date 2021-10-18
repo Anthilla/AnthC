@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF
+D CAP CER 0.1UF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 100pF
+D CAP CER 100PF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 10nF
+D CAP CER 10000PF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 10nF_C0G
+D CAP CER 10000PF 25V C0G/NP0 0603
+K cap capacitor
+F https://api.kemet.com/component-edge/download/datasheet/C0603C103F3GECAUTO.pdf
+$ENDCMP
+#
+$CMP 12pF
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm
+K Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
+$CMP 150pF
+D CAP CER 2700PF 50V X7R 0603
+K cap capacitor X7R 0603
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B272KB8NNNC.jsp
+$ENDCMP
+#
+$CMP 1nF
+D CAP CER 1000PF 50V X7R 0603
+K cap capacitor X7R 0603
+F http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B102KB8NNN
+$ENDCMP
+#
+$CMP 1uF
+D CAP CER 1UF 25V X7R 0603
+K cap capacitor
+F http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN
+$ENDCMP
+#
+$CMP 22nF
+D CAP CER 10000PF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 4.7nF
+D CAP CER 4700PF 50V X7R 0603
+K cap capacitor X7R 0603
+F http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B472KB8NNN
+$ENDCMP
+#
+$CMP 47nF
+D CAP CER 0.047UF 50V X7R 0603
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
+$ENDCMP
+#
+$CMP 47pF
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 47pF 0603 5% 50V MLCC
+K Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 47pF 0603 5% 50V MLCC
+F https://www.mouser.be/datasheet/2/445/885012006055-1727324.pdf
+$ENDCMP
+#
+#End Doc Library

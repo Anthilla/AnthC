@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS54331DR
+D Switching Voltage Regulators 3A 28V In Step Down SWIFT DC/DC Cnvrtr
+K Switching Voltage Regulators 3A 28V In Step Down SWIFT DC/DC Cnvrtr
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps54331
+$ENDCMP
+#
+#End Doc Library

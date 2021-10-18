@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD3V3L4UW
+D Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode
+K Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode
+$ENDCMP
+#
+#End Doc Library

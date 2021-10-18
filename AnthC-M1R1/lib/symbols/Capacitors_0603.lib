@@ -1,0 +1,330 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 100nF
+#
+DEF 100nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "100nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1400 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 1100 350 50 H I C CNN "Manufacturer"
+F5 "CL10B104KB8NNNC" 550 350 50 H I C CNN "MPN"
+F6 "Digikey" 350 150 50 H I C CNN "Supplier"
+F7 "1276-1000-1-ND" 550 250 50 H I C CNN "Supplier Nr."
+F8 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" 2450 100 50 H I C CNN "Description"
+F9 "10%" 2050 200 50 H I C CNN "Tolerance"
+F10 "50V" 300 50 50 H I C CNN "Voltage"
+F11 "X7R" 400 -50 50 H I C CNN "Dielectric"
+F12 "0.09" 1350 350 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100pF
+#
+DEF 100pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "100pF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1400 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 1100 350 50 H I C CNN "Manufacturer"
+F5 "CL10B101KB8NFNC" 550 350 50 H I C CNN "MPN"
+F6 "Digikey" 350 150 50 H I C CNN "Supplier"
+F7 "1276-1908-1-ND" 550 250 50 H I C CNN "Supplier Nr."
+F8 "100pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" 2450 100 50 H I C CNN "Description"
+F9 "10%" 2050 200 50 H I C CNN "Tolerance"
+F10 "50V" 300 50 50 H I C CNN "Voltage"
+F11 "X7R" 400 -50 50 H I C CNN "Dielectric"
+F12 "0.09" 1350 350 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10nF
+#
+DEF 10nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "10nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1400 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 1100 350 50 H I C CNN "Manufacturer"
+F5 "CL10B103KB8NNNC" 550 350 50 H I C CNN "MPN"
+F6 "Digikey" 350 150 50 H I C CNN "Supplier"
+F7 "1276-1009-1-ND" 550 250 50 H I C CNN "Supplier Nr."
+F8 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" 2450 100 50 H I C CNN "Description"
+F9 "10%" 2050 200 50 H I C CNN "Tolerance"
+F10 "50V" 300 50 50 H I C CNN "Voltage"
+F11 "X7R" 400 -50 50 H I C CNN "Dielectric"
+F12 "0.09" 1350 350 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10nF_C0G
+#
+DEF 10nF_C0G C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "10nF_C0G" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1400 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "KEMET" 1100 350 50 H I C CNN "Manufacturer"
+F5 "C0603C103F3GECAUTO" 550 350 50 H I C CNN "MPN"
+F6 "Digikey" 350 150 50 H I C CNN "Supplier"
+F7 "399-C0603C103F3GECAUTOCT-ND" 550 250 50 H I C CNN "Supplier Nr."
+F8 "10000pF ±1% 25V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" 2450 100 50 H I C CNN "Description"
+F9 "1%" 2050 200 50 H I C CNN "Tolerance"
+F10 "25V" 300 50 50 H I C CNN "Voltage"
+F11 "C0G, NP0" 400 -50 50 H I C CNN "Dielectric"
+F12 "0.73" 1350 350 50 H I C CNN "Price"
+F13 "C76710" 550 -200 50 H I C CNN "LCSC Part"
+F14 "-" 550 -300 50 H I C CNN "JLCPCB BOM"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 12pF
+#
+DEF 12pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "12pF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 650 800 50 H I C CNN
+F3 "" 550 200 50 H I C CNN
+F4 "TDK" 250 700 50 H I C CNN "Manufacturer"
+F5 "C0603C0G1E120J030BA" 850 700 50 H I C CNN "MPN"
+F6 "Mouser" 250 600 50 H I C CNN "Supplier"
+F7 "810-C0603C0G1E120J" 1100 600 50 H I C CNN "Supplier Nr."
+F8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm" 450 900 50 H I C CNN "Description"
+F9 "5%" 700 400 50 H I C CNN "Tolerance"
+F10 "25VDC" 450 250 50 H I C CNN "Voltage"
+F11 "C0G" 550 200 50 H I C CNN "Dielectric"
+F12 "0.027" 500 400 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150pF
+#
+DEF 150pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "150pF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1400 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 1100 350 50 H I C CNN "Manufacturer"
+F5 "CL10B151KB8NNNC" 550 350 50 H I C CNN "MPN"
+F6 "Digikey" 350 150 50 H I C CNN "Supplier"
+F7 "1276-1956-2-ND" 550 250 50 H I C CNN "Supplier Nr."
+F8 "0.03" 1350 350 50 H I C CNN "Price"
+F9 "10%" 2050 200 50 H I C CNN "Tolerance"
+F10 "CAP CER 150PF 50V X7R 0603" 2450 100 50 H I C CNN "Description"
+F11 "50V" 250 0 50 H I C CNN "Voltage"
+F12 "X7R" 450 0 50 H I C CNN "Dielectric"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1nF
+#
+DEF 1nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "1nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 650 800 50 H I C CNN
+F3 "" 550 200 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 250 700 50 H I C CNN "Manufacturer"
+F5 "CL10B102KB8NNNC" 850 700 50 H I C CNN "MPN"
+F6 "Digikey" 250 600 50 H I C CNN "Supplier"
+F7 "1276-1018-2-ND" 1100 600 50 H I C CNN "Supplier Nr."
+F8 "1000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" 450 900 50 H I C CNN "Description"
+F9 "10%" 700 400 50 H I C CNN "Tolerance"
+F10 "50V" 450 250 50 H I C CNN "Voltage"
+F11 "X7R" 550 200 50 H I C CNN "Dielectric"
+F12 "0.09" 500 400 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1uF
+#
+DEF 1uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "1uF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 650 250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 250 650 50 H I C CNN "Manufacturer"
+F5 "CL10B105KA8NNNC" 700 550 50 H I C CNN "MPN"
+F6 "Digikey" 350 450 50 H I C CNN "Supplier"
+F7 "1276-1184-1-ND" 550 350 50 H I C CNN "Supplier Nr."
+F8 "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" 1950 150 50 H I C CNN "Description"
+F9 "10%" 300 -50 50 H I C CNN "Tolerance"
+F10 "25V" 300 50 50 H I C CNN "Voltage"
+F11 "X7R" 600 50 50 H I C CNN "Dielectric"
+F12 "0.09" 1050 50 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22nF
+#
+DEF 22nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "22nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1400 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 1100 350 50 H I C CNN "Manufacturer"
+F5 "CL10B223KB8WPNC" 550 350 50 H I C CNN "MPN"
+F6 "Digikey" 350 150 50 H I C CNN "Supplier"
+F7 "1276-6534-1-ND" 550 250 50 H I C CNN "Supplier Nr."
+F8 "0.022µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" 2450 100 50 H I C CNN "Description"
+F9 "10%" 2050 200 50 H I C CNN "Tolerance"
+F10 "50V" 300 50 50 H I C CNN "Voltage"
+F11 "X7R" 400 -50 50 H I C CNN "Dielectric"
+F12 "0.09" 1350 350 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7nF
+#
+DEF 4.7nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "4.7nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 678 470 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 720 650 50 H I C CNN "Manufacturer"
+F5 "CL10B472KB8NNNC" 1732 638 50 H I C CNN "MPN"
+F6 "Digikey" 310 562 50 H I C CNN "Supplier"
+F7 "1276-1098-1-ND" 880 550 50 H I C CNN "Supplier Nr."
+F8 "4700pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" 570 768 50 H I C CNN "Description"
+F9 "10%" 1402 410 50 H I C CNN "Tolerance"
+F10 "50V" 250 366 50 H I C CNN "Voltage"
+F11 "X7R" 518 358 50 H I C CNN "Dielectric"
+F12 "0.09" 1518 544 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47nF
+#
+DEF 47nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "47nF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1400 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 1100 350 50 H I C CNN "Manufacturer"
+F5 "CL10B473KB8WPNC" 550 350 50 H I C CNN "MPN"
+F6 "Digikey" 350 150 50 H I C CNN "Supplier"
+F7 "1276-6540-1-ND" 550 250 50 H I C CNN "Supplier Nr."
+F8 "0.047µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" 2450 100 50 H I C CNN "Description"
+F9 "10%" 2050 200 50 H I C CNN "Tolerance"
+F10 "50V" 300 50 50 H I C CNN "Voltage"
+F11 "X7R" 400 -50 50 H I C CNN "Dielectric"
+F12 "0.09" 1350 350 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47pF
+#
+DEF 47pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "47pF" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 650 800 50 H I C CNN
+F3 "" 550 200 50 H I C CNN
+F4 "Wurth Elektronik" 250 700 50 H I C CNN "Manufacturer"
+F5 "885012006055" 850 700 50 H I C CNN "MPN"
+F6 "Mouser" 250 600 50 H I C CNN "Supplier"
+F7 "710-885012006055" 1100 600 50 H I C CNN "Supplier Nr."
+F8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 47pF 0603 5% 50V MLCC" 450 900 50 H I C CNN "Description"
+F9 "10%" 700 400 50 H I C CNN "Tolerance"
+F10 "50V" 450 250 50 H I C CNN "Voltage"
+F11 "C0G" 550 200 50 H I C CNN "Dielectric"
+F12 "0.023" 500 400 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

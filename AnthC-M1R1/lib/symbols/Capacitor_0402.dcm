@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF
+D CAP CER 100pF 16V X7R 0402
+K cap capacitor X7R 0402
+F https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf
+$ENDCMP
+#
+$CMP 10uF
+D CAP CER 10uF 6.3V X5R 0402
+K cap capacitor X5R 0402
+F https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf
+$ENDCMP
+#
+$CMP 12pF
+D CAP CER 47pF 25V X7R 0402
+K cap capacitor X7R 0402
+F https://www.mouser.be/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf
+$ENDCMP
+#
+$CMP 1uF
+D CAP CER 1uF 25V X5R 0402
+K cap capacitor X5R 0402
+F https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf
+$ENDCMP
+#
+$CMP 22nF
+D CAP CER 22nF 50VV X7R 0402
+K cap capacitor X7R 0402
+F https://www.mouser.be/datasheet/2/281/GCM155R71H223MA55_01-1965539.pdf
+$ENDCMP
+#
+$CMP 4.7nF
+D CAP CER 47pF 100V X7R 0402
+K cap capacitor X7R 0402
+F https://www.mouser.be/datasheet/2/445/885012205084-1727452.pdf
+$ENDCMP
+#
+$CMP 47pF
+D CAP CER 47pF 25V X7R 0402
+K cap capacitor X7R 0402
+F https://www.mouser.be/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf
+$ENDCMP
+#
+#End Doc Library

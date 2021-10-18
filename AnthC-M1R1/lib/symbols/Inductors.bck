@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10μH
+D Fixed Inductors WE-LQS 10uH 1.76A DCR=89mOhms AECQ200
+K Fixed Inductors WE-LQS 10uH 1.76A DCR=89mOhms AECQ200
+F https://www.we-online.com/catalog/datasheet/74404043100A.pdf
+$ENDCMP
+#
+$CMP 4.7μH
+D Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
+K Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
+F https://www.mouser.be/datasheet/2/445/74404041047-1720697.pdf
+$ENDCMP
+#
+#End Doc Library

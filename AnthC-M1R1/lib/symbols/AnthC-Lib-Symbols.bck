@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 0
-D 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
-K 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
-$ENDCMP
-#
 $CMP 100
 D 100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
 K 100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
@@ -63,12 +57,6 @@ $ENDCMP
 $CMP 16K
 D 16 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
 K 16 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-$ENDCMP
-#
-$CMP 1K
-D 1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-K 1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
@@ -157,52 +145,6 @@ $CMP MMSS8050-H-TP
 F https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf
 $ENDCMP
 #
-$CMP PCF85063ATL
-F https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf
-$ENDCMP
-#
-$CMP PESD0603-240
-D 45V Clamp  Ipp Tvs Diode Surface Mount 0603 (1608 Metric)
-K PESD0603-240CT-ND
-F https://www.littelfuse.com/~/media/electronics/product_specifications/polymer_esd_suppressors/littelfuse_polymer_esd_suppressor_pesd0603_240_product_specification.pdf.pdf
-$ENDCMP
-#
-$CMP PESD1206Q-240
-D 45V Clamp  Ipp Tvs Diode Surface Mount 1206
-K PESD1206Q-240CT-ND
-F https://www.littelfuse.com/~/media/electronics/product_specifications/polymer_esd_suppressors/littelfuse_polymer_esd_suppressor_pesd0603_240_product_specification.pdf.pdf
-$ENDCMP
-#
-$CMP PESD3V3L1BA
-D Low capacitance bidirectional ESD protection diode, 3.3V, Common Anode, SOD-323
-K ESD diode
-F https://assets.nexperia.com/documents/data-sheet/PESDXL1BA_SER.pdf
-$ENDCMP
-#
-$CMP PESD3V3L4UW
-D Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode
-K 1727-5790-1-ND
-F https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
-$ENDCMP
-#
-$CMP PESD5V0L1UA
-D Low capacitance unidirectional ESD protection diode array, 5V, Common Anode, SOD-323
-K ESD diode
-F https://assets.nexperia.com/documents/data-sheet/PESD5V0L1UA_UB_UL.pdf
-$ENDCMP
-#
-$CMP PESD5V0L5UY
-D Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-363
-K diode
-F https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf
-$ENDCMP
-#
-$CMP PESD5V0U1BA
-D Low capacitance bidirectional ESD protection diode, 5.0V, Common Anode, SOD-323
-K ESD diode
-F https://assets.nexperia.com/documents/data-sheet/PESD5V0U1BA_BB_BL.pdf
-$ENDCMP
-#
 $CMP RES_1206_100
 D Resistor 100 ohm 1206
 $ENDCMP
@@ -222,12 +164,6 @@ $ENDCMP
 $CMP VIN
 D Power symbol creates a global label with name "VIN"
 K power-flag
-$ENDCMP
-#
-$CMP WE-TVS-82400102
-D TVS DIODE 5V 7.7V SOT23-6L
-K ESD Protection TVS High-speed USB
-F https://katalog.we-online.de/pbs/datasheet/82400102.pdf
 $ENDCMP
 #
 #End Doc Library

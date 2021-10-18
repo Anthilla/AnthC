@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LP5912-5
+D Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-WSON (2x2)
+K Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-WSON (2x2)
+F https://www.ti.com/lit/gpn/lp5912
+$ENDCMP
+#
+$CMP NCP114ASN330T1G
+D IC REG LINEAR 3.3V 300mA SOT223
+K NCP114ASN330T1G
+F https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP TLV76750
+D Linear Voltage Regulator IC Positive Fixed 1 Output 1A 6-WSON (2x2)
+K Linear Voltage Regulator IC Positive Fixed 1 Output 1A 6-WSON (2x2)
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps746-q1
+$ENDCMP
+#
+$CMP TPS54331DR
+D Switching Voltage Regulators 3A 28V In Step Down SWIFT DC/DC Cnvrtr
+K Switching Voltage Regulators 3A 28V In Step Down SWIFT DC/DC Cnvrtr
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps54331
+$ENDCMP
+#
+$CMP TPS78533
+D LDO Voltage Regulators Automotive, 1-A, high-accuracy, adjustable low-dropout (LDO) linear regulator
+K LDO Voltage Regulators Automotive, 1-A, high-accuracy, adjustable low-dropout (LDO) linear regulator
+F https://www.ti.com/lit/ds/symlink/tps785-q1.pdf
+$ENDCMP
+#
+$CMP TPS7A7001
+D 2-A, adjustable ultra-low-dropout voltage regulator with enable
+K 2-A, adjustable ultra-low-dropout voltage regulator with enable
+F https://www.ti.com/lit/gpn/tps7a7001
+$ENDCMP
+#
+#End Doc Library

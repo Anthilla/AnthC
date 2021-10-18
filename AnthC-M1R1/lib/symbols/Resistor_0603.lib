@@ -9,7 +9,7 @@ F1 "0" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "AC0603JR-070RL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "AC0603JR-070RL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-0.0LECT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "-" 0 750 50 H I C CNN "Tolerance"
@@ -34,7 +34,7 @@ F1 "100" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-07100RL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "RC0603FR-07100RL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-100HRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "1%" 0 750 50 H I C CNN "Tolerance"
@@ -59,7 +59,7 @@ F1 "100K" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-07100KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "RC0603FR-07100KL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-100KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "100mW" 0 1400 50 H I C CNN "Power"
@@ -76,15 +76,40 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 10K
+# 100KΩ
 #
-DEF 10K R 0 0 N Y 1 F N
+DEF 100KΩ R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "10K" 150 -50 50 H V C CNN
+F1 "100KΩ" 200 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-0710KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "RC0603FR-07100KL" 0 1125 50 H I C CNN "MPN"
+F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
+F7 "311-100KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.09" 0 825 50 H I C CNN "Price"
+F11 "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10KΩ
+#
+DEF 10KΩ R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "10KΩ" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RC0603FR-0710KL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-10.0KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "100mW" 0 1400 50 H I C CNN "Power"
@@ -101,15 +126,15 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 110K
+# 110KΩ
 #
-DEF 110K R 0 0 N Y 1 F N
+DEF 110KΩ R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "110K" 150 -50 50 H V C CNN
+F1 "110KΩ" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-07110KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "RC0603FR-07110KL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-110KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "100mW" 0 1400 50 H I C CNN "Power"
@@ -126,15 +151,65 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 16K
+# 120Ω
 #
-DEF 16K R 0 0 N Y 1 F N
+DEF 120Ω R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "16K" 150 -50 50 H V C CNN
+F1 "120Ω" 200 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Bourns" 0 1325 50 H I C CNN "Manufacturer"
+F5 "CR0603-FX-1200ELF" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "652-CR0603FX-1200ELF" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "5%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.025" 0 825 50 H I C CNN "Price"
+F11 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150KΩ
+#
+DEF 150KΩ R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "150KΩ" 200 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-0716KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "CRCW0603150KFKEBC" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "71-CRCW0603150KFKEBC" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.049" 0 825 50 H I C CNN "Price"
+F11 "Thick Film Resistors - SMD 1/10Watt 150Kohms 1% Commercial Use 0603" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 16KΩ
+#
+DEF 16KΩ R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "16KΩ" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RC0603FR-0716KL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-16.0KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "100mW" 0 1400 50 H I C CNN "Power"
@@ -159,13 +234,63 @@ F1 "1K" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-071KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "RC0603FR-071KL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-1.00KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "1%" 0 750 50 H I C CNN "Tolerance"
 F9 "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
 F10 "100mW" 0 1400 50 H I C CNN "Power"
 F11 "0.09" 0 825 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20K
+#
+DEF 20K R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "20K" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "KOA Speer" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RK73B1JTTDD203J" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "660-RK73B1JTTDD203J" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.019" 0 825 50 H I C CNN "Price"
+F11 "Thick Film Resistors - SMD 1/10W 20K OHM 5%" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2KΩ
+#
+DEF 2KΩ R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "2KΩ" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Bourns" 0 1325 50 H I C CNN "Manufacturer"
+F5 "CR0603-FX-2001ELF" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "652-CR0603-FX-2001LF" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.07" 0 825 50 H I C CNN "Price"
+F11 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" 0 925 50 H I C CNN "Description"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -184,7 +309,7 @@ F1 "33K" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-0733KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "RC0603FR-0733KL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-33.0KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "100mW" 0 1400 50 H I C CNN "Power"
@@ -201,15 +326,15 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 43K
+# 43KΩ
 #
-DEF 43K R 0 0 N Y 1 F N
+DEF 43KΩ R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "43K" 150 -50 50 H V C CNN
+F1 "43KΩ" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-0743KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "RC0603FR-0743KL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-43.0KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "100mW" 0 1400 50 H I C CNN "Power"
@@ -226,20 +351,71 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 470
+# 470Ω
 #
-DEF 470 R 0 0 N Y 1 F N
+DEF 470Ω R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "470" 150 -50 50 H V C CNN
-F2 "Resistor_SMD:R_0603_1608Metric" 950 700 50 H I C CNN
+F1 "470Ω" 250 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
-F4 "Yageo" 1050 400 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-07470RL" 900 600 50 H I C CNN "Manufacturer Nr."
-F6 "Digikey" 700 250 50 H I C CNN "Supplier"
-F7 "311-470HRTR-ND" 1000 500 50 H I C CNN "Supplier Nr."
-F8 "100mW" 1300 150 50 H I C CNN "Power"
-F9 "1%" 1250 250 50 H I C CNN "Tolerance"
-F10 "0.09" 650 100 50 H I C CNN "Price"
+F4 "Vishay" 0 1325 50 H I C CNN "Manufacturer"
+F5 "CRCW0603470RJNEBC" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "71-CRCW0603470RJNEBC" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "5%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.025" 0 825 50 H I C CNN "Price"
+F11 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47KΩ
+#
+DEF 47KΩ R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "47KΩ" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Bourns" 0 1325 50 H I C CNN "Manufacturer"
+F5 "SFR03EZPF4702" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "755-SFR03EZPF4702" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.07" 0 825 50 H I C CNN "Price"
+F11 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 49.9
+#
+DEF 49.9 R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "49.9" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Vishay" 0 1325 50 H I C CNN "Manufacturer"
+F5 "TNPW020149R9BEED" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "71-TNPW020149R9BEED" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "75mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.09" 0 825 50 H I C CNN "Price"
+F11 "33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -258,7 +434,7 @@ F1 "4K7" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "TE CONNECTIVITY" 0 1325 50 H I C CNN "Manufacturer"
-F5 "CRGH0603F4K7" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "CRGH0603F4K7" 0 1125 50 H I C CNN "MPN"
 F6 "Farnell" 0 1225 50 H I C CNN "Supplier"
 F7 "2332011" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "1%" 0 750 50 H I C CNN "Tolerance"
@@ -275,21 +451,71 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 62K
+# 51KΩ
 #
-DEF 62K R 0 0 N Y 1 F N
+DEF 51KΩ R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "62K" 150 -50 50 H V C CNN
+F1 "51KΩ" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "YAGEO" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RC0603FR-0751KL" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "603-RC0603FR-0751KL" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "1%" 0 750 50 H I C CNN "Tolerance"
+F9 "Thick Film Resistors - SMD 51 kOhms 100mW 0603 1%" 0 925 50 H I C CNN "Description"
+F10 "100mW" 0 1400 50 H I C CNN "Power"
+F11 "0.01" 0 825 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 62KΩ
+#
+DEF 62KΩ R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "62KΩ" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-0762KL" 0 1125 50 H I C CNN "Manufacturer Nr."
+F5 "RC0603FR-0762KL" 0 1125 50 H I C CNN "MPN"
 F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
 F7 "311-62.0KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "100mW" 0 1400 50 H I C CNN "Power"
 F9 "1%" 0 750 50 H I C CNN "Tolerance"
 F10 "0.09" 0 825 50 H I C CNN "Price"
 F11 "62 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 8.2KΩ
+#
+DEF 8.2KΩ R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "8.2KΩ" 200 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Panasonic" 0 1325 50 H I C CNN "Manufacturer"
+F5 "ERJ-3EKF8201V" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "667-ERJ-3EKF8201V" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "100mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.05" 0 825 50 H I C CNN "Price"
+F11 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" 0 925 50 H I C CNN "Description"
 $FPLIST
  R_*
 $ENDFPLIST

@@ -1,4 +1,4 @@
-update=10/16/21 18:33:12
+update=10/19/21 23:59:54
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/Doc/Schematics
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

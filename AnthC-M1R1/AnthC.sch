@@ -2553,8 +2553,6 @@ Wire Wire Line
 	8100 9400 8000 9400
 Text Label 8100 9400 0    50   ~ 0
 RTS
-Text Label 8450 9600 0    50   ~ 0
-DTR
 Wire Wire Line
 	8400 9500 8450 9500
 Text Label 8450 9500 0    50   ~ 0
@@ -2582,20 +2580,18 @@ F 13 "C6568" H 7500 9600 50  0001 C CNN "LCSC-PN"
 	1    7500 9600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5500 8450 5500 8550
-Text Label 5500 8450 0    50   ~ 0
+Text Label 5300 8500 0    50   ~ 0
 RESET
 Wire Wire Line
 	5500 9700 5500 9650
-Text Label 5500 9700 0    50   ~ 0
+Text Label 5300 9700 0    50   ~ 0
 GPIO0
 Connection ~ 6300 8750
 Wire Wire Line
-	6350 8750 6300 8750
-Text Label 6350 9450 0    50   ~ 0
+	6450 8750 6300 8750
+Text Label 6450 9450 0    50   ~ 0
 RTS
-Text Label 6350 8750 0    50   ~ 0
+Text Label 6450 8750 0    50   ~ 0
 DTR
 Wire Wire Line
 	6300 8750 6250 8750
@@ -2605,8 +2601,6 @@ Wire Wire Line
 	5500 9250 6300 9250
 Wire Wire Line
 	6350 9450 6250 9450
-Wire Wire Line
-	6350 8950 6350 9450
 Wire Wire Line
 	5500 8950 6350 8950
 Wire Wire Line
@@ -6492,30 +6486,6 @@ F 3 "" H 8300 8650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 9500 8100 9500
-$Comp
-L Resistor_0603:100 R47
-U 1 1 61EF8E1F
-P 8250 9600
-F 0 "R47" V 8150 9250 50  0000 C CNN
-F 1 "100" V 8250 9600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 9600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8250 9600 50  0001 C CNN
-F 4 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 8250 9600 50  0001 C CNN "Description"
-F 5 "Yageo" H 8250 9600 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-07100RL" H 8250 9600 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 8250 9600 50  0001 C CNN "Power"
-F 8 "0.09" H 8250 9600 50  0001 C CNN "Price"
-F 9 "Digikey" H 8250 9600 50  0001 C CNN "Supplier"
-F 10 "311-100HRCT-ND" H 8250 9600 50  0001 C CNN "Supplier Nr."
-F 11 "1%" H 8250 9600 50  0001 C CNN "Tolerance"
-F 12 "RC0603FR-07100RL" H 8250 9600 50  0001 C CNN "MPN"
-	1    8250 9600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8000 9600 8100 9600
-Wire Wire Line
-	8400 9600 8450 9600
 Connection ~ 1800 1750
 Wire Wire Line
 	1750 1750 1800 1750
@@ -6958,4 +6928,19 @@ Wire Wire Line
 	14050 8650 14800 8650
 Wire Wire Line
 	14050 8450 14800 8450
+Wire Wire Line
+	6350 9450 6450 9450
+Connection ~ 6350 9450
+Wire Wire Line
+	5500 9700 5300 9700
+Wire Wire Line
+	5500 8500 5300 8500
+Wire Wire Line
+	5500 8500 5500 8550
+Wire Wire Line
+	6350 8950 6350 9450
+Wire Wire Line
+	8000 9600 8450 9600
+Text Label 8450 9600 0    50   ~ 0
+DTR
 $EndSCHEMATC

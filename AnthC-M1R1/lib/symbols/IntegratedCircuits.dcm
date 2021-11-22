@@ -6,6 +6,12 @@ K Analog to Digital Converters - ADC Low-Power Low-Noise 16-Bit ADC
 F https://www.ti.com/lit/gpn/ads1120
 $ENDCMP
 #
+$CMP CP2102N-A02-GQFN24
+D IC USB TO UART BRIDGE QFN24
+K IC USB TO UART BRIDGE QFN24
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
 $CMP HDC2080
 D Board Mount Humidity Sensors &plusmn;2% ultra-low-power, digital humidity sensor with temperature sensor 6-WSON -40 to 85
 K Board Mount Humidity Sensors &plusmn;2% ultra-low-power, digital humidity sensor with temperature sensor 6-WSON -40 to 85

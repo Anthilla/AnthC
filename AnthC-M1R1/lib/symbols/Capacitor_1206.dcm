@@ -12,6 +12,12 @@ K cap capacitor X7R 1206
 F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
 $ENDCMP
 #
+$CMP 4.7uF
+D CAP CER 4.7UF 25V X7R 1206
+K CAP CER 4.7UF 25V X7R 1206
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KAHNNNE.jsp
+$ENDCMP
+#
 $CMP 47uF
 D CAP CER 47UF 10V X5R 1206
 K cap capacitor X5R 1206 10V

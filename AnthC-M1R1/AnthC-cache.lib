@@ -99,57 +99,6 @@ X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# AnthC-Lib-Symbols_CP2102
-#
-DEF AnthC-Lib-Symbols_CP2102 U 0 40 Y Y 1 F N
-F0 "U" -100 750 60 H V C CNN
-F1 "AnthC-Lib-Symbols_CP2102" 100 -200 60 V V C CNN
-F2 "digikey-footprints:VFQFN-28-1EP_5x5mm" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "336-1160-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "CP2102-GMR" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "Interface - Controllers" 200 700 60 H I L CNN "Family"
-F8 "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/silicon-labs/CP2102-GMR/336-1160-1-ND/3672615" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "IC USB-TO-UART BRIDGE 28VQFN" 200 1000 60 H I L CNN "Description"
-F11 "Silicon Labs" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Not For New Designs" 200 1200 60 H I L CNN "Status"
-DRAW
-S -200 700 400 -900 0 1 0 f
-X DCD 1 -300 600 100 R 50 50 1 1 I
-X NC 10 -300 -300 100 R 50 50 1 1 N
-X ~SUSPEND 11 500 400 100 L 50 50 1 1 O
-X SUSPEND 12 500 300 100 L 50 50 1 1 O
-X NC 13 -300 -400 100 R 50 50 1 1 N
-X NC 14 -300 -500 100 R 50 50 1 1 N
-X NC 15 -300 -600 100 R 50 50 1 1 N
-X NC 16 -300 -700 100 R 50 50 1 1 N
-X NC 17 500 -100 100 L 50 50 1 1 N
-X NC 18 500 -200 100 L 50 50 1 1 N
-X VPP 18 200 800 100 D 50 50 1 1 W
-X NC 19 500 -300 100 L 50 50 1 1 N
-X RI 2 -300 500 100 R 50 50 1 1 I
-X NC 20 500 -400 100 L 50 50 1 1 N
-X NC 21 500 -500 100 L 50 50 1 1 N
-X NC 22 500 -600 100 L 50 50 1 1 N
-X CTS 23 -300 -100 100 R 50 50 1 1 I
-X RTS 24 500 200 100 L 50 50 1 1 O
-X RXD 25 -300 0 100 R 50 50 1 1 I
-X TXD 26 500 100 100 L 50 50 1 1 O
-X DSR 27 -300 -200 100 R 50 50 1 1 I
-X DTR 28 500 0 100 L 50 50 1 1 O
-X GND_PAD 29 200 -1000 100 U 50 50 1 1 W
-X GND 3 100 -1000 100 U 50 50 1 1 W
-X D+ 4 -300 400 100 R 50 50 1 1 B
-X D- 5 -300 300 100 R 50 50 1 1 B
-X VDD 6 100 800 100 D 50 50 1 1 P
-X REGIN 7 300 800 100 D 50 50 1 1 W
-X VBUS 8 -300 200 100 R 50 50 1 1 I
-X RST 9 -300 100 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # AnthC-Lib-Symbols_IP4220CZ6_125_TVS
 #
 DEF AnthC-Lib-Symbols_IP4220CZ6_125_TVS D 0 0 Y Y 1 F N
@@ -423,6 +372,34 @@ F9 "50V" 300 50 50 H I C CNN "Voltage"
 F10 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3216" 1700 150 50 H I C CNN "Description"
 F11 "X7R" 600 50 50 H I C CNN "Dielectric"
 F12 "0.22" 1050 50 50 H I C CNN "Price"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_1206_4.7uF
+#
+DEF Capacitor_1206_4.7uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Capacitor_1206_4.7uF" 25 -100 50 H V L CNN
+F2 "MagLab_Capacitor:C_1206_3216Metric" 0 1450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 0 1250 50 H I C CNN "Manufacturer"
+F5 "CL31B475KAHNNNE" 0 1150 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 0 1050 50 H I C CNN "Supplier"
+F7 "1276-1055-1-ND" 0 950 50 H I C CNN "Supplier Nr."
+F8 "4.7µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" 0 1350 50 H I C CNN "Description"
+F9 "JLCPCB" 0 750 50 H I C CNN "Assembler"
+F10 "C1872" 0 650 50 H I C CNN "Assembler Nr."
+F11 "True" 0 550 50 H I C CNN "Assembler BOM"
+F12 "0.18" 0 850 50 H I C CNN "Supplier Price"
+F13 "V1" 0 450 50 H I C CNN "Variant"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -1081,6 +1058,52 @@ X AIN0/REFP1 9 -650 350 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# IntegratedCircuits_CP2102N-A02-GQFN24
+#
+DEF IntegratedCircuits_CP2102N-A02-GQFN24 U 0 20 Y Y 1 F N
+F0 "U" 350 550 50 H V C CNN
+F1 "IntegratedCircuits_CP2102N-A02-GQFN24" 950 550 50 H V C CNN
+F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 0 1950 50 H I C CNN
+F3 "" 0 -550 50 H I C CNN
+F4 "USB Bridge, USB to UART USB 2.0 UART Interface 24-QFN (4x4)" 0 1850 50 H I C CNN "Description"
+F5 "Silicon Labs" 0 1750 50 H I C CNN "Manufacturer"
+F6 "CP2102N-A02-GQFN24" 0 1650 50 H I C CNN "Manufacturer Nr."
+F7 "Digikey" 0 1550 50 H I C CNN "Supplier"
+F8 "336-5887-ND" 0 1450 50 H I C CNN "Supplier Nr."
+F9 "1.27" 0 1350 50 H I C CNN "Supplier Price"
+$FPLIST
+ QFN*1EP*5x5mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -600 500 600 -450 0 1 0 f
+X ~RI~/CLK 1 -700 200 100 R 50 50 1 1 B
+X NC 10 -50 -550 100 U 50 50 1 1 N
+X ~WAKEUP~/IO3 11 50 -550 100 U 50 50 1 1 B
+X RS485/IO2 12 150 -550 100 U 50 50 1 1 B
+X RXT/IO1 13 700 -350 100 L 50 50 1 1 B
+X TXT/IO0 14 700 -250 100 L 50 50 1 1 B
+X ~SUSPEND 15 700 -150 100 L 50 50 1 1 O
+X NC 16 700 -50 100 L 50 50 1 1 N
+X SUSPEND 17 700 50 100 L 50 50 1 1 O
+X ~CTS 18 700 150 100 L 50 50 1 1 I
+X ~RTS 19 250 600 100 D 50 50 1 1 O
+X GND 2 -700 100 100 R 50 50 1 1 W
+X RXD 20 150 600 100 D 50 50 1 1 I
+X TXD 21 50 600 100 D 50 50 1 1 O
+X ~DSR 22 -50 600 100 D 50 50 1 1 I
+X ~DTR 23 -150 600 100 D 50 50 1 1 O
+X ~DCD 24 -250 600 100 D 50 50 1 1 I
+X GND 25 -350 600 100 D 50 50 1 1 W
+X D+ 3 -700 0 100 R 50 50 1 1 B
+X D- 4 -700 -100 100 R 50 50 1 1 B
+X VIO 5 -700 -200 100 R 50 50 1 1 W
+X VDD 6 -700 -300 100 R 50 50 1 1 W
+X VREGIN 7 -350 -550 100 U 50 50 1 1 W
+X VBUS 8 -250 -550 100 U 50 50 1 1 W
+X ~RST 9 -150 -550 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # IntegratedCircuits_HDC2080
 #
 DEF IntegratedCircuits_HDC2080 U 0 20 Y Y 1 F N
@@ -1201,6 +1224,60 @@ X VDD 1 0 300 100 D 50 50 1 1 W
 X DOUT 2 300 0 100 L 50 50 1 1 O
 X VSS 3 0 -300 100 U 50 50 1 1 W
 X DIN 4 -300 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MagLab_Resistor_0603_1K
+#
+DEF MagLab_Resistor_0603_1K R 0 0 N Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "MagLab_Resistor_0603_1K" 0 -100 50 H V C CNN
+F2 "MagLab_Resistor:R_0603_1608Metric" 0 1500 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 1400 50 H I C CNN "Description"
+F5 "Yageo" 0 1300 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-071KL" 0 1200 50 H I C CNN "Manufacturer Nr."
+F7 "Digikey" 0 1100 50 H I C CNN "Supplier"
+F8 "311-1.00KHRCT-ND" 0 1000 50 H I C CNN "Supplier Nr."
+F9 "0.09" 0 900 50 H I C CNN "Supplier Price"
+F10 "JLCPCB" 0 800 50 H I C CNN "Assembler"
+F11 "C22548" 0 700 50 H I C CNN "Assembler Nr."
+F12 "True" 0 600 50 H I C CNN "Assembler BOM"
+F13 "V1" 0 500 50 H I C CNN "Variant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MagLab_Resistor_0603_22K1
+#
+DEF MagLab_Resistor_0603_22K1 R 0 0 N Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "MagLab_Resistor_0603_22K1" 0 -100 50 H V C CNN
+F2 "MagLab_Resistor:R_0603_1608Metric" 0 1250 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Bourns Inc." 0 1050 50 H I C CNN "Manufacturer"
+F5 "CR0603-FX-2212ELF" 0 950 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 0 850 50 H I C CNN "Supplier"
+F7 "CR0603-FX-2212ELFCT-ND" 0 750 50 H I C CNN "Supplier Nr."
+F8 "JLCPCB" 0 550 50 H I C CNN "Assembler"
+F9 "C203418" 0 450 50 H I C CNN "Assembler Nr."
+F10 "0.09" 0 650 50 H I C CNN "Supplier Price"
+F11 "22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 1150 50 H I C CNN "Description"
+F12 "True" 0 350 50 H I C CNN "Assembler BOM"
+F13 "V1" 0 250 50 H I C CNN "Variant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1501,6 +1578,30 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_0603_47K5
+#
+DEF Resistor_0603_47K5 R 0 0 N Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "Resistor_0603_47K5" 0 -100 50 H V C CNN
+F2 "MagLab_Resistor:R_0603_1608Metric" 0 1250 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Stackpole Electronics Inc" 0 1050 50 H I C CNN "Manufacturer"
+F5 "RMCF0603FT47K5" 0 950 50 H I C CNN "Manufacturer Nr."
+F6 "Digikey" 0 850 50 H I C CNN "Supplier"
+F7 "RMCF0603FT47K5CT-ND" 0 750 50 H I C CNN "Supplier Nr."
+F8 "0.09" 0 650 50 H I C CNN "Supplier Price"
+F9 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" 0 1150 50 H I C CNN "Description"
+F10 "True" 0 350 50 H I C CNN "Assembler BOM"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_0603_47KΩ
 #
 DEF Resistor_0603_47KΩ R 0 0 N Y 1 F N
@@ -1541,31 +1642,6 @@ F8 "75mW" 0 1400 50 H I C CNN "Power"
 F9 "1%" 0 750 50 H I C CNN "Tolerance"
 F10 "0.09" 0 825 50 H I C CNN "Price"
 F11 "33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistor_0603_4K7
-#
-DEF Resistor_0603_4K7 R 0 0 N Y 1 F N
-F0 "R" 150 50 50 H V C CNN
-F1 "Resistor_0603_4K7" 150 -50 50 H V C CNN
-F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
-F3 "" -350 50 50 V I C CNN
-F4 "TE CONNECTIVITY" 0 1325 50 H I C CNN "Manufacturer"
-F5 "CRGH0603F4K7" 0 1125 50 H I C CNN "MPN"
-F6 "Farnell" 0 1225 50 H I C CNN "Supplier"
-F7 "2332011" 0 1525 50 H I C CNN "Supplier Nr."
-F8 "1%" 0 750 50 H I C CNN "Tolerance"
-F9 "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
-F10 "100mW" 0 1400 50 H I C CNN "Power"
-F11 "0.09" 0 825 50 H I C CNN "Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1767,6 +1843,19 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

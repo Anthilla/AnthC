@@ -6,6 +6,12 @@ K Analog to Digital Converters - ADC Low-Power Low-Noise 16-Bit ADC
 F https://www.ti.com/lit/gpn/ads1120
 $ENDCMP
 #
+$CMP HDC2080
+D Board Mount Humidity Sensors &plusmn;2% ultra-low-power, digital humidity sensor with temperature sensor 6-WSON -40 to 85
+K Board Mount Humidity Sensors &plusmn;2% ultra-low-power, digital humidity sensor with temperature sensor 6-WSON -40 to 85
+F http://www.ti.com/lit/ds/symlink/hdc2080.pdf
+$ENDCMP
+#
 $CMP REF5010AD
 D 10V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 10V

@@ -66,6 +66,12 @@ K Thick Film Resistors - SMD 1/10W 20K OHM 5%
 F https://www.mouser.be/datasheet/2/219/RK73B-1825463.pdf
 $ENDCMP
 #
+$CMP 22K1
+D RES SMD 22.1K OHM 1% 1/10W 0603
+K RES SMD 22.1K OHM 1% 1/10W 0603
+F https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf
+$ENDCMP
+#
 $CMP 2KΩ
 D Thick Film Resistors - SMD 2K OHM 1% 0603
 K Thick Film Resistors - SMD 2K OHM 1% 0603
@@ -88,6 +94,12 @@ $CMP 470Ω
 D Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use
 K Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use
 F https://www.mouser.be/datasheet/2/427/VISH_S_A0003599164_1-2569050.pdf
+$ENDCMP
+#
+$CMP 47K5
+D RES 47.5K OHM 1% 1/10W 0603
+K RES 47.5K OHM 1% 1/10W 0603
+F https://www.seielect.com/catalog/sei-packaging.pdf
 $ENDCMP
 #
 $CMP 47KΩ

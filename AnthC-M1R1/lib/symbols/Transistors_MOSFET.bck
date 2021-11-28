@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI2347DS-T1-GE3
+D MOSFET P-CH 40V 7.2A 8SO
+K MOSFET P-CH 40V 7.2A 8SO
+F https://www.mouser.be/datasheet/2/427/VISH_S_A0010613203_1-2570990.pdf
+$ENDCMP
+#
+$CMP SI4447ADY-T1-GE3
+D MOSFET P-CH 40V 7.2A 8SO
+K MOSFET P-CH 40V 7.2A 8SO
+F https://www.vishay.com/docs/67189/si4447ad.pdf
+$ENDCMP
+#
+#End Doc Library

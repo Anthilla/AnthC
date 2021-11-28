@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "AnthC - ESP32 Core"
 Date "18-10-2021"
 Rev "1.0"
@@ -19,27 +19,6 @@ Text Label 10950 1700 0    50   ~ 0
 RXD3V3
 Text Label 10950 1600 0    50   ~ 0
 TXD3V3
-$Comp
-L Capacitors_0603:100nF C22
-U 1 1 5DD164A6
-P 1050 2750
-F 0 "C22" H 900 2850 50  0000 L CNN
-F 1 "100nF" H 800 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 2950 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1050 2750 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 2150 3100 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 3500 2850 50  0001 C CNN "Description"
-F 6 "X7R" H 1450 2700 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 1600 3100 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 2400 3100 50  0001 C CNN "Price"
-F 9 "Digikey" H 1400 2900 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 1600 3000 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 3100 2950 50  0001 C CNN "Tolerance"
-F 12 "50V" H 1350 2800 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 1050 2750 50  0001 C CNN "MPN"
-	1    1050 2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole MH2
 U 1 1 5DDDEE7A
@@ -124,60 +103,6 @@ NoConn ~ 9550 3200
 NoConn ~ 9450 3200
 NoConn ~ 9350 3200
 $Comp
-L power:+3V3 #PWR0112
-U 1 1 5F01C9ED
-P 1900 2300
-F 0 "#PWR0112" H 1900 2150 50  0001 C CNN
-F 1 "+3V3" H 2050 2350 50  0000 C CNN
-F 2 "" H 1900 2300 50  0001 C CNN
-F 3 "" H 1900 2300 50  0001 C CNN
-	1    1900 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 2300 1900 2350
-Connection ~ 1900 2350
-$Comp
-L Capacitors_0603:100nF C5
-U 1 1 5F01CA06
-P 2000 2750
-F 0 "C5" H 1800 2800 50  0000 L CNN
-F 1 "100nF" H 1750 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3400 2950 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2000 2750 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3100 3100 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 4450 2850 50  0001 C CNN "Description"
-F 6 "X7R" H 2400 2700 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 2550 3100 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 3350 3100 50  0001 C CNN "Price"
-F 9 "Digikey" H 2350 2900 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 2550 3000 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 4050 2950 50  0001 C CNN "Tolerance"
-F 12 "50V" H 2300 2800 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 2000 2750 50  0001 C CNN "MPN"
-	1    2000 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 2350 2000 2350
-Wire Wire Line
-	1700 2350 1700 2600
-Wire Wire Line
-	2000 2350 2000 2600
-Wire Wire Line
-	1650 2350 1700 2350
-$Comp
-L power:GND #PWR0119
-U 1 1 5F0448D2
-P 1350 3000
-F 0 "#PWR0119" H 1350 2750 50  0001 C CNN
-F 1 "GND" H 1355 2827 50  0001 C CNN
-F 2 "" H 1350 3000 50  0001 C CNN
-F 3 "" H 1350 3000 50  0001 C CNN
-	1    1350 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Resistor_0603:10KΩ R14
 U 1 1 5F1C5C36
 P 11550 1600
@@ -234,704 +159,131 @@ F 3 "" H 11450 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11300 1150 11300 1100
-Wire Wire Line
-	850  2350 1050 2350
-$Comp
-L power:+5V #PWR0137
-U 1 1 5F456898
-P 850 2300
-F 0 "#PWR0137" H 850 2150 50  0001 C CNN
-F 1 "+5V" H 700 2350 50  0000 C CNN
-F 2 "" H 850 2300 50  0001 C CNN
-F 3 "" H 850 2300 50  0001 C CNN
-	1    850  2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	850  2300 850  2350
-Wire Wire Line
-	850  2350 750  2350
-Connection ~ 850  2350
 Text Notes 4100 2400 0    50   ~ 0
 LEVEL SHIFTERS
 $Comp
-L AnthC-Lib-Symbols:1N5820 D?
-U 1 1 6031F46A
-P 3700 2550
-AR Path="/602E71BC/6031F46A" Ref="D?"  Part="1" 
-AR Path="/6031F46A" Ref="D8"  Part="1" 
-F 0 "D8" H 3700 2334 50  0000 C CNN
-F 1 "SS34" H 3700 2425 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 3700 2375 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 3700 2550 50  0001 C CNN
-F 4 "SS34" H 3700 2550 50  0001 C CNN "MPN"
-F 5 "SINO-IC" H 3700 2550 50  0001 C CNN "Manufacturer"
-F 6 "C8678" H 3700 2550 50  0001 C CNN "LCSC-PN"
-	1    3700 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Inductors:10μH L?
-U 1 1 6031F473
-P 2600 950
-AR Path="/602E71BC/6031F473" Ref="L?"  Part="1" 
-AR Path="/6031F473" Ref="L1"  Part="1" 
-F 0 "L1" V 2790 950 50  0000 C CNN
-F 1 "10μH" V 2675 950 50  0000 C CNN
-F 2 "" H 2600 950 50  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/74404043100A.pdf" H 2600 950 50  0001 C CNN
-F 4 "74404043100A" H 3800 1400 50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 3100 1400 50  0001 C CNN "Manufacturer"
-F 6 "0.435" H 2950 1200 50  0001 C CNN "Price"
-F 7 "Mouser" H 2950 1300 50  0001 C CNN "Supplier"
-F 8 "710-74404043100A" H 3900 1300 50  0001 C CNN "Supplier Part Number"
-	1    2600 950 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L AnthC-Lib-Symbols:1N5820 D?
-U 1 1 6031F487
-P 2350 1150
-AR Path="/602E71BC/6031F487" Ref="D?"  Part="1" 
-AR Path="/6031F487" Ref="D1"  Part="1" 
-F 0 "D1" V 2304 1229 50  0000 L CNN
-F 1 "B5819W" H 2250 1050 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 2350 975 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 2350 1150 50  0001 C CNN
-F 4 "B5819W" H 2350 1150 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 2350 1150 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 2350 1150 50  0001 C CNN "LCSC-PN"
-	1    2350 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6031F48D
-P 2350 1350
-AR Path="/602E71BC/6031F48D" Ref="#PWR?"  Part="1" 
-AR Path="/6031F48D" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 2350 1100 50  0001 C CNN
-F 1 "GND" H 2450 1350 50  0001 C CNN
-F 2 "" H 2350 1350 50  0001 C CNN
-F 3 "" H 2350 1350 50  0001 C CNN
-	1    2350 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 1300 2350 1350
-Wire Wire Line
-	2350 1000 2350 950 
-Connection ~ 2350 950 
-$Comp
-L Capacitors_0603:100nF C?
-U 1 1 6031F4EA
-P 2350 750
-AR Path="/602E71BC/6031F4EA" Ref="C?"  Part="1" 
-AR Path="/6031F4EA" Ref="C1"  Part="1" 
-F 0 "C1" H 2400 850 50  0000 L CNN
-F 1 "100nF" H 2100 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 950 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2350 750 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3450 1100 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 4800 850 50  0001 C CNN "Description"
-F 6 "X7R" H 2750 700 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 2900 1100 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 3700 1100 50  0001 C CNN "Price"
-F 9 "Digikey" H 2700 900 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 2900 1000 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 4400 950 50  0001 C CNN "Tolerance"
-F 12 "50V" H 2650 800 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 2350 750 50  0001 C CNN "MPN"
-	1    2350 750 
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 950  2450 950 
-$Comp
-L power:VDC #PWR?
-U 1 1 6031F4FA
-P 3500 2750
-AR Path="/602E71BC/6031F4FA" Ref="#PWR?"  Part="1" 
-AR Path="/6031F4FA" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 3500 2650 50  0001 C CNN
-F 1 "VDC" H 3500 2900 50  0000 C CNN
-F 2 "" H 3500 2750 50  0001 C CNN
-F 3 "" H 3500 2750 50  0001 C CNN
-	1    3500 2750
-	1    0    0    -1  
-$EndComp
-Text Notes 550  550  0    50   ~ 0
-POWER SUPPLY
-$Comp
-L AnthC-Lib-Symbols:TPS54331DR U?
-U 1 1 6031F529
-P 1750 1200
-AR Path="/602E71BC/6031F529" Ref="U?"  Part="1" 
-AR Path="/6031F529" Ref="U1"  Part="1" 
-F 0 "U1" H 1950 700 50  0000 C CNN
-F 1 "TPS54331DR" H 1750 1750 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias" H 1800 1100 50  0001 C CNN
-F 3 "" H 1800 1100 50  0001 C CNN
-F 4 "C9865" H 1750 1200 50  0001 C CNN "LCSC-PN"
-F 5 "TPS54331DR" H 1750 1200 50  0001 C CNN "MPN"
-F 6 "Texas Instruments" H 1750 1200 50  0001 C CNN "Manufacturer"
-	1    1750 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitor_1206:47uF C?
-U 1 1 6031F532
-P 2800 1200
-AR Path="/602E71BC/6031F532" Ref="C?"  Part="1" 
-AR Path="/6031F532" Ref="C7"  Part="1" 
-F 0 "C7" H 2700 1300 50  0000 L CNN
-F 1 "47uF" H 2600 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3450 1450 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 2800 1200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3100 1850 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" H 4500 1350 50  0001 C CNN "Description"
-F 6 "X5R" H 3400 1250 50  0001 C CNN "Dielectric"
-F 7 "CL31A476MPHNNNE" H 3400 1750 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 3850 1250 50  0001 C CNN "Price"
-F 9 "Mouser" H 3100 1650 50  0001 C CNN "Supplier"
-F 10 "187-CL31A476MPHNNNE" H 3650 1550 50  0001 C CNN "Supplier Nr."
-F 11 "20%" H 3100 1150 50  0001 C CNN "Tolerance"
-F 12 "10V" H 3100 1250 50  0001 C CNN "Voltage"
-F 13 "CL31A476MPHNNNE" H 2800 1200 50  0001 C CNN "MPN"
-	1    2800 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6031F538
-P 2800 1350
-AR Path="/602E71BC/6031F538" Ref="#PWR?"  Part="1" 
-AR Path="/6031F538" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 2800 1100 50  0001 C CNN
-F 1 "GND" H 2900 1350 50  0001 C CNN
-F 2 "" H 2800 1350 50  0001 C CNN
-F 3 "" H 2800 1350 50  0001 C CNN
-	1    2800 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 1050 2800 950 
-$Comp
-L Capacitor_1206:10uF C?
-U 1 1 6031F543
-P 850 950
-AR Path="/602E71BC/6031F543" Ref="C?"  Part="1" 
-AR Path="/6031F543" Ref="C2"  Part="1" 
-F 0 "C2" H 650 1050 50  0000 L CNN
-F 1 "10uF_50V" H 900 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2150 1150 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 850 950 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 1950 1900 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3216" H 2550 1100 50  0001 C CNN "Description"
-F 6 "X7R" H 1450 1000 50  0001 C CNN "Dielectric"
-F 7 "CL31B106KBHNNNE" H 1900 1450 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 1900 1000 50  0001 C CNN "Price"
-F 9 "Mouser" H 1650 1350 50  0001 C CNN "Supplier"
-F 10 "187-CL31B106KBHNNNE" H 1700 1300 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 1150 900 50  0001 C CNN "Tolerance"
-F 12 "50V" H 1150 1000 50  0001 C CNN "Voltage"
-F 13 "CL31B106KBHNNNE" H 850 950 50  0001 C CNN "MPN"
-	1    850  950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 950  2350 950 
-Wire Wire Line
-	2350 900  2350 950 
-Wire Wire Line
-	2350 600  2200 600 
-Wire Wire Line
-	2200 600  2200 800 
-Wire Wire Line
-	2200 800  2150 800 
-$Comp
-L Device:C_Small C?
-U 1 1 6031F551
-P 1200 1700
-AR Path="/602E71BC/6031F551" Ref="C?"  Part="1" 
-AR Path="/6031F551" Ref="C12"  Part="1" 
-F 0 "C12" H 1292 1746 50  0000 L CNN
-F 1 "4.7nF" H 1292 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1200 1700 50  0001 C CNN
-F 3 "~" H 1200 1700 50  0001 C CNN
-F 4 "C1538" H 1200 1700 50  0001 C CNN "LCSC-PN"
-F 5 "0402B472K500NT" H 1200 1700 50  0001 C CNN "MPN"
-F 6 "Guangdong Fenghua Advanced Tech" H 1200 1700 50  0001 C CNN "Manufacturer"
-	1    1200 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor_0603:49.9 R?
-U 1 1 6031F55A
-P 1200 1450
-AR Path="/602E71BC/6031F55A" Ref="R?"  Part="1" 
-AR Path="/6031F55A" Ref="R2"  Part="1" 
-F 0 "R2" H 1250 1550 50  0000 L CNN
-F 1 "49.9" H 1350 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1200 2450 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0011410627_1-2571984.pdf" V 850 1500 50  0001 C CNN
-F 4 "Vishay" H 1200 2775 50  0001 C CNN "Manufacturer"
-F 5 "33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 1200 2375 50  0001 C CNN "Description"
-F 6 "TNPW020149R9BEED" H 1200 2575 50  0001 C CNN "Manufacturer Nr."
-F 7 "75mW" H 1200 2850 50  0001 C CNN "Power"
-F 8 "0.09" H 1200 2275 50  0001 C CNN "Price"
-F 9 "Mouser" H 1200 2675 50  0001 C CNN "Supplier"
-F 10 "71-TNPW020149R9BEED" H 1200 2975 50  0001 C CNN "Supplier Nr."
-F 11 "1%" H 1200 2200 50  0001 C CNN "Tolerance"
-F 12 "TNPW020149R9BEED" H 1200 1450 50  0001 C CNN "MPN"
-	1    1200 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 1250 1200 1300
-$Comp
-L power:GND #PWR?
-U 1 1 6031F562
-P 1200 1800
-AR Path="/602E71BC/6031F562" Ref="#PWR?"  Part="1" 
-AR Path="/6031F562" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 1200 1550 50  0001 C CNN
-F 1 "GND" H 1205 1627 50  0000 C CNN
-F 2 "" H 1200 1800 50  0001 C CNN
-F 3 "" H 1200 1800 50  0001 C CNN
-	1    1200 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitors_0603:47pF C?
-U 1 1 6031F56C
-P 1000 1550
-AR Path="/602E71BC/6031F56C" Ref="C?"  Part="1" 
-AR Path="/6031F56C" Ref="C11"  Part="1" 
-F 0 "C11" V 900 1700 50  0000 L CNN
-F 1 "47pF" H 800 1450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 2350 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/445/885012006055-1727324.pdf" H 1550 1750 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1250 2250 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 47pF 0603 5% 50V MLCC" H 1450 2450 50  0001 C CNN "Description"
-F 6 "C0G" H 1550 1750 50  0001 C CNN "Dielectric"
-F 7 "885012006055" H 1850 2250 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.023" H 1500 1950 50  0001 C CNN "Price"
-F 9 "Mouser" H 1250 2150 50  0001 C CNN "Supplier"
-F 10 "710-885012006055" H 2100 2150 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 1700 1950 50  0001 C CNN "Tolerance"
-F 12 "50V" H 1450 1800 50  0001 C CNN "Voltage"
-F 13 "885012006055" H 1000 1550 50  0001 C CNN "MPN"
-	1    1000 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 1250 1000 1250
-Wire Wire Line
-	1000 1250 1000 1400
-Connection ~ 1200 1250
-$Comp
-L power:GND #PWR?
-U 1 1 6031F575
-P 1000 1800
-AR Path="/602E71BC/6031F575" Ref="#PWR?"  Part="1" 
-AR Path="/6031F575" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 1000 1550 50  0001 C CNN
-F 1 "GND" H 1005 1627 50  0000 C CNN
-F 2 "" H 1000 1800 50  0001 C CNN
-F 3 "" H 1000 1800 50  0001 C CNN
-	1    1000 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 1800 1000 1700
-$Comp
-L Capacitors_0603:22nF C?
-U 1 1 6031F57F
-P 750 1550
-AR Path="/602E71BC/6031F57F" Ref="C?"  Part="1" 
-AR Path="/6031F57F" Ref="C10"  Part="1" 
-F 0 "C10" V 650 1700 50  0000 L CNN
-F 1 "22nF" V 650 1300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2150 1750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 750 1550 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 1850 1900 50  0001 C CNN "Manufacturer"
-F 5 "0.022µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 3200 1650 50  0001 C CNN "Description"
-F 6 "X7R" H 1150 1500 50  0001 C CNN "Dielectric"
-F 7 "CL10B223KB8WPNC" H 1300 1900 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 2100 1900 50  0001 C CNN "Price"
-F 9 "Digikey" H 1100 1700 50  0001 C CNN "Supplier"
-F 10 "1276-6534-1-ND" H 1300 1800 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 2800 1750 50  0001 C CNN "Tolerance"
-F 12 "50V" H 1050 1600 50  0001 C CNN "Voltage"
-F 13 "CL10B223KB8WPNC" H 750 1550 50  0001 C CNN "MPN"
-	1    750  1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6031F585
-P 750 1800
-AR Path="/602E71BC/6031F585" Ref="#PWR?"  Part="1" 
-AR Path="/6031F585" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 750 1550 50  0001 C CNN
-F 1 "GND" H 755 1627 50  0000 C CNN
-F 2 "" H 750 1800 50  0001 C CNN
-F 3 "" H 750 1800 50  0001 C CNN
-	1    750  1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	750  1800 750  1700
-Wire Wire Line
-	1350 1250 1200 1250
-$Comp
-L Resistor_0603:43KΩ R?
-U 1 1 6031F590
-P 3300 1150
-AR Path="/602E71BC/6031F590" Ref="R?"  Part="1" 
-AR Path="/6031F590" Ref="R1"  Part="1" 
-F 0 "R1" V 3400 1150 50  0000 L CNN
-F 1 "43K" V 3300 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 2150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 2950 1200 50  0001 C CNN
-F 4 "Yageo" H 3300 2475 50  0001 C CNN "Manufacturer"
-F 5 "43 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 3300 2075 50  0001 C CNN "Description"
-F 6 "RC0603FR-0743KL" H 3300 2275 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 3300 2550 50  0001 C CNN "Power"
-F 8 "0.09" H 3300 1975 50  0001 C CNN "Price"
-F 9 "Digikey" H 3300 2375 50  0001 C CNN "Supplier"
-F 10 "311-43.0KHRCT-ND" H 3300 2675 50  0001 C CNN "Supplier Nr."
-F 11 "1%" H 3300 1900 50  0001 C CNN "Tolerance"
-F 12 "RC0603FR-0743KL" H 3300 1150 50  0001 C CNN "MPN"
-	1    3300 1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Capacitor_1206:47uF C?
-U 1 1 6031F599
-P 3050 1200
-AR Path="/602E71BC/6031F599" Ref="C?"  Part="1" 
-AR Path="/6031F599" Ref="C8"  Part="1" 
-F 0 "C8" H 2900 1300 50  0000 L CNN
-F 1 "47uF" H 2850 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3700 1450 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 3050 1200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3350 1850 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" H 4750 1350 50  0001 C CNN "Description"
-F 6 "X5R" H 3650 1250 50  0001 C CNN "Dielectric"
-F 7 "CL31A476MPHNNNE" H 3650 1750 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 4100 1250 50  0001 C CNN "Price"
-F 9 "Mouser" H 3350 1650 50  0001 C CNN "Supplier"
-F 10 "187-CL31A476MPHNNNE" H 3900 1550 50  0001 C CNN "Supplier Nr."
-F 11 "20%" H 3350 1150 50  0001 C CNN "Tolerance"
-F 12 "10V" H 3350 1250 50  0001 C CNN "Voltage"
-F 13 "CL31A476MPHNNNE" H 3050 1200 50  0001 C CNN "MPN"
-	1    3050 1200
-	1    0    0    -1  
-$EndComp
-Connection ~ 2800 950 
-Wire Wire Line
-	2800 950  2750 950 
-Wire Wire Line
-	3050 1050 3050 950 
-Wire Wire Line
-	2800 950  3050 950 
-$Comp
-L power:GND #PWR?
-U 1 1 6031F5A4
-P 3050 1350
-AR Path="/602E71BC/6031F5A4" Ref="#PWR?"  Part="1" 
-AR Path="/6031F5A4" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 3050 1100 50  0001 C CNN
-F 1 "GND" H 3150 1350 50  0001 C CNN
-F 2 "" H 3050 1350 50  0001 C CNN
-F 3 "" H 3050 1350 50  0001 C CNN
-	1    3050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor_0603:8.2KΩ R?
-U 1 1 6031F5B4
-P 3300 1700
-AR Path="/602E71BC/6031F5B4" Ref="R?"  Part="1" 
-AR Path="/6031F5B4" Ref="R8"  Part="1" 
-F 0 "R8" V 3400 1700 50  0000 L CNN
-F 1 "8.2KΩ" H 3500 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 2700 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/315/AOA0000C304-1149620.pdf" V 2950 1750 50  0001 C CNN
-F 4 "Panasonic" H 3300 3025 50  0001 C CNN "Manufacturer"
-F 5 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" H 3300 2625 50  0001 C CNN "Description"
-F 6 "ERJ-3EKF8201V" H 3300 2825 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 3300 3100 50  0001 C CNN "Power"
-F 8 "0.05" H 3300 2525 50  0001 C CNN "Price"
-F 9 "Mouser" H 3300 2925 50  0001 C CNN "Supplier"
-F 10 "667-ERJ-3EKF8201V" H 3300 3225 50  0001 C CNN "Supplier Nr."
-F 11 "1%" H 3300 2450 50  0001 C CNN "Tolerance"
-F 12 "ERJ-3EKF8201V" H 3300 1700 50  0001 C CNN "MPN"
-	1    3300 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6031F5BA
-P 1800 1800
-AR Path="/602E71BC/6031F5BA" Ref="#PWR?"  Part="1" 
-AR Path="/6031F5BA" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 1800 1550 50  0001 C CNN
-F 1 "GND" H 1805 1627 50  0000 C CNN
-F 2 "" H 1800 1800 50  0001 C CNN
-F 3 "" H 1800 1800 50  0001 C CNN
-	1    1800 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6031F5C1
-P 3300 1850
-AR Path="/602E71BC/6031F5C1" Ref="#PWR?"  Part="1" 
-AR Path="/6031F5C1" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 3300 1600 50  0001 C CNN
-F 1 "GND" H 3305 1677 50  0000 C CNN
-F 2 "" H 3300 1850 50  0001 C CNN
-F 3 "" H 3300 1850 50  0001 C CNN
-	1    3300 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 1250 2150 1500
-Wire Wire Line
-	2150 1500 3250 1500
-Wire Wire Line
-	3300 1000 3300 950 
-Connection ~ 3050 950 
-Wire Wire Line
-	3300 1300 3300 1350
-Wire Wire Line
-	3250 1500 3250 1350
-Wire Wire Line
-	3250 1350 3300 1350
-Connection ~ 3300 1350
-Wire Wire Line
-	3300 1350 3300 1550
-Wire Wire Line
-	3050 950  3300 950 
-Connection ~ 3300 950 
-$Comp
-L power:GND #PWR?
-U 1 1 6031F5D4
-P 850 1100
-AR Path="/602E71BC/6031F5D4" Ref="#PWR?"  Part="1" 
-AR Path="/6031F5D4" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 850 850 50  0001 C CNN
-F 1 "GND" H 1000 1050 50  0000 C CNN
-F 2 "" H 850 1100 50  0001 C CNN
-F 3 "" H 850 1100 50  0001 C CNN
-	1    850  1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 1100 1200 1100
-Wire Wire Line
-	1200 1100 1200 1200
-Wire Wire Line
-	1200 1200 750  1200
-Wire Wire Line
-	750  1200 750  1400
-Wire Wire Line
-	1350 800  1250 800 
-$Comp
-L Capacitors_0603:100nF C?
-U 1 1 6031F5E4
-P 3450 1250
-AR Path="/602E71BC/6031F5E4" Ref="C?"  Part="1" 
-AR Path="/6031F5E4" Ref="C9"  Part="1" 
-F 0 "C9" V 3400 1300 50  0000 L CNN
-F 1 "100nF" H 3150 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4850 1450 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3450 1250 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4550 1600 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 5900 1350 50  0001 C CNN "Description"
-F 6 "X7R" H 3850 1200 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 4000 1600 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 4800 1600 50  0001 C CNN "Price"
-F 9 "Digikey" H 3800 1400 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 4000 1500 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 5500 1450 50  0001 C CNN "Tolerance"
-F 12 "50V" H 3750 1300 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 3450 1250 50  0001 C CNN "MPN"
-	1    3450 1250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 950  3450 950 
-$Comp
-L power:GND #PWR?
-U 1 1 6031F5EC
-P 3450 1450
-AR Path="/602E71BC/6031F5EC" Ref="#PWR?"  Part="1" 
-AR Path="/6031F5EC" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 3450 1200 50  0001 C CNN
-F 1 "GND" H 3455 1277 50  0001 C CNN
-F 2 "" H 3450 1450 50  0001 C CNN
-F 3 "" H 3450 1450 50  0001 C CNN
-	1    3450 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 1450 3450 1400
-$Comp
-L power:GND #PWR?
-U 1 1 6031F705
-P 2650 3000
-AR Path="/602E71BC/6031F705" Ref="#PWR?"  Part="1" 
-AR Path="/6031F705" Ref="#PWR0147"  Part="1" 
-F 0 "#PWR0147" H 2650 2750 50  0001 C CNN
-F 1 "GND" H 2655 2827 50  0000 C CNN
-F 2 "" H 2650 3000 50  0001 C CNN
-F 3 "" H 2650 3000 50  0001 C CNN
-	1    2650 3000
-	1    0    0    -1  
-$EndComp
-Connection ~ 1700 2350
-Wire Wire Line
-	1700 2350 1800 2350
-$Comp
 L Interface_UART:MAX3485 U?
 U 1 1 60746CEC
-P 5700 1350
+P 5300 1350
 AR Path="/606FCEC4/5EEADDE8/60746CEC" Ref="U?"  Part="1" 
 AR Path="/60746CEC" Ref="U4"  Part="1" 
-F 0 "U4" H 5450 1800 50  0000 C CNN
-F 1 "SP3485EN-L/TR" H 6200 1800 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 650 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 5700 1400 50  0001 C CNN
-F 4 "C8963" H 5700 1350 50  0001 C CNN "LCSC-PN"
-F 5 "SP3485EN-L/TR" H 5700 1350 50  0001 C CNN "MPN"
-F 6 "Exar" H 5700 1350 50  0001 C CNN "Manufacturer"
-	1    5700 1350
+F 0 "U4" H 5050 1800 50  0000 C CNN
+F 1 "SP3485EN-L/TR" H 5800 1800 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 650 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 5300 1400 50  0001 C CNN
+F 4 "C8963" H 5300 1350 50  0001 C CNN "LCSC-PN"
+F 5 "SP3485EN-L/TR" H 5300 1350 50  0001 C CNN "MPN"
+F 6 "Exar" H 5300 1350 50  0001 C CNN "Manufacturer"
+	1    5300 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 60746CF2
-P 6650 1650
+P 6250 1650
 AR Path="/606FCEC4/5EEADDE8/60746CF2" Ref="#PWR?"  Part="1" 
 AR Path="/60746CF2" Ref="#PWR0150"  Part="1" 
-F 0 "#PWR0150" H 6650 1500 50  0001 C CNN
-F 1 "+3V3" H 6800 1750 50  0000 C CNN
-F 2 "" H 6650 1650 50  0001 C CNN
-F 3 "" H 6650 1650 50  0001 C CNN
-	1    6650 1650
+F 0 "#PWR0150" H 6250 1500 50  0001 C CNN
+F 1 "+3V3" H 6400 1750 50  0000 C CNN
+F 2 "" H 6250 1650 50  0001 C CNN
+F 3 "" H 6250 1650 50  0001 C CNN
+	1    6250 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Capacitors_0603:100nF C13
 U 1 1 60746CFB
-P 6650 1850
+P 6250 1850
 AR Path="/60746CFB" Ref="C13"  Part="1" 
 AR Path="/5EEADDE8/60746CFB" Ref="C?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746CFB" Ref="C?"  Part="1" 
-F 0 "C13" H 6450 1900 50  0000 L CNN
-F 1 "100nF" H 6675 1750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8050 2050 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6650 1850 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 7750 2200 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 9100 1950 50  0001 C CNN "Description"
-F 6 "X7R" H 7050 1800 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 7200 2200 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 8000 2200 50  0001 C CNN "Price"
-F 9 "Digikey" H 7000 2000 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 7200 2100 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 8700 2050 50  0001 C CNN "Tolerance"
-F 12 "50V" H 6950 1900 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 6650 1850 50  0001 C CNN "MPN"
-	1    6650 1850
+F 0 "C13" H 6050 1900 50  0000 L CNN
+F 1 "100nF" H 6275 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7650 2050 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6250 1850 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7350 2200 50  0001 C CNN "Manufacturer"
+F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 8700 1950 50  0001 C CNN "Description"
+F 6 "X7R" H 6650 1800 50  0001 C CNN "Dielectric"
+F 7 "CL10B104KB8NNNC" H 6800 2200 50  0001 C CNN "Manufacturer Nr."
+F 8 "0.09" H 7600 2200 50  0001 C CNN "Price"
+F 9 "Digikey" H 6600 2000 50  0001 C CNN "Supplier"
+F 10 "1276-1000-1-ND" H 6800 2100 50  0001 C CNN "Supplier Nr."
+F 11 "10%" H 8300 2050 50  0001 C CNN "Tolerance"
+F 12 "50V" H 6550 1900 50  0001 C CNN "Voltage"
+F 13 "CL10B104KB8NNNC" H 6250 1850 50  0001 C CNN "MPN"
+	1    6250 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0151
 U 1 1 60746D01
-P 6650 2050
+P 6250 2050
 AR Path="/60746D01" Ref="#PWR0151"  Part="1" 
 AR Path="/5EEADDE8/60746D01" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D01" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0151" H 6650 1800 50  0001 C CNN
-F 1 "GND" H 6500 1950 50  0000 C CNN
-F 2 "" H 6650 2050 50  0001 C CNN
-F 3 "" H 6650 2050 50  0001 C CNN
-	1    6650 2050
+F 0 "#PWR0151" H 6250 1800 50  0001 C CNN
+F 1 "GND" H 6100 1950 50  0000 C CNN
+F 2 "" H 6250 2050 50  0001 C CNN
+F 3 "" H 6250 2050 50  0001 C CNN
+	1    6250 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 2050 6650 2000
+	6250 2050 6250 2000
 Wire Wire Line
-	6650 1700 6650 1650
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60746D09
-P 5700 800
-AR Path="/606FCEC4/5EEADDE8/60746D09" Ref="#PWR?"  Part="1" 
-AR Path="/60746D09" Ref="#PWR0152"  Part="1" 
-F 0 "#PWR0152" H 5700 650 50  0001 C CNN
-F 1 "+3V3" H 5715 973 50  0000 C CNN
-F 2 "" H 5700 800 50  0001 C CNN
-F 3 "" H 5700 800 50  0001 C CNN
-	1    5700 800 
-	1    0    0    -1  
-$EndComp
+	6250 1700 6250 1650
 Wire Wire Line
-	5700 800  5700 850 
+	5300 800  5300 850 
 $Comp
 L Resistor_0603:120Ω R5
 U 1 1 60746D13
-P 6300 1400
+P 5900 1400
 AR Path="/60746D13" Ref="R5"  Part="1" 
 AR Path="/5EEADDE8/60746D13" Ref="R?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D13" Ref="R?"  Part="1" 
-F 0 "R5" V 6400 1300 50  0000 L CNN
-F 1 "120" H 6500 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 2400 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf" V 5950 1450 50  0001 C CNN
-F 4 "Bourns" H 6300 2725 50  0001 C CNN "Manufacturer"
-F 5 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 6300 2325 50  0001 C CNN "Description"
-F 6 "CR0603-FX-1200ELF" H 6300 2525 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 6300 2800 50  0001 C CNN "Power"
-F 8 "0.025" H 6300 2225 50  0001 C CNN "Price"
-F 9 "Mouser" H 6300 2625 50  0001 C CNN "Supplier"
-F 10 "652-CR0603FX-1200ELF" H 6300 2925 50  0001 C CNN "Supplier Nr."
-F 11 "5%" H 6300 2150 50  0001 C CNN "Tolerance"
-F 12 "CR0603-FX-1200ELF" H 6300 1400 50  0001 C CNN "MPN"
-	1    6300 1400
+F 0 "R5" V 6000 1300 50  0000 L CNN
+F 1 "120" H 6100 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 2400 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf" V 5550 1450 50  0001 C CNN
+F 4 "Bourns" H 5900 2725 50  0001 C CNN "Manufacturer"
+F 5 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 5900 2325 50  0001 C CNN "Description"
+F 6 "CR0603-FX-1200ELF" H 5900 2525 50  0001 C CNN "Manufacturer Nr."
+F 7 "100mW" H 5900 2800 50  0001 C CNN "Power"
+F 8 "0.025" H 5900 2225 50  0001 C CNN "Price"
+F 9 "Mouser" H 5900 2625 50  0001 C CNN "Supplier"
+F 10 "652-CR0603FX-1200ELF" H 5900 2925 50  0001 C CNN "Supplier Nr."
+F 11 "5%" H 5900 2150 50  0001 C CNN "Tolerance"
+F 12 "CR0603-FX-1200ELF" H 5900 1400 50  0001 C CNN "MPN"
+	1    5900 1400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0153
 U 1 1 60746D1B
-P 5700 2000
+P 5300 2000
 AR Path="/60746D1B" Ref="#PWR0153"  Part="1" 
 AR Path="/5EEADDE8/60746D1B" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D1B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0153" H 5700 1750 50  0001 C CNN
-F 1 "GND" H 5705 1827 50  0000 C CNN
-F 2 "" H 5700 2000 50  0001 C CNN
-F 3 "" H 5700 2000 50  0001 C CNN
-	1    5700 2000
+F 0 "#PWR0153" H 5300 1750 50  0001 C CNN
+F 1 "GND" H 5305 1827 50  0000 C CNN
+F 2 "" H 5300 2000 50  0001 C CNN
+F 3 "" H 5300 2000 50  0001 C CNN
+	1    5300 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 1950 5700 2000
-Text Label 4950 1250 0    50   ~ 0
+	5300 1950 5300 2000
+Text Label 4550 1250 0    50   ~ 0
 RXD3V3
-Text Label 4950 1550 0    50   ~ 0
+Text Label 4550 1550 0    50   ~ 0
 TXD3V3
 Wire Notes Line
-	4050 2250 4050 550 
+	4050 2250 4050 500 
 Text Notes 4100 650  0    50   ~ 0
 RS485 MODBUS INTERFACE
-Text Label 6400 1250 0    50   ~ 0
+Text Label 6000 1250 0    50   ~ 0
 B
-Text Label 6450 1550 0    50   ~ 0
+Text Label 6050 1550 0    50   ~ 0
 A
 Wire Notes Line
 	4050 2250 7050 2250
@@ -951,21 +303,6 @@ F 3 "" H 12850 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12850 3150 12850 3050
-$Comp
-L power:GND #PWR?
-U 1 1 6033C44D
-P 3700 3200
-AR Path="/602E71BC/6033C44D" Ref="#PWR?"  Part="1" 
-AR Path="/6033C44D" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 3700 2950 50  0001 C CNN
-F 1 "GND" H 3850 3150 50  0000 C CNN
-F 2 "" H 3700 3200 50  0001 C CNN
-F 3 "" H 3700 3200 50  0001 C CNN
-	1    3700 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 3200 3700 3150
 Wire Wire Line
 	10600 2800 10500 2800
 Wire Wire Line
@@ -1154,30 +491,8 @@ Wire Wire Line
 	4600 3100 4400 3100
 Wire Wire Line
 	4400 3100 4400 3050
-$Comp
-L power:+3V3 #PWR0135
-U 1 1 60994E6A
-P 4400 2700
-F 0 "#PWR0135" H 4400 2550 50  0001 C CNN
-F 1 "+3V3" H 4415 2873 50  0000 C CNN
-F 2 "" H 4400 2700 50  0001 C CNN
-F 3 "" H 4400 2700 50  0001 C CNN
-	1    4400 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 2750 4400 2700
-$Comp
-L power:+3V3 #PWR0138
-U 1 1 60994E75
-P 4700 2700
-F 0 "#PWR0138" H 4700 2550 50  0001 C CNN
-F 1 "+3V3" H 4715 2873 50  0000 C CNN
-F 2 "" H 4700 2700 50  0001 C CNN
-F 3 "" H 4700 2700 50  0001 C CNN
-	1    4700 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 2700 4700 2800
 Wire Wire Line
@@ -1530,17 +845,6 @@ Wire Wire Line
 Wire Wire Line
 	12450 2550 12450 2500
 $Comp
-L power:+3V3 #PWR0173
-U 1 1 609CB3C7
-P 12450 2500
-F 0 "#PWR0173" H 12450 2350 50  0001 C CNN
-F 1 "+3V3" H 12465 2673 50  0000 C CNN
-F 2 "" H 12450 2500 50  0001 C CNN
-F 3 "" H 12450 2500 50  0001 C CNN
-	1    12450 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED:WS2812B D12
 U 1 1 60A95675
 P 7800 4650
@@ -1570,42 +874,42 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J3
 U 1 1 60AE8AA1
-P 13750 7850
-F 0 "J3" H 13800 8967 50  0000 C CNN
-F 1 "CONN" H 13800 8876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 13750 7850 50  0001 C CNN
-F 3 "~" H 13750 7850 50  0001 C CNN
-F 4 "C124383" H 13750 7850 50  0001 C CNN "LCSC-PN"
-F 5 "C124383" H 13750 7850 50  0001 C CNN "MPN"
-F 6 "Ckmtw(Shenzhen Cankemeng)" H 13750 7850 50  0001 C CNN "Manufacturer"
-	1    13750 7850
+P 12700 7550
+F 0 "J3" H 12750 8667 50  0000 C CNN
+F 1 "CONN" H 12750 8576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 12700 7550 50  0001 C CNN
+F 3 "~" H 12700 7550 50  0001 C CNN
+F 4 "C124383" H 12700 7550 50  0001 C CNN "LCSC-PN"
+F 5 "C124383" H 12700 7550 50  0001 C CNN "MPN"
+F 6 "Ckmtw(Shenzhen Cankemeng)" H 12700 7550 50  0001 C CNN "Manufacturer"
+	1    12700 7550
 	1    0    0    -1  
 $EndComp
-Text Label 13250 7050 0    50   ~ 0
+Text Label 12200 6750 0    50   ~ 0
 SDA
-Text Label 13250 7150 0    50   ~ 0
+Text Label 12200 6850 0    50   ~ 0
 SCL
-Text Label 13250 7750 0    50   ~ 0
+Text Label 12200 7450 0    50   ~ 0
 +3V3
-Text Label 13250 7250 0    50   ~ 0
+Text Label 12200 6950 0    50   ~ 0
 GND
-Text Label 13250 7350 0    50   ~ 0
+Text Label 12200 7050 0    50   ~ 0
 GND
-Text Label 13250 8850 0    50   ~ 0
+Text Label 12200 8550 0    50   ~ 0
 GND
-Text Label 13250 8150 0    50   ~ 0
+Text Label 12200 7850 0    50   ~ 0
 GND
-Text Label 14200 7350 0    50   ~ 0
+Text Label 13150 7050 0    50   ~ 0
 RXD
-Text Label 14200 7250 0    50   ~ 0
+Text Label 13150 6950 0    50   ~ 0
 TXD
-Text Label 13250 7850 0    50   ~ 0
+Text Label 12200 7550 0    50   ~ 0
 MOSI
-Text Label 13250 7950 0    50   ~ 0
+Text Label 12200 7650 0    50   ~ 0
 MISO
-Text Label 13250 8050 0    50   ~ 0
+Text Label 12200 7750 0    50   ~ 0
 SCK
-Text Label 14200 8150 0    50   ~ 0
+Text Label 13150 7850 0    50   ~ 0
 CS
 $Comp
 L Device:Battery_Cell BT2
@@ -1837,7 +1141,7 @@ AR Path="/60BC2706" Ref="#PWR0178"  Part="1"
 AR Path="/5EEADDE8/60BC2706" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60BC2706" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0178" H 3500 4650 50  0001 C CNN
-F 1 "GND" H 3505 4727 50  0000 C CNN
+F 1 "GND" H 3650 4850 50  0000 C CNN
 F 2 "" H 3500 4900 50  0001 C CNN
 F 3 "" H 3500 4900 50  0001 C CNN
 	1    3500 4900
@@ -1874,24 +1178,6 @@ F 3 "" H 1700 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 4550 1700 4650
-$Comp
-L AnthC-Lib-Symbols:1N5820 D?
-U 1 1 60CAF7D2
-P 3650 950
-AR Path="/602E71BC/60CAF7D2" Ref="D?"  Part="1" 
-AR Path="/60CAF7D2" Ref="D14"  Part="1" 
-F 0 "D14" V 3604 1029 50  0000 L CNN
-F 1 "B5819W" H 3650 850 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3650 775 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 3650 950 50  0001 C CNN
-F 4 "B5819W" H 3650 950 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 3650 950 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 3650 950 50  0001 C CNN "LCSC-PN"
-	1    3650 950 
-	-1   0    0    1   
-$EndComp
-Wire Notes Line
-	550  550  4000 550 
 $Comp
 L power:GND #PWR0182
 U 1 1 60E20EAE
@@ -2189,35 +1475,19 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 61424C8C
-P 3700 5350
+P 3500 5350
 AR Path="/602E71BC/61424C8C" Ref="#PWR?"  Part="1" 
 AR Path="/61424C8C" Ref="#PWR0188"  Part="1" 
-F 0 "#PWR0188" H 3700 5200 50  0001 C CNN
-F 1 "+5V" H 3715 5523 50  0000 C CNN
-F 2 "" H 3700 5350 50  0001 C CNN
-F 3 "" H 3700 5350 50  0001 C CNN
-	1    3700 5350
+F 0 "#PWR0188" H 3500 5200 50  0001 C CNN
+F 1 "+5V" H 3515 5523 50  0000 C CNN
+F 2 "" H 3500 5350 50  0001 C CNN
+F 3 "" H 3500 5350 50  0001 C CNN
+	1    3500 5350
 	1    0    0    -1  
 $EndComp
 Connection ~ 2900 5400
-$Comp
-L AnthC-Lib-Symbols:1N5820 D?
-U 1 1 6148A0E3
-P 3550 5400
-AR Path="/602E71BC/6148A0E3" Ref="D?"  Part="1" 
-AR Path="/6148A0E3" Ref="D13"  Part="1" 
-F 0 "D13" V 3504 5479 50  0000 L CNN
-F 1 "B5819W" H 3450 5300 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3550 5225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 3550 5400 50  0001 C CNN
-F 4 "B5819W" H 3550 5400 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 3550 5400 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 3550 5400 50  0001 C CNN "LCSC-PN"
-	1    3550 5400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	3700 5400 3700 5350
+	3500 5400 3500 5350
 Text Notes 650  3650 0    50   ~ 0
 BATTERY CHARGING SYSTEM
 Wire Notes Line
@@ -2229,15 +1499,15 @@ Wire Notes Line
 Wire Notes Line
 	550  6550 550  3500
 Wire Wire Line
-	14050 7250 14200 7250
+	13000 6950 13150 6950
 Wire Wire Line
-	14050 7350 14200 7350
+	13000 7050 13150 7050
 Wire Wire Line
-	14050 7450 14200 7450
+	13000 7150 13150 7150
 Wire Wire Line
-	14050 8750 14200 8750
+	13000 8450 13150 8450
 Wire Wire Line
-	14050 8850 14200 8850
+	13000 8550 13150 8550
 $Comp
 L power:+5V #PWR0189
 U 1 1 61EB7893
@@ -2405,28 +1675,12 @@ F 12 "RC0603FR-0710KL" H 8000 6550 50  0001 C CNN "MPN"
 $EndComp
 Text Label 12500 1150 0    50   ~ 0
 AIN0
-$Comp
-L AnthC-Lib-Symbols:1N5820 D?
-U 1 1 60C24816
-P 3700 3000
-AR Path="/602E71BC/60C24816" Ref="D?"  Part="1" 
-AR Path="/60C24816" Ref="D9"  Part="1" 
-F 0 "D9" V 3654 3079 50  0000 L CNN
-F 1 "B5819W" H 3600 2900 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3700 2825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 3700 3000 50  0001 C CNN
-F 4 "B5819W" H 3700 3000 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 3700 3000 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 3700 3000 50  0001 C CNN "LCSC-PN"
-	1    3700 3000
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	550  3450 4000 3450
 Wire Notes Line
-	4000 550  4000 3450
+	4000 500  4000 3450
 Wire Notes Line
-	550  550  550  3450
+	550  500  550  3450
 Text Label 14150 1050 0    50   ~ 0
 AIN2
 Text Label 12050 850  1    50   ~ 0
@@ -2437,31 +1691,6 @@ Text Label 12250 850  1    50   ~ 0
 AIN2
 Text Label 12350 850  1    50   ~ 0
 AIN3
-$Comp
-L Capacitor_1206:47uF C?
-U 1 1 6164ED02
-P 750 2750
-AR Path="/602E71BC/6164ED02" Ref="C?"  Part="1" 
-AR Path="/6164ED02" Ref="C3"  Part="1" 
-F 0 "C3" H 600 2850 50  0000 L CNN
-F 1 "47uF" H 550 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1400 3000 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 750 2750 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 1050 3400 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" H 2450 2900 50  0001 C CNN "Description"
-F 6 "X5R" H 1350 2800 50  0001 C CNN "Dielectric"
-F 7 "CL31A476MPHNNNE" H 1350 3300 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 1800 2800 50  0001 C CNN "Price"
-F 9 "Mouser" H 1050 3200 50  0001 C CNN "Supplier"
-F 10 "187-CL31A476MPHNNNE" H 1600 3100 50  0001 C CNN "Supplier Nr."
-F 11 "20%" H 1050 2700 50  0001 C CNN "Tolerance"
-F 12 "10V" H 1050 2800 50  0001 C CNN "Voltage"
-F 13 "CL31A476MPHNNNE" H 750 2750 50  0001 C CNN "MPN"
-	1    750  2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	750  2350 750  2600
 $Comp
 L Capacitors_0603:100nF C14
 U 1 1 6169CD2F
@@ -2510,29 +1739,6 @@ F 13 "CL31B106KBHNNNE" H 7750 1000 50  0001 C CNN "MPN"
 	1    7750 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Capacitor_1206:47uF C?
-U 1 1 616A19DB
-P 1700 2750
-AR Path="/602E71BC/616A19DB" Ref="C?"  Part="1" 
-AR Path="/616A19DB" Ref="C4"  Part="1" 
-F 0 "C4" H 1550 2850 50  0000 L CNN
-F 1 "47uF" H 1450 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2350 3000 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 1700 2750 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 2000 3400 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" H 3400 2900 50  0001 C CNN "Description"
-F 6 "X5R" H 2300 2800 50  0001 C CNN "Dielectric"
-F 7 "CL31A476MPHNNNE" H 2300 3300 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 2750 2800 50  0001 C CNN "Price"
-F 9 "Mouser" H 2000 3200 50  0001 C CNN "Supplier"
-F 10 "187-CL31A476MPHNNNE" H 2550 3100 50  0001 C CNN "Supplier Nr."
-F 11 "20%" H 2000 2700 50  0001 C CNN "Tolerance"
-F 12 "10V" H 2000 2800 50  0001 C CNN "Voltage"
-F 13 "CL31A476MPHNNNE" H 1700 2750 50  0001 C CNN "MPN"
-	1    1700 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7750 850  7750 800 
 $Comp
@@ -2553,65 +1759,6 @@ Wire Wire Line
 	7750 1150 7750 1250
 Wire Wire Line
 	7750 1250 7600 1250
-$Comp
-L Capacitors_0603:100nF C?
-U 1 1 6198D738
-P 2650 2800
-AR Path="/602E71BC/6198D738" Ref="C?"  Part="1" 
-AR Path="/6198D738" Ref="C31"  Part="1" 
-F 0 "C31" H 2450 2900 50  0000 L CNN
-F 1 "100nF" H 2675 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4050 3000 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2650 2800 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3750 3150 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 5100 2900 50  0001 C CNN "Description"
-F 6 "X7R" H 3050 2750 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 3200 3150 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 4000 3150 50  0001 C CNN "Price"
-F 9 "Digikey" H 3000 2950 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 3200 3050 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 4700 3000 50  0001 C CNN "Tolerance"
-F 12 "50V" H 2950 2850 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 2650 2800 50  0001 C CNN "MPN"
-	1    2650 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Capacitor_1206:10uF C?
-U 1 1 61992C96
-P 2300 2800
-AR Path="/602E71BC/61992C96" Ref="C?"  Part="1" 
-AR Path="/61992C96" Ref="C24"  Part="1" 
-F 0 "C24" H 2350 2900 50  0000 L CNN
-F 1 "10uF" H 2100 2900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3600 3000 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 2300 2800 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3400 3750 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3216" H 4000 2950 50  0001 C CNN "Description"
-F 6 "X7R" H 2900 2850 50  0001 C CNN "Dielectric"
-F 7 "CL31B106KBHNNNE" H 3350 3300 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 3350 2850 50  0001 C CNN "Price"
-F 9 "Mouser" H 3100 3200 50  0001 C CNN "Supplier"
-F 10 "187-CL31B106KBHNNNE" H 3150 3150 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 2600 2750 50  0001 C CNN "Tolerance"
-F 12 "50V" H 2600 2850 50  0001 C CNN "Voltage"
-F 13 "CL31B106KBHNNNE" H 2300 2800 50  0001 C CNN "MPN"
-	1    2300 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 619D1386
-P 2300 3000
-AR Path="/602E71BC/619D1386" Ref="#PWR?"  Part="1" 
-AR Path="/619D1386" Ref="#PWR0142"  Part="1" 
-F 0 "#PWR0142" H 2300 2750 50  0001 C CNN
-F 1 "GND" H 2305 2827 50  0000 C CNN
-F 2 "" H 2300 3000 50  0001 C CNN
-F 3 "" H 2300 3000 50  0001 C CNN
-	1    2300 3000
-	1    0    0    -1  
-$EndComp
 Text Label 11300 5050 0    50   ~ 0
 O14
 Text Label 11300 4950 0    50   ~ 0
@@ -2622,17 +1769,17 @@ Text Label 11300 4750 0    50   ~ 0
 O25
 Text Label 11300 4650 0    50   ~ 0
 O33
-Text Label 14200 8650 0    50   ~ 0
+Text Label 13150 8350 0    50   ~ 0
 O12
-Text Label 13250 8550 0    50   ~ 0
+Text Label 12200 8250 0    50   ~ 0
 O14
-Text Label 13250 8450 0    50   ~ 0
+Text Label 12200 8150 0    50   ~ 0
 O27
-Text Label 14200 8450 0    50   ~ 0
+Text Label 13150 8150 0    50   ~ 0
 O26
-Text Label 13250 8350 0    50   ~ 0
+Text Label 12200 8050 0    50   ~ 0
 O25
-Text Label 13250 8250 0    50   ~ 0
+Text Label 12200 7950 0    50   ~ 0
 O33
 $Comp
 L Diode:BAT54S D6
@@ -2920,9 +2067,9 @@ Wire Wire Line
 	8050 2150 8650 2150
 Text Label 1100 9200 0    50   ~ 0
 I39
-Text Label 13250 7450 0    50   ~ 0
+Text Label 12200 7150 0    50   ~ 0
 RESET
-Text Label 13250 7550 0    50   ~ 0
+Text Label 12200 7250 0    50   ~ 0
 GPIO0
 Wire Wire Line
 	2150 9700 2200 9700
@@ -2940,21 +2087,21 @@ Text Label 1500 8500 0    50   ~ 0
 DI36
 Wire Wire Line
 	1000 8500 1050 8500
-Text Label 14200 8050 0    50   ~ 0
+Text Label 13150 7750 0    50   ~ 0
 DI35
-Text Label 14200 7950 0    50   ~ 0
+Text Label 13150 7650 0    50   ~ 0
 DI34
-Text Label 14200 7750 0    50   ~ 0
+Text Label 13150 7450 0    50   ~ 0
 DI39
-Text Label 13250 7650 0    50   ~ 0
+Text Label 12200 7350 0    50   ~ 0
 DI36
-Text Label 14200 8750 0    50   ~ 0
+Text Label 13150 8450 0    50   ~ 0
 AIN0
-Text Label 14200 8850 0    50   ~ 0
+Text Label 13150 8550 0    50   ~ 0
 AIN1
-Text Label 13250 8750 0    50   ~ 0
+Text Label 12200 8450 0    50   ~ 0
 AIN2
-Text Label 13250 8650 0    50   ~ 0
+Text Label 12200 8350 0    50   ~ 0
 AIN3
 $Comp
 L Capacitors_0603:100nF C23
@@ -3010,14 +2157,10 @@ F 3 "" H 12250 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 7050 10150 7050
-Wire Wire Line
-	10150 6950 9950 6950
-Wire Wire Line
-	9950 6850 10150 6850
-Text Label 10150 6850 2    50   ~ 0
+	1000 2100 1100 2100
+Text Label 1200 1900 2    50   ~ 0
 RX25
-Text Label 10150 6950 2    50   ~ 0
+Text Label 1200 2000 2    50   ~ 0
 TX25
 $Comp
 L Processors:ESP32-S2-SOLO U6
@@ -3035,40 +2178,40 @@ F 8 "356-ESP32-S2-SOLO-N4" H 12350 3300 50  0001 C CNN "Supplier Part Number"
 	1    9600 2150
 	1    0    0    -1  
 $EndComp
-Text Label 14200 7450 0    50   ~ 0
+Text Label 13150 7150 0    50   ~ 0
 IO4
 $Comp
 L Connectors:1x02 J2
 U 1 1 60746D2F
-P 6750 1250
+P 6350 1250
 AR Path="/60746D2F" Ref="J2"  Part="1" 
 AR Path="/5EEADDE8/60746D2F" Ref="J?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D2F" Ref="J?"  Part="1" 
-F 0 "J2" H 6830 1242 50  0000 L CNN
-F 1 "1x02" H 6750 1050 50  0000 C CNN
-F 2 "" H 6750 1250 50  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/691312510002.pdf" H 6750 1250 50  0001 C CNN
-F 4 "691312510002" H 7750 1650 50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 7100 1650 50  0001 C CNN "Manufacturer"
-F 6 "0.274" H 6900 1550 50  0001 C CNN "Price"
-F 7 "Mouser" H 6950 1750 50  0001 C CNN "Supplier"
-F 8 "710-691312510002" H 7850 1750 50  0001 C CNN "Supplier Part Number"
-	1    6750 1250
+F 0 "J2" H 6430 1242 50  0000 L CNN
+F 1 "1x02" H 6350 1050 50  0000 C CNN
+F 2 "" H 6350 1250 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/691312510002.pdf" H 6350 1250 50  0001 C CNN
+F 4 "691312510002" H 7350 1650 50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 6700 1650 50  0001 C CNN "Manufacturer"
+F 6 "0.274" H 6500 1550 50  0001 C CNN "Price"
+F 7 "Mouser" H 6550 1750 50  0001 C CNN "Supplier"
+F 8 "710-691312510002" H 7450 1750 50  0001 C CNN "Supplier Part Number"
+	1    6350 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connectors:1x04 J13
 U 1 1 609D9526
-P 9750 6850
-F 0 "J13" H 9830 6842 50  0000 L CNN
-F 1 "1x04" H 9750 6550 50  0000 C CNN
-F 2 "" H 9750 6850 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/445/691312510004-1719616.pdf" H 9750 6850 50  0001 C CNN
-F 4 "691312510004" H 10950 7550 50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 10300 7550 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 10150 7450 50  0001 C CNN "Supplier"
-F 7 "710-691312510004" H 11050 7450 50  0001 C CNN "Supplier Part Number"
-	1    9750 6850
+P 800 1900
+F 0 "J13" H 880 1892 50  0000 L CNN
+F 1 "1x04" H 800 1600 50  0000 C CNN
+F 2 "" H 800 1900 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/445/691312510004-1719616.pdf" H 800 1900 50  0001 C CNN
+F 4 "691312510004" H 2000 2600 50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 1350 2600 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1200 2500 50  0001 C CNN "Supplier"
+F 7 "710-691312510004" H 2100 2500 50  0001 C CNN "Supplier Part Number"
+	1    800  1900
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -3186,102 +2329,37 @@ F 3 "" H 9450 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR0108
-U 1 1 60DEE663
-P 9750 7650
-F 0 "#PWR0108" H 9750 7500 50  0001 C CNN
-F 1 "+5VD" H 9765 7823 50  0000 C CNN
-F 2 "" H 9750 7650 50  0001 C CNN
-F 3 "" H 9750 7650 50  0001 C CNN
-	1    9750 7650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connectors:01x03 J5
 U 1 1 60DF28AE
-P 10750 7650
+P 800 950
 AR Path="/60DF28AE" Ref="J5"  Part="1" 
 AR Path="/5EEADDE8/60DF28AE" Ref="J?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60DF28AE" Ref="J?"  Part="1" 
-F 0 "J5" H 10830 7642 50  0000 L CNN
-F 1 "01x03" H 10750 7450 50  0000 C CNN
-F 2 "" H 10750 7650 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/445/691312510003-1719552.pdf" H 10750 7650 50  0001 C CNN
-F 4 "691312510003" H 12000 8100 50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 11350 8100 50  0001 C CNN "Manufacturer"
-F 6 "0.411" H 11200 7900 50  0001 C CNN "Price"
-F 7 "Mouser" H 11200 8000 50  0001 C CNN "Supplier"
-F 8 "710-691312510003" H 12100 8000 50  0001 C CNN "Supplier Part Number"
-	1    10750 7650
-	1    0    0    -1  
+F 0 "J5" H 880 942 50  0000 L CNN
+F 1 "01x03" H 800 750 50  0000 C CNN
+F 2 "" H 800 950 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/445/691312510003-1719552.pdf" H 800 950 50  0001 C CNN
+F 4 "691312510003" H 2050 1400 50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 1400 1400 50  0001 C CNN "Manufacturer"
+F 6 "0.411" H 1250 1200 50  0001 C CNN "Price"
+F 7 "Mouser" H 1250 1300 50  0001 C CNN "Supplier"
+F 8 "710-691312510003" H 2150 1300 50  0001 C CNN "Supplier Part Number"
+	1    800  950 
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR?
 U 1 1 60E32702
-P 10350 7550
+P 1500 750
 AR Path="/602E71BC/60E32702" Ref="#PWR?"  Part="1" 
 AR Path="/60E32702" Ref="#PWR0209"  Part="1" 
-F 0 "#PWR0209" H 10350 7450 50  0001 C CNN
-F 1 "VDD" H 10350 7700 50  0000 C CNN
-F 2 "" H 10350 7550 50  0001 C CNN
-F 3 "" H 10350 7550 50  0001 C CNN
-	1    10350 7550
-	1    0    0    -1  
+F 0 "#PWR0209" H 1500 650 50  0001 C CNN
+F 1 "VDD" H 1500 900 50  0000 C CNN
+F 2 "" H 1500 750 50  0001 C CNN
+F 3 "" H 1500 750 50  0001 C CNN
+	1    1500 750 
+	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60E32A72
-P 10450 7800
-AR Path="/602E71BC/60E32A72" Ref="#PWR?"  Part="1" 
-AR Path="/60E32A72" Ref="#PWR0210"  Part="1" 
-F 0 "#PWR0210" H 10450 7550 50  0001 C CNN
-F 1 "GND" H 10455 7627 50  0000 C CNN
-F 2 "" H 10450 7800 50  0001 C CNN
-F 3 "" H 10450 7800 50  0001 C CNN
-	1    10450 7800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 7750 10450 7750
-Wire Wire Line
-	10450 7750 10450 7800
-$Comp
-L AnthC-Lib-Symbols:1N5820 D?
-U 1 1 60EF5D88
-P 3300 3000
-AR Path="/602E71BC/60EF5D88" Ref="D?"  Part="1" 
-AR Path="/60EF5D88" Ref="D18"  Part="1" 
-F 0 "D18" V 3254 3079 50  0000 L CNN
-F 1 "B5819W" H 3200 2900 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3300 2825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 3300 3000 50  0001 C CNN
-F 4 "B5819W" H 3300 3000 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 3300 3000 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 3300 3000 50  0001 C CNN "LCSC-PN"
-	1    3300 3000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3700 2850 3700 2750
-Wire Wire Line
-	3700 2400 3700 2350
-$Comp
-L power:GND #PWR?
-U 1 1 61037DED
-P 3300 3200
-AR Path="/602E71BC/61037DED" Ref="#PWR?"  Part="1" 
-AR Path="/61037DED" Ref="#PWR0212"  Part="1" 
-F 0 "#PWR0212" H 3300 2950 50  0001 C CNN
-F 1 "GND" H 3450 3150 50  0000 C CNN
-F 2 "" H 3300 3200 50  0001 C CNN
-F 3 "" H 3300 3200 50  0001 C CNN
-	1    3300 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 2700 3300 2750
-Wire Wire Line
-	3300 3200 3300 3150
 $Comp
 L Capacitors_0603:100nF C33
 U 1 1 611004F9
@@ -3314,53 +2392,6 @@ Wire Notes Line
 	8500 5300 7000 5300
 Wire Notes Line
 	7000 5300 7000 4000
-$Comp
-L power:+5VD #PWR0211
-U 1 1 60B0188B
-P 3300 2350
-F 0 "#PWR0211" H 3300 2200 50  0001 C CNN
-F 1 "+5VD" H 3315 2523 50  0000 C CNN
-F 2 "" H 3300 2350 50  0001 C CNN
-F 3 "" H 3300 2350 50  0001 C CNN
-	1    3300 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L AnthC-Lib-Symbols:1N5820 D?
-U 1 1 60B02058
-P 3300 2550
-AR Path="/602E71BC/60B02058" Ref="D?"  Part="1" 
-AR Path="/60B02058" Ref="D19"  Part="1" 
-F 0 "D19" V 3254 2629 50  0000 L CNN
-F 1 "B5819W" H 3200 2450 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3300 2375 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 3300 2550 50  0001 C CNN
-F 4 "B5819W" H 3300 2550 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 3300 2550 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 3300 2550 50  0001 C CNN "LCSC-PN"
-	1    3300 2550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3300 2400 3300 2350
-$Comp
-L power:+5V #PWR?
-U 1 1 60B43392
-P 2950 2650
-AR Path="/602E71BC/60B43392" Ref="#PWR?"  Part="1" 
-AR Path="/60B43392" Ref="#PWR0213"  Part="1" 
-F 0 "#PWR0213" H 2950 2500 50  0001 C CNN
-F 1 "+5V" H 2965 2823 50  0000 C CNN
-F 2 "" H 2950 2650 50  0001 C CNN
-F 3 "" H 2950 2650 50  0001 C CNN
-	1    2950 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 2650 2950 2750
-Connection ~ 3300 2750
-Wire Wire Line
-	3300 2750 3300 2850
 Text Label 10950 2500 0    50   ~ 0
 IO4
 Text Label 10050 3250 0    50   ~ 0
@@ -3452,7 +2483,7 @@ F 13 "CL10B104KB8NNNC" H 5050 5050 50  0001 C CNN "MPN"
 	1    5050 5050
 	1    0    0    -1  
 $EndComp
-Text Label 14200 7650 0    50   ~ 0
+Text Label 13150 7350 0    50   ~ 0
 IO2
 $Comp
 L Resistor_0603:2KΩ R?
@@ -3730,10 +2761,6 @@ F 12 "CR0603-FX-2001ELF" H 2450 9700 50  0001 C CNN "MPN"
 	1    2450 9700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1850 1600 1850 1750
-Wire Wire Line
-	1750 1600 1750 1750
 Wire Notes Line
 	550  6600 2950 6600
 Wire Notes Line
@@ -3747,8 +2774,8 @@ REAL TIME CLOCK
 Text Notes 600  6750 0    50   ~ 0
 DIGITAL INPUTS
 Wire Wire Line
-	6550 1350 6550 1550
-Text Label 14200 8250 0    50   ~ 0
+	6150 1350 6150 1550
+Text Label 13150 7950 0    50   ~ 0
 COM
 Wire Notes Line
 	9250 6250 16000 6250
@@ -3758,8 +2785,6 @@ Wire Notes Line
 	16000 9800 9250 9800
 Wire Notes Line
 	9250 9800 9250 6250
-Text Notes 9300 6450 0    50   ~ 0
-CONNECTORS
 Text Label 11300 4450 0    50   ~ 0
 COM
 Text Notes 11900 650  0    50   ~ 0
@@ -3842,8 +2867,8 @@ P 3300 5800
 AR Path="/6114E901" Ref="C41"  Part="1" 
 AR Path="/5EEADDE8/6114E901" Ref="C?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/6114E901" Ref="C?"  Part="1" 
-F 0 "C41" H 3100 5850 50  0000 L CNN
-F 1 "10uF" H 3325 5700 50  0000 L CNN
+F 0 "C41" H 3150 5900 50  0000 L CNN
+F 1 "10uF" H 3100 5700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4600 6000 50  0001 C CNN
 F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 3300 5800 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 4400 6750 50  0001 C CNN "Manufacturer"
@@ -3862,22 +2887,20 @@ $EndComp
 Wire Wire Line
 	3300 5650 3300 5400
 Wire Wire Line
-	3300 5400 3400 5400
-Wire Wire Line
 	2900 5400 3300 5400
 Connection ~ 3300 5400
 $Comp
 L power:GND #PWR0232
 U 1 1 611F7E53
-P 3300 5950
+P 3550 6250
 AR Path="/611F7E53" Ref="#PWR0232"  Part="1" 
 AR Path="/5EEADDE8/611F7E53" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/611F7E53" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0232" H 3300 5700 50  0001 C CNN
-F 1 "GND" H 3305 5777 50  0000 C CNN
-F 2 "" H 3300 5950 50  0001 C CNN
-F 3 "" H 3300 5950 50  0001 C CNN
-	1    3300 5950
+F 0 "#PWR0232" H 3550 6000 50  0001 C CNN
+F 1 "GND" H 3555 6077 50  0000 C CNN
+F 2 "" H 3550 6250 50  0001 C CNN
+F 3 "" H 3550 6250 50  0001 C CNN
+	1    3550 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3950,17 +2973,6 @@ F 3 "" H 14150 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14150 5200 14150 5150
-$Comp
-L power:+3V3 #PWR044
-U 1 1 61E1C244
-P 14150 3550
-F 0 "#PWR044" H 14150 3400 50  0001 C CNN
-F 1 "+3V3" H 14165 3723 50  0000 C CNN
-F 2 "" H 14150 3550 50  0001 C CNN
-F 3 "" H 14150 3550 50  0001 C CNN
-	1    14150 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14050 3650 14050 3550
 Wire Wire Line
@@ -4006,17 +3018,6 @@ Text Label 15000 4750 0    50   ~ 0
 SCK
 Text Label 15000 4200 0    50   ~ 0
 MISO
-$Comp
-L power:+3V3 #PWR048
-U 1 1 6239AA96
-P 15350 3900
-F 0 "#PWR048" H 15350 3750 50  0001 C CNN
-F 1 "+3V3" H 15365 4073 50  0000 C CNN
-F 2 "" H 15350 3900 50  0001 C CNN
-F 3 "" H 15350 3900 50  0001 C CNN
-	1    15350 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15350 3950 15350 3900
 Wire Wire Line
@@ -4750,9 +3751,9 @@ Connection ~ 12200 1950
 Wire Wire Line
 	12200 1950 12250 1950
 Wire Wire Line
-	6100 1250 6300 1250
+	5700 1250 5900 1250
 Wire Wire Line
-	6100 1550 6300 1550
+	5700 1550 5900 1550
 $Comp
 L Connectors:USB_C_Receptacle_USB2.0 J1
 U 1 1 617194FC
@@ -4889,367 +3890,354 @@ Wire Notes Line
 $Comp
 L power:+3V3 #PWR042
 U 1 1 625AB618
-P 13050 6950
-F 0 "#PWR042" H 13050 6800 50  0001 C CNN
-F 1 "+3V3" H 13065 7123 50  0000 C CNN
-F 2 "" H 13050 6950 50  0001 C CNN
-F 3 "" H 13050 6950 50  0001 C CNN
-	1    13050 6950
+P 12000 6650
+F 0 "#PWR042" H 12000 6500 50  0001 C CNN
+F 1 "+3V3" H 12015 6823 50  0000 C CNN
+F 2 "" H 12000 6650 50  0001 C CNN
+F 3 "" H 12000 6650 50  0001 C CNN
+	1    12000 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13050 7750 13050 6950
+	12000 7450 12000 6650
 Wire Wire Line
-	13050 7750 13550 7750
-Connection ~ 13050 6950
+	12000 7450 12500 7450
+Connection ~ 12000 6650
 Wire Wire Line
-	12900 7350 12900 7250
+	11850 7050 11850 6950
 Wire Wire Line
-	12900 7250 13550 7250
+	11850 6950 12500 6950
 Wire Wire Line
-	12900 7350 13550 7350
+	11850 7050 12500 7050
 Wire Wire Line
-	13050 6950 13550 6950
-Connection ~ 12900 7350
+	12000 6650 12500 6650
+Connection ~ 11850 7050
 $Comp
 L power:GND #PWR041
 U 1 1 626DF843
-P 12900 8850
-F 0 "#PWR041" H 12900 8600 50  0001 C CNN
-F 1 "GND" H 12900 8700 50  0000 C CNN
-F 2 "" H 12900 8850 50  0001 C CNN
-F 3 "" H 12900 8850 50  0001 C CNN
-	1    12900 8850
+P 11850 8550
+F 0 "#PWR041" H 11850 8300 50  0001 C CNN
+F 1 "GND" H 11850 8400 50  0000 C CNN
+F 2 "" H 11850 8550 50  0001 C CNN
+F 3 "" H 11850 8550 50  0001 C CNN
+	1    11850 8550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12900 8150 13550 8150
+	11850 7850 12500 7850
 Wire Wire Line
-	12900 7350 12900 8150
+	11850 7050 11850 7850
 Wire Wire Line
-	12900 8150 12900 8850
+	11850 7850 11850 8550
 Wire Wire Line
-	12900 8850 13550 8850
-Connection ~ 12900 8150
-Connection ~ 12900 8850
+	11850 8550 12500 8550
+Connection ~ 11850 7850
+Connection ~ 11850 8550
 $Comp
 L power:GND #PWR047
 U 1 1 627CB7E4
-P 14450 8850
-F 0 "#PWR047" H 14450 8600 50  0001 C CNN
-F 1 "GND" H 14450 8700 50  0000 C CNN
-F 2 "" H 14450 8850 50  0001 C CNN
-F 3 "" H 14450 8850 50  0001 C CNN
-	1    14450 8850
+P 13400 8550
+F 0 "#PWR047" H 13400 8300 50  0001 C CNN
+F 1 "GND" H 13400 8400 50  0000 C CNN
+F 2 "" H 13400 8550 50  0001 C CNN
+F 3 "" H 13400 8550 50  0001 C CNN
+	1    13400 8550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14450 8350 14450 8550
+	13400 8050 13400 8250
 Wire Wire Line
-	14050 8350 14450 8350
+	13000 8050 13400 8050
 Wire Wire Line
-	14050 7550 14450 7550
-Connection ~ 14450 8350
+	13000 7250 13400 7250
+Connection ~ 13400 8050
 Wire Wire Line
-	14050 7150 14450 7150
+	13000 6850 13400 6850
 Wire Wire Line
-	14450 7150 14450 7550
-Connection ~ 14450 7550
+	13400 6850 13400 7250
+Connection ~ 13400 7250
 Wire Wire Line
-	14450 7550 14450 7850
+	13400 7250 13400 7550
 Wire Wire Line
-	14050 7850 14450 7850
-Connection ~ 14450 7850
+	13000 7550 13400 7550
+Connection ~ 13400 7550
 Wire Wire Line
-	14450 7850 14450 8350
-Connection ~ 14450 8550
+	13400 7550 13400 8050
+Connection ~ 13400 8250
 Wire Wire Line
-	14450 8550 14450 8850
+	13400 8250 13400 8550
 Wire Wire Line
-	14050 8550 14450 8550
-$Comp
-L power:+5V #PWR?
-U 1 1 629EBB1F
-P 14400 6900
-AR Path="/602E71BC/629EBB1F" Ref="#PWR?"  Part="1" 
-AR Path="/629EBB1F" Ref="#PWR046"  Part="1" 
-F 0 "#PWR046" H 14400 6750 50  0001 C CNN
-F 1 "+5V" H 14415 7073 50  0000 C CNN
-F 2 "" H 14400 6900 50  0001 C CNN
-F 3 "" H 14400 6900 50  0001 C CNN
-	1    14400 6900
-	1    0    0    -1  
-$EndComp
+	13000 8250 13400 8250
 Wire Wire Line
-	14050 6950 14400 6950
+	13000 6650 13350 6650
 Wire Wire Line
-	14400 6950 14400 6900
+	13350 6650 13350 6600
 Wire Wire Line
-	14400 7050 14400 6950
+	13350 6750 13350 6650
 Wire Wire Line
-	14050 7050 14400 7050
-Connection ~ 14400 6950
+	13000 6750 13350 6750
+Connection ~ 13350 6650
 Wire Wire Line
-	13250 8750 13550 8750
+	12200 8450 12500 8450
 Wire Wire Line
-	13250 8650 13550 8650
+	12200 8350 12500 8350
 Wire Wire Line
-	12050 7050 13550 7050
+	11000 6750 12500 6750
 Wire Wire Line
-	12150 7150 12150 7250
+	11100 6850 11100 6950
 Wire Wire Line
-	12150 7250 12050 7250
+	11100 6950 11000 6950
 Wire Wire Line
-	12150 7150 13550 7150
+	11100 6850 12500 6850
 Wire Wire Line
-	12050 7450 13550 7450
+	11000 7150 12500 7150
 Wire Wire Line
-	12100 7550 12100 7650
+	11050 7250 11050 7350
 Wire Wire Line
-	12100 7650 12050 7650
+	11050 7350 11000 7350
 Wire Wire Line
-	12100 7550 13550 7550
+	11050 7250 12500 7250
 $Comp
 L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D15
 U 1 1 620CE3EF
-P 11650 8300
-F 0 "D15" H 11350 8000 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 11200 8000 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 9875 9200 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 9875 9300 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 9875 9400 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 9875 9500 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 9875 9600 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 9875 9700 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 9875 9800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 9875 9900 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 9875 10000 60  0001 L CNN "Description"
-F 11 "Nexperia" H 9875 10100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9875 10200 60  0001 L CNN "Status"
-	1    11650 8300
+P 10600 8000
+F 0 "D15" H 10300 7700 60  0000 L CNN
+F 1 "PESD3V3L4UW" V 10150 7700 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-665" H 8825 8900 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 9000 60  0001 L CNN
+F 4 "1727-5790-1-ND" H 8825 9100 60  0001 L CNN "Digi-Key_PN"
+F 5 "PESD3V3L4UW,115" H 8825 9200 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 8825 9300 60  0001 L CNN "Category"
+F 7 "ESD - Diodes" H 8825 9400 60  0001 L CNN "Family"
+F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 9500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 8825 9600 60  0001 L CNN "DK_Detail_Page"
+F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 8825 9700 60  0001 L CNN "Description"
+F 11 "Nexperia" H 8825 9800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8825 9900 60  0001 L CNN "Status"
+	1    10600 8000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12150 7650 12150 8000
+	11100 7350 11100 7700
 Wire Wire Line
-	12150 8000 12050 8000
+	11100 7700 11000 7700
 Wire Wire Line
-	12150 7650 13550 7650
+	11100 7350 12500 7350
 Wire Wire Line
-	12200 7850 12200 8200
+	11150 7550 11150 7900
 Wire Wire Line
-	12200 8200 12050 8200
+	11150 7900 11000 7900
 Wire Wire Line
-	12200 7850 13550 7850
+	11150 7550 12500 7550
 Wire Wire Line
-	12250 7950 12250 8400
+	11200 7650 11200 8100
 Wire Wire Line
-	12250 8400 12050 8400
+	11200 8100 11000 8100
 Wire Wire Line
-	12250 7950 13550 7950
+	11200 7650 12500 7650
 Wire Wire Line
-	12300 8050 12300 8600
+	11250 7750 11250 8300
 Wire Wire Line
-	12300 8600 12050 8600
+	11250 8300 11000 8300
 Wire Wire Line
-	12300 8050 13550 8050
+	11250 7750 12500 7750
 $Comp
 L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D17
 U 1 1 622F4D4A
-P 11650 9300
-F 0 "D17" H 11200 9800 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 11200 9000 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 9875 10200 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 9875 10300 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 9875 10400 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 9875 10500 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 9875 10600 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 9875 10700 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 9875 10800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 9875 10900 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 9875 11000 60  0001 L CNN "Description"
-F 11 "Nexperia" H 9875 11100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9875 11200 60  0001 L CNN "Status"
-	1    11650 9300
+P 10600 9000
+F 0 "D17" H 10150 9500 60  0000 L CNN
+F 1 "PESD3V3L4UW" V 10150 8700 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-665" H 8825 9900 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 10000 60  0001 L CNN
+F 4 "1727-5790-1-ND" H 8825 10100 60  0001 L CNN "Digi-Key_PN"
+F 5 "PESD3V3L4UW,115" H 8825 10200 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 8825 10300 60  0001 L CNN "Category"
+F 7 "ESD - Diodes" H 8825 10400 60  0001 L CNN "Family"
+F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 10500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 8825 10600 60  0001 L CNN "DK_Detail_Page"
+F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 8825 10700 60  0001 L CNN "Description"
+F 11 "Nexperia" H 8825 10800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8825 10900 60  0001 L CNN "Status"
+	1    10600 9000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12650 8550 12650 9600
+	11600 8250 11600 9300
 Wire Wire Line
-	12650 9600 12050 9600
+	11600 9300 11000 9300
 Wire Wire Line
-	12650 8550 13550 8550
+	11600 8250 12500 8250
 Wire Wire Line
-	12550 8450 12550 9400
+	11500 8150 11500 9100
 Wire Wire Line
-	12550 9400 12050 9400
+	11500 9100 11000 9100
 Wire Wire Line
-	12550 8450 13550 8450
+	11500 8150 12500 8150
 Wire Wire Line
-	12500 8350 12500 9200
+	11450 8050 11450 8900
 Wire Wire Line
-	12500 9200 12050 9200
+	11450 8900 11000 8900
 Wire Wire Line
-	12500 8350 13550 8350
+	11450 8050 12500 8050
 Wire Wire Line
-	12400 8250 12400 9000
+	11350 7950 11350 8700
 Wire Wire Line
-	12400 9000 12050 9000
+	11350 8700 11000 8700
 Wire Wire Line
-	12400 8250 13550 8250
+	11350 7950 12500 7950
 $Comp
 L power:GND #PWR036
 U 1 1 6260E68F
-P 11150 9300
-F 0 "#PWR036" H 11150 9050 50  0001 C CNN
-F 1 "GND" H 11150 9150 50  0000 C CNN
-F 2 "" H 11150 9300 50  0001 C CNN
-F 3 "" H 11150 9300 50  0001 C CNN
-	1    11150 9300
+P 10100 9000
+F 0 "#PWR036" H 10100 8750 50  0001 C CNN
+F 1 "GND" H 10100 8850 50  0000 C CNN
+F 2 "" H 10100 9000 50  0001 C CNN
+F 3 "" H 10100 9000 50  0001 C CNN
+	1    10100 9000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR035
 U 1 1 6260EB89
-P 11150 8350
-F 0 "#PWR035" H 11150 8100 50  0001 C CNN
-F 1 "GND" H 11150 8200 50  0000 C CNN
-F 2 "" H 11150 8350 50  0001 C CNN
-F 3 "" H 11150 8350 50  0001 C CNN
-	1    11150 8350
+P 10100 8050
+F 0 "#PWR035" H 10100 7800 50  0001 C CNN
+F 1 "GND" H 10100 7900 50  0000 C CNN
+F 2 "" H 10100 8050 50  0001 C CNN
+F 3 "" H 10100 8050 50  0001 C CNN
+	1    10100 8050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR034
 U 1 1 6260EECC
-P 11150 7400
-F 0 "#PWR034" H 11150 7150 50  0001 C CNN
-F 1 "GND" H 11150 7250 50  0000 C CNN
-F 2 "" H 11150 7400 50  0001 C CNN
-F 3 "" H 11150 7400 50  0001 C CNN
-	1    11150 7400
+P 10100 7100
+F 0 "#PWR034" H 10100 6850 50  0001 C CNN
+F 1 "GND" H 10100 6950 50  0000 C CNN
+F 2 "" H 10100 7100 50  0001 C CNN
+F 3 "" H 10100 7100 50  0001 C CNN
+	1    10100 7100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11250 7350 11150 7350
+	10200 7050 10100 7050
 Wire Wire Line
-	11150 7350 11150 7400
+	10100 7050 10100 7100
 Wire Wire Line
-	11250 8300 11150 8300
+	10200 8000 10100 8000
 Wire Wire Line
-	11150 8300 11150 8350
+	10100 8000 10100 8050
 Wire Wire Line
-	11250 9300 11150 9300
+	10200 9000 10100 9000
 $Comp
 L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D2
 U 1 1 615EDFDD
-P 11650 7350
-F 0 "D2" H 11200 7800 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 11200 7050 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 9875 8250 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 9875 8350 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 9875 8450 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 9875 8550 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 9875 8650 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 9875 8750 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 9875 8850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 9875 8950 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 9875 9050 60  0001 L CNN "Description"
-F 11 "Nexperia" H 9875 9150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9875 9250 60  0001 L CNN "Status"
-	1    11650 7350
+P 10600 7050
+F 0 "D2" H 10150 7500 60  0000 L CNN
+F 1 "PESD3V3L4UW" V 10150 6750 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-665" H 8825 7950 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 8050 60  0001 L CNN
+F 4 "1727-5790-1-ND" H 8825 8150 60  0001 L CNN "Digi-Key_PN"
+F 5 "PESD3V3L4UW,115" H 8825 8250 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 8825 8350 60  0001 L CNN "Category"
+F 7 "ESD - Diodes" H 8825 8450 60  0001 L CNN "Family"
+F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 8550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 8825 8650 60  0001 L CNN "DK_Detail_Page"
+F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 8825 8750 60  0001 L CNN "Description"
+F 11 "Nexperia" H 8825 8850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8825 8950 60  0001 L CNN "Status"
+	1    10600 7050
 	0    1    1    0   
 $EndComp
 $Comp
 L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D22
 U 1 1 629F25C4
-P 15200 8350
-F 0 "D22" H 14750 8800 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 14750 8050 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 13425 9250 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 13425 9350 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 13425 9450 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 13425 9550 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 13425 9650 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 13425 9750 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 13425 9850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 13425 9950 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 13425 10050 60  0001 L CNN "Description"
-F 11 "Nexperia" H 13425 10150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 13425 10250 60  0001 L CNN "Status"
-	1    15200 8350
+P 14150 8050
+F 0 "D22" H 13700 8500 60  0000 L CNN
+F 1 "PESD3V3L4UW" V 13700 7750 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-665" H 12375 8950 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 12375 9050 60  0001 L CNN
+F 4 "1727-5790-1-ND" H 12375 9150 60  0001 L CNN "Digi-Key_PN"
+F 5 "PESD3V3L4UW,115" H 12375 9250 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 12375 9350 60  0001 L CNN "Category"
+F 7 "ESD - Diodes" H 12375 9450 60  0001 L CNN "Family"
+F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 12375 9550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 12375 9650 60  0001 L CNN "DK_Detail_Page"
+F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 12375 9750 60  0001 L CNN "Description"
+F 11 "Nexperia" H 12375 9850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12375 9950 60  0001 L CNN "Status"
+	1    14150 8050
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	14050 8250 14800 8250
+	13000 7950 13750 7950
 Wire Wire Line
-	14800 8150 14800 8050
+	13750 7850 13750 7750
 Wire Wire Line
-	14050 8150 14800 8150
+	13000 7850 13750 7850
 $Comp
 L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D21
 U 1 1 62B9D7B8
-P 15200 7450
-F 0 "D21" H 14750 7900 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 14750 7150 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 13425 8350 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 13425 8450 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 13425 8550 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 13425 8650 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 13425 8750 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 13425 8850 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 13425 8950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 13425 9050 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 13425 9150 60  0001 L CNN "Description"
-F 11 "Nexperia" H 13425 9250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 13425 9350 60  0001 L CNN "Status"
-	1    15200 7450
+P 14150 7150
+F 0 "D21" H 13700 7600 60  0000 L CNN
+F 1 "PESD3V3L4UW" V 13700 6850 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-665" H 12375 8050 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 12375 8150 60  0001 L CNN
+F 4 "1727-5790-1-ND" H 12375 8250 60  0001 L CNN "Digi-Key_PN"
+F 5 "PESD3V3L4UW,115" H 12375 8350 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 12375 8450 60  0001 L CNN "Category"
+F 7 "ESD - Diodes" H 12375 8550 60  0001 L CNN "Family"
+F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 12375 8650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 12375 8750 60  0001 L CNN "DK_Detail_Page"
+F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 12375 8850 60  0001 L CNN "Description"
+F 11 "Nexperia" H 12375 8950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12375 9050 60  0001 L CNN "Status"
+	1    14150 7150
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	14700 8050 14700 7750
+	13650 7750 13650 7450
 Wire Wire Line
-	14700 7750 14800 7750
+	13650 7450 13750 7450
 Wire Wire Line
-	14050 8050 14700 8050
+	13000 7750 13650 7750
 Wire Wire Line
-	14650 7950 14650 7550
+	13600 7650 13600 7250
 Wire Wire Line
-	14650 7550 14800 7550
+	13600 7250 13750 7250
 Wire Wire Line
-	14050 7950 14650 7950
+	13000 7650 13600 7650
 Wire Wire Line
-	14600 7750 14600 7350
+	13550 7450 13550 7050
 Wire Wire Line
-	14600 7350 14800 7350
+	13550 7050 13750 7050
 Wire Wire Line
-	14050 7750 14600 7750
+	13000 7450 13550 7450
 Wire Wire Line
-	14550 7650 14550 7150
+	13500 7350 13500 6850
 Wire Wire Line
-	14550 7150 14800 7150
+	13500 6850 13750 6850
 Wire Wire Line
-	14050 7650 14550 7650
+	13000 7350 13500 7350
 $Comp
 L power:GND #PWR050
 U 1 1 62EDC592
-P 15650 8500
-F 0 "#PWR050" H 15650 8250 50  0001 C CNN
-F 1 "GND" H 15650 8350 50  0000 C CNN
-F 2 "" H 15650 8500 50  0001 C CNN
-F 3 "" H 15650 8500 50  0001 C CNN
-	1    15650 8500
+P 14600 8200
+F 0 "#PWR050" H 14600 7950 50  0001 C CNN
+F 1 "GND" H 14600 8050 50  0000 C CNN
+F 2 "" H 14600 8200 50  0001 C CNN
+F 3 "" H 14600 8200 50  0001 C CNN
+	1    14600 8200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15600 7450 15650 7450
+	14550 7150 14600 7150
 Wire Wire Line
-	15650 7450 15650 8350
+	14600 7150 14600 8050
 Wire Wire Line
-	15600 8350 15650 8350
-Connection ~ 15650 8350
+	14550 8050 14600 8050
+Connection ~ 14600 8050
 Wire Wire Line
-	15650 8350 15650 8500
+	14600 8050 14600 8200
 Wire Wire Line
 	10950 1500 11300 1500
 Wire Wire Line
@@ -5471,9 +4459,9 @@ TXD
 Wire Wire Line
 	5550 4100 5850 4100
 Wire Wire Line
-	4950 1250 5300 1250
+	4550 1250 4900 1250
 Wire Wire Line
-	4950 1550 5300 1550
+	4550 1550 4900 1550
 NoConn ~ 8100 4650
 $Comp
 L AnthC-Lib-Symbols:M41T00SM6F U11
@@ -5634,40 +4622,16 @@ Connection ~ 6050 4850
 Wire Wire Line
 	6050 4850 6450 4850
 NoConn ~ 6000 5550
-Connection ~ 6300 1250
+Connection ~ 5900 1250
 Wire Wire Line
-	6300 1250 6550 1250
-Connection ~ 6300 1550
+	5900 1250 6150 1250
+Connection ~ 5900 1550
 Wire Wire Line
-	6300 1550 6550 1550
+	5900 1550 6150 1550
 NoConn ~ 9850 4850
 NoConn ~ 11250 5250
-$Comp
-L power:GND #PWR032
-U 1 1 62D2872B
-P 10150 7100
-F 0 "#PWR032" H 10150 6850 50  0001 C CNN
-F 1 "GND" H 10150 6950 50  0000 C CNN
-F 2 "" H 10150 7100 50  0001 C CNN
-F 3 "" H 10150 7100 50  0001 C CNN
-	1    10150 7100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10150 7100 10150 7050
-$Comp
-L power:+5V #PWR?
-U 1 1 62D80F86
-P 10050 6750
-AR Path="/602E71BC/62D80F86" Ref="#PWR?"  Part="1" 
-AR Path="/62D80F86" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 10050 6600 50  0001 C CNN
-F 1 "+5V" H 10065 6923 50  0000 C CNN
-F 2 "" H 10050 6750 50  0001 C CNN
-F 3 "" H 10050 6750 50  0001 C CNN
-	1    10050 6750
-	1    0    0    -1  
-$EndComp
+	1100 2350 1100 2100
 $Comp
 L power:GND #PWR043
 U 1 1 6260A0FC
@@ -5967,30 +4931,8 @@ Wire Wire Line
 	4600 4100 4400 4100
 Wire Wire Line
 	4400 4100 4400 4050
-$Comp
-L power:+3V3 #PWR05
-U 1 1 62FF562F
-P 4400 3700
-F 0 "#PWR05" H 4400 3550 50  0001 C CNN
-F 1 "+3V3" H 4415 3873 50  0000 C CNN
-F 2 "" H 4400 3700 50  0001 C CNN
-F 3 "" H 4400 3700 50  0001 C CNN
-	1    4400 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 3750 4400 3700
-$Comp
-L power:+3V3 #PWR09
-U 1 1 62FF5636
-P 4700 3700
-F 0 "#PWR09" H 4700 3550 50  0001 C CNN
-F 1 "+3V3" H 4715 3873 50  0000 C CNN
-F 2 "" H 4700 3700 50  0001 C CNN
-F 3 "" H 4700 3700 50  0001 C CNN
-	1    4700 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 3700 4700 3800
 Wire Wire Line
@@ -6003,13 +4945,6 @@ Text Label 4200 4100 0    50   ~ 0
 TX2
 Text Label 5200 4100 0    50   ~ 0
 TX25
-Connection ~ 1800 1750
-Wire Wire Line
-	1750 1750 1800 1750
-Wire Wire Line
-	1800 1800 1800 1750
-Wire Wire Line
-	1800 1750 1850 1750
 $Comp
 L Resistor_0603:10KΩ R18
 U 1 1 5F23F3FC
@@ -6031,13 +4966,9 @@ F 12 "RC0603FR-0710KL" H 8000 5850 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2650 3000 2650 2950
-Wire Wire Line
 	7450 800  7450 850 
 Wire Wire Line
 	7450 1150 7450 1250
-Wire Wire Line
-	2300 2950 2300 3000
 Wire Wire Line
 	5050 5250 5050 5200
 Wire Wire Line
@@ -6086,52 +5017,6 @@ F 11 "AC0603JR-070RL" H 9100 5725 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Connection ~ 9100 4750
-$Comp
-L DCDC:TPS78533 U3
-U 1 1 61742AD0
-P 1350 2650
-F 0 "U3" H 1350 3265 50  0000 C CNN
-F 1 "TPS78533" H 1350 3174 50  0000 C CNN
-F 2 "" H 1150 2700 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tps785-q1.pdf" H 1150 2700 50  0001 C CNN
-F 4 "Texas Instruments" H 2300 3350 50  0001 C CNN "Manufacturer"
-F 5 "TPS78533QWDRBRQ1" H 3200 3350 50  0001 C CNN "MPN"
-F 6 "Mouser" H 2100 3250 50  0001 C CNN "Supplier"
-F 7 "595-TPS78533QWDRBRQ1" H 3300 3250 50  0001 C CNN "Supplier Part Number"
-F 8 "1.25" H 2900 3150 50  0001 C CNN "Price"
-	1    1350 2650
-	1    0    0    -1  
-$EndComp
-Connection ~ 1050 2350
-Wire Wire Line
-	750  2950 1050 2950
-Wire Wire Line
-	750  2950 750  2900
-Wire Wire Line
-	2000 2950 2000 2900
-Wire Wire Line
-	1050 2900 1050 2950
-Connection ~ 1050 2950
-Wire Wire Line
-	1050 2950 1350 2950
-Wire Wire Line
-	1350 2750 1350 2950
-Connection ~ 1350 2950
-Wire Wire Line
-	1350 2950 1700 2950
-Wire Wire Line
-	1350 2950 1350 3000
-Wire Wire Line
-	1700 2900 1700 2950
-Connection ~ 1700 2950
-Wire Wire Line
-	1700 2950 2000 2950
-Wire Wire Line
-	1050 2350 1050 2450
-Wire Wire Line
-	1050 2600 1050 2450
-Connection ~ 1050 2600
-Connection ~ 1050 2450
 $Comp
 L Resistor_0603:0 R12
 U 1 1 61AE6A2E
@@ -6192,17 +5077,6 @@ F 13 "CL31B106KBHNNNE" H 12900 5000 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	12700 4700 12900 4700
-$Comp
-L power:+3V3 #PWR038
-U 1 1 625B080A
-P 12200 4500
-F 0 "#PWR038" H 12200 4350 50  0001 C CNN
-F 1 "+3V3" H 12215 4673 50  0000 C CNN
-F 2 "" H 12200 4500 50  0001 C CNN
-F 3 "" H 12200 4500 50  0001 C CNN
-	1    12200 4500
-	1    0    0    -1  
-$EndComp
 NoConn ~ 11900 4800
 $Comp
 L power:GND #PWR039
@@ -6317,7 +5191,7 @@ AR Path="/619D9053" Ref="C27"  Part="1"
 AR Path="/5EEADDE8/619D9053" Ref="C?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/619D9053" Ref="C?"  Part="1" 
 F 0 "C27" H 15800 1250 50  0000 L CNN
-F 1 "100nF" H 15775 1050 50  0000 L CNN
+F 1 "100nF" H 15750 1050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 17150 1350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 15750 1150 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 16850 1500 50  0001 C CNN "Manufacturer"
@@ -6375,34 +5249,34 @@ Connection ~ 15600 2100
 Wire Wire Line
 	15600 2100 15500 2100
 Wire Notes Line
-	4050 550  7050 550 
+	4050 500  7050 500 
 Wire Notes Line
-	7050 550  7050 2250
+	7050 500  7050 2250
 Wire Notes Line
-	7150 550  11800 550 
+	7150 500  11800 500 
 Wire Notes Line
-	11800 550  11800 3950
+	11800 500  11800 3950
 Wire Notes Line
 	7150 3950 11800 3950
 Wire Notes Line
-	7150 3950 7150 550 
+	7150 3950 7150 500 
 Wire Wire Line
 	15550 1300 15650 1300
 Wire Notes Line
-	16000 550  11850 550 
+	16000 500  11850 500 
 Wire Notes Line
-	16000 550  16000 5750
+	16000 500  16000 5750
 Wire Notes Line
-	11850 550  11850 5750
+	11850 500  11850 5750
 Wire Notes Line
 	11850 5750 16000 5750
 Connection ~ 15650 1300
 Wire Wire Line
 	15650 1300 15750 1300
 Wire Wire Line
-	14050 8650 14800 8650
+	13000 8350 13750 8350
 Wire Wire Line
-	14050 8450 14800 8450
+	13000 8150 13750 8150
 Wire Wire Line
 	8250 6550 8350 6550
 Connection ~ 8250 6550
@@ -6838,16 +5712,16 @@ F 3 "" H 7200 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 1350 5150 1350
-Text Label 4950 1350 0    50   ~ 0
+	4900 1350 4750 1350
+Text Label 4550 1350 0    50   ~ 0
 RS485
 Wire Wire Line
-	5150 1450 5150 1350
+	4750 1450 4750 1350
 Wire Wire Line
-	5150 1450 5300 1450
-Connection ~ 5150 1350
+	4750 1450 4900 1450
+Connection ~ 4750 1350
 Wire Wire Line
-	5150 1350 4950 1350
+	4750 1350 4550 1350
 Text Label 6700 9900 1    50   ~ 0
 RS485
 Wire Wire Line
@@ -7046,19 +5920,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 10450 6900 10450
 $Comp
-L power:+5V #PWR?
-U 1 1 64FCF287
-P 3800 950
-AR Path="/602E71BC/64FCF287" Ref="#PWR?"  Part="1" 
-AR Path="/64FCF287" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 3800 800 50  0001 C CNN
-F 1 "+5V" H 3800 1100 50  0000 C CNN
-F 2 "" H 3800 950 50  0001 C CNN
-F 3 "" H 3800 950 50  0001 C CNN
-	1    3800 950 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0116
 U 1 1 64FD0EEA
 P 5150 3750
@@ -7081,68 +5942,9 @@ F 3 "" H 7800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7700 8800
-Wire Wire Line
-	2950 2750 3300 2750
 NoConn ~ 7700 9200
-$Comp
-L power:VDC #PWR?
-U 1 1 6509FC6F
-P 2500 2500
-AR Path="/602E71BC/6509FC6F" Ref="#PWR?"  Part="1" 
-AR Path="/6509FC6F" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 2500 2400 50  0001 C CNN
-F 1 "VDC" H 2500 2650 50  0000 C CNN
-F 2 "" H 2500 2500 50  0001 C CNN
-F 3 "" H 2500 2500 50  0001 C CNN
-	1    2500 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 2650 2650 2500
-Wire Wire Line
-	2650 2500 2500 2500
-Wire Wire Line
-	2500 2500 2300 2500
-Wire Wire Line
-	2300 2500 2300 2650
-Connection ~ 2500 2500
-Wire Wire Line
-	1350 950  1250 950 
-Wire Wire Line
-	1250 950  1250 800 
-Connection ~ 1250 800 
-Wire Wire Line
-	1250 800  1100 800 
-$Comp
-L power:VDC #PWR?
-U 1 1 651DAA19
-P 850 800
-AR Path="/602E71BC/651DAA19" Ref="#PWR?"  Part="1" 
-AR Path="/651DAA19" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 850 700 50  0001 C CNN
-F 1 "VDC" H 850 950 50  0000 C CNN
-F 2 "" H 850 800 50  0001 C CNN
-F 3 "" H 850 800 50  0001 C CNN
-	1    850  800 
-	1    0    0    -1  
-$EndComp
-Connection ~ 1100 800 
-Wire Wire Line
-	1100 800  850  800 
 Wire Wire Line
 	3400 9900 3200 9900
-Connection ~ 850  800 
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 65248401
-P 1100 800
-F 0 "#FLG0101" H 1100 875 50  0001 C CNN
-F 1 "PWR_FLAG" H 1100 973 50  0000 C CNN
-F 2 "" H 1100 800 50  0001 C CNN
-F 3 "~" H 1100 800 50  0001 C CNN
-	1    1100 800 
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9250 3650
 $Comp
 L power:+5V #PWR0121
@@ -7172,44 +5974,9 @@ Connection ~ 7800 5000
 Wire Wire Line
 	7800 5000 7800 5050
 Wire Wire Line
-	10050 6750 9950 6750
+	1100 1800 1000 1800
 Wire Wire Line
 	7850 1250 7850 1300
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 655A2FD3
-P 1800 2300
-F 0 "#FLG0102" H 1800 2375 50  0001 C CNN
-F 1 "PWR_FLAG" H 1800 2473 50  0000 C CNN
-F 2 "" H 1800 2300 50  0001 C CNN
-F 3 "~" H 1800 2300 50  0001 C CNN
-	1    1800 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 2300 1800 2350
-Connection ~ 1800 2350
-Wire Wire Line
-	1800 2350 1900 2350
-Wire Wire Line
-	3450 1100 3450 950 
-Connection ~ 3450 950 
-Wire Wire Line
-	3450 950  3500 950 
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 6575D779
-P 3950 950
-F 0 "#FLG0103" H 3950 1025 50  0001 C CNN
-F 1 "PWR_FLAG" H 3800 1200 50  0000 C CNN
-F 2 "" H 3950 950 50  0001 C CNN
-F 3 "~" H 3950 950 50  0001 C CNN
-	1    3950 950 
-	1    0    0    -1  
-$EndComp
-Connection ~ 3800 950 
-Wire Wire Line
-	3800 950  3950 950 
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 658A4B70
@@ -7228,43 +5995,17 @@ Wire Wire Line
 Connection ~ 4350 7050
 Wire Wire Line
 	4350 7050 4500 7050
-Wire Wire Line
-	3700 2750 3500 2750
-Connection ~ 3700 2750
-Wire Wire Line
-	3700 2750 3700 2700
-Text Notes 2750 3400 0    50   ~ 0
-The goal of these 4 diodes?
-$Comp
-L power:PWR_FLAG #FLG0105
-U 1 1 65AD2F8A
-P 10000 7650
-F 0 "#FLG0105" H 10000 7725 50  0001 C CNN
-F 1 "PWR_FLAG" H 10100 7850 50  0000 C CNN
-F 2 "" H 10000 7650 50  0001 C CNN
-F 3 "~" H 10000 7650 50  0001 C CNN
-	1    10000 7650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 7650 10000 7650
-Connection ~ 10000 7650
-Wire Wire Line
-	10000 7650 10550 7650
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 65CF651F
-P 10550 7550
-F 0 "#FLG0106" H 10550 7625 50  0001 C CNN
-F 1 "PWR_FLAG" H 10650 7750 50  0000 C CNN
-F 2 "" H 10550 7550 50  0001 C CNN
-F 3 "~" H 10550 7550 50  0001 C CNN
-	1    10550 7550
-	1    0    0    -1  
+P 1100 850
+F 0 "#FLG0106" H 1100 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1150 1000 50  0000 C CNN
+F 2 "" H 1100 850 50  0001 C CNN
+F 3 "~" H 1100 850 50  0001 C CNN
+	1    1100 850 
+	-1   0    0    -1  
 $EndComp
-Connection ~ 10550 7550
-Wire Wire Line
-	10350 7550 10550 7550
 $Comp
 L power:VDD #PWR?
 U 1 1 65DD5260
@@ -7279,16 +6020,345 @@ F 3 "" H 700 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
-U 1 1 65DD60D0
-P 3700 2350
-AR Path="/602E71BC/65DD60D0" Ref="#PWR?"  Part="1" 
-AR Path="/65DD60D0" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0127" H 3700 2250 50  0001 C CNN
-F 1 "VDD" H 3700 2500 50  0000 C CNN
-F 2 "" H 3700 2350 50  0001 C CNN
-F 3 "" H 3700 2350 50  0001 C CNN
-	1    3700 2350
+L Diodes:Zener_6V D9
+U 1 1 61B7AC08
+P 3750 5800
+F 0 "D9" V 3704 5880 50  0000 L CNN
+F 1 "Zener_6V" V 3900 5850 50  0001 L CNN
+F 2 "" H 3750 5625 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 3750 5800 50  0001 C CNN
+F 4 "Vishay" H 4050 6400 50  0001 C CNN "Manufacturer"
+F 5 "MMSZ5233B-E3-08" H 4650 6400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 4050 6300 50  0001 C CNN "Supplier"
+F 7 "78-MMSZ5233B-E3-08" H 4750 6300 50  0001 C CNN "Supplier Part Number"
+F 8 "6V" H 4350 6100 50  0001 C CNN "Voltage"
+F 9 "500mW" H 4450 6200 50  0001 C CNN "Power"
+	1    3750 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 5400 3500 5400
+Wire Wire Line
+	3750 5400 3750 5650
+Wire Wire Line
+	3750 5950 3750 6150
+Wire Wire Line
+	3750 6150 3550 6150
+Wire Wire Line
+	3300 6150 3300 5950
+Wire Wire Line
+	3550 6250 3550 6150
+Connection ~ 3550 6150
+Wire Wire Line
+	3550 6150 3300 6150
+Connection ~ 3500 5400
+Wire Wire Line
+	3500 5400 3750 5400
+$Comp
+L power:+5VD #PWR0102
+U 1 1 61EB66A7
+P 13350 6600
+F 0 "#PWR0102" H 13350 6450 50  0001 C CNN
+F 1 "+5VD" H 13365 6773 50  0000 C CNN
+F 2 "" H 13350 6600 50  0001 C CNN
+F 3 "" H 13350 6600 50  0001 C CNN
+	1    13350 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 750  1500 850 
+$Comp
+L power:+3V3 #PWR?
+U 1 1 634315B1
+P 3000 850
+AR Path="/606FCEC4/5EEADDE8/634315B1" Ref="#PWR?"  Part="1" 
+AR Path="/634315B1" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 3000 700 50  0001 C CNN
+F 1 "+3V3" H 3015 1023 50  0000 C CNN
+F 2 "" H 3000 850 50  0001 C CNN
+F 3 "" H 3000 850 50  0001 C CNN
+	1    3000 850 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	550  500  4000 500 
+Wire Wire Line
+	1100 850  1500 850 
+Wire Wire Line
+	1100 850  1000 850 
+Connection ~ 1100 850 
+$Comp
+L power:+5VD #PWR0107
+U 1 1 63A345F5
+P 1950 750
+F 0 "#PWR0107" H 1950 600 50  0001 C CNN
+F 1 "+5VD" H 1965 923 50  0000 C CNN
+F 2 "" H 1950 750 50  0001 C CNN
+F 3 "" H 1950 750 50  0001 C CNN
+	1    1950 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 850 
+Wire Wire Line
+	1000 1050 1000 1150
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 65AD2F8A
+P 1100 950
+F 0 "#FLG0105" H 1100 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 1350 1000 50  0000 C CNN
+F 2 "" H 1100 950 50  0001 C CNN
+F 3 "~" H 1100 950 50  0001 C CNN
+	1    1100 950 
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5VD #PWR0108
+U 1 1 63EFC6A3
+P 1100 1800
+F 0 "#PWR0108" H 1100 1650 50  0001 C CNN
+F 1 "+5VD" H 1115 1973 50  0000 C CNN
+F 2 "" H 1100 1800 50  0001 C CNN
+F 3 "" H 1100 1800 50  0001 C CNN
+	1    1100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 850  3000 850 
+Connection ~ 1950 950 
+Wire Wire Line
+	1950 750  1950 950 
+$Sheet
+S 2200 650  650  600 
+U 6243F6D9
+F0 "Power" 50
+F1 "Power.sch" 50
+F2 "VDD" I L 2200 850 50 
+F3 "GND_IN" I L 2200 1150 50 
+F4 "3V3" I R 2850 850 50 
+F5 "5VD" I L 2200 950 50 
+F6 "5V" I R 2850 950 50 
+F7 "GND" I R 2850 1150 50 
+$EndSheet
+Connection ~ 1100 950 
+Wire Wire Line
+	1100 950  1000 950 
+Wire Wire Line
+	1100 950  1950 950 
+$Comp
+L power:+5V #PWR0109
+U 1 1 64698C28
+P 3250 900
+F 0 "#PWR0109" H 3250 750 50  0001 C CNN
+F 1 "+5V" H 3265 1073 50  0000 C CNN
+F 2 "" H 3250 900 50  0001 C CNN
+F 3 "" H 3250 900 50  0001 C CNN
+	1    3250 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 950  3250 900 
+Wire Wire Line
+	2850 950  3250 950 
+Wire Wire Line
+	1500 850  2200 850 
+Wire Wire Line
+	1950 950  2200 950 
+Wire Wire Line
+	1000 2000 1250 2000
+$Comp
+L power:GND #PWR0110
+U 1 1 64949A72
+P 1350 2350
+F 0 "#PWR0110" H 1350 2100 50  0001 C CNN
+F 1 "GND" H 1350 2200 50  0000 C CNN
+F 2 "" H 1350 2350 50  0001 C CNN
+F 3 "" H 1350 2350 50  0001 C CNN
+	1    1350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diodes:Zener_6V D8
+U 1 1 61A97A75
+P 1500 2150
+F 0 "D8" V 1454 2230 50  0000 L CNN
+F 1 "Zener_6V" V 1545 2230 50  0001 L CNN
+F 2 "" H 1500 1975 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1500 2150 50  0001 C CNN
+F 4 "Vishay" H 1800 2750 50  0001 C CNN "Manufacturer"
+F 5 "MMSZ5233B-E3-08" H 2400 2750 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 1800 2650 50  0001 C CNN "Supplier"
+F 7 "78-MMSZ5233B-E3-08" H 2500 2650 50  0001 C CNN "Supplier Part Number"
+F 8 "6V" H 2100 2450 50  0001 C CNN "Voltage"
+F 9 "500mW" H 2200 2550 50  0001 C CNN "Power"
+	1    1500 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 1900 1500 1900
+Wire Wire Line
+	1250 2350 1100 2350
+$Comp
+L Diodes:Zener_6V D1
+U 1 1 64A0EB04
+P 1250 2150
+F 0 "D1" V 1204 2230 50  0000 L CNN
+F 1 "Zener_6V" V 1350 2150 50  0001 L CNN
+F 2 "" H 1250 1975 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1250 2150 50  0001 C CNN
+F 4 "Vishay" H 1550 2750 50  0001 C CNN "Manufacturer"
+F 5 "MMSZ5233B-E3-08" H 2150 2750 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 1550 2650 50  0001 C CNN "Supplier"
+F 7 "78-MMSZ5233B-E3-08" H 2250 2650 50  0001 C CNN "Supplier Part Number"
+F 8 "6V" H 1850 2450 50  0001 C CNN "Voltage"
+F 9 "500mW" H 1950 2550 50  0001 C CNN "Power"
+	1    1250 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 2350 1250 2300
+Connection ~ 1250 2350
+Wire Wire Line
+	1250 2350 1350 2350
+Wire Wire Line
+	1500 2000 1500 1900
+Wire Wire Line
+	1500 2300 1500 2350
+Connection ~ 1350 2350
+Wire Wire Line
+	1350 2350 1500 2350
+Wire Wire Line
+	1000 1150 2200 1150
+Text Label 1100 1150 0    50   ~ 0
+GND_IN
+$Comp
+L power:GND #PWR0111
+U 1 1 624A7BDA
+P 3050 1250
+F 0 "#PWR0111" H 3050 1000 50  0001 C CNN
+F 1 "GND" H 3050 1100 50  0000 C CNN
+F 2 "" H 3050 1250 50  0001 C CNN
+F 3 "" H 3050 1250 50  0001 C CNN
+	1    3050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1150 3050 1150
+Wire Wire Line
+	3050 1150 3050 1250
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62518789
+P 5300 800
+AR Path="/606FCEC4/5EEADDE8/62518789" Ref="#PWR?"  Part="1" 
+AR Path="/62518789" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 5300 650 50  0001 C CNN
+F 1 "+3V3" H 5315 973 50  0000 C CNN
+F 2 "" H 5300 800 50  0001 C CNN
+F 3 "" H 5300 800 50  0001 C CNN
+	1    5300 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6251A0FF
+P 4700 3700
+AR Path="/606FCEC4/5EEADDE8/6251A0FF" Ref="#PWR?"  Part="1" 
+AR Path="/6251A0FF" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 4700 3550 50  0001 C CNN
+F 1 "+3V3" H 4715 3873 50  0000 C CNN
+F 2 "" H 4700 3700 50  0001 C CNN
+F 3 "" H 4700 3700 50  0001 C CNN
+	1    4700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6251A93F
+P 4400 3700
+AR Path="/606FCEC4/5EEADDE8/6251A93F" Ref="#PWR?"  Part="1" 
+AR Path="/6251A93F" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 4400 3550 50  0001 C CNN
+F 1 "+3V3" H 4415 3873 50  0000 C CNN
+F 2 "" H 4400 3700 50  0001 C CNN
+F 3 "" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6251B3E9
+P 12200 4500
+AR Path="/606FCEC4/5EEADDE8/6251B3E9" Ref="#PWR?"  Part="1" 
+AR Path="/6251B3E9" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 12200 4350 50  0001 C CNN
+F 1 "+3V3" H 12215 4673 50  0000 C CNN
+F 2 "" H 12200 4500 50  0001 C CNN
+F 3 "" H 12200 4500 50  0001 C CNN
+	1    12200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62520735
+P 4400 2700
+AR Path="/606FCEC4/5EEADDE8/62520735" Ref="#PWR?"  Part="1" 
+AR Path="/62520735" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 4400 2550 50  0001 C CNN
+F 1 "+3V3" H 4415 2873 50  0000 C CNN
+F 2 "" H 4400 2700 50  0001 C CNN
+F 3 "" H 4400 2700 50  0001 C CNN
+	1    4400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62520A56
+P 4700 2700
+AR Path="/606FCEC4/5EEADDE8/62520A56" Ref="#PWR?"  Part="1" 
+AR Path="/62520A56" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 4700 2550 50  0001 C CNN
+F 1 "+3V3" H 4715 2873 50  0000 C CNN
+F 2 "" H 4700 2700 50  0001 C CNN
+F 3 "" H 4700 2700 50  0001 C CNN
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62521CDF
+P 14150 3550
+AR Path="/606FCEC4/5EEADDE8/62521CDF" Ref="#PWR?"  Part="1" 
+AR Path="/62521CDF" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 14150 3400 50  0001 C CNN
+F 1 "+3V3" H 14165 3723 50  0000 C CNN
+F 2 "" H 14150 3550 50  0001 C CNN
+F 3 "" H 14150 3550 50  0001 C CNN
+	1    14150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62522592
+P 15350 3900
+AR Path="/606FCEC4/5EEADDE8/62522592" Ref="#PWR?"  Part="1" 
+AR Path="/62522592" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 15350 3750 50  0001 C CNN
+F 1 "+3V3" H 15365 4073 50  0000 C CNN
+F 2 "" H 15350 3900 50  0001 C CNN
+F 3 "" H 15350 3900 50  0001 C CNN
+	1    15350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0142
+U 1 1 62523BEA
+P 12450 2500
+F 0 "#PWR0142" H 12450 2350 50  0001 C CNN
+F 1 "+3V3" H 12465 2673 50  0000 C CNN
+F 2 "" H 12450 2500 50  0001 C CNN
+F 3 "" H 12450 2500 50  0001 C CNN
+	1    12450 2500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

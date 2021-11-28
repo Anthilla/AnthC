@@ -12,4 +12,16 @@ K Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
 F https://www.mouser.be/datasheet/2/445/74404041047-1720697.pdf
 $ENDCMP
 #
+$CMP 744231121
+D WE-CNSW SMT Common Mode
+K WE-CNSW SMT Common Mode
+F https://www.we-online.com/catalog/datasheet/744231121.pdf
+$ENDCMP
+#
+$CMP PA4339.102NLT
+D Common Mode Filters / Chokes CMC 8.0uH 3A
+K Common Mode Filters / Chokes CMC 8.0uH 3A
+F https://www.mouser.be/datasheet/2/336/plei_s_a0011300615_1-2281081.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 150060RS55040
+D LED RED DIFFUSED 0603 SMD
+K LED RED DIFFUSED 0603 SMD
+F https://www.we-online.de/katalog/datasheet/150060RS55040.pdf
+$ENDCMP
+#
+#End Doc Library

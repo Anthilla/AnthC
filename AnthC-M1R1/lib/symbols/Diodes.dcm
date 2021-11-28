@@ -5,4 +5,27 @@ D Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protect
 K Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode
 $ENDCMP
 #
+$CMP SMBJ30CA
+D TVS Diode, 600W, 30V, -65 to 150 Operating Temp, Surface Mount, SMBJ Series
+K TVS Diode, 600W, 30V, -65 to 150 Operating Temp, Surface Mount, SMBJ Series
+F https://www.mouser.be/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf
+$ENDCMP
+#
+$CMP SMBJ45CA
+D TVS DIODE 45V 72.7V SMB
+K TVS DIODE 45V 72.7V SMB
+F https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf
+$ENDCMP
+#
+$CMP TVS_2-Channel_8KV
+D IP4233CZ6 - Ultra low capacitance ESD protection for Ethernet ports
+K IP4233CZ6 - Ultra low capacitance ESD protection for Ethernet ports
+F https://www.mouser.be/datasheet/2/916/IP4233CZ6-1599137.pdf
+$ENDCMP
+#
+$CMP Zener_6V
+D Diodes Zener 6.0 Volt 0.5W 5%
+F https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf
+$ENDCMP
+#
 #End Doc Library

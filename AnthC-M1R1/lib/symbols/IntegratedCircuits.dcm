@@ -24,6 +24,10 @@ K Board Mount Humidity Sensors &plusmn;2% ultra-low-power, digital humidity sens
 F http://www.ti.com/lit/ds/symlink/hdc2080.pdf
 $ENDCMP
 #
+$CMP M41T00SM6F
+F https://www.st.com/resource/en/datasheet/m41t00s.pdf
+$ENDCMP
+#
 $CMP REF5010AD
 D 10V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 10V

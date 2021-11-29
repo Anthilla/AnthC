@@ -1,15 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 01x03
-D Pluggable Terminal Blocks WR-TBL 300VAC 20A 3P Right Angle Connector
-K Pluggable Terminal Blocks WR-TBL 300VAC 20A 3P Right Angle Connector
-F https://www.mouser.be/datasheet/2/445/691312510003-1719552.pdf
-$ENDCMP
-#
 $CMP 1x02
 D Pluggable Terminal Blocks WR-TBL 300VAC 20A 2P Right Angle
 K Pluggable Terminal Blocks WR-TBL 300VAC 20A 2P Right Angle
 F https://www.we-online.com/catalog/datasheet/691312510002.pdf
+$ENDCMP
+#
+$CMP 1x03
+D Pluggable Terminal Blocks WR-TBL 300VAC 20A 3P Right Angle Connector
+K Pluggable Terminal Blocks WR-TBL 300VAC 20A 3P Right Angle Connector
+F https://www.mouser.be/datasheet/2/445/691312510003-1719552.pdf
 $ENDCMP
 #
 $CMP 1x04

@@ -170,7 +170,7 @@ ENDDEF
 DEF Zener_6V D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "Zener_6V" 0 -100 50 H V C CNN
-F2 "" 0 -175 50 H I C CNN
+F2 "Semiconductors:D_SOD-123" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Vishay" 300 600 50 H I C CNN "Manufacturer"
 F5 "MMSZ5233B-E3-08" 900 600 50 H I C CNN "Manufacturer Part Number"

@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF 10μH L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "10μH" 75 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Inductors:Inductor_Wurth_LQS-4025" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Wurth Elektronik" 500 450 50 H I C CNN "Manufacturer"
 F5 "74404043100A" 1200 450 50 H I C CNN "MPN"
@@ -34,7 +34,7 @@ ENDDEF
 DEF 4.7μH L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "4.7μH" 75 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Inductors:Inductor_Wurth_LQS-4012" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Wurth Elektronik" 500 450 50 H I C CNN "Manufacturer"
 F5 "74404041047" 1200 450 50 H I C CNN "MPN"

@@ -1,4 +1,4 @@
-19080928548729994
+19375230564402763
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46948,6 +46948,27 @@ connector Wuerth WR-WTB vertical
 0
 10
 10
+Connectors
+WURTH-691312510002
+TERM BLOCK HDR 4POS VERT 5.08MM
+connector
+0
+2
+2
+Connectors
+WURTH-691312510003
+TERM BLOCK HDR 4POS VERT 5.08MM
+connector
+0
+3
+3
+Connectors
+WURTH-691312510004
+TERM BLOCK HDR 4POS VERT 5.08MM
+connector
+0
+4
+4
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -50714,6 +50735,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+Electromechanical
+SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile
+4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+8
+8
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -51666,6 +51694,20 @@ heatsink
 0
 2
 1
+IC
+HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm
+HVSON, 8 Pin (https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
+HVSON NoLead
+0
+13
+9
+IC
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -54942,6 +54984,27 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 0
 2
 2
+Inductors
+Inductor_Wurth_LQS-4012
+Inductor, Wurth Elektronik, Wurth_LQS-8040, 8mmx6.5mm
+inductor wurth hci smd
+0
+2
+2
+Inductors
+Inductor_Wurth_LQS-4025
+Inductor, Wurth Elektronik, Wurth_LQS-8040, 8mmx6.5mm
+inductor wurth hci smd
+0
+2
+2
+Inductors
+Inductor_Wurth_LQS-8040
+Inductor, Wurth Elektronik, Wurth_LQS-8040, 8mmx6.5mm
+inductor wurth hci smd
+0
+2
+2
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -56206,6 +56269,1189 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+MagLab_Assembly
+Fiducial_0.5mm_Dia_1mm_Outer
+Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)
+marker
+0
+1
+1
+MagLab_Battery-Holder
+BAT-HLD-001-TR
+
+
+0
+3
+2
+MagLab_Battery-Holder
+BU2032SM-BT-GTR
+
+
+0
+2
+2
+MagLab_Board
+MCS_A8A_S
+ADC BOARD ADS7959
+
+0
+24
+24
+MagLab_Capacitor
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+MagLab_Capacitor
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+MagLab_Capacitor
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_1206
+Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)
+capacitor 1206
+0
+2
+2
+MagLab_Capacitor
+C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_1210
+Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)
+capacitor 1210
+0
+2
+2
+MagLab_Capacitor
+C_1210_3225Metric
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_1812_4532Metric
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_1825
+Capacitor SMD 1825, reflow soldering, AVX (see smccp.pdf)
+capacitor 1825
+0
+2
+2
+MagLab_Capacitor
+C_1825_4564Metric
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_2220
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_2220_5650Metric
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Capacitor
+C_2225
+Capacitor SMD 2225, reflow soldering, AVX (see smccp.pdf)
+capacitor 2225
+0
+2
+2
+MagLab_Capacitor
+C_2225_5664Metric
+Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MagLab_Cellular-Module
+SARA-R410M-02B
+
+
+0
+96
+96
+MagLab_Connector
+2PH1-08-UA
+Through hole straight pin header, 1x08, 2.00mm pitch, single row
+Through hole pin header THT 1x08 2.00mm single row
+0
+8
+8
+MagLab_Connector
+2PH1-12-UA
+Through hole straight pin header, 1x12, 2.00mm pitch, single row
+Through hole pin header THT 1x12 2.00mm single row
+0
+12
+12
+MagLab_Connector
+2RS1-08-G
+Through hole socket strip, 1x08, 2.00mm pitch, single row
+Through hole socket strip THT 1x08 2.00mm single row
+0
+8
+8
+MagLab_Connector
+2RS1-12-G
+Through hole socket strip, 1x12, 2.00mm pitch, single row
+Through hole socket strip THT 1x12 2.00mm single row
+0
+12
+12
+MagLab_Connector
+605-5218
+
+SMA THT Female Jack Horizontal
+0
+4
+1
+MagLab_Connector
+AdamTech-RF2-145A-T-17-50-G-HDW
+
+SMA
+0
+3
+2
+MagLab_Connector
+BARREL_JACK
+DC Barrel Jack
+Power Jack
+0
+3
+3
+MagLab_Connector
+Castellated_Hole_0_6mm
+
+
+0
+3
+1
+MagLab_Connector
+Castellated_Hole_1_0mm
+
+
+0
+3
+1
+MagLab_Connector
+EBSA-02-B
+
+
+0
+2
+2
+MagLab_Connector
+LINX_CONSMA020.062-G
+
+
+0
+5
+2
+MagLab_Connector
+Molex-0731000114
+
+SMA THT Female Jack Horizontal
+0
+5
+2
+MagLab_Connector
+Molex_0430450400
+
+
+0
+4
+4
+MagLab_Connector
+Pin_Header_Straight_1x02_Pitch2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+MagLab_Connector
+Pin_Header_Straight_1x08_Pitch2.00mm
+Through hole straight pin header, 1x08, 2.00mm pitch, single row
+Through hole pin header THT 1x08 2.00mm single row
+0
+8
+8
+MagLab_Connector
+Pin_Header_Straight_1x12_Pitch2.54mm
+Through hole straight pin header, 1x12, 2.54mm pitch, single row
+Through hole pin header THT 1x12 2.54mm single row
+0
+12
+12
+MagLab_Connector
+Pin_Header_Straight_1x13_Pitch2.00mm
+Through hole straight pin header, 1x13, 2.00mm pitch, single row
+Through hole pin header THT 1x13 2.00mm single row
+0
+13
+13
+MagLab_Connector
+Pin_Header_Straight_2x05_Pitch1.27mm
+Through hole straight pin header, 2x05, 1.27mm pitch, double rows
+Through hole pin header THT 2x05 1.27mm double row
+0
+10
+10
+MagLab_Connector
+SAMTEC_FTSH-105-XX-X-DV
+Connector Header Surface Mount 10 position 0.050" (1.27mm)
+Connector Header Surface Mount 10 position 0.050" (1.27mm)
+0
+10
+10
+MagLab_Connector
+SMA_CONN_RA_6mm
+
+SMA THT Female Jack Horizontal
+0
+4
+1
+MagLab_Connector
+TE-282818-2
+TERM BLOCK HDR 2POS 10.16MM
+
+0
+2
+2
+MagLab_Connector
+TE-282838-2
+TERM BLOCK HDR 2POS 10.16MM
+
+0
+2
+2
+MagLab_Connector
+TE-1775862-2
+2041262-1-2
+Connector
+0
+54
+54
+MagLab_Connector
+TE-2041262-1
+2041262-1-2
+Connector
+0
+54
+54
+MagLab_Connector
+TE_2-1445057-2
+
+
+0
+4
+4
+MagLab_Connector
+TE_5-103166-1
+
+
+0
+6
+6
+MagLab_Connector
+TE_796638-2
+
+
+0
+2
+2
+MagLab_Connector
+TE_2822541-1
+
+
+0
+17
+17
+MagLab_Connector
+USB4105-GF-A
+USB C
+
+0
+16
+16
+MagLab_Connector
+USB4110-GF-A_REVB
+
+
+0
+16
+16
+MagLab_Connector
+USB4125-GF-A
+USB C
+
+0
+10
+10
+MagLab_Connector
+USB_Micro-B_10103594-0001LF
+Micro USB Type B 10103594-0001LF
+USB USB_B USB_micro USB_OTG
+0
+13
+6
+MagLab_Connector
+WURTH-691311500104
+TERM BLOCK HDR 4POS VERT 5.08MM
+connector
+0
+4
+4
+MagLab_Connector
+mini-PCIe_F2_Full
+
+
+0
+52
+52
+MagLab_Connector-Molex
+436500212
+436500212
+Connector
+0
+4
+4
+MagLab_Connector-Molex
+5055680481
+
+
+0
+6
+6
+MagLab_Connector-Molex
+5055780271
+
+
+0
+4
+4
+MagLab_Connector-Molex
+Molex-0559320310
+MOLEX CONN HEADER VERT 3POS 2MM
+Molex
+0
+3
+3
+MagLab_Connector-Molex
+Molex-0559320410
+MOLEX CONN HEADER VERT 4POS 2MM
+Molex
+0
+4
+4
+MagLab_Connector-Molex
+Molex-0559350210
+Molex MicroClasp Wire-to-Board System, 55935-0210, with PCB locator, 2 Pins (http://www.molex.com/pdm_docs/sd/559350210_sd.pdf), generated with kicad-footprint-generator
+connector Molex MicroClasp horizontal
+0
+2
+2
+MagLab_Connector-Molex
+Molex-0559350410
+Molex MicroClasp Wire-to-Board System, 55935-0410, with PCB locator, 4 Pins (http://www.molex.com/pdm_docs/sd/559350210_sd.pdf), generated with kicad-footprint-generator
+connector Molex MicroClasp horizontal
+0
+4
+4
+MagLab_Connector-Molex
+Molex-5023520401
+Molex DuraClik series connector 5023520401
+connector Molex DuraClik
+0
+6
+5
+MagLab_Connector-Molex
+Molex-5055670271
+1.25mm Pitch, Micro-Lock Plus PCB Header, Right-Angle, Surface Mount, Tin-Bismuth Plating, Positive Lock, 4 Circuits, Black
+connector Molex Micro-Lock
+0
+4
+3
+MagLab_Connector-Molex
+Molex-5055670371
+1.25mm Pitch, Micro-Lock Plus PCB Header, Right-Angle, Surface Mount, Tin-Bismuth Plating, Positive Lock, 4 Circuits, Black
+connector Molex Micro-Lock
+0
+5
+4
+MagLab_Connector-Molex
+Molex-5055670471
+1.25mm Pitch, Micro-Lock Plus PCB Header, Right-Angle, Surface Mount, Tin-Bismuth Plating, Positive Lock, 4 Circuits, Black
+connector Molex Micro-Lock
+0
+6
+5
+MagLab_Connector-Molex
+Molex-5600200420
+
+
+0
+6
+6
+MagLab_Connector-Molex
+Molex-2059570371
+
+
+0
+5
+5
+MagLab_Connector-Molex
+TE-282837-2
+TERM BLK 4P SIDE ENT 5.08MM PCB
+
+0
+2
+2
+MagLab_Connector-Molex
+TE-282837-4
+TERM BLK 4P SIDE ENT 5.08MM PCB
+
+0
+4
+4
+MagLab_Connector-Wire
+360381
+Square, 5mm x 5mm
+
+0
+2
+1
+MagLab_Connector-Wire
+SolderWirePad_1x01_SMD_2x5mm
+Wire Pad, Square, SMD Pad,  2mm x 5mm,
+MesurementPoint Square SMDPad 2mmx5mm 
+0
+1
+1
+MagLab_Connector-Wire
+SolderWirePad_1x04_SMD_2x5mm_Pitch2.50mm
+Wire Pad with 4 pads, Square, SMD Pad, 1x04, 2mm x 5mm, Pitch 2.50mm
+WirePad Square SMDPad 2mmx5mm 
+0
+4
+4
+MagLab_Connector-Wire
+SolderWirePad_1x04_SMD_2x5mm_Pitch3.00mm
+Wire Pad with 4 pads, Square, SMD Pad, 1x04, 2mm x 5mm, Pitch 3.00mm
+WirePad Square SMDPad 2mmx5mm 
+0
+4
+4
+MagLab_Connector-Wire
+SolderWirePad_1x04_SMD_2x5mm_Pitch5.00mm
+Wire Pad with 4 pads, Square, SMD Pad, 1x04, 2mm x 5mm, Pitch 5.00mm
+WirePad Square SMDPad 2mmx5mm 
+0
+4
+4
+MagLab_Diode
+1206 (3216 Metric)
+
+
+0
+8
+8
+MagLab_Diode
+D_SMB
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
+0
+2
+2
+MagLab_Diode
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+MagLab_Diode
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+MagLab_Diode
+ESDA7P120-1U1M
+
+
+0
+2
+2
+MagLab_Diode
+PESD0603-240
+
+
+0
+2
+2
+MagLab_Diode
+SC-70-6
+SC-70-6
+SC-70-6
+0
+6
+6
+MagLab_Diode
+SMPA-DO-221BC
+
+
+0
+2
+2
+MagLab_Diode
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+MagLab_Diode
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+MagLab_Diode
+TI-X1SON
+Tvs Diode Surface Mount 2-X1SON (1x.60)
+resistor
+0
+2
+2
+MagLab_ESP32
+ESP32-WROVER-IE
+
+
+0
+39
+39
+MagLab_ESP32
+ESP32-WROVER-IE_old
+
+
+0
+47
+39
+MagLab_Fixed-Inductor
+DLW21SN491XQ2L
+
+
+0
+4
+4
+MagLab_Fixed-Inductor
+DLW21SN501SK2L
+
+
+0
+4
+4
+MagLab_Fixed-Inductor
+DLW31SN222SQ2L
+
+
+0
+4
+4
+MagLab_Fixed-Inductor
+EXL1V0606-100-R
+
+
+0
+2
+2
+MagLab_Fixed-Inductor
+HCM1A1105V2-100-R
+
+
+0
+2
+2
+MagLab_Fixed-Inductor
+Inductor_Wurth_0603
+
+
+0
+2
+2
+MagLab_Fixed-Inductor
+Inductor_Wurth_0806
+
+
+0
+2
+2
+MagLab_Fixed-Inductor
+Inductor_Wurth_CNSW-1206
+Inductor, Wurth Elektronik, Wurth_HCI-1350, 12.8mmx12.8mm
+inductor wurth hci smd
+0
+4
+4
+MagLab_Fixed-Inductor
+Inductor_Wurth_HCI-1350
+Inductor, Wurth Elektronik, Wurth_HCI-1350, 12.8mmx12.8mm
+inductor wurth hci smd
+0
+2
+2
+MagLab_Fixed-Inductor
+Inductor_Wurth_LQS-8040
+Inductor, Wurth Elektronik, Wurth_LQS-8040, 8mmx6.5mm
+inductor wurth hci smd
+0
+2
+2
+MagLab_Fixed-Inductor
+NRS4018
+
+
+0
+2
+2
+MagLab_Fixed-Inductor
+NRS5020
+
+
+0
+2
+2
+MagLab_Fixed-Inductor
+NS10165T100MNA
+
+
+0
+2
+2
+MagLab_Fixed-Inductor
+PA4339
+
+
+0
+4
+4
+MagLab_Footprint
+10-PIN_uMAX
+
+
+0
+10
+10
+MagLab_Footprint
+SON65P300X300X63-9N
+AP7361C-FGE-7-1
+Integrated Circuit
+0
+9
+9
+MagLab_Footprint
+SOT-563
+SOT563
+SOT-563
+0
+6
+6
+MagLab_Footprint
+TSSOP-16_W4.40mm
+
+
+0
+16
+16
+MagLab_IC
+DDA
+Power Pad Plastic Small-Outline 8-pin 1.27mm
+Powerpad
+0
+15
+9
+MagLab_IC
+DDPAK-TO-263
+
+
+0
+6
+6
+MagLab_IC
+DRV0006A-WSON-1.6x1.95mm
+
+
+0
+9
+7
+MagLab_IC
+QFN-28-1EP_5x5mm_Pitch0.5mm
+28-Lead Plastic Quad Flat, No Lead Package (MQ) - 5x5x0.9 mm Body [QFN or VQFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+QFN 0.5
+0
+32
+29
+MagLab_IC
+QFN50P400X400X100-25N
+
+
+0
+25
+25
+MagLab_IC
+SO-8
+
+
+0
+8
+8
+MagLab_IC
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+MagLab_IC
+SOIC-16W_7.5x10.3mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+MagLab_IC
+SOP-8_3.9x4.9mm_P1.27mm
+SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
+MagLab_IC
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+MagLab_IC
+VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias
+VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+39
+25
+MagLab_IC
+VSSOP-8_3.0x3.0mm_P0.65mm
+VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
+VSSOP-8 3.0 x 3.0
+0
+8
+8
+MagLab_LED
+LED_0603
+LED 0603 smd package
+LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+MagLab_LED
+LED_0805
+LED 0805 smd package
+LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+MagLab_LED
+LED_1606
+LED 0603 smd package
+LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+MagLab_Logo
+highvoltage_medium
+
+
+0
+0
+0
+MagLab_Logo
+highvoltage_small
+
+
+0
+0
+0
+MagLab_Logo
+logo_large
+
+
+0
+0
+0
+MagLab_Logo
+logo_medium
+
+
+0
+0
+0
+MagLab_Logo
+logo_small
+
+
+0
+0
+0
+MagLab_Logo
+mersen_logo
+
+
+0
+0
+0
+MagLab_Optocoupler
+8-SMD_Gull-Wing
+8-SMD_Gull-Wing
+
+0
+8
+8
+MagLab_Pogo-Pin
+P75-1D
+Through hole straight pogo pin, 1x01, 16.54mm height
+Through hole straight pogo pin, 1x01, 16.54mm height
+0
+1
+1
+MagLab_RF-Module
+RAK4270
+
+
+0
+20
+20
+MagLab_RTC
+MC-RV-3028-C7
+
+
+0
+8
+8
+MagLab_Resistor
+R_0201_0603Metric
+Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
+2
+MagLab_Resistor
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+MagLab_Resistor
+R_0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+MagLab_Resistor
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+MagLab_Resistor
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+MagLab_Resistor
+R_1206_3216Metric
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+MagLab_Resonator
+CSTNE8M00G550000B0
+
+
+0
+3
+3
+MagLab_Resonator
+CSTNE8M00G550000R0
+
+
+0
+3
+3
+MagLab_Shield
+CO-4
+
+
+0
+4
+4
+MagLab_Shield
+CO-10-SF
+
+
+0
+4
+4
+MagLab_Shield
+CO-10-SF-INT
+
+
+0
+4
+4
+MagLab_Shield
+CO-10-TF
+
+
+0
+4
+4
+MagLab_Shield
+Clamp-Connector
+
+
+0
+0
+0
+MagLab_Shunt-Con
+Shunt_2512_SMD
+
+
+0
+2
+2
+MagLab_Shunt-Con
+Shunt_S7.3
+
+
+0
+2
+2
+MagLab_Shunt-Con
+Shunt_S12.5
+
+
+0
+2
+2
+MagLab_Spacer
+WE-9774030243R
+
+
+0
+1
+1
+MagLab_Spacer
+WE-9774040243R
+
+
+0
+1
+1
+MagLab_Switch
+SW_JS102011SAQN
+Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
+switch spdt
+0
+3
+3
+MagLab_Switch
+SW_JS202011SCQN
+
+
+0
+6
+6
+MagLab_Switch
+SW_OS102011MA1QS1
+
+
+0
+3
+3
+MagLab_Switch
+SW_SPST_B3U-1000P
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
+Tactile Switch
+0
+2
+2
+MagLab_Switch
+Switch_Tactile_SMD_3.5x3.6mm_PTS841
+https://www.ckswitches.com/media/2805/pts841.pdf
+
+0
+5
+5
+MagLab_Switch
+WE-431256058716
+tactile switch SPST right angle
+tactile switch SPST angled
+0
+4
+2
+MagLab_TestPoint
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+MagLab_TestPoint
+TestPoint_Pad_D1.2mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+MagLab_TestPoint
+TestPoint_Pad_D1.5mm
+SMD pad as test Point, diameter 1.5mm
+test point SMD pad
+0
+1
+1
+MagLab_Transformer
+PA3964.002NL
+
+
+0
+8
+8
+MagLab_Transformer
+WE-75031xxxx
+SMPS Transformer
+Transformer
+0
+6
+6
+MagLab_Transistor-BJT
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+MagLab_Transistor-FET
+HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm
+
+HTSOP 1.27
+0
+12
+9
+MagLab_Transistor-FET
+SO-8
+
+
+0
+8
+8
+MagLab_Transistor-FET
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+MagLab_Trimmer-Potentiometer
+84WR2KLF
+
+
+0
+3
+3
+MagLab_Trimmer-Potentiometer
+Potentiometer_3296X_Horizontal
+Potentiometer, horizontal, Bourns 3296X, https://www.bourns.com/pdfs/3296.pdf
+Potentiometer horizontal Bourns 3296X
+0
+3
+3
+MagLab_Varistor
+B72210S2271K551
+
+
+0
+2
+2
+MagLab_Varistor
+B72220S0421K101
+
+
+0
+2
+2
+MagLab_Varistor
+V130LA-V320LA
+
+
 0
 2
 2
@@ -76292,6 +77538,20 @@ rotary encoder
 0
 5
 4
+Semiconductors
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+Semiconductors
+HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm
+HVSON, 8 Pin (https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
+HVSON NoLead
+0
+13
+9
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

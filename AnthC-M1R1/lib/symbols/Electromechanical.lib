@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF SW_DIP_x04 SW 0 0 Y N 1 F N
 F0 "SW" 0 350 50 H V C CNN
 F1 "SW_DIP_x04" 0 -250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Electromechanical:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Wurth Elektronik" 900 650 50 H I C CNN "Manufacturer"
 F5 "Mouser" 750 550 50 H I C CNN "Supplier"

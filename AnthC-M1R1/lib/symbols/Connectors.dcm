@@ -24,6 +24,12 @@ K screw terminal
 F ~
 $ENDCMP
 #
+$CMP USB4105-GF-A
+D CONN RCP USB2.0 TYP C 24P SMD RA
+K CONN RCP USB2.0 TYP C 24P SMD RA
+F https://gct.co/files/drawings/usb4105.pdf
+$ENDCMP
+#
 $CMP USB_C_Receptacle_USB2.0
 D USB Connectors WR-COM USB3.1 Type C SuperSpeed+ Rcpt
 K USB Connectors WR-COM USB3.1 Type C SuperSpeed+ Rcpt

@@ -162,7 +162,7 @@ Wire Wire Line
 Text Notes 4100 2400 0    50   ~ 0
 LEVEL SHIFTERS
 $Comp
-L Interface_UART:MAX3485 U?
+L IntegratedCircuits:MAX3072E U?
 U 1 1 60746CEC
 P 5300 1350
 AR Path="/606FCEC4/5EEADDE8/60746CEC" Ref="U?"  Part="1" 
@@ -178,102 +178,85 @@ F 6 "Exar" H 5300 1350 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 60746CF2
-P 6250 1650
-AR Path="/606FCEC4/5EEADDE8/60746CF2" Ref="#PWR?"  Part="1" 
-AR Path="/60746CF2" Ref="#PWR0150"  Part="1" 
-F 0 "#PWR0150" H 6250 1500 50  0001 C CNN
-F 1 "+3V3" H 6400 1750 50  0000 C CNN
-F 2 "" H 6250 1650 50  0001 C CNN
-F 3 "" H 6250 1650 50  0001 C CNN
-	1    6250 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Capacitors_0603:100nF C13
 U 1 1 60746CFB
-P 6250 1850
+P 6700 1900
 AR Path="/60746CFB" Ref="C13"  Part="1" 
 AR Path="/5EEADDE8/60746CFB" Ref="C?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746CFB" Ref="C?"  Part="1" 
-F 0 "C13" H 6050 1900 50  0000 L CNN
-F 1 "100nF" H 6275 1750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7650 2050 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6250 1850 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 7350 2200 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 8700 1950 50  0001 C CNN "Description"
-F 6 "X7R" H 6650 1800 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 6800 2200 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 7600 2200 50  0001 C CNN "Price"
-F 9 "Digikey" H 6600 2000 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 6800 2100 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 8300 2050 50  0001 C CNN "Tolerance"
-F 12 "50V" H 6550 1900 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 6250 1850 50  0001 C CNN "MPN"
-	1    6250 1850
+F 0 "C13" H 6400 1900 50  0000 L CNN
+F 1 "100nF" H 6725 1800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8100 2100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6700 1900 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7800 2250 50  0001 C CNN "Manufacturer"
+F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 9150 2000 50  0001 C CNN "Description"
+F 6 "X7R" H 7100 1850 50  0001 C CNN "Dielectric"
+F 7 "CL10B104KB8NNNC" H 7250 2250 50  0001 C CNN "Manufacturer Nr."
+F 8 "0.09" H 8050 2250 50  0001 C CNN "Price"
+F 9 "Digikey" H 7050 2050 50  0001 C CNN "Supplier"
+F 10 "1276-1000-1-ND" H 7250 2150 50  0001 C CNN "Supplier Nr."
+F 11 "10%" H 8750 2100 50  0001 C CNN "Tolerance"
+F 12 "50V" H 7000 1950 50  0001 C CNN "Voltage"
+F 13 "CL10B104KB8NNNC" H 6700 1900 50  0001 C CNN "MPN"
+	1    6700 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0151
 U 1 1 60746D01
-P 6250 2050
+P 6700 2100
 AR Path="/60746D01" Ref="#PWR0151"  Part="1" 
 AR Path="/5EEADDE8/60746D01" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D01" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0151" H 6250 1800 50  0001 C CNN
-F 1 "GND" H 6100 1950 50  0000 C CNN
-F 2 "" H 6250 2050 50  0001 C CNN
-F 3 "" H 6250 2050 50  0001 C CNN
-	1    6250 2050
+F 0 "#PWR0151" H 6700 1850 50  0001 C CNN
+F 1 "GND" H 6550 2100 50  0000 C CNN
+F 2 "" H 6700 2100 50  0001 C CNN
+F 3 "" H 6700 2100 50  0001 C CNN
+	1    6700 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 2050 6250 2000
+	6700 2100 6700 2050
 Wire Wire Line
-	6250 1700 6250 1650
-Wire Wire Line
-	5300 800  5300 850 
+	6700 1750 6700 1700
 $Comp
 L Resistor_0603:120Ω R5
 U 1 1 60746D13
-P 5900 1400
+P 5900 1350
 AR Path="/60746D13" Ref="R5"  Part="1" 
 AR Path="/5EEADDE8/60746D13" Ref="R?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D13" Ref="R?"  Part="1" 
-F 0 "R5" V 6000 1300 50  0000 L CNN
-F 1 "120" H 6100 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 2400 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf" V 5550 1450 50  0001 C CNN
-F 4 "Bourns" H 5900 2725 50  0001 C CNN "Manufacturer"
-F 5 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 5900 2325 50  0001 C CNN "Description"
-F 6 "CR0603-FX-1200ELF" H 5900 2525 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 5900 2800 50  0001 C CNN "Power"
-F 8 "0.025" H 5900 2225 50  0001 C CNN "Price"
-F 9 "Mouser" H 5900 2625 50  0001 C CNN "Supplier"
-F 10 "652-CR0603FX-1200ELF" H 5900 2925 50  0001 C CNN "Supplier Nr."
-F 11 "5%" H 5900 2150 50  0001 C CNN "Tolerance"
-F 12 "CR0603-FX-1200ELF" H 5900 1400 50  0001 C CNN "MPN"
-	1    5900 1400
+F 0 "R5" H 6000 1350 50  0000 L CNN
+F 1 "120" V 5900 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 2350 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf" V 5550 1400 50  0001 C CNN
+F 4 "Bourns" H 5900 2675 50  0001 C CNN "Manufacturer"
+F 5 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 5900 2275 50  0001 C CNN "Description"
+F 6 "CR0603-FX-1200ELF" H 5900 2475 50  0001 C CNN "Manufacturer Nr."
+F 7 "100mW" H 5900 2750 50  0001 C CNN "Power"
+F 8 "0.025" H 5900 2175 50  0001 C CNN "Price"
+F 9 "Mouser" H 5900 2575 50  0001 C CNN "Supplier"
+F 10 "652-CR0603FX-1200ELF" H 5900 2875 50  0001 C CNN "Supplier Nr."
+F 11 "5%" H 5900 2100 50  0001 C CNN "Tolerance"
+F 12 "CR0603-FX-1200ELF" H 5900 1350 50  0001 C CNN "MPN"
+	1    5900 1350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0153
 U 1 1 60746D1B
-P 5300 2000
+P 5300 1800
 AR Path="/60746D1B" Ref="#PWR0153"  Part="1" 
 AR Path="/5EEADDE8/60746D1B" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D1B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0153" H 5300 1750 50  0001 C CNN
-F 1 "GND" H 5305 1827 50  0000 C CNN
-F 2 "" H 5300 2000 50  0001 C CNN
-F 3 "" H 5300 2000 50  0001 C CNN
-	1    5300 2000
+F 0 "#PWR0153" H 5300 1550 50  0001 C CNN
+F 1 "GND" H 5305 1627 50  0000 C CNN
+F 2 "" H 5300 1800 50  0001 C CNN
+F 3 "" H 5300 1800 50  0001 C CNN
+	1    5300 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 1950 5300 2000
-Text Label 4550 1250 0    50   ~ 0
+Text Label 4550 1150 0    50   ~ 0
 RXD3V3
 Text Label 4550 1550 0    50   ~ 0
 TXD3V3
@@ -281,9 +264,9 @@ Wire Notes Line
 	4050 2250 4050 500 
 Text Notes 4100 650  0    50   ~ 0
 RS485 MODBUS INTERFACE
-Text Label 6000 1250 0    50   ~ 0
+Text Label 6050 1200 0    50   ~ 0
 B
-Text Label 6050 1550 0    50   ~ 0
+Text Label 6050 1500 0    50   ~ 0
 A
 Wire Notes Line
 	4050 2250 7050 2250
@@ -421,27 +404,6 @@ F 11 "1%" H 13550 1800 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 13550 1050 50  0001 C CNN "MPN"
 	1    13550 1050
 	0    -1   -1   0   
-$EndComp
-$Comp
-L AnthC-Lib-Symbols:2N7002 Q5
-U 1 1 6099408C
-P 4800 3100
-F 0 "Q5" V 4961 3100 60  0000 C CNN
-F 1 "2N7002" V 5067 3100 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23" H 5000 3300 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 3400 60  0001 L CNN
-F 4 "2N7002NCT-ND" H 5000 3500 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002" H 5000 3600 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5000 3700 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 5000 3800 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 3900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 5000 4000 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 115MA SOT-23" H 5000 4100 60  0001 L CNN "Description"
-F 11 "Changjiang Electronics Tech (CJ)" H 5000 4200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5000 4300 60  0001 L CNN "Status"
-F 13 "C8545" H 4800 3100 50  0001 C CNN "LCSC-PN"
-	1    4800 3100
-	0    1    1    0   
 $EndComp
 $Comp
 L Resistor_0603:10KΩ R35
@@ -1294,7 +1256,7 @@ AR Path="/602E71BC/60F4E9B0" Ref="L?"  Part="1"
 AR Path="/60F4E9B0" Ref="L2"  Part="1" 
 F 0 "L2" V 2150 5500 50  0000 C CNN
 F 1 "4.7μH" V 2199 5300 50  0000 C CNN
-F 2 "" H 2100 5300 50  0001 C CNN
+F 2 "Inductors:Inductor_Wurth_LQS-4012" H 2100 5300 50  0001 C CNN
 F 3 "https://www.mouser.be/datasheet/2/445/74404041047-1720697.pdf" H 2100 5300 50  0001 C CNN
 F 4 "74404041047" H 3300 5750 50  0001 C CNN "MPN"
 F 5 "Wurth Elektronik" H 2600 5750 50  0001 C CNN "Manufacturer"
@@ -2167,14 +2129,13 @@ L Processors:ESP32-S2-SOLO U6
 U 1 1 60316FA6
 P 9600 2150
 F 0 "U6" H 8900 3400 60  0000 C CNN
-F 1 "ESP32-S2-SOLO" H 9850 3400 60  0000 C CNN
-F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 9950 3500 60  0001 C CNN
+F 1 "ESP32-S2-SOLO" H 10100 3400 60  0000 C CNN
+F 2 "Processor:ESP32-S2-SOLO" H 9950 3500 60  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf" H 9150 2600 60  0001 C CNN
 F 4 "ESP32-S2-SOLO" H 12150 3400 50  0001 C CNN "MPN"
 F 5 "Espressif" H 11500 3400 50  0001 C CNN "Manufacturer"
-F 6 "3.9" H 11900 3200 50  0001 C CNN "Price"
-F 7 "Mouser" H 11450 3300 50  0001 C CNN "Supplier"
-F 8 "356-ESP32-S2-SOLO-N4" H 12350 3300 50  0001 C CNN "Supplier Part Number"
+F 6 "Mouser" H 11450 3300 50  0001 C CNN "Supplier"
+F 7 "356-ESP32-S2-SOLO-N4" H 12350 3300 50  0001 C CNN "Supplier Part Number"
 	1    9600 2150
 	1    0    0    -1  
 $EndComp
@@ -2251,19 +2212,6 @@ Wire Wire Line
 	9850 4650 9950 4650
 Wire Wire Line
 	9950 4750 9850 4750
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60ABEB86
-P 8850 4550
-AR Path="/606FCEC4/5EEADDE8/60ABEB86" Ref="#PWR?"  Part="1" 
-AR Path="/60ABEB86" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 8850 4400 50  0001 C CNN
-F 1 "+3V3" H 8700 4600 50  0000 C CNN
-F 2 "" H 8850 4550 50  0001 C CNN
-F 3 "" H 8850 4550 50  0001 C CNN
-	1    8850 4550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Capacitors_0603:100nF C32
 U 1 1 60ABFFBF
@@ -2774,7 +2722,7 @@ REAL TIME CLOCK
 Text Notes 600  6750 0    50   ~ 0
 DIGITAL INPUTS
 Wire Wire Line
-	6150 1350 6150 1550
+	6150 1350 6150 1500
 Text Label 13150 7950 0    50   ~ 0
 COM
 Wire Notes Line
@@ -2950,7 +2898,7 @@ U 1 1 61DD30B3
 P 14150 4550
 F 0 "U10" H 13650 5400 50  0000 C CNN
 F 1 "ADS1120IRVAR" H 14600 5400 50  0000 C CNN
-F 2 "" H 13600 4550 50  0001 C CNN
+F 2 "IC:QFN-16-1EP_4x4mm_P0.5mm_EP2.14x2.14mm" H 13600 4550 50  0001 C CNN
 F 3 "https://www.ti.com/lit/gpn/ads1120" H 13600 4550 50  0001 C CNN
 F 4 "ADS1120IRVAR" H 16050 5850 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 15300 5850 50  0001 C CNN "Manufacturer"
@@ -3643,17 +3591,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 800  7600 800 
 Connection ~ 7600 800 
-$Comp
-L power:+3V3 #PWR026
-U 1 1 633DC8B7
-P 8450 1450
-F 0 "#PWR026" H 8450 1300 50  0001 C CNN
-F 1 "+3V3" H 8465 1623 50  0000 C CNN
-F 2 "" H 8450 1450 50  0001 C CNN
-F 3 "" H 8450 1450 50  0001 C CNN
-	1    8450 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8450 1550 8450 1450
 $Comp
@@ -3680,19 +3617,6 @@ Wire Wire Line
 	9950 3250 9950 3200
 Wire Wire Line
 	9950 3650 9950 3550
-$Comp
-L power:+3V3 #PWR?
-U 1 1 63654912
-P 9100 4400
-AR Path="/606FCEC4/5EEADDE8/63654912" Ref="#PWR?"  Part="1" 
-AR Path="/63654912" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 9100 4250 50  0001 C CNN
-F 1 "+3V3" H 9250 4500 50  0000 C CNN
-F 2 "" H 9100 4400 50  0001 C CNN
-F 3 "" H 9100 4400 50  0001 C CNN
-	1    9100 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 4450 9100 4400
 Wire Wire Line
@@ -3750,23 +3674,19 @@ Wire Wire Line
 Connection ~ 12200 1950
 Wire Wire Line
 	12200 1950 12250 1950
-Wire Wire Line
-	5700 1250 5900 1250
-Wire Wire Line
-	5700 1550 5900 1550
 $Comp
-L Connectors:USB_C_Receptacle_USB2.0 J1
+L Connectors:USB4105-GF-A J1
 U 1 1 617194FC
 P 3500 7650
 F 0 "J1" H 3607 8517 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 4050 8400 50  0000 R CNN
-F 2 "" H 3650 7650 50  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/632723100011.pdf" H 5050 8250 50  0001 C CNN
-F 4 "632723100011" H 5750 8750 50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 5000 8750 50  0001 C CNN "Manufacturer"
-F 6 "3.47" H 5550 8550 50  0001 C CNN "Price"
-F 7 "Mouser" H 4800 8650 50  0001 C CNN "Supplier"
-F 8 "710-632723100011" H 5850 8650 50  0001 C CNN "Supplier Part Number"
+F 1 "USB4105-GF-A" H 4250 8400 50  0000 R CNN
+F 2 "Connectors:USB4105-GF-A" H 3500 9600 50  0001 C CNN
+F 3 "https://gct.co/files/drawings/usb4105.pdf" H 3650 7650 50  0001 C CNN
+F 4 "GCT" H 3500 9500 50  0001 C CNN "Manufacturer"
+F 5 "Farnell" H 3500 9300 50  0001 C CNN "Supplier"
+F 6 "3588205" H 3500 9200 50  0001 C CNN "Supplier Part Number"
+F 7 "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole" H 3500 9700 50  0001 C CNN "Description"
+F 8 "USB4105-GF-A" H 3500 9400 50  0001 C CNN "Manufacturer Nr."
 	1    3500 7650
 	1    0    0    -1  
 $EndComp
@@ -3782,11 +3702,11 @@ F 3 "" H 3350 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 8950 3200 8950
+	3350 8950 3300 8950
 Wire Wire Line
 	3200 8950 3200 8900
 Wire Wire Line
-	3350 8950 3500 8950
+	3350 8950 3400 8950
 Wire Wire Line
 	3500 8950 3500 8900
 $Comp
@@ -4250,27 +4170,6 @@ Connection ~ 11450 1100
 Wire Wire Line
 	11450 1100 11550 1100
 $Comp
-L AnthC-Lib-Symbols:2N7002 Q2
-U 1 1 63242227
-P 6250 3100
-F 0 "Q2" V 6411 3100 60  0000 C CNN
-F 1 "2N7002" V 6517 3100 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23" H 6450 3300 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6450 3400 60  0001 L CNN
-F 4 "2N7002NCT-ND" H 6450 3500 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002" H 6450 3600 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6450 3700 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 6450 3800 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6450 3900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 6450 4000 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 115MA SOT-23" H 6450 4100 60  0001 L CNN "Description"
-F 11 "Changjiang Electronics Tech (CJ)" H 6450 4200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6450 4300 60  0001 L CNN "Status"
-F 13 "C8545" H 6250 3100 50  0001 C CNN "LCSC-PN"
-	1    6250 3100
-	0    1    1    0   
-$EndComp
-$Comp
 L Resistor_0603:10KΩ R41
 U 1 1 63243C20
 P 6600 2900
@@ -4348,27 +4247,6 @@ Text Label 6650 3100 0    50   ~ 0
 RXD
 Wire Wire Line
 	5550 3100 5850 3100
-$Comp
-L AnthC-Lib-Symbols:2N7002 Q7
-U 1 1 63849603
-P 6250 4100
-F 0 "Q7" V 6411 4100 60  0000 C CNN
-F 1 "2N7002" V 6517 4100 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23" H 6450 4300 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6450 4400 60  0001 L CNN
-F 4 "2N7002NCT-ND" H 6450 4500 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002" H 6450 4600 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6450 4700 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 6450 4800 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6450 4900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 6450 5000 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 115MA SOT-23" H 6450 5100 60  0001 L CNN "Description"
-F 11 "Changjiang Electronics Tech (CJ)" H 6450 5200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6450 5300 60  0001 L CNN "Status"
-F 13 "C8545" H 6250 4100 50  0001 C CNN "LCSC-PN"
-	1    6250 4100
-	0    1    1    0   
-$EndComp
 $Comp
 L Resistor_0603:10KΩ R42
 U 1 1 6384B082
@@ -4459,17 +4337,15 @@ TXD
 Wire Wire Line
 	5550 4100 5850 4100
 Wire Wire Line
-	4550 1250 4900 1250
-Wire Wire Line
 	4550 1550 4900 1550
 NoConn ~ 8100 4650
 $Comp
-L AnthC-Lib-Symbols:M41T00SM6F U11
+L IntegratedCircuits:M41T00SM6F U11
 U 1 1 6164F722
 P 5250 6000
 F 0 "U11" H 5575 5927 50  0000 C CNN
 F 1 "M41T00SM6F" H 5575 5836 50  0000 C CNN
-F 2 "" H 5550 6800 50  0001 C CNN
+F 2 "IC:SOIC-8_3.9x4.9mm_P1.27mm" H 5550 6800 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/m41t00s.pdf" H 5550 6800 50  0001 C CNN
 F 4 "M41T00SM6F" H 6250 6850 50  0001 C CNN "MPN"
 F 5 "STMicroelectronics" H 6350 6750 50  0001 C CNN "Manufacturer"
@@ -4622,12 +4498,6 @@ Connection ~ 6050 4850
 Wire Wire Line
 	6050 4850 6450 4850
 NoConn ~ 6000 5550
-Connection ~ 5900 1250
-Wire Wire Line
-	5900 1250 6150 1250
-Connection ~ 5900 1550
-Wire Wire Line
-	5900 1550 6150 1550
 NoConn ~ 9850 4850
 NoConn ~ 11250 5250
 Wire Wire Line
@@ -4862,27 +4732,6 @@ Wire Wire Line
 	12650 1700 12500 1700
 Wire Wire Line
 	13400 1050 13350 1050
-$Comp
-L AnthC-Lib-Symbols:2N7002 Q1
-U 1 1 62FF5613
-P 4800 4100
-F 0 "Q1" V 4961 4100 60  0000 C CNN
-F 1 "2N7002" V 5067 4100 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23" H 5000 4300 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 4400 60  0001 L CNN
-F 4 "2N7002NCT-ND" H 5000 4500 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N7002" H 5000 4600 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5000 4700 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 5000 4800 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 4900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 5000 5000 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 60V 115MA SOT-23" H 5000 5100 60  0001 L CNN "Description"
-F 11 "Changjiang Electronics Tech (CJ)" H 5000 5200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5000 5300 60  0001 L CNN "Status"
-F 13 "C8545" H 4800 4100 50  0001 C CNN "LCSC-PN"
-	1    4800 4100
-	0    1    1    0   
-$EndComp
 $Comp
 L Resistor_0603:10KΩ R17
 U 1 1 62FF561C
@@ -5304,8 +5153,8 @@ $Comp
 L Resistor_0603:0 R3
 U 1 1 61F06B6A
 P 3200 8750
-F 0 "R3" H 3270 8796 50  0000 L CNN
-F 1 "0" H 3270 8705 50  0000 L CNN
+F 0 "R3" V 3600 8750 50  0000 L CNN
+F 1 "0" V 3200 8750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 9750 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 2850 8800 50  0001 C CNN
 F 4 "Yageo" H 3200 10075 50  0001 C CNN "Manufacturer"
@@ -5323,8 +5172,8 @@ $Comp
 L Resistor_0603:0 R4
 U 1 1 61F08D4B
 P 3500 8750
-F 0 "R4" H 3570 8796 50  0000 L CNN
-F 1 "0" H 3570 8705 50  0000 L CNN
+F 0 "R4" V 3900 8750 50  0000 L CNN
+F 1 "0" V 3500 8750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 9750 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3150 8800 50  0001 C CNN
 F 4 "Yageo" H 3500 10075 50  0001 C CNN "Manufacturer"
@@ -5384,27 +5233,6 @@ F 11 "10%" H 7950 7700 50  0001 C CNN "Tolerance"
 F 12 "50V" H 6200 7550 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 5900 7500 50  0001 C CNN "MPN"
 	1    5900 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitor_1206:4.7uF C19
-U 1 1 633F61C9
-P 6100 7500
-F 0 "C19" H 6215 7546 50  0000 L CNN
-F 1 "4.7uF" H 6215 7455 50  0000 L CNN
-F 2 "MagLab_Capacitor:C_1206_3216Metric" H 6100 8950 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KAHNNNE.jsp" H 6100 7500 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 6100 8750 50  0001 C CNN "Manufacturer"
-F 5 "CL31B475KAHNNNE" H 6100 8650 50  0001 C CNN "Manufacturer Nr."
-F 6 "Digikey" H 6100 8550 50  0001 C CNN "Supplier"
-F 7 "1276-1055-1-ND" H 6100 8450 50  0001 C CNN "Supplier Nr."
-F 8 "4.7µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" H 6100 8850 50  0001 C CNN "Description"
-F 9 "JLCPCB" H 6100 8250 50  0001 C CNN "Assembler"
-F 10 "C1872" H 6100 8150 50  0001 C CNN "Assembler Nr."
-F 11 "True" H 6100 8050 50  0001 C CNN "Assembler BOM"
-F 12 "0.18" H 6100 8350 50  0001 C CNN "Supplier Price"
-F 13 "V1" H 6100 7950 50  0001 C CNN "Variant"
-	1    6100 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5467,37 +5295,30 @@ L Resistor_0603:47K5 R63
 U 1 1 62296C01
 P 5350 8300
 F 0 "R63" V 5304 8370 50  0000 L CNN
-F 1 "47K5" V 5395 8370 50  0000 L CNN
-F 2 "MagLab_Resistor:R_0603_1608Metric" H 5350 9550 50  0001 C CNN
+F 1 "47K5" H 5350 8300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5350 9550 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" V 5000 8350 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5350 9350 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0603FT47K5" H 5350 9250 50  0001 C CNN "Manufacturer Nr."
-F 6 "Digikey" H 5350 9150 50  0001 C CNN "Supplier"
-F 7 "RMCF0603FT47K5CT-ND" H 5350 9050 50  0001 C CNN "Supplier Nr."
-F 8 "0.09" H 5350 8950 50  0001 C CNN "Supplier Price"
-F 9 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 5350 9450 50  0001 C CNN "Description"
-F 10 "True" H 5350 8650 50  0001 C CNN "Assembler BOM"
+F 5 "Digikey" H 5350 9150 50  0001 C CNN "Supplier"
+F 6 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 5350 9450 50  0001 C CNN "Description"
+F 7 "RMCF0603FT47K5" H 5350 9250 50  0001 C CNN "Manufacturer Part Number"
+F 8 "RMCF0603FT47K5CT-ND" H 5350 9050 50  0001 C CNN "Supplier Part Number"
 	1    5350 8300
 	0    1    1    0   
 $EndComp
 $Comp
-L MagLab_Resistor_0603:22K1 R47
+L Resistor_0603:22K1 R47
 U 1 1 62296C15
 P 5350 7950
 F 0 "R47" V 5304 8020 50  0000 L CNN
-F 1 "22K1" V 5395 8020 50  0000 L CNN
-F 2 "MagLab_Resistor:R_0603_1608Metric" H 5350 9200 50  0001 C CNN
+F 1 "22K1" H 5350 7950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5350 9200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" V 5000 8000 50  0001 C CNN
 F 4 "Bourns Inc." H 5350 9000 50  0001 C CNN "Manufacturer"
-F 5 "CR0603-FX-2212ELF" H 5350 8900 50  0001 C CNN "Manufacturer Nr."
-F 6 "Digikey" H 5350 8800 50  0001 C CNN "Supplier"
-F 7 "CR0603-FX-2212ELFCT-ND" H 5350 8700 50  0001 C CNN "Supplier Nr."
-F 8 "JLCPCB" H 5350 8500 50  0001 C CNN "Assembler"
-F 9 "C203418" H 5350 8400 50  0001 C CNN "Assembler Nr."
-F 10 "0.09" H 5350 8600 50  0001 C CNN "Supplier Price"
-F 11 "22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 5350 9100 50  0001 C CNN "Description"
-F 12 "True" H 5350 8300 50  0001 C CNN "Assembler BOM"
-F 13 "V1" H 5350 8200 50  0001 C CNN "Variant"
+F 5 "Digikey" H 5350 8800 50  0001 C CNN "Supplier"
+F 6 "22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 5350 9100 50  0001 C CNN "Description"
+F 7 "CR0603-FX-2212ELF" H 5350 8900 50  0001 C CNN "Manufacturer Part Number"
+F 8 "CR0603-FX-2212ELFCT-ND" H 5350 8700 50  0001 C CNN "Supplier Part Number"
 	1    5350 7950
 	0    1    1    0   
 $EndComp
@@ -5563,25 +5384,21 @@ Wire Wire Line
 Wire Wire Line
 	6100 7250 6100 7350
 $Comp
-L MagLab_Resistor_0603:1K R43
+L Resistor_0603:1K R43
 U 1 1 631C2154
 P 5050 8550
-F 0 "R43" H 4850 8500 50  0000 C CNN
-F 1 "1K" H 5050 8550 50  0000 C CNN
-F 2 "MagLab_Resistor:R_0603_1608Metric" H 5050 10050 50  0001 C CNN
+F 0 "R43" H 5050 8800 50  0000 C CNN
+F 1 "1K" V 5050 8550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5050 9550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 4700 8600 50  0001 C CNN
-F 4 "Yageo" H 5050 9850 50  0001 C CNN "Manufacturer"
-F 5 "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 5050 9950 50  0001 C CNN "Description"
-F 6 "RC0603FR-071KL" H 5050 9750 50  0001 C CNN "Manufacturer Nr."
-F 7 "Digikey" H 5050 9650 50  0001 C CNN "Supplier"
-F 8 "311-1.00KHRCT-ND" H 5050 9550 50  0001 C CNN "Supplier Nr."
-F 9 "JLCPCB" H 5050 9350 50  0001 C CNN "Assembler"
-F 10 "True" H 5050 9150 50  0001 C CNN "Assembler BOM"
-F 11 "C22548" H 5050 9250 50  0001 C CNN "Assembler Nr."
-F 12 "0.09" H 5050 9450 50  0001 C CNN "Supplier Price"
-F 13 "V1" H 5050 9050 50  0001 C CNN "Variant"
+F 4 "Yageo" H 5050 9875 50  0001 C CNN "Manufacturer"
+F 5 "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 5050 9475 50  0001 C CNN "Description"
+F 6 "Mouser" H 5050 9775 50  0001 C CNN "Supplier"
+F 7 "RC0603FR-071KL" H 5050 9675 50  0001 C CNN "Manufacturer Part Number"
+F 8 "603-RC0603FR-071KL" H 5050 10075 50  0001 C CNN "Supplier Part Number"
+F 9 "1%" H 5050 9300 50  0001 C CNN "Tolerance"
 	1    5050 8550
-	0    1    1    0   
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5050 8400 5050 8350
@@ -5620,48 +5437,6 @@ Wire Wire Line
 	6800 9650 6800 9700
 Wire Wire Line
 	6900 9650 6900 9700
-$Comp
-L MagLab_Resistor_0603:470 R84
-U 1 1 638B5983
-P 6800 9850
-F 0 "R84" V 6950 9750 50  0000 L CNN
-F 1 "470" H 6750 9850 50  0000 L CNN
-F 2 "MagLab_Resistor:R_0603_1608Metric" H 6800 11100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 6450 9900 50  0001 C CNN
-F 4 "470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 6800 11000 50  0001 C CNN "Description"
-F 5 "Yageo" H 6800 10900 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-07470RL" H 6800 10800 50  0001 C CNN "Manufacturer Nr."
-F 7 "Digikey" H 6750 10700 50  0001 C CNN "Supplier"
-F 8 "311-470HRCT-ND" H 6800 10600 50  0001 C CNN "Supplier Nr."
-F 9 "0.09" H 6800 10500 50  0001 C CNN "Supplier Price"
-F 10 "JLCPCB" H 6800 10400 50  0001 C CNN "Assembler"
-F 11 "C114669" H 6800 10300 50  0001 C CNN "Assembler Nr."
-F 12 "True" H 6800 10200 50  0001 C CNN "Assembler BOM"
-F 13 "V1" H 6800 10100 50  0001 C CNN "Variant"
-	1    6800 9850
-	0    1    1    0   
-$EndComp
-$Comp
-L MagLab_Resistor_0603:470 R85
-U 1 1 638B749C
-P 6900 9850
-F 0 "R85" V 7050 9900 50  0000 L CNN
-F 1 "470" H 6850 9850 50  0000 L CNN
-F 2 "MagLab_Resistor:R_0603_1608Metric" H 6900 11100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 6550 9900 50  0001 C CNN
-F 4 "470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 6900 11000 50  0001 C CNN "Description"
-F 5 "Yageo" H 6900 10900 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-07470RL" H 6900 10800 50  0001 C CNN "Manufacturer Nr."
-F 7 "Digikey" H 6850 10700 50  0001 C CNN "Supplier"
-F 8 "311-470HRCT-ND" H 6900 10600 50  0001 C CNN "Supplier Nr."
-F 9 "0.09" H 6900 10500 50  0001 C CNN "Supplier Price"
-F 10 "JLCPCB" H 6900 10400 50  0001 C CNN "Assembler"
-F 11 "C114669" H 6900 10300 50  0001 C CNN "Assembler Nr."
-F 12 "True" H 6900 10200 50  0001 C CNN "Assembler BOM"
-F 13 "V1" H 6900 10100 50  0001 C CNN "Variant"
-	1    6900 9850
-	0    1    1    0   
-$EndComp
 $Comp
 L Optical:150060RS55040 D4
 U 1 1 6399BDDC
@@ -5711,17 +5486,8 @@ F 3 "" H 7200 10350 50  0001 C CNN
 	1    7200 10350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 1350 4750 1350
-Text Label 4550 1350 0    50   ~ 0
+Text Label 4550 1250 0    50   ~ 0
 RS485
-Wire Wire Line
-	4750 1450 4750 1350
-Wire Wire Line
-	4750 1450 4900 1450
-Connection ~ 4750 1350
-Wire Wire Line
-	4750 1350 4550 1350
 Text Label 6700 9900 1    50   ~ 0
 RS485
 Wire Wire Line
@@ -6070,14 +5836,14 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR?
 U 1 1 634315B1
-P 3000 850
+P 3250 850
 AR Path="/606FCEC4/5EEADDE8/634315B1" Ref="#PWR?"  Part="1" 
 AR Path="/634315B1" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 3000 700 50  0001 C CNN
-F 1 "+3V3" H 3015 1023 50  0000 C CNN
-F 2 "" H 3000 850 50  0001 C CNN
-F 3 "" H 3000 850 50  0001 C CNN
-	1    3000 850 
+F 0 "#PWR0105" H 3250 700 50  0001 C CNN
+F 1 "+3V3" H 3265 1023 50  0000 C CNN
+F 2 "" H 3250 850 50  0001 C CNN
+F 3 "" H 3250 850 50  0001 C CNN
+	1    3250 850 
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -6123,8 +5889,6 @@ F 3 "" H 1100 1800 50  0001 C CNN
 	1    1100 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 850  3000 850 
 Connection ~ 1950 950 
 Wire Wire Line
 	1950 750  1950 950 
@@ -6148,18 +5912,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0109
 U 1 1 64698C28
-P 3250 900
-F 0 "#PWR0109" H 3250 750 50  0001 C CNN
-F 1 "+5V" H 3265 1073 50  0000 C CNN
-F 2 "" H 3250 900 50  0001 C CNN
-F 3 "" H 3250 900 50  0001 C CNN
-	1    3250 900 
+P 3700 900
+F 0 "#PWR0109" H 3700 750 50  0001 C CNN
+F 1 "+5V" H 3715 1073 50  0000 C CNN
+F 2 "" H 3700 900 50  0001 C CNN
+F 3 "" H 3700 900 50  0001 C CNN
+	1    3700 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 950  3250 900 
-Wire Wire Line
-	2850 950  3250 950 
+	3700 950  3700 900 
 Wire Wire Line
 	1500 850  2200 850 
 Wire Wire Line
@@ -6249,14 +6011,14 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR?
 U 1 1 62518789
-P 5300 800
+P 5300 900
 AR Path="/606FCEC4/5EEADDE8/62518789" Ref="#PWR?"  Part="1" 
 AR Path="/62518789" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 5300 650 50  0001 C CNN
-F 1 "+3V3" H 5315 973 50  0000 C CNN
-F 2 "" H 5300 800 50  0001 C CNN
-F 3 "" H 5300 800 50  0001 C CNN
-	1    5300 800 
+F 0 "#PWR0112" H 5300 750 50  0001 C CNN
+F 1 "+3V3" H 5315 1073 50  0000 C CNN
+F 2 "" H 5300 900 50  0001 C CNN
+F 3 "" H 5300 900 50  0001 C CNN
+	1    5300 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6361,4 +6123,285 @@ F 3 "" H 12450 2500 50  0001 C CNN
 	1    12450 2500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4900 1150 4550 1150
+Wire Wire Line
+	4900 1250 4750 1250
+Wire Wire Line
+	4900 1450 4750 1450
+Wire Wire Line
+	4750 1450 4750 1250
+Connection ~ 4750 1250
+Wire Wire Line
+	4750 1250 4550 1250
+Wire Wire Line
+	5300 1800 5300 1750
+Wire Wire Line
+	5300 900  5300 950 
+Wire Wire Line
+	5700 1250 5700 1200
+Wire Wire Line
+	5700 1200 5900 1200
+Wire Wire Line
+	6150 1200 6150 1250
+Connection ~ 5900 1200
+Wire Wire Line
+	5900 1200 6150 1200
+Wire Wire Line
+	5700 1500 5900 1500
+Wire Wire Line
+	5700 1500 5700 1450
+Connection ~ 5900 1500
+Wire Wire Line
+	5900 1500 6150 1500
+$Comp
+L power:+3V3 #PWR0143
+U 1 1 61F90E15
+P 9100 4400
+F 0 "#PWR0143" H 9100 4250 50  0001 C CNN
+F 1 "+3V3" H 9115 4573 50  0000 C CNN
+F 2 "" H 9100 4400 50  0001 C CNN
+F 3 "" H 9100 4400 50  0001 C CNN
+	1    9100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0146
+U 1 1 61F912FD
+P 8450 1450
+F 0 "#PWR0146" H 8450 1300 50  0001 C CNN
+F 1 "+3V3" H 8465 1623 50  0000 C CNN
+F 2 "" H 8450 1450 50  0001 C CNN
+F 3 "" H 8450 1450 50  0001 C CNN
+	1    8450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0123
+U 1 1 61F925C3
+P 8850 4550
+F 0 "#PWR0123" H 8850 4400 50  0001 C CNN
+F 1 "+3V3" H 8865 4723 50  0000 C CNN
+F 2 "" H 8850 4550 50  0001 C CNN
+F 3 "" H 8850 4550 50  0001 C CNN
+	1    8850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0147
+U 1 1 61F92A39
+P 6700 1700
+F 0 "#PWR0147" H 6700 1550 50  0001 C CNN
+F 1 "+3V3" H 6715 1873 50  0000 C CNN
+F 2 "" H 6700 1700 50  0001 C CNN
+F 3 "" H 6700 1700 50  0001 C CNN
+	1    6700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61FAC8C1
+P 3550 950
+F 0 "#FLG0101" H 3550 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 3600 1100 50  0000 C CNN
+F 2 "" H 3550 950 50  0001 C CNN
+F 3 "~" H 3550 950 50  0001 C CNN
+	1    3550 950 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 950  3550 950 
+Wire Wire Line
+	2850 850  3050 850 
+Connection ~ 3550 950 
+Wire Wire Line
+	3550 950  3700 950 
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 62247242
+P 3050 850
+F 0 "#FLG0102" H 3050 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 3100 1100 50  0000 C CNN
+F 2 "" H 3050 850 50  0001 C CNN
+F 3 "~" H 3050 850 50  0001 C CNN
+	1    3050 850 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3050 850 
+Wire Wire Line
+	3050 850  3250 850 
+$Comp
+L Transistors_MOSFET:2N7002 Q1
+U 1 1 6099408C
+P 4800 3100
+F 0 "Q1" V 4500 3250 60  0000 R CNN
+F 1 "2N7002" V 4936 3100 60  0000 C CNN
+F 2 "Transistors:SOT-23" H 5000 3300 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 3400 60  0001 L CNN
+F 4 "MOSFET N-CH 60V 115MA SOT-23" H 5000 4100 60  0001 L CNN "Description"
+F 5 "ON Semiconductor" H 5000 4200 60  0001 L CNN "Manufacturer"
+F 6 "2N7002" H 5000 3600 60  0001 L CNN "Manufacturer Part Number"
+F 7 "Mouser" H 5000 3500 60  0001 L CNN "Supplier"
+F 8 "512-2N7002" H 5600 3500 50  0001 C CNN "Supplier Part Number"
+	1    4800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistors_MOSFET:2N7002 Q5
+U 1 1 62319849
+P 6250 3100
+F 0 "Q5" V 5950 3250 60  0000 R CNN
+F 1 "2N7002" V 6386 3100 60  0000 C CNN
+F 2 "Transistors:SOT-23" H 6450 3300 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6450 3400 60  0001 L CNN
+F 4 "MOSFET N-CH 60V 115MA SOT-23" H 6450 4100 60  0001 L CNN "Description"
+F 5 "ON Semiconductor" H 6450 4200 60  0001 L CNN "Manufacturer"
+F 6 "2N7002" H 6450 3600 60  0001 L CNN "Manufacturer Part Number"
+F 7 "Mouser" H 6450 3500 60  0001 L CNN "Supplier"
+F 8 "512-2N7002" H 7050 3500 50  0001 C CNN "Supplier Part Number"
+	1    6250 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistors_MOSFET:2N7002 Q7
+U 1 1 6231A2F0
+P 6250 4100
+F 0 "Q7" V 5950 4250 60  0000 R CNN
+F 1 "2N7002" V 6386 4100 60  0000 C CNN
+F 2 "Transistors:SOT-23" H 6450 4300 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6450 4400 60  0001 L CNN
+F 4 "MOSFET N-CH 60V 115MA SOT-23" H 6450 5100 60  0001 L CNN "Description"
+F 5 "ON Semiconductor" H 6450 5200 60  0001 L CNN "Manufacturer"
+F 6 "2N7002" H 6450 4600 60  0001 L CNN "Manufacturer Part Number"
+F 7 "Mouser" H 6450 4500 60  0001 L CNN "Supplier"
+F 8 "512-2N7002" H 7050 4500 50  0001 C CNN "Supplier Part Number"
+	1    6250 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistors_MOSFET:2N7002 Q2
+U 1 1 6231AF4F
+P 4800 4100
+F 0 "Q2" V 4500 4250 60  0000 R CNN
+F 1 "2N7002" V 4936 4100 60  0000 C CNN
+F 2 "Transistors:SOT-23" H 5000 4300 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 4400 60  0001 L CNN
+F 4 "MOSFET N-CH 60V 115MA SOT-23" H 5000 5100 60  0001 L CNN "Description"
+F 5 "ON Semiconductor" H 5000 5200 60  0001 L CNN "Manufacturer"
+F 6 "2N7002" H 5000 4600 60  0001 L CNN "Manufacturer Part Number"
+F 7 "Mouser" H 5000 4500 60  0001 L CNN "Supplier"
+F 8 "512-2N7002" H 5600 4500 50  0001 C CNN "Supplier Part Number"
+	1    4800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_0603:470Ω R84
+U 1 1 624159A3
+P 6800 9850
+F 0 "R84" H 6650 9700 50  0000 L CNN
+F 1 "470Ω" V 6800 9750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6800 10850 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003599164_1-2569050.pdf" V 6450 9900 50  0001 C CNN
+F 4 "Vishay" H 6800 11175 50  0001 C CNN "Manufacturer"
+F 5 "CRCW0603470RJNEBC" H 6800 10975 50  0001 C CNN "MPN"
+F 6 "Mouser" H 6800 11075 50  0001 C CNN "Supplier"
+F 7 "71-CRCW0603470RJNEBC" H 6800 11375 50  0001 C CNN "Supplier Nr."
+F 8 "100mW" H 6800 11250 50  0001 C CNN "Power"
+F 9 "5%" H 6800 10600 50  0001 C CNN "Tolerance"
+F 10 "0.025" H 6800 10675 50  0001 C CNN "Price"
+F 11 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 6800 10775 50  0001 C CNN "Description"
+	1    6800 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_0603:470Ω R85
+U 1 1 62416859
+P 6900 9850
+F 0 "R85" H 6950 9700 50  0000 L CNN
+F 1 "470Ω" V 6900 9750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 10850 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003599164_1-2569050.pdf" V 6550 9900 50  0001 C CNN
+F 4 "Vishay" H 6900 11175 50  0001 C CNN "Manufacturer"
+F 5 "CRCW0603470RJNEBC" H 6900 10975 50  0001 C CNN "MPN"
+F 6 "Mouser" H 6900 11075 50  0001 C CNN "Supplier"
+F 7 "71-CRCW0603470RJNEBC" H 6900 11375 50  0001 C CNN "Supplier Nr."
+F 8 "100mW" H 6900 11250 50  0001 C CNN "Power"
+F 9 "5%" H 6900 10600 50  0001 C CNN "Tolerance"
+F 10 "0.025" H 6900 10675 50  0001 C CNN "Price"
+F 11 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 6900 10775 50  0001 C CNN "Description"
+	1    6900 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor_1206:4.7uF C19
+U 1 1 624A4099
+P 6100 7500
+F 0 "C19" H 6215 7546 50  0000 L CNN
+F 1 "4.7uF" H 6215 7455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6100 8950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KAHNNNE.jsp" H 6100 7500 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6100 8750 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 6100 8550 50  0001 C CNN "Supplier"
+F 6 "4.7µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" H 6100 8850 50  0001 C CNN "Description"
+F 7 "CL31B475KAHNNNE" H 6100 8650 50  0001 C CNN "Manufacturer Part Number"
+F 8 "187-CL31B475KAHNNNE" H 6100 8450 50  0001 C CNN "Supplier Part Number"
+	1    6100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_0603:0 R88
+U 1 1 61B8BE03
+P 3300 8750
+F 0 "R88" V 3800 8700 50  0000 L CNN
+F 1 "0" V 3300 8750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 9750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 2950 8800 50  0001 C CNN
+F 4 "Yageo" H 3300 10075 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 3300 9875 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3300 9975 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 3300 10275 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 3300 9500 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3300 9675 50  0001 C CNN "Description"
+F 10 "100mW" H 3300 10150 50  0001 C CNN "Power"
+F 11 "0.09" H 3300 9575 50  0001 C CNN "Price"
+	1    3300 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_0603:0 R89
+U 1 1 61B8C0BA
+P 3400 8750
+F 0 "R89" V 3700 8700 50  0000 L CNN
+F 1 "0" V 3400 8750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3400 9750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3050 8800 50  0001 C CNN
+F 4 "Yageo" H 3400 10075 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 3400 9875 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3400 9975 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 3400 10275 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 3400 9500 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3400 9675 50  0001 C CNN "Description"
+F 10 "100mW" H 3400 10150 50  0001 C CNN "Power"
+F 11 "0.09" H 3400 9575 50  0001 C CNN "Price"
+	1    3400 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 8600 3300 8550
+Wire Wire Line
+	3300 8900 3300 8950
+Connection ~ 3300 8950
+Wire Wire Line
+	3300 8950 3200 8950
+Wire Wire Line
+	3400 8900 3400 8950
+Connection ~ 3400 8950
+Wire Wire Line
+	3400 8950 3500 8950
+Wire Wire Line
+	3400 8600 3400 8550
+Wire Wire Line
+	4100 7150 4150 7150
+Wire Wire Line
+	4150 7150 4150 7050
 $EndSCHEMATC

@@ -60,18 +60,13 @@ ENDDEF
 DEF 4.7uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "4.7uF" 25 -100 50 H V L CNN
-F2 "MagLab_Capacitor:C_1206_3216Metric" 0 1450 50 H I C CNN
+F2 "Capacitor_SMD:C_1206_3216Metric" 0 1450 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Samsung Electro-Mechanics" 0 1250 50 H I C CNN "Manufacturer"
-F5 "CL31B475KAHNNNE" 0 1150 50 H I C CNN "Manufacturer Nr."
-F6 "Digikey" 0 1050 50 H I C CNN "Supplier"
-F7 "1276-1055-1-ND" 0 950 50 H I C CNN "Supplier Nr."
+F5 "CL31B475KAHNNNE" 0 1150 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 0 1050 50 H I C CNN "Supplier"
+F7 "187-CL31B475KAHNNNE" 0 950 50 H I C CNN "Supplier Part Number"
 F8 "4.7µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" 0 1350 50 H I C CNN "Description"
-F9 "JLCPCB" 0 750 50 H I C CNN "Assembler"
-F10 "C1872" 0 650 50 H I C CNN "Assembler Nr."
-F11 "True" 0 550 50 H I C CNN "Assembler BOM"
-F12 "0.18" 0 850 50 H I C CNN "Supplier Price"
-F13 "V1" 0 450 50 H I C CNN "Variant"
 $FPLIST
  C_*
 $ENDFPLIST

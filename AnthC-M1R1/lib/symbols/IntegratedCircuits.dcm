@@ -28,6 +28,24 @@ $CMP M41T00SM6F
 F https://www.st.com/resource/en/datasheet/m41t00s.pdf
 $ENDCMP
 #
+$CMP MAX3072E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MAX3075E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MAX3078E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
 $CMP REF5010AD
 D 10V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 10V
@@ -104,6 +122,24 @@ $CMP REF5050ID
 D 5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP SP3481EN
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3485CN
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3485EN
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -42,6 +42,12 @@ K Thick Film Resistors - SMD 120ohm 1% 1/10W
 F https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf
 $ENDCMP
 #
+$CMP 12K
+D RES SMD 12K OHM 1% 1/10W 0603
+K RES SMD 12K OHM 1% 1/10W 0603
+F https://www.mouser.es/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pdf
+$ENDCMP
+#
 $CMP 150KΩ
 D Thick Film Resistors - SMD 1/10Watt 150Kohms 1% Commercial Use 0603
 K Thick Film Resistors - SMD 1/10Watt 150Kohms 1% Commercial Use 0603

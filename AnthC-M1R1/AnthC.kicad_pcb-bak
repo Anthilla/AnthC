@@ -6,7 +6,7 @@
     (tracks 1362)
     (zones 0)
     (modules 194)
-    (nets 201)
+    (nets 200)
   )
 
   (page A4)
@@ -304,7 +304,6 @@
   (net 197 "Net-(U6-Pad19)")
   (net 198 "Net-(U6-Pad18)")
   (net 199 "Net-(U6-Pad17)")
-  (net 200 "Net-(U11-Pad7)")
 
   (net_class Default "Esta es la clase de red por defecto."
     (clearance 0.2)
@@ -483,7 +482,6 @@
     (add_net "Net-(R83-Pad1)")
     (add_net "Net-(R84-Pad1)")
     (add_net "Net-(R85-Pad1)")
-    (add_net "Net-(U11-Pad7)")
     (add_net "Net-(U13-Pad1)")
     (add_net "Net-(U13-Pad3)")
     (add_net "Net-(U13-Pad5)")
@@ -2662,8 +2660,7 @@
     )
     (pad 8 smd roundrect (at 2.475 -1.905) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 +3V3))
-    (pad 7 smd roundrect (at 2.475 -0.635) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 200 "Net-(U11-Pad7)"))
+    (pad 7 smd roundrect (at 2.475 -0.635) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
     (pad 6 smd roundrect (at 2.475 0.635) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 19 /SCL))
     (pad 5 smd roundrect (at 2.475 1.905) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)

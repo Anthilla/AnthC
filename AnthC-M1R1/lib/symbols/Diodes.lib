@@ -80,14 +80,13 @@ ENDDEF
 DEF SMBJ30CA D 0 20 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "SMBJ30CA" 0 -100 50 H V C CNN
-F2 "MagLab_Diode:D_SMB" 0 1250 50 H I C CNN
+F2 "Semiconductors:D_SMB" 0 1250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Suppresseurs ESD / diodes TVS 600W 30V 5% Bi-Directional" 0 1150 50 H I C CNN "Description"
 F5 "Littelfuse" 0 1050 50 H I C CNN "Manufacturer"
 F6 "SMBJ30CA" 0 950 50 H I C CNN "Manufacturer Part Number"
 F7 "Mouser" 0 0 50 H I C CNN "Supplier"
 F8 "576-SMBJ30CA" 0 0 50 H I C CNN "Supplier Part Number"
-F9 "0.263" 0 0 50 H I C CNN "Price"
 DRAW
 P 2 1 1 0 50 0 -50 0 N
 P 4 1 1 8 -100 -50 0 0 -100 50 -100 -50 N

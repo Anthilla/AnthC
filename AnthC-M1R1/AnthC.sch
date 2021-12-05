@@ -1729,8 +1729,6 @@ Text Label 11300 4850 0    50   ~ 0
 O26
 Text Label 11300 4750 0    50   ~ 0
 O25
-Text Label 11300 4650 0    50   ~ 0
-O33
 Text Label 13150 8350 0    50   ~ 0
 O12
 Text Label 12200 8250 0    50   ~ 0
@@ -3917,26 +3915,6 @@ Wire Wire Line
 	11050 7350 11000 7350
 Wire Wire Line
 	11050 7250 12500 7250
-$Comp
-L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D15
-U 1 1 620CE3EF
-P 10600 8000
-F 0 "D15" V 10250 7600 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 10150 7700 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 8825 8900 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 9000 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 8825 9100 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 8825 9200 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 8825 9300 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 8825 9400 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 9500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 8825 9600 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 8825 9700 60  0001 L CNN "Description"
-F 11 "Nexperia" H 8825 9800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8825 9900 60  0001 L CNN "Status"
-	1    10600 8000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	11100 7350 11100 7700
 Wire Wire Line
@@ -3961,26 +3939,6 @@ Wire Wire Line
 	11250 8300 11000 8300
 Wire Wire Line
 	11250 7750 12500 7750
-$Comp
-L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D17
-U 1 1 622F4D4A
-P 10600 9000
-F 0 "D17" V 10950 8600 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 10150 8700 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 8825 9900 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 10000 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 8825 10100 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 8825 10200 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 8825 10300 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 8825 10400 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 10500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 8825 10600 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 8825 10700 60  0001 L CNN "Description"
-F 11 "Nexperia" H 8825 10800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8825 10900 60  0001 L CNN "Status"
-	1    10600 9000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	11600 8250 11600 9300
 Wire Wire Line
@@ -3994,15 +3952,9 @@ Wire Wire Line
 Wire Wire Line
 	11500 8150 12500 8150
 Wire Wire Line
-	11450 8050 11450 8900
-Wire Wire Line
-	11450 8900 11000 8900
+	11450 8050 11450 8700
 Wire Wire Line
 	11450 8050 12500 8050
-Wire Wire Line
-	11350 7950 11350 8700
-Wire Wire Line
-	11350 8700 11000 8700
 Wire Wire Line
 	11350 7950 12500 7950
 $Comp
@@ -4030,90 +3982,22 @@ $EndComp
 $Comp
 L power:GND #PWR034
 U 1 1 6260EECC
-P 10100 7100
-F 0 "#PWR034" H 10100 6850 50  0001 C CNN
-F 1 "GND" H 10100 6950 50  0000 C CNN
-F 2 "" H 10100 7100 50  0001 C CNN
-F 3 "" H 10100 7100 50  0001 C CNN
-	1    10100 7100
-	1    0    0    -1  
+P 10000 7050
+F 0 "#PWR034" H 10000 6800 50  0001 C CNN
+F 1 "GND" H 10000 6900 50  0000 C CNN
+F 2 "" H 10000 7050 50  0001 C CNN
+F 3 "" H 10000 7050 50  0001 C CNN
+	1    10000 7050
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10200 7050 10100 7050
-Wire Wire Line
-	10100 7050 10100 7100
 Wire Wire Line
 	10200 8000 10100 8000
 Wire Wire Line
 	10100 8000 10100 8050
 Wire Wire Line
 	10200 9000 10100 9000
-$Comp
-L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D2
-U 1 1 615EDFDD
-P 10600 7050
-F 0 "D2" H 10150 7500 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 10150 6750 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 8825 7950 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 8050 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 8825 8150 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 8825 8250 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 8825 8350 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 8825 8450 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8825 8550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 8825 8650 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 8825 8750 60  0001 L CNN "Description"
-F 11 "Nexperia" H 8825 8850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8825 8950 60  0001 L CNN "Status"
-	1    10600 7050
-	0    1    1    0   
-$EndComp
-$Comp
-L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D22
-U 1 1 629F25C4
-P 14150 8050
-F 0 "D22" H 13700 8500 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 13700 7750 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 12375 8950 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 12375 9050 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 12375 9150 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 12375 9250 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 12375 9350 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 12375 9450 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 12375 9550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 12375 9650 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 12375 9750 60  0001 L CNN "Description"
-F 11 "Nexperia" H 12375 9850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 12375 9950 60  0001 L CNN "Status"
-	1    14150 8050
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	13000 7950 13750 7950
-Wire Wire Line
-	13750 7850 13750 7750
 Wire Wire Line
 	13000 7850 13750 7850
-$Comp
-L AnthC-rescue:PESD3V3L4UW-AnthC-Lib-Symbols D21
-U 1 1 62B9D7B8
-P 14150 7150
-F 0 "D21" H 13700 7600 60  0000 L CNN
-F 1 "PESD3V3L4UW" V 13700 6850 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-665" H 12375 8050 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 12375 8150 60  0001 L CNN
-F 4 "1727-5790-1-ND" H 12375 8250 60  0001 L CNN "Digi-Key_PN"
-F 5 "PESD3V3L4UW,115" H 12375 8350 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 12375 8450 60  0001 L CNN "Category"
-F 7 "ESD - Diodes" H 12375 8550 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 12375 8650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.ch/product-detail/en/nexperia-usa-inc/PESD3V3L4UW-115/1727-5790-1-ND/2697698" H 12375 8750 60  0001 L CNN "DK_Detail_Page"
-F 10 "Low capacitance unidirectional quadruple ElectroStatic Discharge (ESD) protection diode" H 12375 8850 60  0001 L CNN "Description"
-F 11 "Nexperia" H 12375 8950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 12375 9050 60  0001 L CNN "Status"
-	1    14150 7150
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	13650 7750 13650 7450
 Wire Wire Line
@@ -4141,23 +4025,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR050
 U 1 1 62EDC592
-P 14600 8200
-F 0 "#PWR050" H 14600 7950 50  0001 C CNN
-F 1 "GND" H 14600 8050 50  0000 C CNN
-F 2 "" H 14600 8200 50  0001 C CNN
-F 3 "" H 14600 8200 50  0001 C CNN
-	1    14600 8200
+P 14600 9250
+F 0 "#PWR050" H 14600 9000 50  0001 C CNN
+F 1 "GND" H 14600 9100 50  0000 C CNN
+F 2 "" H 14600 9250 50  0001 C CNN
+F 3 "" H 14600 9250 50  0001 C CNN
+	1    14600 9250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14550 7150 14600 7150
-Wire Wire Line
-	14600 7150 14600 8050
-Wire Wire Line
-	14550 8050 14600 8050
-Connection ~ 14600 8050
-Wire Wire Line
-	14600 8050 14600 8200
 Wire Wire Line
 	10950 1500 11300 1500
 Wire Wire Line
@@ -4187,20 +4062,6 @@ F 10 "311-10.0KHRCT-ND" H 6600 4425 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 6600 3650 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 6600 2900 50  0001 C CNN "MPN"
 	1    6600 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor_0603:10KΩ R19
-U 1 1 63243C2D
-P 5850 2900
-F 0 "R19" H 5920 2946 50  0000 L CNN
-F 1 "10KΩ" V 5750 2800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 2900 50  0001 C CNN
-F 3 "~" H 5850 2900 50  0001 C CNN
-F 4 "C25744" H 5850 2900 50  0001 C CNN "LCSC-PN"
-F 5 "Uniroyal Elec" H 5850 2900 50  0001 C CNN "Manufacturer"
-F 6 "0402WGF1002TCE" H 5850 2900 50  0001 C CNN "MPN"
-	1    5850 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4267,20 +4128,6 @@ F 12 "RC0603FR-0710KL" H 6600 3900 50  0001 C CNN "MPN"
 	1    6600 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Resistor_0603:10KΩ R33
-U 1 1 6384B08F
-P 5850 3900
-F 0 "R33" H 5920 3946 50  0000 L CNN
-F 1 "10KΩ" V 5750 3800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 3900 50  0001 C CNN
-F 3 "~" H 5850 3900 50  0001 C CNN
-F 4 "C25744" H 5850 3900 50  0001 C CNN "LCSC-PN"
-F 5 "Uniroyal Elec" H 5850 3900 50  0001 C CNN "Manufacturer"
-F 6 "0402WGF1002TCE" H 5850 3900 50  0001 C CNN "MPN"
-	1    5850 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6600 4050 6600 4100
 Wire Wire Line
@@ -4344,7 +4191,7 @@ L IntegratedCircuits:M41T00SM6F U11
 U 1 1 6164F722
 P 5250 6000
 F 0 "U11" H 5575 5927 50  0000 C CNN
-F 1 "M41T00SM6F" H 6000 6800 50  0000 C CNN
+F 1 "M41T00SM6F" H 5800 6650 50  0000 C CNN
 F 2 "IC:SOIC-8_3.9x4.9mm_P1.27mm" H 6150 7300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/m41t00s.pdf" H 5550 6800 50  0001 C CNN
 F 4 "M41T00SM6F" H 6600 7200 50  0001 C CNN "MPN"
@@ -5122,10 +4969,6 @@ Wire Notes Line
 Connection ~ 15650 1300
 Wire Wire Line
 	15650 1300 15750 1300
-Wire Wire Line
-	13000 8350 13750 8350
-Wire Wire Line
-	13000 8150 13750 8150
 Wire Wire Line
 	8250 6550 8350 6550
 Connection ~ 8250 6550
@@ -6404,4 +6247,335 @@ Wire Wire Line
 	4100 7150 4150 7150
 Wire Wire Line
 	4150 7150 4150 7050
+$Comp
+L Resistor_0603:10KΩ R19
+U 1 1 61BFD74D
+P 5850 2900
+F 0 "R19" H 5920 2946 50  0000 L CNN
+F 1 "10K" H 6000 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5850 3900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 5500 2950 50  0001 C CNN
+F 4 "Yageo" H 5850 4225 50  0001 C CNN "Manufacturer"
+F 5 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 5850 3825 50  0001 C CNN "Description"
+F 6 "RC0603FR-0710KL" H 5850 4025 50  0001 C CNN "Manufacturer Nr."
+F 7 "100mW" H 5850 4300 50  0001 C CNN "Power"
+F 8 "0.09" H 5850 3725 50  0001 C CNN "Price"
+F 9 "Digikey" H 5850 4125 50  0001 C CNN "Supplier"
+F 10 "311-10.0KHRCT-ND" H 5850 4425 50  0001 C CNN "Supplier Nr."
+F 11 "1%" H 5850 3650 50  0001 C CNN "Tolerance"
+F 12 "RC0603FR-0710KL" H 5850 2900 50  0001 C CNN "MPN"
+	1    5850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_0603:10KΩ R33
+U 1 1 61BFDDE0
+P 5850 3900
+F 0 "R33" H 5920 3946 50  0000 L CNN
+F 1 "10K" H 6000 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5850 4900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 5500 3950 50  0001 C CNN
+F 4 "Yageo" H 5850 5225 50  0001 C CNN "Manufacturer"
+F 5 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 5850 4825 50  0001 C CNN "Description"
+F 6 "RC0603FR-0710KL" H 5850 5025 50  0001 C CNN "Manufacturer Nr."
+F 7 "100mW" H 5850 5300 50  0001 C CNN "Power"
+F 8 "0.09" H 5850 4725 50  0001 C CNN "Price"
+F 9 "Digikey" H 5850 5125 50  0001 C CNN "Supplier"
+F 10 "311-10.0KHRCT-ND" H 5850 5425 50  0001 C CNN "Supplier Nr."
+F 11 "1%" H 5850 4650 50  0001 C CNN "Tolerance"
+F 12 "RC0603FR-0710KL" H 5850 3900 50  0001 C CNN "MPN"
+	1    5850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_0603:100nF C29
+U 1 1 61CD7C9E
+P 12450 4050
+AR Path="/61CD7C9E" Ref="C29"  Part="1" 
+AR Path="/5EEADDE8/61CD7C9E" Ref="C?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/61CD7C9E" Ref="C?"  Part="1" 
+F 0 "C29" H 12550 4150 50  0000 L CNN
+F 1 "100nF" H 12475 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13850 4250 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 12450 4050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 13550 4400 50  0001 C CNN "Manufacturer"
+F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14900 4150 50  0001 C CNN "Description"
+F 6 "X7R" H 12850 4000 50  0001 C CNN "Dielectric"
+F 7 "CL10B104KB8NNNC" H 13000 4400 50  0001 C CNN "Manufacturer Nr."
+F 8 "0.09" H 13800 4400 50  0001 C CNN "Price"
+F 9 "Digikey" H 12800 4200 50  0001 C CNN "Supplier"
+F 10 "1276-1000-1-ND" H 13000 4300 50  0001 C CNN "Supplier Nr."
+F 11 "10%" H 14500 4250 50  0001 C CNN "Tolerance"
+F 12 "50V" H 12750 4100 50  0001 C CNN "Voltage"
+F 13 "CL10B104KB8NNNC" H 12450 4050 50  0001 C CNN "MPN"
+	1    12450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR02
+U 1 1 61CD7F49
+P 12450 3900
+F 0 "#PWR02" H 12450 3750 50  0001 C CNN
+F 1 "+3V3" H 12465 4073 50  0000 C CNN
+F 2 "" H 12450 3900 50  0001 C CNN
+F 3 "" H 12450 3900 50  0001 C CNN
+	1    12450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 61CD822C
+P 12450 4200
+AR Path="/61CD822C" Ref="#PWR03"  Part="1" 
+AR Path="/5EEADDE8/61CD822C" Ref="#PWR?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/61CD822C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR03" H 12450 3950 50  0001 C CNN
+F 1 "GND" H 12455 4027 50  0000 C CNN
+F 2 "" H 12450 4200 50  0001 C CNN
+F 3 "" H 12450 4200 50  0001 C CNN
+	1    12450 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 8150 13550 8150
+Wire Wire Line
+	13000 8350 13500 8350
+Wire Wire Line
+	13500 8350 13500 8850
+Wire Wire Line
+	13500 8850 13650 8850
+Wire Wire Line
+	13650 8850 13650 8650
+Wire Wire Line
+	13650 8650 13750 8650
+Wire Wire Line
+	13750 8850 13700 8850
+Wire Wire Line
+	13700 8850 13700 8900
+Wire Wire Line
+	13700 8900 13550 8900
+Wire Wire Line
+	13550 8150 13550 8900
+Wire Wire Line
+	11350 8900 11000 8900
+Wire Wire Line
+	11350 7950 11350 8900
+Wire Wire Line
+	11000 8700 11450 8700
+$Comp
+L Diodes:PESD3V3L2BT D2
+U 1 1 6265C239
+P 10600 7050
+F 0 "D2" V 10550 6750 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 10150 7150 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 8850 8250 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8825 8300 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 9250 8050 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 8825 8600 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 8650 7850 60  0001 L CNN "Description"
+F 7 "Nexperia" H 8850 8050 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 9000 8150 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 9650 8150 50  0001 C CNN "Supplier Part Number"
+	1    10600 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10200 6850 10100 6850
+Wire Wire Line
+	10100 6850 10100 7050
+Wire Wire Line
+	10100 7250 10200 7250
+Wire Wire Line
+	10000 7050 10100 7050
+Connection ~ 10100 7050
+Wire Wire Line
+	10100 7050 10100 7250
+$Comp
+L Diodes:PESD3V3L2BT D17
+U 1 1 6291FF80
+P 10600 8000
+F 0 "D17" V 10550 7700 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 10250 7450 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 8850 9200 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8825 9250 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 9250 9000 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 8825 9550 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 8650 8800 60  0001 L CNN "Description"
+F 7 "Nexperia" H 8850 9000 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 9000 9100 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 9650 9100 50  0001 C CNN "Supplier Part Number"
+	1    10600 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diodes:PESD3V3L2BT D21
+U 1 1 629204E4
+P 10600 8400
+F 0 "D21" V 10550 8100 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 10650 7900 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 8850 9600 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8825 9650 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 9250 9400 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 8825 9950 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 8650 9200 60  0001 L CNN "Description"
+F 7 "Nexperia" H 8850 9400 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 9000 9500 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 9650 9500 50  0001 C CNN "Supplier Part Number"
+	1    10600 8400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10200 8000 10200 7800
+Wire Wire Line
+	10200 8000 10200 8200
+Connection ~ 10200 8000
+$Comp
+L Diodes:PESD3V3L2BT D22
+U 1 1 629EEC8D
+P 10600 9000
+F 0 "D22" V 10500 8750 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 10250 8450 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 8850 10200 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8825 10250 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 9250 10000 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 8825 10550 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 8650 9800 60  0001 L CNN "Description"
+F 7 "Nexperia" H 8850 10000 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 9000 10100 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 9650 10100 50  0001 C CNN "Supplier Part Number"
+	1    10600 9000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diodes:PESD3V3L2BT D25
+U 1 1 629EF500
+P 10600 9400
+F 0 "D25" V 10550 9150 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 10650 9350 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 8850 10600 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8825 10650 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 9250 10400 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 8825 10950 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 8650 10200 60  0001 L CNN "Description"
+F 7 "Nexperia" H 8850 10400 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 9000 10500 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 9650 10500 50  0001 C CNN "Supplier Part Number"
+	1    10600 9400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10200 8800 10200 9000
+Connection ~ 10200 9000
+Wire Wire Line
+	10200 9000 10200 9200
+$Comp
+L Diodes:PESD3V3L2BT D27
+U 1 1 62A5B692
+P 14150 7550
+F 0 "D27" V 14100 7250 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 14200 7500 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 12400 8750 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 12375 8800 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 12800 8550 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 12375 9100 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 12200 8350 60  0001 L CNN "Description"
+F 7 "Nexperia" H 12400 8550 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 12550 8650 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 13200 8650 50  0001 C CNN "Supplier Part Number"
+	1    14150 7550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diodes:PESD3V3L2BT D29
+U 1 1 62B2BFC9
+P 14150 8950
+F 0 "D29" V 14100 8650 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 13700 8950 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 12400 10150 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 12375 10200 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 12800 9950 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 12375 10500 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 12200 9750 60  0001 L CNN "Description"
+F 7 "Nexperia" H 12400 9950 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 12550 10050 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 13200 10050 50  0001 C CNN "Supplier Part Number"
+	1    14150 8950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14550 8750 14600 8750
+Connection ~ 14600 8750
+Wire Wire Line
+	14600 8750 14600 9250
+Wire Wire Line
+	13000 7950 13750 7950
+Wire Wire Line
+	13750 7950 13750 8050
+Wire Wire Line
+	14550 7950 14600 7950
+Wire Wire Line
+	14600 7950 14600 8750
+$Comp
+L Diodes:PESD3V3L2BT D26
+U 1 1 62A5A0D9
+P 14150 7150
+F 0 "D26" V 14100 6850 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 13669 7150 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 12400 8350 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 12375 8400 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 12800 8150 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 12375 8700 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 12200 7950 60  0001 L CNN "Description"
+F 7 "Nexperia" H 12400 8150 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 12550 8250 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 13200 8250 50  0001 C CNN "Supplier Part Number"
+	1    14150 7150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14600 7950 14600 7350
+Wire Wire Line
+	14600 6950 14550 6950
+Connection ~ 14600 7950
+Wire Wire Line
+	14550 7350 14600 7350
+Connection ~ 14600 7350
+Wire Wire Line
+	14600 7350 14600 6950
+$Comp
+L Diodes:PESD3V3L2BT D28
+U 1 1 62B2BA23
+P 14150 8150
+F 0 "D28" V 14100 7850 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 14200 8150 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 12400 9350 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 12375 9400 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 12800 9150 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 12375 9700 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 12200 8950 60  0001 L CNN "Description"
+F 7 "Nexperia" H 12400 9150 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 12550 9250 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 13200 9250 50  0001 C CNN "Supplier Part Number"
+	1    14150 8150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diodes:PESD3V3L2BT D15
+U 1 1 6265A1FA
+P 10600 7450
+F 0 "D15" V 10500 7150 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 10600 6950 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 8850 8650 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8825 8700 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 9250 8450 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 8825 9000 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 8650 8250 60  0001 L CNN "Description"
+F 7 "Nexperia" H 8850 8450 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 9000 8550 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 9650 8550 50  0001 C CNN "Supplier Part Number"
+	1    10600 7450
+	0    1    1    0   
+$EndComp
+Text Label 11300 4650 0    50   ~ 0
+O33
 $EndSCHEMATC

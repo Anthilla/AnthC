@@ -42,7 +42,7 @@ U 1 1 6251F79F
 P 9500 2000
 AR Path="/6251F79F" Ref="C?"  Part="1" 
 AR Path="/6243F6D9/6251F79F" Ref="C24"  Part="1" 
-F 0 "C24" H 9300 2050 50  0000 L CNN
+F 0 "C24" H 9300 2100 50  0000 L CNN
 F 1 "100nF" H 9250 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10900 2200 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9500 2000 50  0001 C CNN

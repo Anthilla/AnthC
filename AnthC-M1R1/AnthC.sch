@@ -1458,8 +1458,6 @@ Wire Notes Line
 	4000 3500 4000 6550
 Wire Notes Line
 	4000 6550 550  6550
-Wire Notes Line
-	550  6550 550  3500
 Wire Wire Line
 	13000 6950 13150 6950
 Wire Wire Line
@@ -6578,4 +6576,6 @@ F 9 "771-PESD3V3L2BT-T/R" H 9650 8550 50  0001 C CNN "Supplier Part Number"
 $EndComp
 Text Label 11300 4650 0    50   ~ 0
 O33
+Wire Notes Line
+	550  6550 550  3500
 $EndSCHEMATC

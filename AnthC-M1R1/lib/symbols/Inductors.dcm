@@ -6,6 +6,12 @@ K Fixed Inductors WE-LQS 10uH 1.76A DCR=89mOhms AECQ200
 F https://www.we-online.com/catalog/datasheet/74404043100A.pdf
 $ENDCMP
 #
+$CMP 10μH-5A
+D FIXED IND 10UH 5A 26.5 MOHM SMD
+K FIXED IND 10UH 5A 26.5 MOHM SMD
+F https://www.we-online.com/catalog/datasheet/74439346100.pdf
+$ENDCMP
+#
 $CMP 4.7μH
 D Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
 K Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200

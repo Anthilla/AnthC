@@ -917,18 +917,17 @@ X ~ 8 300 200 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Inductors_10μH
+# Inductors_10μH-5A
 #
-DEF Inductors_10μH L 0 40 N N 1 F N
+DEF Inductors_10μH-5A L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Inductors_10μH" 75 0 50 V V C CNN
-F2 "Inductors:Inductor_Wurth_LQS-4025" 0 0 50 H I C CNN
+F1 "Inductors_10μH-5A" 75 0 50 V V C CNN
+F2 "Inductors:Inductor_Wurth_XHMI-6060" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Wurth Elektronik" 500 450 50 H I C CNN "Manufacturer"
-F5 "74404043100A" 1200 450 50 H I C CNN "MPN"
+F5 "74439346100" 1200 450 50 H I C CNN "MPN"
 F6 "Mouser" 350 350 50 H I C CNN "Supplier"
-F7 "710-74404043100A" 1300 350 50 H I C CNN "Supplier Part Number"
-F8 "0.435" 350 250 50 H I C CNN "Price"
+F7 "710-74439346100" 1300 350 50 H I C CNN "Supplier Part Number"
 $FPLIST
  Choke_*
  *Coil*

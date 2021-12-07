@@ -748,21 +748,20 @@ F 6 "C8598" H 4750 1800 50  0001 C CNN "LCSC-PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Inductors:10μH L?
+L Inductors:10μH-5A L?
 U 1 1 6269B54A
 P 5000 1600
 AR Path="/602E71BC/6269B54A" Ref="L?"  Part="1" 
 AR Path="/6269B54A" Ref="L?"  Part="1" 
 AR Path="/6243F6D9/6269B54A" Ref="L1"  Part="1" 
 F 0 "L1" V 5190 1600 50  0000 C CNN
-F 1 "10μH" V 5075 1600 50  0000 C CNN
-F 2 "Inductors:Inductor_Wurth_LQS-4025" H 5000 1600 50  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/74404043100A.pdf" H 5000 1600 50  0001 C CNN
-F 4 "74404043100A" H 6200 2050 50  0001 C CNN "MPN"
+F 1 "10μH-5A" V 5075 1600 50  0000 C CNN
+F 2 "Inductors:Inductor_Wurth_XHMI-6060" H 5000 1600 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/74439346100.pdf" H 5000 1600 50  0001 C CNN
+F 4 "74439346100" H 6200 2050 50  0001 C CNN "MPN"
 F 5 "Wurth Elektronik" H 5500 2050 50  0001 C CNN "Manufacturer"
-F 6 "0.435" H 5350 1850 50  0001 C CNN "Price"
-F 7 "Mouser" H 5350 1950 50  0001 C CNN "Supplier"
-F 8 "710-74404043100A" H 6300 1950 50  0001 C CNN "Supplier Part Number"
+F 6 "Mouser" H 5350 1950 50  0001 C CNN "Supplier"
+F 7 "710-74439346100" H 6300 1950 50  0001 C CNN "Supplier Part Number"
 	1    5000 1600
 	0    -1   -1   0   
 $EndComp

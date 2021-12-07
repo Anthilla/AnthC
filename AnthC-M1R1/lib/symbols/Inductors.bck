@@ -6,6 +6,12 @@ K Fixed Inductors WE-LQS 10uH 1.76A DCR=89mOhms AECQ200
 F https://www.we-online.com/catalog/datasheet/74404043100A.pdf
 $ENDCMP
 #
+$CMP 10μH-5A
+D FIXED IND 10UH 5A 26.5 MOHM SMD
+K FIXED IND 10UH 5A 26.5 MOHM SMD
+F https://www.we-online.com/catalog/datasheet/74439346100.pdf
+$ENDCMP
+#
 $CMP 4.7μH
 D Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
 K Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
@@ -21,19 +27,13 @@ $ENDCMP
 $CMP ACM7060-701-2PL-TL01
 D Common Mode Chokes / Filters 700ohms 100MHz 50volts
 K Common Mode Chokes / Filters 700ohms 100MHz 50volts
-F https://www.mouser.be/datasheet/2/336/plei_s_a0011300615_1-2281081.pdf
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf
 $ENDCMP
 #
 $CMP PA4339.102NLT
 D Common Mode Filters / Chokes CMC 8.0uH 3A
 K Common Mode Filters / Chokes CMC 8.0uH 3A
 F https://www.mouser.be/datasheet/2/336/plei_s_a0011300615_1-2281081.pdf
-$ENDCMP
-#
-$CMP VFS6045VA121
-D Common Mode Filters / Chokes CMC 8.0uH 3A
-K Common Mode Filters / Chokes CMC 8.0uH 3A
-F https://product.tdk.com/system/files/dam/doc/product/emc/emc/suppression-filter/catalog/suppression-filter_commercial_vfs6045_en.pdf
 $ENDCMP
 #
 #End Doc Library

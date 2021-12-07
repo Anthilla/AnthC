@@ -164,17 +164,17 @@ LEVEL SHIFTERS
 $Comp
 L IntegratedCircuits:MAX3072E U?
 U 1 1 60746CEC
-P 5300 1350
+P 4850 1200
 AR Path="/606FCEC4/5EEADDE8/60746CEC" Ref="U?"  Part="1" 
 AR Path="/60746CEC" Ref="U4"  Part="1" 
-F 0 "U4" H 5050 1800 50  0000 C CNN
-F 1 "SP3485EN-L/TR" H 5800 1800 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 650 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 5300 1400 50  0001 C CNN
-F 4 "C8963" H 5300 1350 50  0001 C CNN "LCSC-PN"
-F 5 "SP3485EN-L/TR" H 5300 1350 50  0001 C CNN "MPN"
-F 6 "Exar" H 5300 1350 50  0001 C CNN "Manufacturer"
-	1    5300 1350
+F 0 "U4" H 4600 1650 50  0000 C CNN
+F 1 "SP3485EN-L/TR" H 5350 1650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4850 500 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 4850 1250 50  0001 C CNN
+F 4 "C8963" H 4850 1200 50  0001 C CNN "LCSC-PN"
+F 5 "SP3485EN-L/TR" H 4850 1200 50  0001 C CNN "MPN"
+F 6 "Exar" H 4850 1200 50  0001 C CNN "Manufacturer"
+	1    4850 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -222,51 +222,51 @@ Wire Wire Line
 $Comp
 L Resistor_0603:120Ω R5
 U 1 1 60746D13
-P 5900 1350
+P 5450 1200
 AR Path="/60746D13" Ref="R5"  Part="1" 
 AR Path="/5EEADDE8/60746D13" Ref="R?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D13" Ref="R?"  Part="1" 
-F 0 "R5" H 6000 1350 50  0000 L CNN
-F 1 "120" V 5900 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 2350 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf" V 5550 1400 50  0001 C CNN
-F 4 "Bourns" H 5900 2675 50  0001 C CNN "Manufacturer"
-F 5 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 5900 2275 50  0001 C CNN "Description"
-F 6 "CR0603-FX-1200ELF" H 5900 2475 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 5900 2750 50  0001 C CNN "Power"
-F 8 "0.025" H 5900 2175 50  0001 C CNN "Price"
-F 9 "Mouser" H 5900 2575 50  0001 C CNN "Supplier"
-F 10 "652-CR0603FX-1200ELF" H 5900 2875 50  0001 C CNN "Supplier Nr."
-F 11 "5%" H 5900 2100 50  0001 C CNN "Tolerance"
-F 12 "CR0603-FX-1200ELF" H 5900 1350 50  0001 C CNN "MPN"
-	1    5900 1350
+F 0 "R5" H 5550 1200 50  0000 L CNN
+F 1 "120" V 5450 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5450 2200 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf" V 5100 1250 50  0001 C CNN
+F 4 "Bourns" H 5450 2525 50  0001 C CNN "Manufacturer"
+F 5 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 5450 2125 50  0001 C CNN "Description"
+F 6 "CR0603-FX-1200ELF" H 5450 2325 50  0001 C CNN "Manufacturer Nr."
+F 7 "100mW" H 5450 2600 50  0001 C CNN "Power"
+F 8 "0.025" H 5450 2025 50  0001 C CNN "Price"
+F 9 "Mouser" H 5450 2425 50  0001 C CNN "Supplier"
+F 10 "652-CR0603FX-1200ELF" H 5450 2725 50  0001 C CNN "Supplier Nr."
+F 11 "5%" H 5450 1950 50  0001 C CNN "Tolerance"
+F 12 "CR0603-FX-1200ELF" H 5450 1200 50  0001 C CNN "MPN"
+	1    5450 1200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0153
 U 1 1 60746D1B
-P 5300 1800
+P 4850 1650
 AR Path="/60746D1B" Ref="#PWR0153"  Part="1" 
 AR Path="/5EEADDE8/60746D1B" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D1B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0153" H 5300 1550 50  0001 C CNN
-F 1 "GND" H 5305 1627 50  0000 C CNN
-F 2 "" H 5300 1800 50  0001 C CNN
-F 3 "" H 5300 1800 50  0001 C CNN
-	1    5300 1800
+F 0 "#PWR0153" H 4850 1400 50  0001 C CNN
+F 1 "GND" H 4855 1477 50  0000 C CNN
+F 2 "" H 4850 1650 50  0001 C CNN
+F 3 "" H 4850 1650 50  0001 C CNN
+	1    4850 1650
 	1    0    0    -1  
 $EndComp
-Text Label 4550 1150 0    50   ~ 0
+Text Label 4100 1000 0    50   ~ 0
 RXD3V3
-Text Label 4550 1550 0    50   ~ 0
+Text Label 4100 1400 0    50   ~ 0
 TXD3V3
 Wire Notes Line
 	4050 2250 4050 500 
-Text Notes 4100 650  0    50   ~ 0
+Text Notes 6000 600  0    50   ~ 0
 RS485 MODBUS INTERFACE
-Text Label 6050 1200 0    50   ~ 0
+Text Label 5550 1050 0    50   ~ 0
 B
-Text Label 6050 1500 0    50   ~ 0
+Text Label 5550 1350 0    50   ~ 0
 A
 Wire Notes Line
 	4050 2250 7050 2250
@@ -877,8 +877,8 @@ $Comp
 L Device:Battery_Cell BT2
 U 1 1 60B97C94
 P 2900 4450
-F 0 "BT2" H 3018 4546 50  0000 L CNN
-F 1 "Battery" H 3018 4455 50  0000 L CNN
+F 0 "BT2" H 2750 4600 50  0000 L CNN
+F 1 "Battery" H 2950 4800 50  0000 L CNN
 F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" V 2900 4510 50  0001 C CNN
 F 3 "~" V 2900 4510 50  0001 C CNN
 F 4 "C158012" H 2900 4450 50  0001 C CNN "LCSC-PN"
@@ -1006,23 +1006,9 @@ Wire Wire Line
 	2900 4250 2900 4150
 Connection ~ 2900 4150
 Wire Wire Line
-	2900 4150 3500 4150
+	2900 4150 3200 4150
 Wire Wire Line
 	3500 4550 3500 4500
-$Comp
-L power:GND #PWR0170
-U 1 1 60A911BB
-P 2300 4650
-AR Path="/60A911BB" Ref="#PWR0170"  Part="1" 
-AR Path="/5EEADDE8/60A911BB" Ref="#PWR?"  Part="1" 
-AR Path="/606FCEC4/5EEADDE8/60A911BB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0170" H 2300 4400 50  0001 C CNN
-F 1 "GND" H 2305 4477 50  0000 C CNN
-F 2 "" H 2300 4650 50  0001 C CNN
-F 3 "" H 2300 4650 50  0001 C CNN
-	1    2300 4650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Capacitors_0603:1uF C16
 U 1 1 60ADB562
@@ -1072,20 +1058,6 @@ F 3 "" H 2650 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2650 4650 2650 4500
-$Comp
-L power:GND #PWR0177
-U 1 1 60B7423C
-P 2900 4650
-AR Path="/60B7423C" Ref="#PWR0177"  Part="1" 
-AR Path="/5EEADDE8/60B7423C" Ref="#PWR?"  Part="1" 
-AR Path="/606FCEC4/5EEADDE8/60B7423C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0177" H 2900 4400 50  0001 C CNN
-F 1 "GND" H 2905 4477 50  0000 C CNN
-F 2 "" H 2900 4650 50  0001 C CNN
-F 3 "" H 2900 4650 50  0001 C CNN
-	1    2900 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 4650 2900 4550
 Text Label 3550 4500 0    50   ~ 0
@@ -2140,20 +2112,20 @@ IO4
 $Comp
 L Connectors:1x02 J2
 U 1 1 60746D2F
-P 6350 1250
+P 6300 1100
 AR Path="/60746D2F" Ref="J2"  Part="1" 
 AR Path="/5EEADDE8/60746D2F" Ref="J?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D2F" Ref="J?"  Part="1" 
-F 0 "J2" H 6430 1242 50  0000 L CNN
-F 1 "1x02" H 6350 1050 50  0000 C CNN
-F 2 "Connectors:WURTH-691312510002" H 6350 1250 50  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/691312510002.pdf" H 6350 1250 50  0001 C CNN
-F 4 "691312510002" H 7350 1650 50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 6700 1650 50  0001 C CNN "Manufacturer"
-F 6 "0.274" H 6500 1550 50  0001 C CNN "Price"
-F 7 "Mouser" H 6550 1750 50  0001 C CNN "Supplier"
-F 8 "710-691312510002" H 7450 1750 50  0001 C CNN "Supplier Part Number"
-	1    6350 1250
+F 0 "J2" H 6380 1092 50  0000 L CNN
+F 1 "1x02" H 6300 900 50  0000 C CNN
+F 2 "Connectors:WURTH-691312510002" H 6300 1100 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/691312510002.pdf" H 6300 1100 50  0001 C CNN
+F 4 "691312510002" H 7300 1500 50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 6650 1500 50  0001 C CNN "Manufacturer"
+F 6 "0.274" H 6450 1400 50  0001 C CNN "Price"
+F 7 "Mouser" H 6500 1600 50  0001 C CNN "Supplier"
+F 8 "710-691312510002" H 7400 1600 50  0001 C CNN "Supplier Part Number"
+	1    6300 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2718,7 +2690,7 @@ REAL TIME CLOCK
 Text Notes 600  6750 0    50   ~ 0
 DIGITAL INPUTS
 Wire Wire Line
-	6150 1350 6150 1500
+	6100 1200 6100 1350
 Text Label 13150 7950 0    50   ~ 0
 COM
 Wire Notes Line
@@ -4182,7 +4154,7 @@ TXD
 Wire Wire Line
 	5550 4100 5850 4100
 Wire Wire Line
-	4550 1550 4900 1550
+	4100 1400 4450 1400
 NoConn ~ 8100 4650
 $Comp
 L IntegratedCircuits:M41T00SM6F U11
@@ -5327,7 +5299,7 @@ F 3 "" H 7200 10350 50  0001 C CNN
 	1    7200 10350
 	1    0    0    -1  
 $EndComp
-Text Label 4550 1250 0    50   ~ 0
+Text Label 4100 1100 0    50   ~ 0
 RS485
 Text Label 6700 9900 1    50   ~ 0
 RS485
@@ -5852,14 +5824,14 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR?
 U 1 1 62518789
-P 5300 900
+P 4850 750
 AR Path="/606FCEC4/5EEADDE8/62518789" Ref="#PWR?"  Part="1" 
 AR Path="/62518789" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 5300 750 50  0001 C CNN
-F 1 "+3V3" H 5315 1073 50  0000 C CNN
-F 2 "" H 5300 900 50  0001 C CNN
-F 3 "" H 5300 900 50  0001 C CNN
-	1    5300 900 
+F 0 "#PWR0112" H 4850 600 50  0001 C CNN
+F 1 "+3V3" H 4865 923 50  0000 C CNN
+F 2 "" H 4850 750 50  0001 C CNN
+F 3 "" H 4850 750 50  0001 C CNN
+	1    4850 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5965,36 +5937,30 @@ F 3 "" H 12450 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 1150 4550 1150
+	4450 1000 4100 1000
 Wire Wire Line
-	4900 1250 4750 1250
+	4450 1100 4300 1100
 Wire Wire Line
-	4900 1450 4750 1450
+	4450 1300 4300 1300
 Wire Wire Line
-	4750 1450 4750 1250
-Connection ~ 4750 1250
+	4300 1300 4300 1100
+Connection ~ 4300 1100
 Wire Wire Line
-	4750 1250 4550 1250
+	4300 1100 4100 1100
 Wire Wire Line
-	5300 1800 5300 1750
+	4850 1650 4850 1600
 Wire Wire Line
-	5300 900  5300 950 
+	4850 750  4850 800 
 Wire Wire Line
-	5700 1250 5700 1200
+	5250 1100 5250 1050
 Wire Wire Line
-	5700 1200 5900 1200
+	5250 1050 5450 1050
 Wire Wire Line
-	6150 1200 6150 1250
-Connection ~ 5900 1200
+	6100 1050 6100 1100
 Wire Wire Line
-	5900 1200 6150 1200
+	5250 1350 5450 1350
 Wire Wire Line
-	5700 1500 5900 1500
-Wire Wire Line
-	5700 1500 5700 1450
-Connection ~ 5900 1500
-Wire Wire Line
-	5900 1500 6150 1500
+	5250 1350 5250 1300
 $Comp
 L power:+3V3 #PWR0143
 U 1 1 61F90E15
@@ -6578,4 +6544,84 @@ Text Label 11300 4650 0    50   ~ 0
 O33
 Wire Notes Line
 	550  6550 550  3500
+$Comp
+L Diodes:TVS_2-Channel-7V D30
+U 1 1 61B71326
+P 5850 1700
+F 0 "D30" H 5850 1950 60  0000 C CNN
+F 1 "TVS_2-Channel-7V" H 5850 1450 60  0001 C CNN
+F 2 "Semiconductors:SOT-23" H 5850 2650 60  0001 C CNN
+F 3 "https://www.bourns.com/pdfs/CDSOT23-SM712.pdf" H 5800 2650 60  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance" H 5800 3350 60  0001 C CNN "Description"
+F 5 "Bourns" H 5800 3450 60  0001 C CNN "Manufacturer"
+F 6 "CDSOT23-SM712" H 5800 2850 60  0001 C CNN "Manufacturer Nr."
+F 7 "Mouser" H 5800 3150 60  0001 C CNN "Supplier"
+F 8 "652-CDSOT23-SM712" H 5800 2750 60  0001 C CNN "Supplier Nr."
+	1    5850 1700
+	0    1    1    0   
+$EndComp
+Connection ~ 5450 1050
+Connection ~ 5450 1350
+Wire Wire Line
+	5450 1350 5950 1350
+Wire Wire Line
+	5950 1400 5950 1350
+Connection ~ 5950 1350
+Wire Wire Line
+	5950 1350 6100 1350
+Wire Wire Line
+	5750 1400 5750 1050
+Wire Wire Line
+	5450 1050 5750 1050
+Connection ~ 5750 1050
+Wire Wire Line
+	5750 1050 6100 1050
+$Comp
+L power:GND #PWR05
+U 1 1 61EB5CA3
+P 5850 2050
+AR Path="/61EB5CA3" Ref="#PWR05"  Part="1" 
+AR Path="/5EEADDE8/61EB5CA3" Ref="#PWR?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/61EB5CA3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR05" H 5850 1800 50  0001 C CNN
+F 1 "GND" H 5650 2050 50  0000 C CNN
+F 2 "" H 5850 2050 50  0001 C CNN
+F 3 "" H 5850 2050 50  0001 C CNN
+	1    5850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2050 5850 2000
+$Comp
+L Diodes:Zener_6V D31
+U 1 1 61F9164F
+P 3200 4400
+F 0 "D31" V 3050 4300 50  0000 L CNN
+F 1 "Zener_6V" V 3500 4150 50  0000 L CNN
+F 2 "Semiconductors:D_SOD-123" H 3200 4225 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 3200 4400 50  0001 C CNN
+F 4 "Vishay" H 3500 5000 50  0001 C CNN "Manufacturer"
+F 5 "MMSZ5233B-E3-08" H 4100 5000 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 3500 4900 50  0001 C CNN "Supplier"
+F 7 "78-MMSZ5233B-E3-08" H 4200 4900 50  0001 C CNN "Supplier Part Number"
+F 8 "6V" H 3800 4700 50  0001 C CNN "Voltage"
+F 9 "500mW" H 3900 4800 50  0001 C CNN "Power"
+	1    3200 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 4150 3200 4250
+Connection ~ 3200 4150
+Wire Wire Line
+	3200 4150 3500 4150
+Wire Wire Line
+	3200 4550 3200 4650
+Wire Wire Line
+	3200 4650 2900 4650
+Connection ~ 2650 4650
+Wire Wire Line
+	2650 4650 2300 4650
+Connection ~ 2900 4650
+Wire Wire Line
+	2900 4650 2650 4650
 $EndSCHEMATC

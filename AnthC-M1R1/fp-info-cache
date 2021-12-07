@@ -1,36 +1,29 @@
-8191861019910
-Inductors
-ChokeSMD_ACM7060
-WE-SL5 SMT Common Mode Line Filter, https://www.we-online.de/katalog/en/WE-SL5/, https://www.we-online.de/katalog/datasheet/744272471.pdf
-SMT Common Mode Line Filter
-0
-4
-4
-Inductors
-Inductor_Wurth_LQS-4012
-Inductor, Wurth Elektronik, Wurth_LQS-8040, 8mmx6.5mm
-inductor wurth hci smd
+6553676976004
+Semiconductors
+D_SMB
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
 0
 2
 2
-Inductors
-Inductor_Wurth_LQS-4025
-Inductor, Wurth Elektronik, Wurth_LQS-8040, 8mmx6.5mm
-inductor wurth hci smd
+Semiconductors
+D_SOD-123
+SOD-123
+SOD-123
 0
 2
 2
-Inductors
-Inductor_Wurth_LQS-8040
-Inductor, Wurth Elektronik, Wurth_LQS-8040, 8mmx6.5mm
-inductor wurth hci smd
+Semiconductors
+HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm
+HVSON, 8 Pin (https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
+HVSON NoLead
 0
-2
-2
-Inductors
-Inductor_Wurth_XHMI-6060
-Inductor, Wurth Elektronik, Wurth_LQS-8040, 8mmx6.5mm
-inductor wurth hci smd
+13
+9
+Semiconductors
+SOT-23
+SOT-23, Standard
+SOT-23
 0
-2
-2
+3
+3

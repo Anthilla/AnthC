@@ -23,6 +23,12 @@ K TVS DIODE 45V 72.7V SMB
 F https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf
 $ENDCMP
 #
+$CMP TVS_2-Channel-7V
+D ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance
+K ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance
+F https://www.bourns.com/pdfs/CDSOT23-SM712.pdf
+$ENDCMP
+#
 $CMP TVS_2-Channel_8KV
 D IP4233CZ6 - Ultra low capacitance ESD protection for Ethernet ports
 K IP4233CZ6 - Ultra low capacitance ESD protection for Ethernet ports

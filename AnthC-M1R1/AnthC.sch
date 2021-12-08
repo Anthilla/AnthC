@@ -2247,20 +2247,20 @@ $EndComp
 $Comp
 L Connectors:1x03 J5
 U 1 1 60DF28AE
-P 800 950
+P 700 950
 AR Path="/60DF28AE" Ref="J5"  Part="1" 
 AR Path="/5EEADDE8/60DF28AE" Ref="J?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60DF28AE" Ref="J?"  Part="1" 
-F 0 "J5" H 880 942 50  0000 L CNN
-F 1 "01x03" H 800 750 50  0000 C CNN
-F 2 "Connectors:WURTH-691312510003" H 800 950 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/445/691312510003-1719552.pdf" H 800 950 50  0001 C CNN
-F 4 "691312510003" H 2050 1400 50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 1400 1400 50  0001 C CNN "Manufacturer"
-F 6 "0.411" H 1250 1200 50  0001 C CNN "Price"
-F 7 "Mouser" H 1250 1300 50  0001 C CNN "Supplier"
-F 8 "710-691312510003" H 2150 1300 50  0001 C CNN "Supplier Part Number"
-	1    800  950 
+F 0 "J5" H 780 942 50  0000 L CNN
+F 1 "01x03" H 700 750 50  0000 C CNN
+F 2 "Connectors:WURTH-691312510003" H 700 950 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/445/691312510003-1719552.pdf" H 700 950 50  0001 C CNN
+F 4 "691312510003" H 1950 1400 50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 1300 1400 50  0001 C CNN "Manufacturer"
+F 6 "0.411" H 1150 1200 50  0001 C CNN "Price"
+F 7 "Mouser" H 1150 1300 50  0001 C CNN "Supplier"
+F 8 "710-691312510003" H 2050 1300 50  0001 C CNN "Supplier Part Number"
+	1    700  950 
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -5663,34 +5663,19 @@ Wire Notes Line
 	550  500  4000 500 
 Wire Wire Line
 	1100 850  1500 850 
-Wire Wire Line
-	1100 850  1000 850 
 Connection ~ 1100 850 
 $Comp
 L power:+5VD #PWR0107
 U 1 1 63A345F5
-P 1950 750
-F 0 "#PWR0107" H 1950 600 50  0001 C CNN
-F 1 "+5VD" H 1965 923 50  0000 C CNN
-F 2 "" H 1950 750 50  0001 C CNN
-F 3 "" H 1950 750 50  0001 C CNN
-	1    1950 750 
+P 1750 1150
+F 0 "#PWR0107" H 1750 1000 50  0001 C CNN
+F 1 "+5VD" H 1900 1250 50  0000 C CNN
+F 2 "" H 1750 1150 50  0001 C CNN
+F 3 "" H 1750 1150 50  0001 C CNN
+	1    1750 1150
 	1    0    0    -1  
 $EndComp
 Connection ~ 1500 850 
-Wire Wire Line
-	1000 1050 1000 1150
-$Comp
-L power:PWR_FLAG #FLG0105
-U 1 1 65AD2F8A
-P 1100 950
-F 0 "#FLG0105" H 1100 1025 50  0001 C CNN
-F 1 "PWR_FLAG" H 1350 1000 50  0000 C CNN
-F 2 "" H 1100 950 50  0001 C CNN
-F 3 "~" H 1100 950 50  0001 C CNN
-	1    1100 950 
-	1    0    0    1   
-$EndComp
 $Comp
 L power:+5VD #PWR0108
 U 1 1 63EFC6A3
@@ -5702,26 +5687,18 @@ F 3 "" H 1100 1800 50  0001 C CNN
 	1    1100 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 1950 950 
-Wire Wire Line
-	1950 750  1950 950 
 $Sheet
 S 2200 650  650  600 
 U 6243F6D9
 F0 "Power" 50
 F1 "Power.sch" 50
 F2 "VDD" I L 2200 850 50 
-F3 "GND_IN" I L 2200 1150 50 
+F3 "GND_IN" I L 2200 950 50 
 F4 "3V3" I R 2850 850 50 
-F5 "5VD" I L 2200 950 50 
+F5 "5VD" I L 2200 1150 50 
 F6 "5V" I R 2850 950 50 
 F7 "GND" I R 2850 1150 50 
 $EndSheet
-Connection ~ 1100 950 
-Wire Wire Line
-	1100 950  1000 950 
-Wire Wire Line
-	1100 950  1950 950 
 $Comp
 L power:+5V #PWR0109
 U 1 1 64698C28
@@ -5737,8 +5714,6 @@ Wire Wire Line
 	3700 950  3700 900 
 Wire Wire Line
 	1500 850  2200 850 
-Wire Wire Line
-	1950 950  2200 950 
 Wire Wire Line
 	1000 2000 1250 2000
 $Comp
@@ -5802,9 +5777,7 @@ Wire Wire Line
 Connection ~ 1350 2350
 Wire Wire Line
 	1350 2350 1500 2350
-Wire Wire Line
-	1000 1150 2200 1150
-Text Label 1100 1150 0    50   ~ 0
+Text Label 1200 950  0    50   ~ 0
 GND_IN
 $Comp
 L power:GND #PWR0111
@@ -6624,4 +6597,31 @@ Wire Wire Line
 Connection ~ 2900 4650
 Wire Wire Line
 	2900 4650 2650 4650
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 65AD2F8A
+P 1500 1150
+F 0 "#FLG0105" H 1500 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 1200 50  0000 C CNN
+F 2 "" H 1500 1150 50  0001 C CNN
+F 3 "~" H 1500 1150 50  0001 C CNN
+	1    1500 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	900  950  2200 950 
+Wire Wire Line
+	900  850  1100 850 
+Wire Wire Line
+	900  1050 950  1050
+Wire Wire Line
+	950  1150 950  1050
+Wire Wire Line
+	950  1150 1500 1150
+Connection ~ 1500 1150
+Wire Wire Line
+	1500 1150 1750 1150
+Connection ~ 1750 1150
+Wire Wire Line
+	1750 1150 2200 1150
 $EndSCHEMATC

@@ -847,18 +847,18 @@ Wire Wire Line
 $Comp
 L Inductors:ACM7060-701-2PL-TL01 FL1
 U 1 1 6236793A
-P 2000 1700
-F 0 "FL1" H 2200 2250 50  0000 C CNN
-F 1 "ACM7060-701-2PL-TL01" H 2300 2050 50  0000 C CNN
-F 2 "Inductors:ChokeSMD_ACM7060" H 2000 3050 50  0001 C CNN
-F 3 "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf" V 2200 1760 50  0001 C CNN
-F 4 "Common Mode Chokes / Filters 700ohms 100MHz 50volts" H 2000 2950 50  0001 C CNN "Description"
-F 5 "TDK" H 2000 2850 50  0001 C CNN "Manufacturer"
-F 6 "ACM7060-701-2PL-TL01" H 2000 2750 50  0001 C CNN "Manufacturer Nr."
-F 7 "Mouser" H 2000 2650 50  0001 C CNN "Supplier"
-F 8 "810-ACM70607012PLTL1" H 2000 2550 50  0001 C CNN "Supplier Nr."
-	1    2000 1700
-	1    0    0    -1  
+P 2000 1500
+F 0 "FL1" H 2200 2050 50  0000 C CNN
+F 1 "ACM7060-701-2PL-TL01" H 2250 1300 50  0000 C CNN
+F 2 "Inductors:ChokeSMD_ACM7060" H 2000 2850 50  0001 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf" V 2200 1560 50  0001 C CNN
+F 4 "Common Mode Chokes / Filters 700ohms 100MHz 50volts" H 2000 2750 50  0001 C CNN "Description"
+F 5 "TDK" H 2000 2650 50  0001 C CNN "Manufacturer"
+F 6 "ACM7060-701-2PL-TL01" H 2000 2550 50  0001 C CNN "Manufacturer Nr."
+F 7 "Mouser" H 2000 2450 50  0001 C CNN "Supplier"
+F 8 "810-ACM70607012PLTL1" H 2000 2350 50  0001 C CNN "Supplier Nr."
+	1    2000 1500
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2450 1500 2450 1450

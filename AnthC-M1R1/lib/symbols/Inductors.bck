@@ -18,6 +18,12 @@ K Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
 F https://www.mouser.be/datasheet/2/445/74404041047-1720697.pdf
 $ENDCMP
 #
+$CMP 4.7μH-1.3A
+D Fixed Inductors WE-LQS 4.7uH 1.3A DCR=96mOhms AECQ200
+K Fixed Inductors WE-LQS 4.7uH 1.3A DCR=96mOhms AECQ200
+F https://www.we-online.com/catalog/datasheet/74404032047.pdf
+$ENDCMP
+#
 $CMP 744231121
 D WE-CNSW SMT Common Mode
 K WE-CNSW SMT Common Mode

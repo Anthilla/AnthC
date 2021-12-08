@@ -1148,7 +1148,7 @@ $Comp
 L AnthC-Lib-Symbols:MT3540 U12
 U 1 1 60EF7403
 P 2100 5750
-F 0 "U12" H 1850 6050 50  0000 C CNN
+F 0 "U12" H 2100 6117 50  0000 C CNN
 F 1 "MT3540" H 2100 6026 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2150 5500 50  0001 L CIN
 F 3 "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf" H 1850 6200 50  0001 C CNN
@@ -1221,19 +1221,20 @@ F 6 "C8598" H 2700 5400 50  0001 C CNN "LCSC-PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Inductors:4.7μH-1.3A L?
+L Inductors:4.7μH L?
 U 1 1 60F4E9B0
 P 2100 5300
 AR Path="/602E71BC/60F4E9B0" Ref="L?"  Part="1" 
 AR Path="/60F4E9B0" Ref="L2"  Part="1" 
-F 0 "L2" V 2050 5300 50  0000 C CNN
-F 1 "4.7μH-1.3A" V 2175 5300 50  0000 C CNN
-F 2 "Inductors:Inductor_Wurth_LQS-3015" H 2100 5300 50  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/74404032047.pdf" H 2100 5300 50  0001 C CNN
-F 4 "74404032047" H 3300 5750 50  0001 C CNN "MPN"
+F 0 "L2" V 2150 5500 50  0000 C CNN
+F 1 "4.7μH" V 2199 5300 50  0000 C CNN
+F 2 "Inductors:Inductor_Wurth_LQS-4012" H 2100 5300 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/445/74404041047-1720697.pdf" H 2100 5300 50  0001 C CNN
+F 4 "74404041047" H 3300 5750 50  0001 C CNN "MPN"
 F 5 "Wurth Elektronik" H 2600 5750 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 2450 5650 50  0001 C CNN "Supplier"
-F 7 "710-74404032047" H 3400 5650 50  0001 C CNN "Supplier Part Number"
+F 6 "0.991" H 2450 5550 50  0001 C CNN "Price"
+F 7 "Mouser" H 2450 5650 50  0001 C CNN "Supplier"
+F 8 "710-74404041047" H 3400 5650 50  0001 C CNN "Supplier Part Number"
 	1    2100 5300
 	0    -1   -1   0   
 $EndComp

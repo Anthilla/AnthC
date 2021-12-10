@@ -273,19 +273,17 @@ Wire Notes Line
 $Comp
 L power:GND #PWR0156
 U 1 1 60746D91
-P 12850 3150
+P 13100 3200
 AR Path="/60746D91" Ref="#PWR0156"  Part="1" 
 AR Path="/5EEADDE8/60746D91" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746D91" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0156" H 12850 2900 50  0001 C CNN
-F 1 "GND" H 12855 2977 50  0000 C CNN
-F 2 "" H 12850 3150 50  0001 C CNN
-F 3 "" H 12850 3150 50  0001 C CNN
-	1    12850 3150
+F 0 "#PWR0156" H 13100 2950 50  0001 C CNN
+F 1 "GND" H 13105 3027 50  0000 C CNN
+F 2 "" H 13100 3200 50  0001 C CNN
+F 3 "" H 13100 3200 50  0001 C CNN
+	1    13100 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12850 3150 12850 3050
 Wire Wire Line
 	10600 2800 10500 2800
 Wire Wire Line
@@ -508,62 +506,6 @@ Wire Wire Line
 	10050 3250 10050 3200
 Wire Wire Line
 	13350 800  13350 1050
-$Comp
-L Amplifier_Operational:LM324 U9
-U 5 1 6071A623
-P 12950 2750
-F 0 "U9" H 12908 2796 50  0000 L CNN
-F 1 "LM324DT" V 12750 2600 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 12900 2850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 13000 2950 50  0001 C CNN
-F 4 "C71035" H 12950 2750 50  0001 C CNN "LCSC-PN"
-F 5 "LM324DT" H 12950 2750 50  0001 C CNN "MPN"
-F 6 "STMicroelectronics" H 12950 2750 50  0001 C CNN "Manufacturer"
-	5    12950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U9
-U 1 1 6071CE16
-P 14500 1700
-F 0 "U9" H 14500 1333 50  0000 C CNN
-F 1 "LM324DT" H 14500 1424 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 14450 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 14550 1900 50  0001 C CNN
-F 4 "C71035" H 14500 1700 50  0001 C CNN "LCSC-PN"
-F 5 "LM324DT" H 14500 1700 50  0001 C CNN "MPN"
-F 6 "STMicroelectronics" H 14500 1700 50  0001 C CNN "Manufacturer"
-	1    14500 1700
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U9
-U 2 1 6071F285
-P 14650 950
-F 0 "U9" H 14650 583 50  0000 C CNN
-F 1 "LM324DT" H 14650 674 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 14600 1050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 14700 1150 50  0001 C CNN
-F 4 "C71035" H 14650 950 50  0001 C CNN "LCSC-PN"
-F 5 "LM324DT" H 14650 950 50  0001 C CNN "MPN"
-F 6 "STMicroelectronics" H 14650 950 50  0001 C CNN "Manufacturer"
-	2    14650 950 
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U9
-U 3 1 60721632
-P 13000 1050
-F 0 "U9" H 13000 683 50  0000 C CNN
-F 1 "LM324DT" H 13000 774 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 12950 1150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 13050 1250 50  0001 C CNN
-F 4 "C71035" H 13000 1050 50  0001 C CNN "LCSC-PN"
-F 5 "LM324DT" H 13000 1050 50  0001 C CNN "MPN"
-F 6 "STMicroelectronics" H 13000 1050 50  0001 C CNN "Manufacturer"
-	3    13000 1050
-	1    0    0    1   
-$EndComp
 $Comp
 L Resistor_0603:20K R29
 U 1 1 60765A85
@@ -1437,12 +1379,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0189
 U 1 1 61EB7893
-P 12850 2450
-F 0 "#PWR0189" H 12850 2300 50  0001 C CNN
-F 1 "+5V" H 12865 2623 50  0000 C CNN
-F 2 "" H 12850 2450 50  0001 C CNN
-F 3 "" H 12850 2450 50  0001 C CNN
-	1    12850 2450
+P 13100 2300
+F 0 "#PWR0189" H 13100 2150 50  0001 C CNN
+F 1 "+5V" H 13115 2473 50  0000 C CNN
+F 2 "" H 13100 2300 50  0001 C CNN
+F 3 "" H 13100 2300 50  0001 C CNN
+	1    13100 2300
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -4408,20 +4350,6 @@ Wire Wire Line
 	12450 1900 12650 1900
 Text Label 13750 1800 0    50   ~ 0
 AN1
-$Comp
-L Amplifier_Operational:LM324 U9
-U 4 1 60723521
-P 12950 1800
-F 0 "U9" H 13000 2100 50  0000 C CNN
-F 1 "LM324DT" H 13000 2000 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 12900 1900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 13000 2000 50  0001 C CNN
-F 4 "C71035" H 12950 1800 50  0001 C CNN "LCSC-PN"
-F 5 "LM324DT" H 12950 1800 50  0001 C CNN "MPN"
-F 6 "STMicroelectronics" H 12950 1800 50  0001 C CNN "Manufacturer"
-	4    12950 1800
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	13300 1550 13300 1800
 $Comp
@@ -4467,20 +4395,6 @@ Wire Wire Line
 	13650 1800 13700 1800
 Wire Wire Line
 	13700 2200 13700 2150
-$Comp
-L power:GND #PWR0157
-U 1 1 60746DB4
-P 13800 2200
-AR Path="/60746DB4" Ref="#PWR0157"  Part="1" 
-AR Path="/5EEADDE8/60746DB4" Ref="#PWR?"  Part="1" 
-AR Path="/606FCEC4/5EEADDE8/60746DB4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0157" H 13800 1950 50  0001 C CNN
-F 1 "GND" H 13805 2027 50  0000 C CNN
-F 2 "" H 13800 2200 50  0001 C CNN
-F 3 "" H 13800 2200 50  0001 C CNN
-	1    13800 2200
-	1    0    0    -1  
-$EndComp
 Connection ~ 13300 1800
 Wire Wire Line
 	13350 1800 13300 1800
@@ -4740,26 +4654,25 @@ F 8 "6.02" H 13600 5450 50  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_0603:100nF C25
+L Capacitors_0603:10nF C25
 U 1 1 6173ED50
 P 13950 1250
 AR Path="/6173ED50" Ref="C25"  Part="1" 
 AR Path="/5EEADDE8/6173ED50" Ref="C?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/6173ED50" Ref="C?"  Part="1" 
 F 0 "C25" H 14000 1350 50  0000 L CNN
-F 1 "100nF" H 13975 1150 50  0000 L CNN
+F 1 "10nF" H 13975 1150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 15350 1450 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 13950 1250 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 15050 1600 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 16400 1350 50  0001 C CNN "Description"
+F 5 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 16400 1350 50  0001 C CNN "Description"
 F 6 "X7R" H 14350 1200 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 14500 1600 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 15300 1600 50  0001 C CNN "Price"
-F 9 "Digikey" H 14300 1400 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 14500 1500 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 16000 1450 50  0001 C CNN "Tolerance"
-F 12 "50V" H 14250 1300 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 13950 1250 50  0001 C CNN "MPN"
+F 7 "0.09" H 15300 1600 50  0001 C CNN "Price"
+F 8 "Digikey" H 14300 1400 50  0001 C CNN "Supplier"
+F 9 "1276-1009-1-ND" H 14500 1500 50  0001 C CNN "Supplier Nr."
+F 10 "10%" H 16000 1450 50  0001 C CNN "Tolerance"
+F 11 "50V" H 14250 1300 50  0001 C CNN "Voltage"
+F 12 "CL10B103KB8NNNC" H 14500 1600 50  0001 C CNN "MPN"
 	1    13950 1250
 	1    0    0    -1  
 $EndComp
@@ -4781,63 +4694,33 @@ Wire Wire Line
 Connection ~ 13850 1450
 Wire Wire Line
 	13850 1450 13950 1450
-$Comp
-L Capacitors_0603:100nF C26
-U 1 1 618BB7D4
-P 13900 2000
-AR Path="/618BB7D4" Ref="C26"  Part="1" 
-AR Path="/5EEADDE8/618BB7D4" Ref="C?"  Part="1" 
-AR Path="/606FCEC4/5EEADDE8/618BB7D4" Ref="C?"  Part="1" 
-F 0 "C26" H 13950 2100 50  0000 L CNN
-F 1 "100nF" H 13925 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 15300 2200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 13900 2000 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 15000 2350 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 16350 2100 50  0001 C CNN "Description"
-F 6 "X7R" H 14300 1950 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 14450 2350 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 15250 2350 50  0001 C CNN "Price"
-F 9 "Digikey" H 14250 2150 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 14450 2250 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 15950 2200 50  0001 C CNN "Tolerance"
-F 12 "50V" H 14200 2050 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 13900 2000 50  0001 C CNN "MPN"
-	1    13900 2000
-	1    0    0    -1  
-$EndComp
 Connection ~ 13700 1800
 Wire Wire Line
 	13900 1800 13900 1850
 Wire Wire Line
 	13700 1800 13900 1800
 Wire Wire Line
-	13900 2150 13900 2200
-Wire Wire Line
-	13900 2200 13800 2200
-Connection ~ 13800 2200
-Wire Wire Line
 	13800 2200 13700 2200
 $Comp
-L Capacitors_0603:100nF C27
+L Capacitors_0603:10nF C27
 U 1 1 619D9053
 P 15750 1150
 AR Path="/619D9053" Ref="C27"  Part="1" 
 AR Path="/5EEADDE8/619D9053" Ref="C?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/619D9053" Ref="C?"  Part="1" 
 F 0 "C27" H 15800 1250 50  0000 L CNN
-F 1 "100nF" H 15750 1050 50  0000 L CNN
+F 1 "10nF" H 15775 1050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 17150 1350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 15750 1150 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 16850 1500 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 18200 1250 50  0001 C CNN "Description"
+F 5 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 18200 1250 50  0001 C CNN "Description"
 F 6 "X7R" H 16150 1100 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 16300 1500 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 17100 1500 50  0001 C CNN "Price"
-F 9 "Digikey" H 16100 1300 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 16300 1400 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 17800 1350 50  0001 C CNN "Tolerance"
-F 12 "50V" H 16050 1200 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 15750 1150 50  0001 C CNN "MPN"
+F 7 "0.09" H 17100 1500 50  0001 C CNN "Price"
+F 8 "Digikey" H 16100 1300 50  0001 C CNN "Supplier"
+F 9 "1276-1009-1-ND" H 16300 1400 50  0001 C CNN "Supplier Nr."
+F 10 "10%" H 17800 1350 50  0001 C CNN "Tolerance"
+F 11 "50V" H 16050 1200 50  0001 C CNN "Voltage"
+F 12 "CL10B103KB8NNNC" H 16300 1500 50  0001 C CNN "MPN"
 	1    15750 1150
 	1    0    0    -1  
 $EndComp
@@ -4847,26 +4730,25 @@ Wire Wire Line
 	15750 950  15750 1000
 Connection ~ 15550 950 
 $Comp
-L Capacitors_0603:100nF C28
+L Capacitors_0603:10nF C28
 U 1 1 61D8EE33
 P 15700 1900
 AR Path="/61D8EE33" Ref="C28"  Part="1" 
 AR Path="/5EEADDE8/61D8EE33" Ref="C?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/61D8EE33" Ref="C?"  Part="1" 
 F 0 "C28" H 15750 2000 50  0000 L CNN
-F 1 "100nF" H 15725 1800 50  0000 L CNN
+F 1 "10nF" H 15725 1800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 17100 2100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 15700 1900 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 16800 2250 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 18150 2000 50  0001 C CNN "Description"
+F 5 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 18150 2000 50  0001 C CNN "Description"
 F 6 "X7R" H 16100 1850 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 16250 2250 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 17050 2250 50  0001 C CNN "Price"
-F 9 "Digikey" H 16050 2050 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 16250 2150 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 17750 2100 50  0001 C CNN "Tolerance"
-F 12 "50V" H 16000 1950 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 15700 1900 50  0001 C CNN "MPN"
+F 7 "0.09" H 17050 2250 50  0001 C CNN "Price"
+F 8 "Digikey" H 16050 2050 50  0001 C CNN "Supplier"
+F 9 "1276-1009-1-ND" H 16250 2150 50  0001 C CNN "Supplier Nr."
+F 10 "10%" H 17750 2100 50  0001 C CNN "Tolerance"
+F 11 "50V" H 16000 1950 50  0001 C CNN "Voltage"
+F 12 "CL10B103KB8NNNC" H 16250 2250 50  0001 C CNN "MPN"
 	1    15700 1900
 	1    0    0    -1  
 $EndComp
@@ -6251,23 +6133,6 @@ Wire Wire Line
 	11350 7950 11350 8900
 Wire Wire Line
 	11000 8700 11450 8700
-$Comp
-L Diodes:PESD3V3L2BT D2
-U 1 1 6265C239
-P 10600 7050
-F 0 "D2" V 10550 6750 60  0000 C CNN
-F 1 "PESD3V3L2BT" V 10150 7150 60  0000 C CNN
-F 2 "Semiconductors:SOT-23" H 8850 8250 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8825 8300 60  0001 L CNN
-F 4 "PESD3V3L2BT,215" H 9250 8050 60  0001 L CNN "Manufacturer Part Number"
-F 5 "Circuit Protection" H 8825 8600 60  0001 L CNN "Category"
-F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 8650 7850 60  0001 L CNN "Description"
-F 7 "Nexperia" H 8850 8050 60  0001 L CNN "Manufacturer"
-F 8 "Mouser" H 9000 8150 50  0001 C CNN "Supplier"
-F 9 "771-PESD3V3L2BT-T/R" H 9650 8150 50  0001 C CNN "Supplier Part Number"
-	1    10600 7050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10200 6850 10100 6850
 Wire Wire Line
@@ -6563,28 +6428,28 @@ F 9 "771-PESD3V3L2BT-T/R" H 9650 10100 50  0001 C CNN "Supplier Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Diodes:PESD3V3L2BT D?
+L Diodes:PESD3V3L2BT D33
 U 1 1 625C828B
-P 14200 7250
-F 0 "D?" V 14150 6950 60  0000 C CNN
-F 1 "PESD3V3L2BT" V 14050 6450 60  0000 C CNN
-F 2 "Semiconductors:SOT-23" H 12450 8450 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 12425 8500 60  0001 L CNN
-F 4 "PESD3V3L2BT,215" H 12850 8250 60  0001 L CNN "Manufacturer Part Number"
-F 5 "Circuit Protection" H 12425 8800 60  0001 L CNN "Category"
-F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 12250 8050 60  0001 L CNN "Description"
-F 7 "Nexperia" H 12450 8250 60  0001 L CNN "Manufacturer"
-F 8 "Mouser" H 12600 8350 50  0001 C CNN "Supplier"
-F 9 "771-PESD3V3L2BT-T/R" H 13250 8350 50  0001 C CNN "Supplier Part Number"
-	1    14200 7250
-	0    -1   1    0   
+P 14200 6850
+F 0 "D33" V 14150 6550 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 14050 6050 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 12450 8050 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 12425 8100 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 12850 7850 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 12425 8400 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 12250 7650 60  0001 L CNN "Description"
+F 7 "Nexperia" H 12450 7850 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 12600 7950 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 13250 7950 50  0001 C CNN "Supplier Part Number"
+	1    14200 6850
+	0    -1   -1   0   
 $EndComp
 NoConn ~ 13800 6950
 $Comp
-L Diodes:PESD3V3L2BT D?
+L Diodes:PESD3V3L2BT D32
 U 1 1 62A086F4
 P 14200 6850
-F 0 "D?" V 14150 6550 60  0000 C CNN
+F 0 "D32" V 14150 6550 60  0000 C CNN
 F 1 "PESD3V3L2BT" V 14050 6050 60  0000 C CNN
 F 2 "Semiconductors:SOT-23" H 12450 8050 60  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 12425 8100 60  0001 L CNN
@@ -6661,4 +6526,142 @@ Wire Wire Line
 	13000 6950 13650 6950
 Wire Wire Line
 	14600 6650 14600 7050
+$Comp
+L Diodes:PESD3V3L2BT D2
+U 1 1 6265C239
+P 10600 6650
+F 0 "D2" V 10550 6350 60  0000 C CNN
+F 1 "PESD3V3L2BT" V 10750 6500 60  0000 C CNN
+F 2 "Semiconductors:SOT-23" H 8850 7850 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8825 7900 60  0001 L CNN
+F 4 "PESD3V3L2BT,215" H 9250 7650 60  0001 L CNN "Manufacturer Part Number"
+F 5 "Circuit Protection" H 8825 8200 60  0001 L CNN "Category"
+F 6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" H 8650 7450 60  0001 L CNN "Description"
+F 7 "Nexperia" H 8850 7650 60  0001 L CNN "Manufacturer"
+F 8 "Mouser" H 9000 7750 50  0001 C CNN "Supplier"
+F 9 "771-PESD3V3L2BT-T/R" H 9650 7750 50  0001 C CNN "Supplier Part Number"
+	1    10600 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L IntegratedCircuits:TLV9054 U9
+U 1 1 61BD7DC4
+P 13000 1050
+F 0 "U9" H 13000 683 50  0000 C CNN
+F 1 "TLV9054" H 13000 774 50  0000 C CNN
+F 2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 14030 1250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/tlv9052" H 13050 1250 50  0001 C CNN
+F 4 "Texas Instruments" H 13470 1410 50  0001 C CNN "Manufacturer"
+F 5 "TLV9054SIRTER" H 14160 1400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 13270 1330 50  0001 C CNN "Supplier"
+F 7 "595-TLV9054SIRTER" H 14270 1330 50  0001 C CNN "Supplier Part Number"
+	1    13000 1050
+	1    0    0    1   
+$EndComp
+$Comp
+L IntegratedCircuits:TLV9054 U9
+U 2 1 61BDA41A
+P 14650 950
+F 0 "U9" H 14650 583 50  0000 C CNN
+F 1 "TLV9054" H 14650 674 50  0000 C CNN
+F 2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 15680 1150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/tlv9052" H 14700 1150 50  0001 C CNN
+F 4 "Texas Instruments" H 15120 1310 50  0001 C CNN "Manufacturer"
+F 5 "TLV9054SIRTER" H 15810 1300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 14920 1230 50  0001 C CNN "Supplier"
+F 7 "595-TLV9054SIRTER" H 15920 1230 50  0001 C CNN "Supplier Part Number"
+	2    14650 950 
+	1    0    0    1   
+$EndComp
+$Comp
+L IntegratedCircuits:TLV9054 U9
+U 3 1 61BDAD73
+P 12950 1800
+F 0 "U9" H 12950 1433 50  0000 C CNN
+F 1 "TLV9054" H 12950 1524 50  0000 C CNN
+F 2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 13980 2000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/tlv9052" H 13000 2000 50  0001 C CNN
+F 4 "Texas Instruments" H 13420 2160 50  0001 C CNN "Manufacturer"
+F 5 "TLV9054SIRTER" H 14110 2150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 13220 2080 50  0001 C CNN "Supplier"
+F 7 "595-TLV9054SIRTER" H 14220 2080 50  0001 C CNN "Supplier Part Number"
+	3    12950 1800
+	1    0    0    1   
+$EndComp
+$Comp
+L IntegratedCircuits:TLV9054 U9
+U 4 1 61BDBB7A
+P 14500 1700
+F 0 "U9" H 14500 1333 50  0000 C CNN
+F 1 "TLV9054" H 14500 1424 50  0000 C CNN
+F 2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 15530 1900 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/tlv9052" H 14550 1900 50  0001 C CNN
+F 4 "Texas Instruments" H 14970 2060 50  0001 C CNN "Manufacturer"
+F 5 "TLV9054SIRTER" H 15660 2050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 14770 1980 50  0001 C CNN "Supplier"
+F 7 "595-TLV9054SIRTER" H 15770 1980 50  0001 C CNN "Supplier Part Number"
+	4    14500 1700
+	1    0    0    1   
+$EndComp
+$Comp
+L IntegratedCircuits:TLV9054 U9
+U 5 1 61BDC93C
+P 13100 2800
+F 0 "U9" H 13158 2856 50  0000 L CNN
+F 1 "TLV9054" H 13158 2765 50  0000 L CNN
+F 2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 14130 3000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/tlv9052" H 13150 3000 50  0001 C CNN
+F 4 "Texas Instruments" H 13570 3160 50  0001 C CNN "Manufacturer"
+F 5 "TLV9054SIRTER" H 14260 3150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 13370 3080 50  0001 C CNN "Supplier"
+F 7 "595-TLV9054SIRTER" H 14370 3080 50  0001 C CNN "Supplier Part Number"
+	5    13100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 3200 13100 3050
+Wire Wire Line
+	13100 2450 13100 2300
+Connection ~ 13800 2200
+Wire Wire Line
+	13900 2200 13800 2200
+Wire Wire Line
+	13900 2150 13900 2200
+$Comp
+L Capacitors_0603:10nF C26
+U 1 1 618BB7D4
+P 13900 2000
+AR Path="/618BB7D4" Ref="C26"  Part="1" 
+AR Path="/5EEADDE8/618BB7D4" Ref="C?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/618BB7D4" Ref="C?"  Part="1" 
+F 0 "C26" H 13950 2100 50  0000 L CNN
+F 1 "10nF" H 13925 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15300 2200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 13900 2000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 15000 2350 50  0001 C CNN "Manufacturer"
+F 5 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 16350 2100 50  0001 C CNN "Description"
+F 6 "X7R" H 14300 1950 50  0001 C CNN "Dielectric"
+F 7 "0.09" H 15250 2350 50  0001 C CNN "Price"
+F 8 "Digikey" H 14250 2150 50  0001 C CNN "Supplier"
+F 9 "1276-1009-1-ND" H 14450 2250 50  0001 C CNN "Supplier Nr."
+F 10 "10%" H 15950 2200 50  0001 C CNN "Tolerance"
+F 11 "50V" H 14200 2050 50  0001 C CNN "Voltage"
+F 12 "CL10B103KB8NNNC" H 14450 2350 50  0001 C CNN "MPN"
+	1    13900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 60746DB4
+P 13800 2200
+AR Path="/60746DB4" Ref="#PWR0157"  Part="1" 
+AR Path="/5EEADDE8/60746DB4" Ref="#PWR?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/60746DB4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0157" H 13800 1950 50  0001 C CNN
+F 1 "GND" H 13805 2027 50  0000 C CNN
+F 2 "" H 13800 2200 50  0001 C CNN
+F 3 "" H 13800 2200 50  0001 C CNN
+	1    13800 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

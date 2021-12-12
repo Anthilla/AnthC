@@ -849,7 +849,7 @@ L Inductors:ACM7060-701-2PL-TL01 FL1
 U 1 1 6236793A
 P 2000 1500
 F 0 "FL1" H 2200 2050 50  0000 C CNN
-F 1 "ACM7060-701-2PL-TL01" H 2250 1300 50  0000 C CNN
+F 1 "ACM7060-701-2PL-TL01" H 2250 1300 50  0001 C CNN
 F 2 "Inductors:ChokeSMD_ACM7060" H 2000 2850 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf" V 2200 1560 50  0001 C CNN
 F 4 "Common Mode Chokes / Filters 700ohms 100MHz 50volts" H 2000 2750 50  0001 C CNN "Description"
@@ -863,7 +863,7 @@ $EndComp
 Wire Wire Line
 	2450 1500 2450 1450
 Wire Wire Line
-	2450 1450 2850 1450
+	2450 1450 2600 1450
 Wire Wire Line
 	2400 1500 2450 1500
 Connection ~ 2850 1450
@@ -1072,4 +1072,11 @@ Wire Wire Line
 Connection ~ 1350 2100
 Wire Wire Line
 	1350 2100 1950 2100
+Text HLabel 2600 1200 1    50   Input ~ 0
+VDD_F
+Wire Wire Line
+	2600 1450 2600 1200
+Connection ~ 2600 1450
+Wire Wire Line
+	2600 1450 2850 1450
 $EndSCHEMATC

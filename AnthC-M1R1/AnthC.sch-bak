@@ -1541,7 +1541,7 @@ F 12 "RC0603FR-0710KL" H 8000 6550 50  0001 C CNN "MPN"
 	1    8000 6550
 	0    1    1    0   
 $EndComp
-Text Label 12500 1150 0    50   ~ 0
+Text Label 14150 1050 0    50   ~ 0
 AIN0
 Wire Notes Line
 	550  3450 4000 3450
@@ -1549,7 +1549,7 @@ Wire Notes Line
 	4000 500  4000 3450
 Wire Notes Line
 	550  500  550  3450
-Text Label 14150 1050 0    50   ~ 0
+Text Label 14000 1800 0    50   ~ 0
 AIN2
 Text Label 12050 850  1    50   ~ 0
 AIN0
@@ -4342,9 +4342,9 @@ F 8 "710-418117270904" H 13850 1700 50  0001 C CNN "Supplier Part Number"
 $EndComp
 Wire Wire Line
 	14000 1800 14200 1800
-Text Label 14000 1800 0    50   ~ 0
-AIN3
 Text Label 12450 1900 0    50   ~ 0
+AIN3
+Text Label 12500 1150 0    50   ~ 0
 AIN1
 Wire Wire Line
 	12450 1900 12650 1900
@@ -6603,21 +6603,6 @@ F 7 "595-TLV9054SIRTER" H 15770 1980 50  0001 C CNN "Supplier Part Number"
 	4    14500 1700
 	1    0    0    1   
 $EndComp
-$Comp
-L IntegratedCircuits:TLV9054 U9
-U 5 1 61BDC93C
-P 13100 2800
-F 0 "U9" H 13158 2856 50  0000 L CNN
-F 1 "TLV9054" H 13158 2765 50  0000 L CNN
-F 2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 14130 3000 50  0001 C CNN
-F 3 "https://www.ti.com/lit/gpn/tlv9052" H 13150 3000 50  0001 C CNN
-F 4 "Texas Instruments" H 13570 3160 50  0001 C CNN "Manufacturer"
-F 5 "TLV9054SIRTER" H 14260 3150 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 13370 3080 50  0001 C CNN "Supplier"
-F 7 "595-TLV9054SIRTER" H 14370 3080 50  0001 C CNN "Supplier Part Number"
-	5    13100 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13100 3200 13100 3050
 Wire Wire Line
@@ -6664,4 +6649,39 @@ F 3 "" H 13800 2200 50  0001 C CNN
 	1    13800 2200
 	1    0    0    -1  
 $EndComp
+$Comp
+L IntegratedCircuits:TLV9054 U9
+U 5 1 61BDC93C
+P 13100 2800
+F 0 "U9" H 13158 2856 50  0000 L CNN
+F 1 "TLV9054" H 13158 2765 50  0000 L CNN
+F 2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 14130 3000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/tlv9052" H 13150 3000 50  0001 C CNN
+F 4 "Texas Instruments" H 13570 3160 50  0001 C CNN "Manufacturer"
+F 5 "TLV9054SIRTER" H 14260 3150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 13370 3080 50  0001 C CNN "Supplier"
+F 7 "595-TLV9054SIRTER" H 14370 3080 50  0001 C CNN "Supplier Part Number"
+	5    13100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 623B11B0
+P 12800 2900
+AR Path="/623B11B0" Ref="#PWR0152"  Part="1" 
+AR Path="/5EEADDE8/623B11B0" Ref="#PWR?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/623B11B0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0152" H 12800 2650 50  0001 C CNN
+F 1 "GND" H 12805 2727 50  0000 C CNN
+F 2 "" H 12800 2900 50  0001 C CNN
+F 3 "" H 12800 2900 50  0001 C CNN
+	1    12800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 2900 12800 2350
+Wire Wire Line
+	12800 2350 12950 2350
+Wire Wire Line
+	12950 2350 12950 2450
 $EndSCHEMATC

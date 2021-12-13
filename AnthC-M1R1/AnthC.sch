@@ -1311,8 +1311,6 @@ F 12 "RC0603FR-0710KL" H 1500 5550 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	700  6000 800  6000
-Wire Wire Line
 	1500 5800 1500 5750
 $Comp
 L power:+BATT #PWR0187
@@ -5436,19 +5434,6 @@ F 3 "~" H 1100 850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
-U 1 1 65DD5260
-P 700 6000
-AR Path="/602E71BC/65DD5260" Ref="#PWR?"  Part="1" 
-AR Path="/65DD5260" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 700 5900 50  0001 C CNN
-F 1 "VDD" H 700 6150 50  0000 C CNN
-F 2 "" H 700 6000 50  0001 C CNN
-F 3 "" H 700 6000 50  0001 C CNN
-	1    700  6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diodes:Zener_6V D9
 U 1 1 61B7AC08
 P 3750 5800
@@ -5499,14 +5484,14 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR?
 U 1 1 634315B1
-P 3250 1000
+P 3500 1000
 AR Path="/606FCEC4/5EEADDE8/634315B1" Ref="#PWR?"  Part="1" 
 AR Path="/634315B1" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 3250 850 50  0001 C CNN
-F 1 "+3V3" H 3265 1173 50  0000 C CNN
-F 2 "" H 3250 1000 50  0001 C CNN
-F 3 "" H 3250 1000 50  0001 C CNN
-	1    3250 1000
+F 0 "#PWR0105" H 3500 850 50  0001 C CNN
+F 1 "+3V3" H 3515 1173 50  0000 C CNN
+F 2 "" H 3500 1000 50  0001 C CNN
+F 3 "" H 3500 1000 50  0001 C CNN
+	1    3500 1000
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -5859,8 +5844,6 @@ F 3 "~" H 3050 1000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 3050 1000
-Wire Wire Line
-	3050 1000 3250 1000
 $Comp
 L Transistors_MOSFET:2N7002 Q1
 U 1 1 6099408C
@@ -6687,6 +6670,26 @@ Wire Wire Line
 	12950 2350 12950 2450
 Wire Wire Line
 	2850 850  3000 850 
+Text Label 3200 850  0    50   ~ 0
+VDD_F
 Wire Wire Line
-	3000 850  3000 800 
+	3050 1000 3500 1000
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 621759C0
+P 3000 850
+F 0 "#FLG0103" H 3000 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 800 50  0001 C CNN
+F 2 "" H 3000 850 50  0001 C CNN
+F 3 "~" H 3000 850 50  0001 C CNN
+	1    3000 850 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3000 850 
+Wire Wire Line
+	3000 850  3200 850 
+Wire Wire Line
+	600  6000 800  6000
+Text Label 600  6000 0    50   ~ 0
+VDD_F
 $EndSCHEMATC

@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "AnthC - Power"
+Date "2021-12-14"
+Rev "2.0"
+Comp "ANTHILLA"
 Comment1 ""
-Comment2 ""
+Comment2 "https://www.anthilla.com/"
 Comment3 ""
-Comment4 ""
+Comment4 "https://github.com/Open-Hardware-Skunkworks/AnthC"
 $EndDescr
 $Comp
 L Capacitors_0603:100nF C?

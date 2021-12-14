@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
-Title "AnthC - ESP32 Core"
-Date "18-10-2021"
-Rev "1.0"
+Title "AnthC"
+Date "2021-12-14"
+Rev "2.0"
 Comp "ANTHILLA"
 Comment1 ""
 Comment2 "https://www.anthilla.com/"

@@ -2020,11 +2020,9 @@ F 3 "" H 12250 2500 50  0001 C CNN
 	1    12250 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 2100 1100 2100
-Text Label 1200 1900 2    50   ~ 0
+Text Label 1100 1600 2    50   ~ 0
 RX25
-Text Label 1200 2000 2    50   ~ 0
+Text Label 1100 1800 2    50   ~ 0
 TX25
 $Comp
 L Processors:ESP32-S2-SOLO U6
@@ -2061,21 +2059,6 @@ F 7 "Mouser" H 6500 1600 50  0001 C CNN "Supplier"
 F 8 "710-691312510002" H 7400 1600 50  0001 C CNN "Supplier Part Number"
 	1    6300 1100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connectors:1x04 J13
-U 1 1 609D9526
-P 800 1900
-F 0 "J13" H 880 1892 50  0000 L CNN
-F 1 "1x04" H 800 1600 50  0000 C CNN
-F 2 "Connectors:WURTH-691312510004" H 800 1900 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/445/691312510004-1719616.pdf" H 800 1900 50  0001 C CNN
-F 4 "691312510004" H 2000 2600 50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 1350 2600 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 1200 2500 50  0001 C CNN "Supplier"
-F 7 "710-691312510004" H 2100 2500 50  0001 C CNN "Supplier Part Number"
-	1    800  1900
-	-1   0    0    -1  
 $EndComp
 $Comp
 L IntegratedCircuits:HDC2080 U7
@@ -4225,8 +4208,6 @@ Wire Wire Line
 NoConn ~ 6000 5550
 NoConn ~ 9850 4850
 NoConn ~ 11250 5250
-Wire Wire Line
-	1100 2350 1100 2100
 $Comp
 L power:GND #PWR043
 U 1 1 6260A0FC
@@ -5401,8 +5382,6 @@ Connection ~ 7800 5000
 Wire Wire Line
 	7800 5000 7800 5050
 Wire Wire Line
-	1100 1800 1000 1800
-Wire Wire Line
 	7850 1250 7850 1300
 $Comp
 L power:PWR_FLAG #FLG0104
@@ -5511,17 +5490,6 @@ F 3 "" H 1750 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1500 850 
-$Comp
-L power:+5VD #PWR0108
-U 1 1 63EFC6A3
-P 1100 1800
-F 0 "#PWR0108" H 1100 1650 50  0001 C CNN
-F 1 "+5VD" H 1115 1973 50  0000 C CNN
-F 2 "" H 1100 1800 50  0001 C CNN
-F 3 "" H 1100 1800 50  0001 C CNN
-	1    1100 1800
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 2200 650  650  600 
 U 6243F6D9
@@ -5550,69 +5518,55 @@ Wire Wire Line
 	3700 1100 3700 1050
 Wire Wire Line
 	1500 850  2200 850 
-Wire Wire Line
-	1000 2000 1250 2000
 $Comp
 L power:GND #PWR0110
 U 1 1 64949A72
-P 1350 2350
-F 0 "#PWR0110" H 1350 2100 50  0001 C CNN
-F 1 "GND" H 1350 2200 50  0000 C CNN
-F 2 "" H 1350 2350 50  0001 C CNN
-F 3 "" H 1350 2350 50  0001 C CNN
-	1    1350 2350
+P 1250 2200
+F 0 "#PWR0110" H 1250 1950 50  0001 C CNN
+F 1 "GND" H 1250 2050 50  0000 C CNN
+F 2 "" H 1250 2200 50  0001 C CNN
+F 3 "" H 1250 2200 50  0001 C CNN
+	1    1250 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diodes:Zener_6V D8
 U 1 1 61A97A75
-P 1500 2150
-F 0 "D8" V 1454 2230 50  0000 L CNN
-F 1 "Zener_6V" V 1545 2230 50  0001 L CNN
-F 2 "Semiconductors:D_SOD-123" H 1500 1975 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1500 2150 50  0001 C CNN
-F 4 "Vishay" H 1800 2750 50  0001 C CNN "Manufacturer"
-F 5 "MMSZ5233B-E3-08" H 2400 2750 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 1800 2650 50  0001 C CNN "Supplier"
-F 7 "78-MMSZ5233B-E3-08" H 2500 2650 50  0001 C CNN "Supplier Part Number"
-F 8 "6V" H 2100 2450 50  0001 C CNN "Voltage"
-F 9 "500mW" H 2200 2550 50  0001 C CNN "Power"
-	1    1500 2150
+P 1400 1850
+F 0 "D8" V 1354 1930 50  0000 L CNN
+F 1 "Zener_6V" V 1445 1930 50  0001 L CNN
+F 2 "Semiconductors:D_SOD-123" H 1400 1675 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1400 1850 50  0001 C CNN
+F 4 "Vishay" H 1700 2450 50  0001 C CNN "Manufacturer"
+F 5 "MMSZ5233B-E3-08" H 2300 2450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 1700 2350 50  0001 C CNN "Supplier"
+F 7 "78-MMSZ5233B-E3-08" H 2400 2350 50  0001 C CNN "Supplier Part Number"
+F 8 "6V" H 2000 2150 50  0001 C CNN "Voltage"
+F 9 "500mW" H 2100 2250 50  0001 C CNN "Power"
+	1    1400 1850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1000 1900 1500 1900
-Wire Wire Line
-	1250 2350 1100 2350
+	900  1600 1400 1600
 $Comp
 L Diodes:Zener_6V D1
 U 1 1 64A0EB04
-P 1250 2150
-F 0 "D1" V 1204 2230 50  0000 L CNN
-F 1 "Zener_6V" V 1350 2150 50  0001 L CNN
-F 2 "Semiconductors:D_SOD-123" H 1250 1975 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1250 2150 50  0001 C CNN
-F 4 "Vishay" H 1550 2750 50  0001 C CNN "Manufacturer"
-F 5 "MMSZ5233B-E3-08" H 2150 2750 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 1550 2650 50  0001 C CNN "Supplier"
-F 7 "78-MMSZ5233B-E3-08" H 2250 2650 50  0001 C CNN "Supplier Part Number"
-F 8 "6V" H 1850 2450 50  0001 C CNN "Voltage"
-F 9 "500mW" H 1950 2550 50  0001 C CNN "Power"
-	1    1250 2150
+P 1100 1950
+F 0 "D1" V 1150 1750 50  0000 L CNN
+F 1 "Zener_6V" V 1200 1950 50  0001 L CNN
+F 2 "Semiconductors:D_SOD-123" H 1100 1775 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1100 1950 50  0001 C CNN
+F 4 "Vishay" H 1400 2550 50  0001 C CNN "Manufacturer"
+F 5 "MMSZ5233B-E3-08" H 2000 2550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 1400 2450 50  0001 C CNN "Supplier"
+F 7 "78-MMSZ5233B-E3-08" H 2100 2450 50  0001 C CNN "Supplier Part Number"
+F 8 "6V" H 1700 2250 50  0001 C CNN "Voltage"
+F 9 "500mW" H 1800 2350 50  0001 C CNN "Power"
+	1    1100 1950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 2350 1250 2300
-Connection ~ 1250 2350
-Wire Wire Line
-	1250 2350 1350 2350
-Wire Wire Line
-	1500 2000 1500 1900
-Wire Wire Line
-	1500 2300 1500 2350
-Connection ~ 1350 2350
-Wire Wire Line
-	1350 2350 1500 2350
+	1400 1700 1400 1600
 Text Label 1200 950  0    50   ~ 0
 GND_IN
 $Comp
@@ -6692,4 +6646,49 @@ Wire Wire Line
 	600  6000 800  6000
 Text Label 600  6000 0    50   ~ 0
 VDD_F
+$Comp
+L Connectors:1x03 J4
+U 1 1 61C24696
+P 700 1700
+AR Path="/61C24696" Ref="J4"  Part="1" 
+AR Path="/5EEADDE8/61C24696" Ref="J?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/61C24696" Ref="J?"  Part="1" 
+F 0 "J4" H 780 1692 50  0000 L CNN
+F 1 "01x03" H 700 1500 50  0000 C CNN
+F 2 "Connectors:WURTH-691312510003" H 700 1700 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/445/691312510003-1719552.pdf" H 700 1700 50  0001 C CNN
+F 4 "691312510003" H 1950 2150 50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 1300 2150 50  0001 C CNN "Manufacturer"
+F 6 "0.411" H 1150 1950 50  0001 C CNN "Price"
+F 7 "Mouser" H 1150 2050 50  0001 C CNN "Supplier"
+F 8 "710-691312510003" H 2050 2050 50  0001 C CNN "Supplier Part Number"
+	1    700  1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 2100 1100 2200
+Wire Wire Line
+	1100 2200 1250 2200
+Wire Wire Line
+	1400 2000 1400 2200
+Connection ~ 1250 2200
+Wire Wire Line
+	1250 2200 1400 2200
+Wire Wire Line
+	900  1800 1100 1800
+Wire Wire Line
+	900  1700 1250 1700
+Wire Wire Line
+	1250 1700 1250 1750
+$Comp
+L power:GND #PWR0104
+U 1 1 621C6474
+P 1250 1750
+F 0 "#PWR0104" H 1250 1500 50  0001 C CNN
+F 1 "GND" H 1250 1600 50  0000 C CNN
+F 2 "" H 1250 1750 50  0001 C CNN
+F 3 "" H 1250 1750 50  0001 C CNN
+	1    1250 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

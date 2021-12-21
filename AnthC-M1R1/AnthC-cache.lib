@@ -1056,7 +1056,7 @@ ENDDEF
 DEF IntegratedCircuits_CP2102N-A02-GQFN28 U 0 20 Y Y 1 F N
 F0 "U" 600 700 50 H V C CNN
 F1 "IntegratedCircuits_CP2102N-A02-GQFN28" 800 -750 50 H V C CNN
-F2 "MagLab_IC:QFN-28-1EP_5x5mm_Pitch0.5mm" 0 2100 50 H I C CNN
+F2 "IC:QFN-28-1EP_5x5mm_Pitch0.5mm" 0 2100 50 H I C CNN
 F3 "" 50 -750 50 H I C CNN
 F4 "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)" 0 2000 50 H I C CNN "Description"
 F5 "Silicon Labs" 0 1900 50 H I C CNN "Manufacturer"

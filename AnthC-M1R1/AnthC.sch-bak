@@ -5551,18 +5551,18 @@ Wire Wire Line
 $Comp
 L Diodes:Zener_6V D1
 U 1 1 64A0EB04
-P 950 1950
-F 0 "D1" V 904 2030 50  0000 L CNN
-F 1 "Zener_6V" V 1050 1950 50  0001 L CNN
-F 2 "Semiconductors:D_SOD-123" H 950 1775 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 950 1950 50  0001 C CNN
-F 4 "Vishay" H 1250 2550 50  0001 C CNN "Manufacturer"
-F 5 "MMSZ5233B-E3-08" H 1850 2550 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 1250 2450 50  0001 C CNN "Supplier"
-F 7 "78-MMSZ5233B-E3-08" H 1950 2450 50  0001 C CNN "Supplier Part Number"
-F 8 "6V" H 1550 2250 50  0001 C CNN "Voltage"
-F 9 "500mW" H 1650 2350 50  0001 C CNN "Power"
-	1    950  1950
+P 1100 1950
+F 0 "D1" V 1150 1750 50  0000 L CNN
+F 1 "Zener_6V" V 1200 1950 50  0001 L CNN
+F 2 "Semiconductors:D_SOD-123" H 1100 1775 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1100 1950 50  0001 C CNN
+F 4 "Vishay" H 1400 2550 50  0001 C CNN "Manufacturer"
+F 5 "MMSZ5233B-E3-08" H 2000 2550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 1400 2450 50  0001 C CNN "Supplier"
+F 7 "78-MMSZ5233B-E3-08" H 2100 2450 50  0001 C CNN "Supplier Part Number"
+F 8 "6V" H 1700 2250 50  0001 C CNN "Voltage"
+F 9 "500mW" H 1800 2350 50  0001 C CNN "Power"
+	1    1100 1950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -6666,14 +6666,29 @@ F 8 "710-691312510003" H 2050 2050 50  0001 C CNN "Supplier Part Number"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	900  1800 950  1800
+	1100 2100 1100 2200
 Wire Wire Line
-	950  2100 950  2200
-Wire Wire Line
-	950  2200 1250 2200
+	1100 2200 1250 2200
 Wire Wire Line
 	1400 2000 1400 2200
 Connection ~ 1250 2200
 Wire Wire Line
 	1250 2200 1400 2200
+Wire Wire Line
+	900  1800 1100 1800
+Wire Wire Line
+	900  1700 1250 1700
+Wire Wire Line
+	1250 1700 1250 1750
+$Comp
+L power:GND #PWR0104
+U 1 1 621C6474
+P 1250 1750
+F 0 "#PWR0104" H 1250 1500 50  0001 C CNN
+F 1 "GND" H 1250 1600 50  0000 C CNN
+F 2 "" H 1250 1750 50  0001 C CNN
+F 3 "" H 1250 1750 50  0001 C CNN
+	1    1250 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

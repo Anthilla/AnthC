@@ -5198,7 +5198,7 @@ U 1 1 61A37ED5
 P 6800 8900
 F 0 "U5" V 6100 8300 50  0000 C CNN
 F 1 "CP2102N-A02-GQFN28" V 6100 9800 50  0000 C CNN
-F 2 "MagLab_IC:QFN-28-1EP_5x5mm_Pitch0.5mm" H 6800 11000 50  0001 C CNN
+F 2 "IC:QFN-28-1EP_5x5mm_Pitch0.5mm" H 6800 11000 50  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 6850 8150 50  0001 C CNN
 F 4 "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)" H 6800 10900 50  0001 C CNN "Description"
 F 5 "Silicon Labs" H 6800 10800 50  0001 C CNN "Manufacturer"

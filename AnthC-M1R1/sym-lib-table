@@ -15,4 +15,5 @@
   (lib (name Diodes)(type Legacy)(uri D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/Diodes.lib)(options "")(descr ""))
   (lib (name Processors)(type Legacy)(uri D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/Processors.lib)(options "")(descr ""))
   (lib (name Transistors_MOSFET)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/Transistors_MOSFET.lib)(options "")(descr ""))
+  (lib (name Optical)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/Optical.lib)(options "")(descr ""))
 )

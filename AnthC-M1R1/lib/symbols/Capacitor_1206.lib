@@ -63,7 +63,7 @@ F1 "4.7uF" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 0 1450 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Samsung Electro-Mechanics" 0 1250 50 H I C CNN "Manufacturer"
-F5 "CL31B475KAHNNNE" 0 1150 50 H I C CNN "Manufacturer Part Number"
+F5 "CL31B475KAHNNNE" 0 1150 50 H I C CNN "MPN"
 F6 "Mouser" 0 1050 50 H I C CNN "Supplier"
 F7 "187-CL31B475KAHNNNE" 0 950 50 H I C CNN "Supplier Part Number"
 F8 "4.7µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" 0 1350 50 H I C CNN "Description"

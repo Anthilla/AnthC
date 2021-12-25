@@ -47,7 +47,7 @@ F0 "D" -450 250 60 H V L CNN
 F1 "PESD3V3L2BT" 300 250 60 H V C CNN
 F2 "Semiconductors:SOT-23" -1750 1200 60 H I L CNN
 F3 "" -1775 1250 60 H I L CNN
-F4 "PESD3V3L2BT,215" -1350 1000 60 H I L CNN "Manufacturer Part Number"
+F4 "PESD3V3L2BT,215" -1350 1000 60 H I L CNN "MPN"
 F5 "Circuit Protection" -1775 1550 60 H I L CNN "Category"
 F6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" -1950 800 60 H I L CNN "Description"
 F7 "Nexperia" -1750 1000 60 H I L CNN "Manufacturer"
@@ -143,7 +143,7 @@ F2 "Semiconductors:D_SMB" 0 1250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Suppresseurs ESD / diodes TVS 600W 30V 5% Bi-Directional" 0 1150 50 H I C CNN "Description"
 F5 "Littelfuse" 0 1050 50 H I C CNN "Manufacturer"
-F6 "SMBJ30CA" 0 950 50 H I C CNN "Manufacturer Part Number"
+F6 "SMBJ30CA" 0 950 50 H I C CNN "MPN"
 F7 "Mouser" 0 0 50 H I C CNN "Supplier"
 F8 "576-SMBJ30CA" 0 0 50 H I C CNN "Supplier Part Number"
 DRAW
@@ -165,7 +165,7 @@ F2 "MagLab_Diode:D_SMB" 0 1250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "72.7V Clamp 8.3A Ipp Tvs Diode Surface Mount SMB (DO-214AA)" 0 1150 50 H I C CNN "Description"
 F5 "Bourns Inc." 0 1050 50 H I C CNN "Manufacturer"
-F6 "SMBJ45CA" 0 950 50 H I C CNN "Manufacturer Part Number"
+F6 "SMBJ45CA" 0 950 50 H I C CNN "MPN"
 DRAW
 P 2 1 1 0 50 0 -50 0 N
 P 4 1 1 8 -100 -50 0 0 -100 50 -100 -50 N
@@ -185,7 +185,7 @@ F2 "Semiconductors:SOT-23" 0 950 60 H I C CNN
 F3 "" -50 950 60 H I C CNN
 F4 "ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance" -50 1650 60 H I C CNN "Description"
 F5 "Bourns" -50 1750 60 H I C CNN "Manufacturer"
-F6 "CDSOT23-SM712" -50 1150 60 H I C CNN "Manufacturer Nr."
+F6 "CDSOT23-SM712" -50 1150 60 H I C CNN "MPN"
 F7 "Mouser" -50 1450 60 H I C CNN "Supplier"
 F8 "652-CDSOT23-SM712" -50 1050 60 H I C CNN "Supplier Nr."
 DRAW
@@ -230,7 +230,7 @@ F2 "Package_TO_SOT_SMD:SOT-23" 0 950 60 H I C CNN
 F3 "" -50 950 60 H I C CNN
 F4 "IP4233CZ6 - Ultra low capacitance ESD protection for Ethernet ports" -50 1650 60 H I C CNN "Description"
 F5 "Nexperia" -50 1750 60 H I C CNN "Manufacturer"
-F6 "IP4233CZ6,125" -50 1150 60 H I C CNN "Manufacturer Nr."
+F6 "IP4233CZ6,125" -50 1150 60 H I C CNN "MPN"
 F7 "Mouser" -50 1450 60 H I C CNN "Supplier"
 F8 "771-IP4233CZ6125" -50 1050 60 H I C CNN "Supplier Nr."
 F9 "0.285" -50 1250 60 H I C CNN "Supplier Price"
@@ -276,7 +276,7 @@ F1 "Zener_6V" 0 -100 50 H V C CNN
 F2 "Semiconductors:D_SOD-123" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Vishay" 300 600 50 H I C CNN "Manufacturer"
-F5 "MMSZ5233B-E3-08" 900 600 50 H I C CNN "Manufacturer Part Number"
+F5 "MMSZ5233B-E3-08" 900 600 50 H I C CNN "MPN"
 F6 "Mouser" 300 500 50 H I C CNN "Supplier"
 F7 "78-MMSZ5233B-E3-08" 1000 500 50 H I C CNN "Supplier Part Number"
 F8 "6V" 600 300 50 H I C CNN "Voltage"

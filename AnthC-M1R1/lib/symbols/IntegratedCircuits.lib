@@ -43,10 +43,9 @@ F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 0 1950 50 H I C CNN
 F3 "" 0 -550 50 H I C CNN
 F4 "USB Bridge, USB to UART USB 2.0 UART Interface 24-QFN (4x4)" 0 1850 50 H I C CNN "Description"
 F5 "Silicon Labs" 0 1750 50 H I C CNN "Manufacturer"
-F6 "CP2102N-A02-GQFN24" 0 1650 50 H I C CNN "Manufacturer Nr."
+F6 "CP2102N-A02-GQFN24" 0 1650 50 H I C CNN "MPN"
 F7 "Digikey" 0 1550 50 H I C CNN "Supplier"
 F8 "336-5887-ND" 0 1450 50 H I C CNN "Supplier Nr."
-F9 "1.27" 0 1350 50 H I C CNN "Supplier Price"
 $FPLIST
  QFN*1EP*5x5mm*P0.5mm*
 $ENDFPLIST
@@ -89,14 +88,9 @@ F2 "IC:QFN-28-1EP_5x5mm_Pitch0.5mm" 0 2100 50 H I C CNN
 F3 "" 50 -750 50 H I C CNN
 F4 "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)" 0 2000 50 H I C CNN "Description"
 F5 "Silicon Labs" 0 1900 50 H I C CNN "Manufacturer"
-F6 "CP2102N-A02-GQFN28" 0 1800 50 H I C CNN "Manufacturer Nr."
+F6 "CP2102N-A02-GQFN28" 0 1800 50 H I C CNN "MPN"
 F7 "Digikey" 0 1700 50 H I C CNN "Supplier"
 F8 "336-5889-ND" 0 1600 50 H I C CNN "Supplier Nr."
-F9 "1.32" 0 1500 50 H I C CNN "Supplier Price"
-F10 "JLCPCB" 0 1400 50 H I C CNN "Assembler"
-F11 "C964632" 0 1300 50 H I C CNN "Assembler Nr."
-F12 "True" 0 1200 50 H I C CNN "Assembler BOM"
-F13 "V1" 0 1100 50 H I C CNN "Variant"
 $FPLIST
  QFN*1EP*5x5mm*P0.5mm*
 $ENDFPLIST
@@ -285,7 +279,7 @@ F1 "TLV9054" 50 -170 50 H V L CNN
 F2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" 1030 200 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 F4 "Texas Instruments" 470 360 50 H I C CNN "Manufacturer"
-F5 "TLV9054SIRTER" 1160 350 50 H I C CNN "Manufacturer Part Number"
+F5 "TLV9054SIRTER" 1160 350 50 H I C CNN "MPN"
 F6 "Mouser" 270 280 50 H I C CNN "Supplier"
 F7 "595-TLV9054SIRTER" 1270 280 50 H I C CNN "Supplier Part Number"
 ALIAS LM324_copy TLC274_copy TLC279_copy TL074_copy LM324A_copy MCP6004_copy TL084_copy TL064_copy LMV324_copy LMC6484_copy MCP604_copy MC33079_copy MC33174_copy MC33179_copy OPA1604_copy OPA1679_copy OPA4134_copy OPA4340UA_copy OPA4376_copy MCP6L94_copy TSV914_copy ADA4807-4_copy TSV994_copy

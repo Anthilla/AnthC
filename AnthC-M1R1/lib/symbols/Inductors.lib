@@ -120,7 +120,7 @@ F2 "" 0 1350 50 H I C CNN
 F3 "" 200 60 50 V I C CNN
 F4 "WE-CNSW SMT Common Mode" 0 1250 50 H I C CNN "Description"
 F5 "Wurth Elektronik" 0 1150 50 H I C CNN "Manufacturer"
-F6 "744231121" 0 1050 50 H I C CNN "Manufacturer Nr."
+F6 "744231121" 0 1050 50 H I C CNN "MPN"
 F7 "Digikey" 0 950 50 H I C CNN "Supplier"
 F8 "732-1465-1-ND" 0 850 50 H I C CNN "Supplier Nr."
 $FPLIST
@@ -161,7 +161,7 @@ F2 "Inductors:ChokeSMD_ACM7060" 0 1350 50 H I C CNN
 F3 "" 200 60 50 V I C CNN
 F4 "Common Mode Chokes / Filters 700ohms 100MHz 50volts" 0 1250 50 H I C CNN "Description"
 F5 "TDK" 0 1150 50 H I C CNN "Manufacturer"
-F6 "ACM7060-701-2PL-TL01" 0 1050 50 H I C CNN "Manufacturer Nr."
+F6 "ACM7060-701-2PL-TL01" 0 1050 50 H I C CNN "MPN"
 F7 "Mouser" 0 950 50 H I C CNN "Supplier"
 F8 "810-ACM70607012PLTL1" 0 850 50 H I C CNN "Supplier Nr."
 $FPLIST
@@ -202,7 +202,7 @@ F2 "" 0 1350 50 H I C CNN
 F3 "" 200 60 50 V I C CNN
 F4 "Common Mode Filters / Chokes CMC 8.0uH 3A" 0 1250 50 H I C CNN "Description"
 F5 "Pulse Electronics" 0 1150 50 H I C CNN "Manufacturer"
-F6 "PA4339.102NLT" 0 1050 50 H I C CNN "Manufacturer Nr."
+F6 "PA4339.102NLT" 0 1050 50 H I C CNN "MPN"
 F7 "Mouser" 0 950 50 H I C CNN "Supplier"
 F8 "673-PA4339.102NLT" 0 850 50 H I C CNN "Supplier Nr."
 $FPLIST

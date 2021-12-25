@@ -80,7 +80,7 @@ ENDDEF
 #
 DEF 100KΩ R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "100KΩ" 200 -50 50 H V C CNN
+F1 "100KΩ" 50 -50 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
@@ -184,7 +184,7 @@ F1 "12K" 0 0 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1050 50 H I C CNN "Manufacturer"
-F5 "RT0603FRE0712KL" 0 950 50 H I C CNN "Manufacturer Part Number"
+F5 "RT0603FRE0712KL" 0 950 50 H I C CNN "MPN"
 F6 "Mouser" 0 850 50 H I C CNN "Supplier"
 F7 "603-RT0603FRE0712KL" 0 750 50 H I C CNN "Supplier Part Number"
 F8 "12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" 0 1150 50 H I C CNN "Description"
@@ -252,11 +252,11 @@ ENDDEF
 #
 DEF 1K R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "1K" 150 -50 50 H V C CNN
+F1 "1K" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-071KL" 0 1125 50 H I C CNN "Manufacturer Part Number"
+F5 "RC0603FR-071KL" 0 1125 50 H I C CNN "MPN"
 F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
 F7 "603-RC0603FR-071KL" 0 1525 50 H I C CNN "Supplier Part Number"
 F8 "1%" 0 750 50 H I C CNN "Tolerance"
@@ -300,11 +300,11 @@ ENDDEF
 #
 DEF 22K1 R 0 0 N Y 1 F N
 F0 "R" 0 100 50 H V C CNN
-F1 "22K1" 0 -100 50 H V C CNN
+F1 "22K1" 0 0 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Bourns Inc." 0 1050 50 H I C CNN "Manufacturer"
-F5 "CR0603-FX-2212ELF" 0 950 50 H I C CNN "Manufacturer Part Number"
+F5 "CR0603-FX-2212ELF" 0 950 50 H I C CNN "MPN"
 F6 "Digikey" 0 850 50 H I C CNN "Supplier"
 F7 "CR0603-FX-2212ELFCT-ND" 0 750 50 H I C CNN "Supplier Part Number"
 F8 "22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 1150 50 H I C CNN "Description"
@@ -426,7 +426,7 @@ F1 "47K5" 0 0 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Stackpole Electronics Inc" 0 1050 50 H I C CNN "Manufacturer"
-F5 "RMCF0603FT47K5" 0 950 50 H I C CNN "Manufacturer Part Number"
+F5 "RMCF0603FT47K5" 0 950 50 H I C CNN "MPN"
 F6 "Digikey" 0 850 50 H I C CNN "Supplier"
 F7 "RMCF0603FT47K5CT-ND" 0 750 50 H I C CNN "Supplier Part Number"
 F8 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" 0 1150 50 H I C CNN "Description"

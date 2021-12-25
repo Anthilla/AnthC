@@ -142,7 +142,7 @@ F1 "USB4105-GF-A" 750 750 50 H V R CNN
 F2 "Connectors:USB4105-GF-A" 0 1950 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 F4 "GCT" 0 1850 50 H I C CNN "Manufacturer"
-F5 "USB4105-GF-A" 0 1750 50 H I C CNN "Manufacturer Nr."
+F5 "USB4105-GF-A" 0 1750 50 H I C CNN "MPN"
 F6 "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole" 0 2050 50 H I C CNN "Description"
 F7 "Farnell" 0 1650 50 H I C CNN "Supplier"
 F8 "3588205" 0 1550 50 H I C CNN "Supplier Part Number"

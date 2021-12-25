@@ -814,9 +814,9 @@ F 2 "Semiconductors:D_SMB" H 850 3000 50  0001 C CNN
 F 3 "https://www.mouser.be/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf" H 850 1750 50  0001 C CNN
 F 4 "Suppresseurs ESD / diodes TVS 600W 30V 5% Bi-Directional" H 850 2900 50  0001 C CNN "Description"
 F 5 "Littelfuse" H 850 2800 50  0001 C CNN "Manufacturer"
-F 6 "SMBJ30CA" H 850 2700 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Mouser" H 850 1750 50  0001 C CNN "Supplier"
-F 8 "576-SMBJ30CA" H 850 1750 50  0001 C CNN "Supplier Part Number"
+F 6 "Mouser" H 850 1750 50  0001 C CNN "Supplier"
+F 7 "576-SMBJ30CA" H 850 1750 50  0001 C CNN "Supplier Part Number"
+F 8 "SMBJ30CA" H 850 2700 50  0001 C CNN "MPN"
 	1    850  1750
 	0    1    1    0   
 $EndComp
@@ -848,15 +848,15 @@ $Comp
 L Inductors:ACM7060-701-2PL-TL01 FL1
 U 1 1 6236793A
 P 2000 1500
-F 0 "FL1" H 2200 2050 50  0000 C CNN
+F 0 "FL1" H 2200 1350 50  0000 C CNN
 F 1 "ACM7060-701-2PL-TL01" H 2250 1300 50  0001 C CNN
 F 2 "Inductors:ChokeSMD_ACM7060" H 2000 2850 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf" V 2200 1560 50  0001 C CNN
 F 4 "Common Mode Chokes / Filters 700ohms 100MHz 50volts" H 2000 2750 50  0001 C CNN "Description"
 F 5 "TDK" H 2000 2650 50  0001 C CNN "Manufacturer"
-F 6 "ACM7060-701-2PL-TL01" H 2000 2550 50  0001 C CNN "Manufacturer Nr."
-F 7 "Mouser" H 2000 2450 50  0001 C CNN "Supplier"
-F 8 "810-ACM70607012PLTL1" H 2000 2350 50  0001 C CNN "Supplier Nr."
+F 6 "Mouser" H 2000 2450 50  0001 C CNN "Supplier"
+F 7 "810-ACM70607012PLTL1" H 2000 2350 50  0001 C CNN "Supplier Nr."
+F 8 "ACM7060-701-2PL-TL01" H 2000 1500 50  0001 C CNN "MPN"
 	1    2000 1500
 	1    0    0    1   
 $EndComp
@@ -883,9 +883,9 @@ F 2 "Transistors:SOT-23" H 1350 2950 50  0001 C CNN
 F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0010613203_1-2570990.pdf" V 1250 1450 50  0001 C CNN
 F 4 "MOSFET -30V Vds 20V Vgs SOT-23" H 1350 2850 50  0001 C CNN "Description"
 F 5 "Vishay Semiconductors" H 1350 2750 50  0001 C CNN "Manufacturer"
-F 6 "SI2347DS-T1-GE3" H 1350 2650 50  0001 C CNN "Manufacturer Nr."
-F 7 "Mouser" H 1350 2550 50  0001 C CNN "Supplier"
-F 8 "78-SI2347DS-T1-GE3" H 1350 2450 50  0001 C CNN "Supplier Nr."
+F 6 "Mouser" H 1350 2550 50  0001 C CNN "Supplier"
+F 7 "78-SI2347DS-T1-GE3" H 1350 2450 50  0001 C CNN "Supplier Nr."
+F 8 "SI2347DS-T1-GE3" H 1350 1450 50  0001 C CNN "MPN"
 	1    1350 1450
 	0    -1   -1   0   
 $EndComp
@@ -904,11 +904,11 @@ F 1 "Zener_6V" V 1695 1680 50  0001 L CNN
 F 2 "Semiconductors:D_SOD-123" H 1650 1425 50  0001 C CNN
 F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1650 1600 50  0001 C CNN
 F 4 "Vishay" H 1950 2200 50  0001 C CNN "Manufacturer"
-F 5 "MMSZ5233B-E3-08" H 2550 2200 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 1950 2100 50  0001 C CNN "Supplier"
-F 7 "78-MMSZ5233B-E3-08" H 2650 2100 50  0001 C CNN "Supplier Part Number"
-F 8 "6V" H 2250 1900 50  0001 C CNN "Voltage"
-F 9 "500mW" H 2350 2000 50  0001 C CNN "Power"
+F 5 "Mouser" H 1950 2100 50  0001 C CNN "Supplier"
+F 6 "78-MMSZ5233B-E3-08" H 2650 2100 50  0001 C CNN "Supplier Part Number"
+F 7 "6V" H 2250 1900 50  0001 C CNN "Voltage"
+F 8 "500mW" H 2350 2000 50  0001 C CNN "Power"
+F 9 "MMSZ5233B-E3-08" H 1650 1600 50  0001 C CNN "MPN"
 	1    1650 1600
 	0    1    1    0   
 $EndComp
@@ -960,11 +960,11 @@ F 1 "Zener_6V" V 7245 1830 50  0001 L CNN
 F 2 "Semiconductors:D_SOD-123" H 7200 1575 50  0001 C CNN
 F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 7200 1750 50  0001 C CNN
 F 4 "Vishay" H 7500 2350 50  0001 C CNN "Manufacturer"
-F 5 "MMSZ5233B-E3-08" H 8100 2350 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 7500 2250 50  0001 C CNN "Supplier"
-F 7 "78-MMSZ5233B-E3-08" H 8200 2250 50  0001 C CNN "Supplier Part Number"
-F 8 "6V" H 7800 2050 50  0001 C CNN "Voltage"
-F 9 "500mW" H 7900 2150 50  0001 C CNN "Power"
+F 5 "Mouser" H 7500 2250 50  0001 C CNN "Supplier"
+F 6 "78-MMSZ5233B-E3-08" H 8200 2250 50  0001 C CNN "Supplier Part Number"
+F 7 "6V" H 7800 2050 50  0001 C CNN "Voltage"
+F 8 "500mW" H 7900 2150 50  0001 C CNN "Power"
+F 9 "MMSZ5233B-E3-08" H 7200 1750 50  0001 C CNN "MPN"
 	1    7200 1750
 	0    1    1    0   
 $EndComp
@@ -988,8 +988,8 @@ F 3 "https://www.mouser.es/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pd
 F 4 "Yageo" H 6900 3200 50  0001 C CNN "Manufacturer"
 F 5 "Mouser" H 6900 3000 50  0001 C CNN "Supplier"
 F 6 "12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 6900 3300 50  0001 C CNN "Description"
-F 7 "RT0603FRE0712KL" H 6900 3100 50  0001 C CNN "Manufacturer Part Number"
-F 8 "603-RT0603FRE0712KL" H 6900 2900 50  0001 C CNN "Supplier Part Number"
+F 7 "603-RT0603FRE0712KL" H 6900 2900 50  0001 C CNN "Supplier Part Number"
+F 8 "RT0603FRE0712KL" H 6900 2150 50  0001 C CNN "MPN"
 	1    6900 2150
 	0    1    1    0   
 $EndComp
@@ -1003,9 +1003,9 @@ F 2 "Transistors:SOT-23" H 6900 3100 50  0001 C CNN
 F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0010613203_1-2570990.pdf" V 6800 1600 50  0001 C CNN
 F 4 "MOSFET -30V Vds 20V Vgs SOT-23" H 6900 3000 50  0001 C CNN "Description"
 F 5 "Vishay Semiconductors" H 6900 2900 50  0001 C CNN "Manufacturer"
-F 6 "SI2347DS-T1-GE3" H 6900 2800 50  0001 C CNN "Manufacturer Nr."
-F 7 "Mouser" H 6900 2700 50  0001 C CNN "Supplier"
-F 8 "78-SI2347DS-T1-GE3" H 6900 2600 50  0001 C CNN "Supplier Nr."
+F 6 "Mouser" H 6900 2700 50  0001 C CNN "Supplier"
+F 7 "78-SI2347DS-T1-GE3" H 6900 2600 50  0001 C CNN "Supplier Nr."
+F 8 "SI2347DS-T1-GE3" H 6900 1600 50  0001 C CNN "MPN"
 	1    6900 1600
 	0    -1   -1   0   
 $EndComp
@@ -1060,10 +1060,10 @@ F 1 "12K" H 1300 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1350 3200 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pdf" V 1000 2000 50  0001 C CNN
 F 4 "Yageo" H 1350 3000 50  0001 C CNN "Manufacturer"
-F 5 "RT0603FRE0712KL" H 1350 2900 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 1350 2800 50  0001 C CNN "Supplier"
-F 7 "603-RT0603FRE0712KL" H 1350 2700 50  0001 C CNN "Supplier Part Number"
-F 8 "12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 1350 3100 50  0001 C CNN "Description"
+F 5 "Mouser" H 1350 2800 50  0001 C CNN "Supplier"
+F 6 "603-RT0603FRE0712KL" H 1350 2700 50  0001 C CNN "Supplier Part Number"
+F 7 "12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 1350 3100 50  0001 C CNN "Description"
+F 8 "RT0603FRE0712KL" H 1350 1950 50  0001 C CNN "MPN"
 	1    1350 1950
 	0    1    1    0   
 $EndComp

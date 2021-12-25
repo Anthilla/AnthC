@@ -222,7 +222,7 @@ F1 "Capacitor_1206_4.7uF" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 0 1450 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Samsung Electro-Mechanics" 0 1250 50 H I C CNN "Manufacturer"
-F5 "CL31B475KAHNNNE" 0 1150 50 H I C CNN "Manufacturer Part Number"
+F5 "CL31B475KAHNNNE" 0 1150 50 H I C CNN "MPN"
 F6 "Mouser" 0 1050 50 H I C CNN "Supplier"
 F7 "187-CL31B475KAHNNNE" 0 950 50 H I C CNN "Supplier Part Number"
 F8 "4.7µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" 0 1350 50 H I C CNN "Description"
@@ -579,7 +579,7 @@ F1 "Connectors_USB4105-GF-A" 750 750 50 H V R CNN
 F2 "Connectors:USB4105-GF-A" 0 1950 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 F4 "GCT" 0 1850 50 H I C CNN "Manufacturer"
-F5 "USB4105-GF-A" 0 1750 50 H I C CNN "Manufacturer Nr."
+F5 "USB4105-GF-A" 0 1750 50 H I C CNN "MPN"
 F6 "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole" 0 2050 50 H I C CNN "Description"
 F7 "Farnell" 0 1650 50 H I C CNN "Supplier"
 F8 "3588205" 0 1550 50 H I C CNN "Supplier Part Number"
@@ -756,7 +756,7 @@ F0 "D" -450 250 60 H V L CNN
 F1 "Diodes_PESD3V3L2BT" 300 250 60 H V C CNN
 F2 "Semiconductors:SOT-23" -1750 1200 60 H I L CNN
 F3 "" -1775 1250 60 H I L CNN
-F4 "PESD3V3L2BT,215" -1350 1000 60 H I L CNN "Manufacturer Part Number"
+F4 "PESD3V3L2BT,215" -1350 1000 60 H I L CNN "MPN"
 F5 "Circuit Protection" -1775 1550 60 H I L CNN "Category"
 F6 "Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode" -1950 800 60 H I L CNN "Description"
 F7 "Nexperia" -1750 1000 60 H I L CNN "Manufacturer"
@@ -797,7 +797,7 @@ F2 "Semiconductors:D_SMB" 0 1250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Suppresseurs ESD / diodes TVS 600W 30V 5% Bi-Directional" 0 1150 50 H I C CNN "Description"
 F5 "Littelfuse" 0 1050 50 H I C CNN "Manufacturer"
-F6 "SMBJ30CA" 0 950 50 H I C CNN "Manufacturer Part Number"
+F6 "SMBJ30CA" 0 950 50 H I C CNN "MPN"
 F7 "Mouser" 0 0 50 H I C CNN "Supplier"
 F8 "576-SMBJ30CA" 0 0 50 H I C CNN "Supplier Part Number"
 DRAW
@@ -819,7 +819,7 @@ F2 "Semiconductors:SOT-23" 0 950 60 H I C CNN
 F3 "" -50 950 60 H I C CNN
 F4 "ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance" -50 1650 60 H I C CNN "Description"
 F5 "Bourns" -50 1750 60 H I C CNN "Manufacturer"
-F6 "CDSOT23-SM712" -50 1150 60 H I C CNN "Manufacturer Nr."
+F6 "CDSOT23-SM712" -50 1150 60 H I C CNN "MPN"
 F7 "Mouser" -50 1450 60 H I C CNN "Supplier"
 F8 "652-CDSOT23-SM712" -50 1050 60 H I C CNN "Supplier Nr."
 DRAW
@@ -863,7 +863,7 @@ F1 "Diodes_Zener_6V" 0 -100 50 H V C CNN
 F2 "Semiconductors:D_SOD-123" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Vishay" 300 600 50 H I C CNN "Manufacturer"
-F5 "MMSZ5233B-E3-08" 900 600 50 H I C CNN "Manufacturer Part Number"
+F5 "MMSZ5233B-E3-08" 900 600 50 H I C CNN "MPN"
 F6 "Mouser" 300 500 50 H I C CNN "Supplier"
 F7 "78-MMSZ5233B-E3-08" 1000 500 50 H I C CNN "Supplier Part Number"
 F8 "6V" 600 300 50 H I C CNN "Voltage"
@@ -986,7 +986,7 @@ F2 "Inductors:ChokeSMD_ACM7060" 0 1350 50 H I C CNN
 F3 "" 200 60 50 V I C CNN
 F4 "Common Mode Chokes / Filters 700ohms 100MHz 50volts" 0 1250 50 H I C CNN "Description"
 F5 "TDK" 0 1150 50 H I C CNN "Manufacturer"
-F6 "ACM7060-701-2PL-TL01" 0 1050 50 H I C CNN "Manufacturer Nr."
+F6 "ACM7060-701-2PL-TL01" 0 1050 50 H I C CNN "MPN"
 F7 "Mouser" 0 950 50 H I C CNN "Supplier"
 F8 "810-ACM70607012PLTL1" 0 850 50 H I C CNN "Supplier Nr."
 $FPLIST
@@ -1060,14 +1060,9 @@ F2 "IC:QFN-28-1EP_5x5mm_Pitch0.5mm" 0 2100 50 H I C CNN
 F3 "" 50 -750 50 H I C CNN
 F4 "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)" 0 2000 50 H I C CNN "Description"
 F5 "Silicon Labs" 0 1900 50 H I C CNN "Manufacturer"
-F6 "CP2102N-A02-GQFN28" 0 1800 50 H I C CNN "Manufacturer Nr."
+F6 "CP2102N-A02-GQFN28" 0 1800 50 H I C CNN "MPN"
 F7 "Digikey" 0 1700 50 H I C CNN "Supplier"
 F8 "336-5889-ND" 0 1600 50 H I C CNN "Supplier Nr."
-F9 "1.32" 0 1500 50 H I C CNN "Supplier Price"
-F10 "JLCPCB" 0 1400 50 H I C CNN "Assembler"
-F11 "C964632" 0 1300 50 H I C CNN "Assembler Nr."
-F12 "True" 0 1200 50 H I C CNN "Assembler BOM"
-F13 "V1" 0 1100 50 H I C CNN "Variant"
 $FPLIST
  QFN*1EP*5x5mm*P0.5mm*
 $ENDFPLIST
@@ -1219,7 +1214,7 @@ F1 "IntegratedCircuits_TLV9054" 50 -170 50 H V L CNN
 F2 "IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" 1030 200 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 F4 "Texas Instruments" 470 360 50 H I C CNN "Manufacturer"
-F5 "TLV9054SIRTER" 1160 350 50 H I C CNN "Manufacturer Part Number"
+F5 "TLV9054SIRTER" 1160 350 50 H I C CNN "MPN"
 F6 "Mouser" 270 280 50 H I C CNN "Supplier"
 F7 "595-TLV9054SIRTER" 1270 280 50 H I C CNN "Supplier Part Number"
 ALIAS LM324_copy TLC274_copy TLC279_copy TL074_copy LM324A_copy MCP6004_copy TL084_copy TL064_copy LMV324_copy LMC6484_copy MCP604_copy MC33079_copy MC33174_copy MC33179_copy OPA1604_copy OPA1679_copy OPA4134_copy OPA4340UA_copy OPA4376_copy MCP6L94_copy TSV914_copy ADA4807-4_copy TSV994_copy
@@ -1304,7 +1299,7 @@ F2 "LED_SMD:LED_0603_1608Metric" 0 1250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Red 624nm LED Indication - Discrete 2V 0603 (1608 Metric)" 0 1150 50 H I C CNN "Description"
 F5 "Wurth Elektronik" 0 1050 50 H I C CNN "Manufacturer"
-F6 "150060RS55040" 0 950 50 H I C CNN "Manufacturer Nr."
+F6 "150060RS55040" 0 950 50 H I C CNN "MPN"
 F7 "Digikey" 0 850 50 H I C CNN "Supplier"
 F8 "732-12015-1-ND" 0 750 50 H I C CNN "Supplier Nr."
 F9 "0.16" 0 650 50 H I C CNN "Supplier Price"
@@ -1434,7 +1429,7 @@ ENDDEF
 #
 DEF Resistor_0603_100KΩ R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "Resistor_0603_100KΩ" 200 -50 50 H V C CNN
+F1 "Resistor_0603_100KΩ" 50 -50 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
@@ -1513,7 +1508,7 @@ F1 "Resistor_0603_12K" 0 0 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1050 50 H I C CNN "Manufacturer"
-F5 "RT0603FRE0712KL" 0 950 50 H I C CNN "Manufacturer Part Number"
+F5 "RT0603FRE0712KL" 0 950 50 H I C CNN "MPN"
 F6 "Mouser" 0 850 50 H I C CNN "Supplier"
 F7 "603-RT0603FRE0712KL" 0 750 50 H I C CNN "Supplier Part Number"
 F8 "12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" 0 1150 50 H I C CNN "Description"
@@ -1556,11 +1551,11 @@ ENDDEF
 #
 DEF Resistor_0603_1K R 0 0 N Y 1 F N
 F0 "R" 150 50 50 H V C CNN
-F1 "Resistor_0603_1K" 150 -50 50 H V C CNN
+F1 "Resistor_0603_1K" 0 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-071KL" 0 1125 50 H I C CNN "Manufacturer Part Number"
+F5 "RC0603FR-071KL" 0 1125 50 H I C CNN "MPN"
 F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
 F7 "603-RC0603FR-071KL" 0 1525 50 H I C CNN "Supplier Part Number"
 F8 "1%" 0 750 50 H I C CNN "Tolerance"
@@ -1604,11 +1599,11 @@ ENDDEF
 #
 DEF Resistor_0603_22K1 R 0 0 N Y 1 F N
 F0 "R" 0 100 50 H V C CNN
-F1 "Resistor_0603_22K1" 0 -100 50 H V C CNN
+F1 "Resistor_0603_22K1" 0 0 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Bourns Inc." 0 1050 50 H I C CNN "Manufacturer"
-F5 "CR0603-FX-2212ELF" 0 950 50 H I C CNN "Manufacturer Part Number"
+F5 "CR0603-FX-2212ELF" 0 950 50 H I C CNN "MPN"
 F6 "Digikey" 0 850 50 H I C CNN "Supplier"
 F7 "CR0603-FX-2212ELFCT-ND" 0 750 50 H I C CNN "Supplier Part Number"
 F8 "22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 1150 50 H I C CNN "Description"
@@ -1705,7 +1700,7 @@ F1 "Resistor_0603_47K5" 0 0 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Stackpole Electronics Inc" 0 1050 50 H I C CNN "Manufacturer"
-F5 "RMCF0603FT47K5" 0 950 50 H I C CNN "Manufacturer Part Number"
+F5 "RMCF0603FT47K5" 0 950 50 H I C CNN "MPN"
 F6 "Digikey" 0 850 50 H I C CNN "Supplier"
 F7 "RMCF0603FT47K5CT-ND" 0 750 50 H I C CNN "Supplier Part Number"
 F8 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" 0 1150 50 H I C CNN "Description"
@@ -1897,7 +1892,7 @@ F1 "Transistors_MOSFET_2N7002" 136 0 60 V V C CNN
 F2 "Transistors:SOT-23" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
-F5 "2N7002" 200 500 60 H I L CNN "Manufacturer Part Number"
+F5 "2N7002" 200 500 60 H I L CNN "MPN"
 F6 "Mouser" 200 400 60 H I L CNN "Supplier"
 F7 "512-2N7002" 800 400 50 H I C CNN "Supplier Part Number"
 F8 "MOSFET N-CH 60V 115MA SOT-23" 200 1000 60 H I L CNN "Description"
@@ -1934,7 +1929,7 @@ F2 "Transistors:SOT-23" 0 1500 50 H I C CNN
 F3 "" -100 0 50 V I C CNN
 F4 "MOSFET -30V Vds 20V Vgs SOT-23" 0 1400 50 H I C CNN "Description"
 F5 "Vishay Semiconductors" 0 1300 50 H I C CNN "Manufacturer"
-F6 "SI2347DS-T1-GE3" 0 1200 50 H I C CNN "Manufacturer Nr."
+F6 "SI2347DS-T1-GE3" 0 1200 50 H I C CNN "MPN"
 F7 "Mouser" 0 1100 50 H I C CNN "Supplier"
 F8 "78-SI2347DS-T1-GE3" 0 1000 50 H I C CNN "Supplier Nr."
 DRAW

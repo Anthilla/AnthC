@@ -24,6 +24,12 @@ K screw terminal
 F ~
 $ENDCMP
 #
+$CMP TP_D1.1MM
+D Test point - Diameter 1.1 mm
+K Test point - Diameter 1.1 mm
+F ~
+$ENDCMP
+#
 $CMP USB4105-GF-A
 D CONN RCP USB2.0 TYP C 24P SMD RA
 K CONN RCP USB2.0 TYP C 24P SMD RA

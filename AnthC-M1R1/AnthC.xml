@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\IDM\Repositorios\clients\Anthilla\AnthC\AnthC-M1R1\AnthC.sch</source>
-    <date>12/21/21 00:53:37</date>
+    <date>01/08/22 13:39:08</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -130,7 +130,7 @@
         <field name="MPN">SP3485EN-L/TR</field>
         <field name="Manufacturer">Exar</field>
       </fields>
-      <libsource lib="IntegratedCircuits" part="MAX3072E" description="+3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8"/>
+      <libsource lib="Communications" part="SP3485EN" description="+3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60746CEC</tstamp>
     </comp>
@@ -172,19 +172,6 @@
       <libsource lib="Resistor_0603" part="120Ω" description="Thick Film Resistors - SMD 120ohm 1% 1/10W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60746D13</tstamp>
-    </comp>
-    <comp ref="U8">
-      <value>ULN2003</value>
-      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/uln2003a.pdf</datasheet>
-      <fields>
-        <field name="LCSC-PN">C7512</field>
-        <field name="MPN">ULN2003ADR</field>
-        <field name="Manufacturer">Texas Instruments</field>
-      </fields>
-      <libsource lib="Transistor_Array" part="ULN2003" description="High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>607C8E1B</tstamp>
     </comp>
     <comp ref="R27">
       <value>20K</value>
@@ -435,19 +422,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>608FDCAB</tstamp>
     </comp>
-    <comp ref="U2">
-      <value>MCP73811T-420I-OT</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf</datasheet>
-      <fields>
-        <field name="LCSC-PN">C144308</field>
-        <field name="MPN">MCP73812T-420I/OT</field>
-        <field name="Manufacturer">Microchip Tech</field>
-      </fields>
-      <libsource lib="Battery_Management" part="MCP73811T-420I-OT" description="Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA, 4.2V, SOT23-5"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>608FFAB4</tstamp>
-    </comp>
     <comp ref="C17">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -487,26 +461,6 @@
       <libsource lib="Capacitor_1206" part="10uF" description="CAP CER 10UF 50V X7R 1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60901055</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN</datasheet>
-      <fields>
-        <field name="Description">1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
-        <field name="Dielectric">X7R</field>
-        <field name="MPN">CL10B105KA8NNNC</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Manufacturer Nr.">CL10B105KA8NNNC</field>
-        <field name="Price">0.09</field>
-        <field name="Supplier">Digikey</field>
-        <field name="Supplier Nr.">1276-1184-1-ND</field>
-        <field name="Tolerance">10%</field>
-        <field name="Voltage">25V</field>
-      </fields>
-      <libsource lib="Capacitors_0603" part="1uF" description="CAP CER 1UF 25V X7R 0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60ADB562</tstamp>
     </comp>
     <comp ref="U12">
       <value>MT3540</value>
@@ -915,21 +869,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60746D2F</tstamp>
     </comp>
-    <comp ref="U7">
-      <value>HDC2080</value>
-      <footprint>Package_SON:Texas_PWSON-N6</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/hdc2080.pdf</datasheet>
-      <fields>
-        <field name="MPN">HDC2080DMBT</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Price">2.59</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">595-HDC2080DMBT</field>
-      </fields>
-      <libsource lib="IntegratedCircuits" part="HDC2080" description="Board Mount Humidity Sensors &amp;plusmn;2% ultra-low-power, digital humidity sensor with temperature sensor 6-WSON -40 to 85"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61E662F1</tstamp>
-    </comp>
     <comp ref="C32">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -984,19 +923,6 @@
       <libsource lib="Capacitors_0603" part="100nF" description="CAP CER 0.1UF 50V X7R 0603"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>611004F9</tstamp>
-    </comp>
-    <comp ref="Y2">
-      <value>32.768KHz</value>
-      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC-PN">C32346</field>
-        <field name="MPN">Q13FC1350000400</field>
-        <field name="Manufacturer">Seiko Epson</field>
-      </fields>
-      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60AE6654</tstamp>
     </comp>
     <comp ref="BT1">
       <value>COIN BATTERY</value>
@@ -1238,24 +1164,6 @@
       <libsource lib="Capacitor_1206" part="10uF" description="CAP CER 10UF 50V X7R 1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6114E901</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf</datasheet>
-      <fields>
-        <field name="Description">0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</field>
-        <field name="MPN">AC0603JR-070RL</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Power">100mW</field>
-        <field name="Price">0.09</field>
-        <field name="Supplier">Digikey</field>
-        <field name="Supplier Nr.">311-0.0LECT-ND</field>
-        <field name="Tolerance">-</field>
-      </fields>
-      <libsource lib="Resistor_0603" part="0" description="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61D2A7EA</tstamp>
     </comp>
     <comp ref="U10">
       <value>ADS1120IRVAR</value>
@@ -1766,33 +1674,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6342ADF0</tstamp>
     </comp>
-    <comp ref="R65">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf</datasheet>
-      <fields>
-        <field name="Description">0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</field>
-        <field name="MPN">AC0603JR-070RL</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Nr.">AC0603JR-070RL</field>
-        <field name="Power">100mW</field>
-        <field name="Price">0.09</field>
-        <field name="Supplier">Digikey</field>
-        <field name="Supplier Nr.">311-0.0LECT-ND</field>
-        <field name="Tolerance">-</field>
-      </fields>
-      <libsource lib="Resistor_0603" part="0" description="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>636ED3CA</tstamp>
-    </comp>
     <comp ref="J1">
       <value>USB4105-GF-A</value>
       <footprint>Connectors:USB4105-GF-A</footprint>
       <datasheet>https://gct.co/files/drawings/usb4105.pdf</datasheet>
       <fields>
         <field name="Description">USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole</field>
+        <field name="MPN">USB4105-GF-A</field>
         <field name="Manufacturer">GCT</field>
-        <field name="Manufacturer Nr.">USB4105-GF-A</field>
         <field name="Supplier">Farnell</field>
         <field name="Supplier Part Number">3588205</field>
       </fields>
@@ -1856,58 +1745,6 @@
       <libsource lib="Resistor_0603" part="10KΩ" description="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6384B082</tstamp>
-    </comp>
-    <comp ref="U11">
-      <value>M41T00SM6F</value>
-      <footprint>IC:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.st.com/resource/en/datasheet/m41t00s.pdf</datasheet>
-      <fields>
-        <field name="MPN">M41T00SM6F</field>
-        <field name="Manufacturer">STMicroelectronics</field>
-      </fields>
-      <libsource lib="IntegratedCircuits" part="M41T00SM6F" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6164F722</tstamp>
-    </comp>
-    <comp ref="C39">
-      <value>12pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
-      <fields>
-        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm</field>
-        <field name="Dielectric">C0G</field>
-        <field name="MPN">C0603C0G1E120J030BA</field>
-        <field name="Manufacturer">TDK</field>
-        <field name="Manufacturer Nr.">C0603C0G1E120J030BA</field>
-        <field name="Price">0.027</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Nr.">810-C0603C0G1E120J</field>
-        <field name="Tolerance">5%</field>
-        <field name="Voltage">25VDC</field>
-      </fields>
-      <libsource lib="Capacitors_0603" part="12pF" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6198B603</tstamp>
-    </comp>
-    <comp ref="C40">
-      <value>12pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
-      <fields>
-        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm</field>
-        <field name="Dielectric">C0G</field>
-        <field name="MPN">C0603C0G1E120J030BA</field>
-        <field name="Manufacturer">TDK</field>
-        <field name="Manufacturer Nr.">C0603C0G1E120J030BA</field>
-        <field name="Price">0.027</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Nr.">810-C0603C0G1E120J</field>
-        <field name="Tolerance">5%</field>
-        <field name="Voltage">25VDC</field>
-      </fields>
-      <libsource lib="Capacitors_0603" part="12pF" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6198BEEC</tstamp>
     </comp>
     <comp ref="R28">
       <value>100</value>
@@ -2114,42 +1951,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>63723797</tstamp>
     </comp>
-    <comp ref="R64">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf</datasheet>
-      <fields>
-        <field name="Description">0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</field>
-        <field name="MPN">AC0603JR-070RL</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Power">100mW</field>
-        <field name="Price">0.09</field>
-        <field name="Supplier">Digikey</field>
-        <field name="Supplier Nr.">311-0.0LECT-ND</field>
-        <field name="Tolerance">-</field>
-      </fields>
-      <libsource lib="Resistor_0603" part="0" description="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6372E32E</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf</datasheet>
-      <fields>
-        <field name="Description">0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</field>
-        <field name="MPN">AC0603JR-070RL</field>
-        <field name="Manufacturer">Yageo</field>
-        <field name="Power">100mW</field>
-        <field name="Price">0.09</field>
-        <field name="Supplier">Digikey</field>
-        <field name="Supplier Nr.">311-0.0LECT-ND</field>
-        <field name="Tolerance">-</field>
-      </fields>
-      <libsource lib="Resistor_0603" part="0" description="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61AE6A2E</tstamp>
-    </comp>
     <comp ref="C21">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
@@ -2317,8 +2118,8 @@
       <datasheet>https://www.seielect.com/catalog/sei-packaging.pdf</datasheet>
       <fields>
         <field name="Description">47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="MPN">RMCF0603FT47K5</field>
         <field name="Manufacturer">Stackpole Electronics Inc</field>
-        <field name="Manufacturer Part Number">RMCF0603FT47K5</field>
         <field name="Supplier">Digikey</field>
         <field name="Supplier Part Number">RMCF0603FT47K5CT-ND</field>
       </fields>
@@ -2332,8 +2133,8 @@
       <datasheet>https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf</datasheet>
       <fields>
         <field name="Description">22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MPN">CR0603-FX-2212ELF</field>
         <field name="Manufacturer">Bourns Inc.</field>
-        <field name="Manufacturer Part Number">CR0603-FX-2212ELF</field>
         <field name="Supplier">Digikey</field>
         <field name="Supplier Part Number">CR0603-FX-2212ELFCT-ND</field>
       </fields>
@@ -2347,8 +2148,8 @@
       <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
       <fields>
         <field name="Description">1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0603FR-071KL</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">603-RC0603FR-071KL</field>
         <field name="Tolerance">1%</field>
@@ -2363,6 +2164,7 @@
       <datasheet>https://www.we-online.de/katalog/datasheet/150060RS55040.pdf</datasheet>
       <fields>
         <field name="Description">Red 624nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="MPN">150060RS55040</field>
         <field name="Manufacturer">Wurth Elektronik</field>
         <field name="Manufacturer Nr.">150060RS55040</field>
         <field name="Supplier">Digikey</field>
@@ -2379,6 +2181,7 @@
       <datasheet>https://www.we-online.de/katalog/datasheet/150060RS55040.pdf</datasheet>
       <fields>
         <field name="Description">Red 624nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="MPN">150060RS55040</field>
         <field name="Manufacturer">Wurth Elektronik</field>
         <field name="Manufacturer Nr.">150060RS55040</field>
         <field name="Supplier">Digikey</field>
@@ -2409,19 +2212,14 @@
     </comp>
     <comp ref="U5">
       <value>CP2102N-A02-GQFN28</value>
-      <footprint>MagLab_IC:QFN-28-1EP_5x5mm_Pitch0.5mm</footprint>
+      <footprint>IC:QFN-28-1EP_5x5mm_Pitch0.5mm</footprint>
       <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
       <fields>
-        <field name="Assembler">JLCPCB</field>
-        <field name="Assembler BOM">True</field>
-        <field name="Assembler Nr.">C964632</field>
         <field name="Description">USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)</field>
+        <field name="MPN">CP2102N-A02-GQFN28</field>
         <field name="Manufacturer">Silicon Labs</field>
-        <field name="Manufacturer Nr.">CP2102N-A02-GQFN28</field>
         <field name="Supplier">Digikey</field>
         <field name="Supplier Nr.">336-5889-ND</field>
-        <field name="Supplier Price">1.32</field>
-        <field name="Variant">V1</field>
       </fields>
       <libsource lib="IntegratedCircuits" part="CP2102N-A02-GQFN28" description="IC USB TO UART BRIDGE QFN28"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2468,8 +2266,8 @@
       <footprint>Semiconductors:D_SOD-123</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf</datasheet>
       <fields>
+        <field name="MPN">MMSZ5233B-E3-08</field>
         <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">MMSZ5233B-E3-08</field>
         <field name="Power">500mW</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">78-MMSZ5233B-E3-08</field>
@@ -2484,8 +2282,8 @@
       <footprint>Semiconductors:D_SOD-123</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf</datasheet>
       <fields>
+        <field name="MPN">MMSZ5233B-E3-08</field>
         <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">MMSZ5233B-E3-08</field>
         <field name="Power">500mW</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">78-MMSZ5233B-E3-08</field>
@@ -2500,6 +2298,7 @@
       <footprint>Semiconductors:D_SOD-123</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf</datasheet>
       <fields>
+        <field name="MPN">MMSZ5233B-E3-08</field>
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">MMSZ5233B-E3-08</field>
         <field name="Power">500mW</field>
@@ -2517,8 +2316,8 @@
       <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
       <fields>
         <field name="Description">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="MPN">2N7002</field>
         <field name="Manufacturer">ON Semiconductor</field>
-        <field name="Manufacturer Part Number">2N7002</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">512-2N7002</field>
       </fields>
@@ -2532,8 +2331,8 @@
       <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
       <fields>
         <field name="Description">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="MPN">2N7002</field>
         <field name="Manufacturer">ON Semiconductor</field>
-        <field name="Manufacturer Part Number">2N7002</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">512-2N7002</field>
       </fields>
@@ -2547,8 +2346,8 @@
       <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
       <fields>
         <field name="Description">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="MPN">2N7002</field>
         <field name="Manufacturer">ON Semiconductor</field>
-        <field name="Manufacturer Part Number">2N7002</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">512-2N7002</field>
       </fields>
@@ -2562,8 +2361,8 @@
       <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
       <fields>
         <field name="Description">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="MPN">2N7002</field>
         <field name="Manufacturer">ON Semiconductor</field>
-        <field name="Manufacturer Part Number">2N7002</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">512-2N7002</field>
       </fields>
@@ -2613,6 +2412,7 @@
       <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KAHNNNE.jsp</datasheet>
       <fields>
         <field name="Description">4.7µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)</field>
+        <field name="MPN">CL31B475KAHNNNE</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Manufacturer Part Number">CL31B475KAHNNNE</field>
         <field name="Supplier">Mouser</field>
@@ -2723,8 +2523,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2739,8 +2539,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2755,8 +2555,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2771,8 +2571,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2787,8 +2587,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2803,8 +2603,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2819,8 +2619,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2835,8 +2635,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2850,8 +2650,8 @@
       <datasheet>https://www.bourns.com/pdfs/CDSOT23-SM712.pdf</datasheet>
       <fields>
         <field name="Description">ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance</field>
+        <field name="MPN">CDSOT23-SM712</field>
         <field name="Manufacturer">Bourns</field>
-        <field name="Manufacturer Nr.">CDSOT23-SM712</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Nr.">652-CDSOT23-SM712</field>
       </fields>
@@ -2864,8 +2664,8 @@
       <footprint>Semiconductors:D_SOD-123</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf</datasheet>
       <fields>
+        <field name="MPN">MMSZ5233B-E3-08</field>
         <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">MMSZ5233B-E3-08</field>
         <field name="Power">500mW</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">78-MMSZ5233B-E3-08</field>
@@ -2882,8 +2682,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2898,30 +2698,14 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
       <libsource lib="Diodes" part="PESD3V3L2BT" description="Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>625C828B</tstamp>
-    </comp>
-    <comp ref="D32">
-      <value>PESD3V3L2BT</value>
-      <footprint>Semiconductors:SOT-23</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf</datasheet>
-      <fields>
-        <field name="Category">Circuit Protection</field>
-        <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
-        <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
-      </fields>
-      <libsource lib="Diodes" part="PESD3V3L2BT" description="Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>62A086F4</tstamp>
     </comp>
     <comp ref="D2">
       <value>PESD3V3L2BT</value>
@@ -2930,8 +2714,8 @@
       <fields>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Manufacturer">Nexperia</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
       </fields>
@@ -2944,6 +2728,7 @@
       <footprint>IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm</footprint>
       <datasheet>https://www.ti.com/lit/gpn/tlv9052</datasheet>
       <fields>
+        <field name="MPN">TLV9054SIRTER</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="Manufacturer Part Number">TLV9054SIRTER</field>
         <field name="Supplier">Mouser</field>
@@ -2986,6 +2771,215 @@
       <libsource lib="Connectors" part="1x03" description="Pluggable Terminal Blocks WR-TBL 300VAC 20A 3P Right Angle Connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61C24696</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>PESD3V3L2BT</value>
+      <footprint>Semiconductors:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf</datasheet>
+      <fields>
+        <field name="Category">Circuit Protection</field>
+        <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">771-PESD3V3L2BT-T/R</field>
+      </fields>
+      <libsource lib="Diodes" part="PESD3V3L2BT" description="Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A086F4</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>150060RS55040</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060RS55040.pdf</datasheet>
+      <fields>
+        <field name="Description">Red 624nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="MPN">150060RS55040</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer Nr.">150060RS55040</field>
+        <field name="Supplier">Digikey</field>
+        <field name="Supplier Nr.">732-12015-1-ND</field>
+        <field name="Supplier Price">0.16</field>
+      </fields>
+      <libsource lib="Optical" part="150060RS55040" description="LED RED DIFFUSED 0603 SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6204511F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Description">1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">603-RC0603FR-071KL</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_0603" part="1K" description="1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620B07CE</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3216</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL31B106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Nr.">CL31B106KBHNNNE</field>
+        <field name="Price">0.22</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Nr.">187-CL31B106KBHNNNE</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_1206" part="10uF" description="CAP CER 10UF 50V X7R 1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6218CFAC</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>RV-3129-C3</value>
+      <footprint>IC:MC-RV-3129</footprint>
+      <datasheet>https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3129-C3.pdf</datasheet>
+      <fields>
+        <field name="MPN">RV-3129-C3</field>
+        <field name="Manufacturer">Micro Crystal</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Nummber">428-203618-MG01</field>
+      </fields>
+      <libsource lib="IntegratedCircuits" part="RV-3129-C3" description="Real-Time Clock Module with I2C-Bus with XTAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DD31ED</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Description">1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">603-RC0603FR-071KL</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_0603" part="1K" description="1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6212D5EC</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Description">0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</field>
+        <field name="MPN">AC0603JR-070RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">100mW</field>
+        <field name="Price">0.09</field>
+        <field name="Supplier">Digikey</field>
+        <field name="Supplier Nr.">311-0.0LECT-ND</field>
+        <field name="Tolerance">-</field>
+      </fields>
+      <libsource lib="Resistor_0603" part="0" description="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623C06CC</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ULN2004D1013TR</value>
+      <footprint>IC:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf</datasheet>
+      <fields>
+        <field name="MPN">ULN2004D1013TR</field>
+        <field name="Manufacturer">ST Microelectronics</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1564361</field>
+      </fields>
+      <libsource lib="Transistors_BJT" part="ULN2004D1013TR" description="TRANSISTOR ARRAY, 7 NPN 50V 500 mA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623EA7EA</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Description">0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</field>
+        <field name="MPN">AC0603JR-070RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">100mW</field>
+        <field name="Price">0.09</field>
+        <field name="Supplier">Digikey</field>
+        <field name="Supplier Nr.">311-0.0LECT-ND</field>
+        <field name="Tolerance">-</field>
+      </fields>
+      <libsource lib="Resistor_0603" part="0" description="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242C090</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Description">0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</field>
+        <field name="MPN">AC0603JR-070RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">100mW</field>
+        <field name="Price">0.09</field>
+        <field name="Supplier">Digikey</field>
+        <field name="Supplier Nr.">311-0.0LECT-ND</field>
+        <field name="Tolerance">-</field>
+      </fields>
+      <libsource lib="Resistor_0603" part="0" description="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242A65D</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>SHT40-AD1B-R2</value>
+      <footprint>IC:DFN-4</footprint>
+      <datasheet>https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT4x_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MPN">SHT40-AD1B-R2</field>
+        <field name="Manufacturer">Sensirion</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">403-SHT40-AD1B-R2</field>
+      </fields>
+      <libsource lib="IntegratedCircuits" part="SHT40-AD1B-R2" description="Digital Humidity Sensor SHT4x (RH/T)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62AC6F34</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pdf</datasheet>
+      <fields>
+        <field name="Description">12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film</field>
+        <field name="MPN">RT0603FRE0712KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">603-RT0603FRE0712KL</field>
+      </fields>
+      <libsource lib="Resistor_0603" part="12K" description="RES SMD 12K OHM 1% 1/10W 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62E4BA94</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP73830T</value>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555820</datasheet>
+      <fields>
+        <field name="MPN">MCP73830T-2AAI/MYY</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">579-MCP73830T2AAIMYY</field>
+      </fields>
+      <libsource lib="IntegratedCircuits" part="MCP73830T" description="Single-Cell Li-Ion/Li-Polymer Battery Charge Management"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E92E88</tstamp>
     </comp>
     <comp ref="C20">
       <value>100nF</value>
@@ -3390,8 +3384,8 @@
       <datasheet>https://www.mouser.be/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf</datasheet>
       <fields>
         <field name="Description">Suppresseurs ESD / diodes TVS 600W 30V 5% Bi-Directional</field>
+        <field name="MPN">SMBJ30CA</field>
         <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMBJ30CA</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">576-SMBJ30CA</field>
       </fields>
@@ -3405,8 +3399,8 @@
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf</datasheet>
       <fields>
         <field name="Description">Common Mode Chokes / Filters 700ohms 100MHz 50volts</field>
+        <field name="MPN">ACM7060-701-2PL-TL01</field>
         <field name="Manufacturer">TDK</field>
-        <field name="Manufacturer Nr.">ACM7060-701-2PL-TL01</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Nr.">810-ACM70607012PLTL1</field>
       </fields>
@@ -3420,8 +3414,8 @@
       <datasheet>https://www.mouser.be/datasheet/2/427/VISH_S_A0010613203_1-2570990.pdf</datasheet>
       <fields>
         <field name="Description">MOSFET -30V Vds 20V Vgs SOT-23</field>
+        <field name="MPN">SI2347DS-T1-GE3</field>
         <field name="Manufacturer">Vishay Semiconductors</field>
-        <field name="Manufacturer Nr.">SI2347DS-T1-GE3</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Nr.">78-SI2347DS-T1-GE3</field>
       </fields>
@@ -3434,8 +3428,8 @@
       <footprint>Semiconductors:D_SOD-123</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf</datasheet>
       <fields>
+        <field name="MPN">MMSZ5233B-E3-08</field>
         <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">MMSZ5233B-E3-08</field>
         <field name="Power">500mW</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">78-MMSZ5233B-E3-08</field>
@@ -3450,8 +3444,8 @@
       <footprint>Semiconductors:D_SOD-123</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf</datasheet>
       <fields>
+        <field name="MPN">MMSZ5233B-E3-08</field>
         <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">MMSZ5233B-E3-08</field>
         <field name="Power">500mW</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">78-MMSZ5233B-E3-08</field>
@@ -3467,8 +3461,8 @@
       <datasheet>https://www.mouser.es/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pdf</datasheet>
       <fields>
         <field name="Description">12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film</field>
+        <field name="MPN">RT0603FRE0712KL</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RT0603FRE0712KL</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">603-RT0603FRE0712KL</field>
       </fields>
@@ -3482,8 +3476,8 @@
       <datasheet>https://www.mouser.be/datasheet/2/427/VISH_S_A0010613203_1-2570990.pdf</datasheet>
       <fields>
         <field name="Description">MOSFET -30V Vds 20V Vgs SOT-23</field>
+        <field name="MPN">SI2347DS-T1-GE3</field>
         <field name="Manufacturer">Vishay Semiconductors</field>
-        <field name="Manufacturer Nr.">SI2347DS-T1-GE3</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Nr.">78-SI2347DS-T1-GE3</field>
       </fields>
@@ -3497,8 +3491,8 @@
       <datasheet>https://www.mouser.es/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pdf</datasheet>
       <fields>
         <field name="Description">12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film</field>
+        <field name="MPN">RT0603FRE0712KL</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RT0603FRE0712KL</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">603-RT0603FRE0712KL</field>
       </fields>
@@ -3608,30 +3602,6 @@
         <pin num="9" name="PAD" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Battery_Management" part="MCP73812T-420I-OT">
-      <aliases>
-        <alias>MCP73812T-435I-OT</alias>
-        <alias>MCP73811T-420I-OT</alias>
-        <alias>MCP73811T-435I-OT</alias>
-      </aliases>
-      <description>Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA, 4.2V, SOT23-5</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP73812T-420I-OT</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-      </fields>
-      <pins>
-        <pin num="1" name="CEN" type="input"/>
-        <pin num="2" name="VSS" type="power_in"/>
-        <pin num="3" name="VBAT" type="power_out"/>
-        <pin num="4" name="VDD" type="power_in"/>
-        <pin num="5" name="PROG" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="Capacitor_1206" part="10uF">
       <description>CAP CER 10UF 50V X7R 1206</description>
       <docs>https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf</docs>
@@ -3668,7 +3638,7 @@
         <field name="Value">4.7uF</field>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Manufacturer Part Number">CL31B475KAHNNNE</field>
+        <field name="MPN">CL31B475KAHNNNE</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">187-CL31B475KAHNNNE</field>
         <field name="Description">4.7µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)</field>
@@ -3753,31 +3723,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Capacitors_0603" part="12pF">
-      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm</description>
-      <docs>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">12pF</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Manufacturer">TDK</field>
-        <field name="MPN">C0603C0G1E120J030BA</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Nr.">810-C0603C0G1E120J</field>
-        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 25VDC 12pF 5% C0G 0.3mm</field>
-        <field name="Tolerance">5%</field>
-        <field name="Voltage">25VDC</field>
-        <field name="Dielectric">C0G</field>
-        <field name="Price">0.027</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Capacitors_0603" part="1uF">
       <description>CAP CER 1UF 25V X7R 0603</description>
       <docs>http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN</docs>
@@ -3851,6 +3796,38 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Communications" part="SP3485EN">
+      <aliases>
+        <alias>MAX3075E</alias>
+        <alias>MAX3078E</alias>
+        <alias>SP3481EN</alias>
+        <alias>SP3485CN</alias>
+      </aliases>
+      <description>+3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SP3485EN</field>
+        <field name="Footprint">IC:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="Manufacturer Part Number">MAX3072EASA+</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">700-MAX3072EASA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="passive"/>
+        <pin num="2" name="~RE~" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="BiDi"/>
+        <pin num="7" name="B" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
@@ -3960,7 +3937,7 @@
         <field name="Value">USB4105-GF-A</field>
         <field name="Footprint">Connectors:USB4105-GF-A</field>
         <field name="Manufacturer">GCT</field>
-        <field name="Manufacturer Nr.">USB4105-GF-A</field>
+        <field name="MPN">USB4105-GF-A</field>
         <field name="Description">USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole</field>
         <field name="Supplier">Farnell</field>
         <field name="Supplier Part Number">3588205</field>
@@ -4033,21 +4010,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Crystal">
-      <description>Two pin crystal</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Crystal*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">Crystal</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Diode" part="BAT54S">
       <description>schottky barrier diode</description>
       <docs>https://www.diodes.com/assets/Datasheets/ds11005.pdf</docs>
@@ -4072,7 +4034,7 @@
         <field name="Reference">D</field>
         <field name="Value">PESD3V3L2BT</field>
         <field name="Footprint">Semiconductors:SOT-23</field>
-        <field name="Manufacturer Part Number">PESD3V3L2BT,215</field>
+        <field name="MPN">PESD3V3L2BT,215</field>
         <field name="Category">Circuit Protection</field>
         <field name="Description">Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode</field>
         <field name="Manufacturer">Nexperia</field>
@@ -4094,7 +4056,7 @@
         <field name="Footprint">Semiconductors:D_SMB</field>
         <field name="Description">Suppresseurs ESD / diodes TVS 600W 30V 5% Bi-Directional</field>
         <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMBJ30CA</field>
+        <field name="MPN">SMBJ30CA</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">576-SMBJ30CA</field>
       </fields>
@@ -4112,7 +4074,7 @@
         <field name="Footprint">Semiconductors:SOT-23</field>
         <field name="Description">ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance</field>
         <field name="Manufacturer">Bourns</field>
-        <field name="Manufacturer Nr.">CDSOT23-SM712</field>
+        <field name="MPN">CDSOT23-SM712</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Nr.">652-CDSOT23-SM712</field>
       </fields>
@@ -4133,7 +4095,7 @@
         <field name="Value">Zener_6V</field>
         <field name="Footprint">Semiconductors:D_SOD-123</field>
         <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">MMSZ5233B-E3-08</field>
+        <field name="MPN">MMSZ5233B-E3-08</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">78-MMSZ5233B-E3-08</field>
         <field name="Voltage">6V</field>
@@ -4229,7 +4191,7 @@
         <field name="Footprint">Inductors:ChokeSMD_ACM7060</field>
         <field name="Description">Common Mode Chokes / Filters 700ohms 100MHz 50volts</field>
         <field name="Manufacturer">TDK</field>
-        <field name="Manufacturer Nr.">ACM7060-701-2PL-TL01</field>
+        <field name="MPN">ACM7060-701-2PL-TL01</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Nr.">810-ACM70607012PLTL1</field>
       </fields>
@@ -4281,17 +4243,12 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">CP2102N-A02-GQFN28</field>
-        <field name="Footprint">MagLab_IC:QFN-28-1EP_5x5mm_Pitch0.5mm</field>
+        <field name="Footprint">IC:QFN-28-1EP_5x5mm_Pitch0.5mm</field>
         <field name="Description">USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)</field>
         <field name="Manufacturer">Silicon Labs</field>
-        <field name="Manufacturer Nr.">CP2102N-A02-GQFN28</field>
+        <field name="MPN">CP2102N-A02-GQFN28</field>
         <field name="Supplier">Digikey</field>
         <field name="Supplier Nr.">336-5889-ND</field>
-        <field name="Supplier Price">1.32</field>
-        <field name="Assembler">JLCPCB</field>
-        <field name="Assembler Nr.">C964632</field>
-        <field name="Assembler BOM">True</field>
-        <field name="Variant">V1</field>
       </fields>
       <pins>
         <pin num="1" name="~DCD" type="input"/>
@@ -4325,83 +4282,32 @@
         <pin num="29" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="IntegratedCircuits" part="HDC2080">
-      <description>Board Mount Humidity Sensors &amp;plusmn;2% ultra-low-power, digital humidity sensor with temperature sensor 6-WSON -40 to 85</description>
-      <docs>http://www.ti.com/lit/ds/symlink/hdc2080.pdf</docs>
-      <footprints>
-        <fp>Package*SON:Texas*PWSON*N6*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">HDC2080</field>
-        <field name="Footprint">Package_SON:Texas_PWSON-N6</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="MPN">HDC2080DMBT</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">595-HDC2080DMBT</field>
-        <field name="Price">2.59</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SDA" type="BiDi"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="ADDR" type="input"/>
-        <pin num="4" name="DRDY" type="output"/>
-        <pin num="5" name="VDD" type="power_in"/>
-        <pin num="6" name="SCL" type="input"/>
-        <pin num="7" name="PAD" type="NotConnected"/>
-      </pins>
-    </libpart>
-    <libpart lib="IntegratedCircuits" part="M41T00SM6F">
-      <docs>https://www.st.com/resource/en/datasheet/m41t00s.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">M41T00SM6F</field>
-        <field name="Footprint">IC:SOIC-8_3.9x4.9mm_P1.27mm</field>
-        <field name="MPN">M41T00SM6F</field>
-        <field name="Manufacturer">STMicroelectronics</field>
-      </fields>
-      <pins>
-        <pin num="1" name="XI" type="input"/>
-        <pin num="2" name="XO" type="input"/>
-        <pin num="3" name="VBAT" type="passive"/>
-        <pin num="4" name="VSS" type="passive"/>
-        <pin num="5" name="SDA" type="BiDi"/>
-        <pin num="6" name="SCL" type="BiDi"/>
-        <pin num="7" name="FT/~RST" type="output"/>
-        <pin num="8" name="VCC" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="IntegratedCircuits" part="MAX3072E">
+    <libpart lib="IntegratedCircuits" part="MCP73830T">
       <aliases>
-        <alias>MAX3075E</alias>
-        <alias>MAX3078E</alias>
-        <alias>SP3481EN</alias>
-        <alias>SP3485CN</alias>
-        <alias>SP3485EN</alias>
+        <alias>MCP73812T-435I-OT</alias>
+        <alias>MCP73811T-420I-OT</alias>
+        <alias>MCP73811T-435I-OT</alias>
       </aliases>
-      <description>+3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8</description>
-      <docs>https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf</docs>
+      <description>Single-Cell Li-Ion/Li-Polymer Battery Charge Management</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555820</docs>
       <footprints>
-        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">MAX3072E</field>
-        <field name="Footprint">IC:SOIC-8_3.9x4.9mm_P1.27mm</field>
-        <field name="Manufacturer">Maxim Integrated</field>
-        <field name="Manufacturer Part Number">MAX3072EASA+</field>
+        <field name="Value">MCP73830T</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="MPN">MCP73830T-2AAI/MYY</field>
         <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">700-MAX3072EASA</field>
+        <field name="Supplier Part Number">579-MCP73830T2AAIMYY</field>
       </fields>
       <pins>
-        <pin num="1" name="RO" type="passive"/>
-        <pin num="2" name="~RE~" type="input"/>
-        <pin num="3" name="DE" type="input"/>
-        <pin num="4" name="DI" type="input"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="A" type="BiDi"/>
-        <pin num="7" name="B" type="BiDi"/>
-        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="1" name="VSS" type="passive"/>
+        <pin num="2" name="STAT" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="passive"/>
+        <pin num="5" name="~CE" type="input"/>
+        <pin num="6" name="PROG" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="IntegratedCircuits" part="REF5025ID">
@@ -4445,6 +4351,50 @@
         <pin num="8" name="DNC" type="NotConnected"/>
       </pins>
     </libpart>
+    <libpart lib="IntegratedCircuits" part="RV-3129-C3">
+      <description>Real-Time Clock Module with I2C-Bus with XTAL</description>
+      <docs>https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3129-C3.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RV-3129-C3</field>
+        <field name="Footprint">IC:MC-RV-3129</field>
+        <field name="MPN">RV-3129-C3</field>
+        <field name="Manufacturer">Micro Crystal</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Nummber">428-203618-MG01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKOE" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="CLKOUT" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="VSS" type="passive"/>
+        <pin num="7" name="~INT" type="passive"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="VBAT" type="passive"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="IntegratedCircuits" part="SHT40-AD1B-R2">
+      <description>Digital Humidity Sensor SHT4x (RH/T)</description>
+      <docs>https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT4x_Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SHT40-AD1B-R2</field>
+        <field name="Footprint">IC:DFN-4</field>
+        <field name="Manufacturer">Sensirion</field>
+        <field name="MPN">SHT40-AD1B-R2</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">403-SHT40-AD1B-R2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="VDD" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="IntegratedCircuits" part="TLV9054">
       <aliases>
         <alias>LM324_copy</alias>
@@ -4485,7 +4435,7 @@
         <field name="Value">TLV9054</field>
         <field name="Footprint">IC:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm</field>
         <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer Part Number">TLV9054SIRTER</field>
+        <field name="MPN">TLV9054SIRTER</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">595-TLV9054SIRTER</field>
       </fields>
@@ -4550,7 +4500,7 @@
         <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
         <field name="Description">Red 624nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
         <field name="Manufacturer">Wurth Elektronik</field>
-        <field name="Manufacturer Nr.">150060RS55040</field>
+        <field name="MPN">150060RS55040</field>
         <field name="Supplier">Digikey</field>
         <field name="Supplier Nr.">732-12015-1-ND</field>
         <field name="Supplier Price">0.16</field>
@@ -4745,7 +4695,7 @@
         <field name="Value">12K</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RT0603FRE0712KL</field>
+        <field name="MPN">RT0603FRE0712KL</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">603-RT0603FRE0712KL</field>
         <field name="Description">12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film</field>
@@ -4790,7 +4740,7 @@
         <field name="Value">1K</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">RC0603FR-071KL</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">603-RC0603FR-071KL</field>
         <field name="Tolerance">1%</field>
@@ -4836,7 +4786,7 @@
         <field name="Value">22K1</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Manufacturer">Bourns Inc.</field>
-        <field name="Manufacturer Part Number">CR0603-FX-2212ELF</field>
+        <field name="MPN">CR0603-FX-2212ELF</field>
         <field name="Supplier">Digikey</field>
         <field name="Supplier Part Number">CR0603-FX-2212ELFCT-ND</field>
         <field name="Description">22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
@@ -4929,7 +4879,7 @@
         <field name="Value">47K5</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Manufacturer">Stackpole Electronics Inc</field>
-        <field name="Manufacturer Part Number">RMCF0603FT47K5</field>
+        <field name="MPN">RMCF0603FT47K5</field>
         <field name="Supplier">Digikey</field>
         <field name="Supplier Part Number">RMCF0603FT47K5CT-ND</field>
         <field name="Description">47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</field>
@@ -5035,46 +4985,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_Array" part="ULN2003">
-      <aliases>
-        <alias>ULN2003A</alias>
-        <alias>ULN2002</alias>
-        <alias>ULN2002A</alias>
-        <alias>ULN2004</alias>
-        <alias>ULN2004A</alias>
-      </aliases>
-      <description>High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16</description>
-      <docs>http://www.ti.com/lit/ds/symlink/uln2003a.pdf</docs>
-      <footprints>
-        <fp>DIP*W7.62mm*</fp>
-        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
-        <fp>SSOP*4.4x5.2mm*P0.65mm*</fp>
-        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
-        <fp>SOIC*W*5.3x10.2mm*P1.27mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ULN2003</field>
-      </fields>
-      <pins>
-        <pin num="1" name="I1" type="input"/>
-        <pin num="2" name="I2" type="input"/>
-        <pin num="3" name="I3" type="input"/>
-        <pin num="4" name="I4" type="input"/>
-        <pin num="5" name="I5" type="input"/>
-        <pin num="6" name="I6" type="input"/>
-        <pin num="7" name="I7" type="input"/>
-        <pin num="8" name="GND" type="power_in"/>
-        <pin num="9" name="COM" type="passive"/>
-        <pin num="10" name="O7" type="openCol"/>
-        <pin num="11" name="O6" type="openCol"/>
-        <pin num="12" name="O5" type="openCol"/>
-        <pin num="13" name="O4" type="openCol"/>
-        <pin num="14" name="O3" type="openCol"/>
-        <pin num="15" name="O2" type="openCol"/>
-        <pin num="16" name="O1" type="openCol"/>
-      </pins>
-    </libpart>
     <libpart lib="Transistor_BJT" part="BC817">
       <aliases>
         <alias>BC818</alias>
@@ -5103,6 +5013,37 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Transistors_BJT" part="ULN2004D1013TR">
+      <description>TRANSISTOR ARRAY, 7 NPN 50V 500 mA</description>
+      <docs>https://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ULN2004D1013TR</field>
+        <field name="Footprint">IC:SO-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Manufacturer">ST Microelectronics</field>
+        <field name="MPN">ULN2004D1013TR</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Supplier Part Number">1564361</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="COM" type="passive"/>
+        <pin num="10" name="O7" type="openCol"/>
+        <pin num="11" name="O6" type="openCol"/>
+        <pin num="12" name="O5" type="openCol"/>
+        <pin num="13" name="O4" type="openCol"/>
+        <pin num="14" name="O3" type="openCol"/>
+        <pin num="15" name="O2" type="openCol"/>
+        <pin num="16" name="O1" type="openCol"/>
+      </pins>
+    </libpart>
     <libpart lib="Transistors_MOSFET" part="2N7002">
       <description>MOSFET N-CH 60V 115MA SOT-23</description>
       <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
@@ -5111,7 +5052,7 @@
         <field name="Value">2N7002</field>
         <field name="Footprint">Transistors:SOT-23</field>
         <field name="Manufacturer">ON Semiconductor</field>
-        <field name="Manufacturer Part Number">2N7002</field>
+        <field name="MPN">2N7002</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Part Number">512-2N7002</field>
         <field name="Description">MOSFET N-CH 60V 115MA SOT-23</field>
@@ -5131,7 +5072,7 @@
         <field name="Footprint">Transistors:SOT-23</field>
         <field name="Description">MOSFET -30V Vds 20V Vgs SOT-23</field>
         <field name="Manufacturer">Vishay Semiconductors</field>
-        <field name="Manufacturer Nr.">SI2347DS-T1-GE3</field>
+        <field name="MPN">SI2347DS-T1-GE3</field>
         <field name="Supplier">Mouser</field>
         <field name="Supplier Nr.">78-SI2347DS-T1-GE3</field>
       </fields>
@@ -5146,14 +5087,14 @@
     <library logical="AnthC-Lib-Symbols">
       <uri>D:\IDM\Repositorios\clients\Anthilla\AnthC\AnthC-M1R1/lib/symbols/AnthC-Lib-Symbols.lib</uri>
     </library>
-    <library logical="Battery_Management">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Battery_Management.lib</uri>
-    </library>
     <library logical="Capacitor_1206">
       <uri>D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/Capacitor_1206.lib</uri>
     </library>
     <library logical="Capacitors_0603">
       <uri>D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/Capacitors_0603.lib</uri>
+    </library>
+    <library logical="Communications">
+      <uri>D:/IDM/Repositorios/GitHub/HW/Kicad-lib/Symbol/Communications.lib</uri>
     </library>
     <library logical="Connector_Generic">
       <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
@@ -5197,112 +5138,114 @@
     <library logical="Resistor_0603">
       <uri>D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/lib/symbols/Resistor_0603.lib</uri>
     </library>
-    <library logical="Transistor_Array">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_Array.lib</uri>
-    </library>
     <library logical="Transistor_BJT">
       <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="Transistors_BJT">
+      <uri>D:\IDM\Repositorios\clients\Anthilla\AnthC\AnthC-M1R1/lib/symbols/Transistors_BJT.lib</uri>
     </library>
     <library logical="Transistors_MOSFET">
       <uri>D:\IDM\Repositorios\clients\Anthilla\AnthC\AnthC-M1R1/lib/symbols/Transistors_MOSFET.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="Q6" pin="2"/>
-      <node ref="C40" pin="2"/>
-      <node ref="C39" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C30" pin="2"/>
+    <net code="1" name="/CTS">
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U13" pin="4"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="C21" pin="2"/>
       <node ref="U4" pin="5"/>
-      <node ref="U8" pin="7"/>
-      <node ref="U8" pin="8"/>
-      <node ref="R27" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="C25" pin="2"/>
       <node ref="D5" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="J3" pin="39"/>
-      <node ref="J3" pin="6"/>
-      <node ref="J3" pin="7"/>
-      <node ref="J3" pin="9"/>
-      <node ref="U2" pin="2"/>
-      <node ref="BT2" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R34" pin="2"/>
       <node ref="U12" pin="2"/>
       <node ref="R37" pin="1"/>
+      <node ref="BT2" pin="2"/>
       <node ref="R39" pin="1"/>
-      <node ref="C37" pin="2"/>
-      <node ref="C38" pin="2"/>
-      <node ref="U10" pin="1"/>
-      <node ref="U10" pin="2"/>
-      <node ref="D20" pin="2"/>
-      <node ref="C41" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U11" pin="8"/>
       <node ref="J3" pin="14"/>
       <node ref="J3" pin="20"/>
       <node ref="J3" pin="25"/>
-      <node ref="J3" pin="30"/>
-      <node ref="J3" pin="34"/>
-      <node ref="C15" pin="2"/>
-      <node ref="U11" pin="4"/>
-      <node ref="R32" pin="1"/>
-      <node ref="D12" pin="3"/>
       <node ref="C13" pin="2"/>
-      <node ref="U10" pin="6"/>
       <node ref="R29" pin="1"/>
-      <node ref="C19" pin="2"/>
-      <node ref="D25" pin="2"/>
-      <node ref="D32" pin="2"/>
-      <node ref="D21" pin="2"/>
-      <node ref="D17" pin="2"/>
-      <node ref="R20" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="R89" pin="2"/>
-      <node ref="R88" pin="2"/>
-      <node ref="U9" pin="11"/>
-      <node ref="C26" pin="2"/>
-      <node ref="U9" pin="17"/>
-      <node ref="D2" pin="2"/>
-      <node ref="D33" pin="2"/>
-      <node ref="J4" pin="2"/>
-      <node ref="D26" pin="2"/>
-      <node ref="D15" pin="2"/>
+      <node ref="D12" pin="3"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J3" pin="39"/>
+      <node ref="J3" pin="34"/>
+      <node ref="J3" pin="30"/>
+      <node ref="R32" pin="1"/>
+      <node ref="D1" pin="2"/>
       <node ref="D28" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D33" pin="2"/>
       <node ref="D8" pin="2"/>
       <node ref="D9" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D25" pin="2"/>
       <node ref="D29" pin="2"/>
       <node ref="D27" pin="2"/>
-      <node ref="D30" pin="3"/>
-      <node ref="D1" pin="2"/>
-      <node ref="D31" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="D32" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U11" pin="7"/>
       <node ref="D22" pin="2"/>
-      <node ref="R31" pin="2"/>
-      <node ref="U5" pin="29"/>
-      <node ref="U5" pin="3"/>
-      <node ref="R83" pin="2"/>
-      <node ref="R87" pin="2"/>
+      <node ref="U7" pin="6"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="R88" pin="2"/>
+      <node ref="U9" pin="17"/>
+      <node ref="U9" pin="11"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="Q6" pin="2"/>
       <node ref="R24" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D30" pin="3"/>
+      <node ref="R89" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R87" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U5" pin="3"/>
       <node ref="C34" pin="2"/>
-      <node ref="U6" pin="39"/>
-      <node ref="U6" pin="38"/>
-      <node ref="C32" pin="2"/>
-      <node ref="U7" pin="2"/>
       <node ref="FL1" pin="4"/>
       <node ref="D18" pin="2"/>
       <node ref="U1" pin="9"/>
-      <node ref="R63" pin="2"/>
       <node ref="U1" pin="7"/>
-      <node ref="U13" pin="4"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C5" pin="2"/>
       <node ref="C3" pin="2"/>
-      <node ref="C25" pin="2"/>
       <node ref="C1" pin="2"/>
       <node ref="C9" pin="2"/>
       <node ref="R86" pin="1"/>
       <node ref="C10" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="R28" pin="2"/>
-      <node ref="R25" pin="2"/>
-      <node ref="R26" pin="2"/>
-      <node ref="R34" pin="2"/>
+      <node ref="R63" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C28" pin="2"/>
       <node ref="C11" pin="2"/>
       <node ref="C22" pin="2"/>
       <node ref="C20" pin="2"/>
@@ -5311,882 +5254,884 @@
       <node ref="C4" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="U3" pin="5"/>
-      <node ref="C21" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C36" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U6" pin="1"/>
-      <node ref="C23" pin="2"/>
-      <node ref="R65" pin="2"/>
-      <node ref="D16" pin="1"/>
-      <node ref="C28" pin="2"/>
-      <node ref="BT1" pin="2"/>
-      <node ref="C33" pin="2"/>
       <node ref="U6" pin="15"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U10" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="R83" pin="2"/>
+      <node ref="U5" pin="29"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U6" pin="39"/>
+      <node ref="U6" pin="38"/>
+      <node ref="C23" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C41" pin="2"/>
       <node ref="C35" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="C27" pin="2"/>
     </net>
-    <net code="2" name="Net-(U13-Pad5)">
-      <node ref="U13" pin="5"/>
-    </net>
-    <net code="3" name="Net-(R64-Pad2)">
-      <node ref="U7" pin="3"/>
-      <node ref="R64" pin="2"/>
-      <node ref="R65" pin="1"/>
-    </net>
-    <net code="4" name="Net-(Q3-Pad1)">
-      <node ref="R18" pin="2"/>
-      <node ref="Q3" pin="1"/>
-    </net>
-    <net code="5" name="/TX25">
-      <node ref="D1" pin="1"/>
-      <node ref="R17" pin="2"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="J4" pin="3"/>
-    </net>
-    <net code="6" name="/TX2">
-      <node ref="Q2" pin="2"/>
-      <node ref="R15" pin="2"/>
-      <node ref="R77" pin="2"/>
-    </net>
-    <net code="7" name="Net-(U13-Pad7)">
-      <node ref="U13" pin="7"/>
-    </net>
-    <net code="8" name="Net-(U13-Pad8)">
-      <node ref="U13" pin="8"/>
-    </net>
-    <net code="9" name="Net-(C21-Pad1)">
-      <node ref="U10" pin="7"/>
-      <node ref="U13" pin="6"/>
-      <node ref="C21" pin="1"/>
-    </net>
-    <net code="10" name="Net-(U13-Pad3)">
-      <node ref="U13" pin="3"/>
-    </net>
-    <net code="11" name="Net-(U13-Pad1)">
-      <node ref="U13" pin="1"/>
-    </net>
-    <net code="12" name="/AIN3">
-      <node ref="J3" pin="35"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="U9" pin="10"/>
-    </net>
-    <net code="13" name="Net-(R34-Pad1)">
-      <node ref="R34" pin="1"/>
-      <node ref="SW1" pin="8"/>
-    </net>
-    <net code="14" name="Net-(R26-Pad1)">
-      <node ref="R26" pin="1"/>
-      <node ref="SW1" pin="7"/>
-    </net>
-    <net code="15" name="Net-(R25-Pad1)">
-      <node ref="R25" pin="1"/>
-      <node ref="SW1" pin="6"/>
-    </net>
-    <net code="16" name="Net-(R28-Pad1)">
-      <node ref="R28" pin="1"/>
-      <node ref="SW1" pin="5"/>
-    </net>
-    <net code="17" name="/AIN0">
-      <node ref="J3" pin="38"/>
-      <node ref="SW1" pin="4"/>
-      <node ref="U9" pin="3"/>
-    </net>
-    <net code="18" name="/AIN2">
-      <node ref="J3" pin="37"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="U9" pin="12"/>
-    </net>
-    <net code="19" name="Net-(R22-Pad1)">
-      <node ref="U9" pin="9"/>
-      <node ref="R22" pin="1"/>
-      <node ref="U9" pin="8"/>
-    </net>
-    <net code="20" name="/AN1">
-      <node ref="R24" pin="2"/>
-      <node ref="R22" pin="2"/>
-      <node ref="C26" pin="1"/>
-      <node ref="U10" pin="8"/>
-    </net>
-    <net code="21" name="Net-(R47-Pad2)">
+    <net code="3" name="Net-(R47-Pad2)">
       <node ref="U5" pin="8"/>
       <node ref="R47" pin="2"/>
       <node ref="R63" pin="1"/>
     </net>
-    <net code="22" name="/DTR">
-      <node ref="U5" pin="28"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="R18" pin="1"/>
-    </net>
-    <net code="23" name="Net-(U5-Pad27)">
-      <node ref="U5" pin="27"/>
-    </net>
-    <net code="24" name="/RXD3V3">
-      <node ref="R19" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="U5" pin="26"/>
-      <node ref="R72" pin="2"/>
-      <node ref="Q5" pin="2"/>
-    </net>
-    <net code="25" name="/TXD3V3">
-      <node ref="R71" pin="2"/>
-      <node ref="R33" pin="2"/>
-      <node ref="U5" pin="25"/>
-      <node ref="U4" pin="4"/>
-      <node ref="Q7" pin="2"/>
-    </net>
-    <net code="26" name="/RTS">
-      <node ref="U5" pin="24"/>
-      <node ref="R21" pin="1"/>
-      <node ref="Q3" pin="2"/>
-    </net>
-    <net code="27" name="/CTS">
-      <node ref="U5" pin="23"/>
-    </net>
-    <net code="28" name="VBUS">
-      <node ref="C6" pin="1"/>
+    <net code="4" name="VBUS">
       <node ref="C19" pin="1"/>
+      <node ref="J1" pin="B4/A9"/>
+      <node ref="J1" pin="A4/B9"/>
+      <node ref="D5" pin="5"/>
+      <node ref="D3" pin="2"/>
       <node ref="U5" pin="7"/>
       <node ref="D4" pin="2"/>
-      <node ref="J1" pin="A4/B9"/>
-      <node ref="D3" pin="2"/>
       <node ref="D23" pin="2"/>
-      <node ref="D5" pin="5"/>
-      <node ref="J1" pin="B4/A9"/>
-      <node ref="R43" pin="2"/>
       <node ref="R47" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R43" pin="2"/>
     </net>
-    <net code="29" name="/DN">
-      <node ref="U5" pin="5"/>
+    <net code="5" name="/DN">
       <node ref="D5" pin="3"/>
-      <node ref="J1" pin="A7"/>
+      <node ref="U5" pin="5"/>
       <node ref="J1" pin="B7"/>
+      <node ref="J1" pin="A7"/>
     </net>
-    <net code="30" name="Net-(D23-Pad1)">
-      <node ref="D23" pin="1"/>
-      <node ref="R85" pin="2"/>
+    <net code="6" name="/RTS">
+      <node ref="U5" pin="24"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R21" pin="1"/>
     </net>
-    <net code="31" name="Net-(D4-Pad1)">
-      <node ref="R84" pin="2"/>
-      <node ref="D4" pin="1"/>
+    <net code="7" name="/TXD3V3">
+      <node ref="U4" pin="4"/>
+      <node ref="U5" pin="25"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R71" pin="2"/>
     </net>
-    <net code="32" name="Net-(R85-Pad1)">
-      <node ref="U5" pin="19"/>
-      <node ref="R85" pin="1"/>
+    <net code="8" name="/RXD3V3">
+      <node ref="U4" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R72" pin="2"/>
+      <node ref="U5" pin="26"/>
     </net>
-    <net code="33" name="Net-(R84-Pad1)">
-      <node ref="R84" pin="1"/>
-      <node ref="U5" pin="18"/>
+    <net code="9" name="/DTR">
+      <node ref="R18" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="U5" pin="28"/>
     </net>
-    <net code="34" name="Net-(R43-Pad1)">
+    <net code="10" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad6)">
+      <node ref="D5" pin="6"/>
+    </net>
+    <net code="12" name="/DP">
+      <node ref="J1" pin="B6"/>
+      <node ref="J1" pin="A6"/>
+      <node ref="U5" pin="4"/>
+      <node ref="D5" pin="4"/>
+    </net>
+    <net code="13" name="Net-(R43-Pad1)">
       <node ref="R43" pin="1"/>
       <node ref="U5" pin="9"/>
     </net>
-    <net code="35" name="/DP">
-      <node ref="J1" pin="B6"/>
-      <node ref="U5" pin="4"/>
-      <node ref="D5" pin="4"/>
-      <node ref="J1" pin="A6"/>
+    <net code="14" name="Net-(U5-Pad27)">
+      <node ref="U5" pin="27"/>
     </net>
-    <net code="36" name="/RESET">
+    <net code="15" name="/RESET">
       <node ref="Q3" pin="3"/>
       <node ref="D15" pin="3"/>
-      <node ref="R48" pin="2"/>
-      <node ref="J3" pin="11"/>
       <node ref="R7" pin="1"/>
+      <node ref="J3" pin="11"/>
+      <node ref="R48" pin="2"/>
     </net>
-    <net code="37" name="Net-(J1-PadS1)">
-      <node ref="R3" pin="1"/>
+    <net code="16" name="Net-(J1-PadS1)">
       <node ref="J1" pin="S1"/>
+      <node ref="R3" pin="1"/>
     </net>
-    <net code="38" name="Net-(D5-Pad1)">
-      <node ref="D5" pin="1"/>
-    </net>
-    <net code="39" name="Net-(D5-Pad6)">
-      <node ref="D5" pin="6"/>
-    </net>
-    <net code="40" name="Net-(U8-Pad10)">
-      <node ref="U8" pin="10"/>
-    </net>
-    <net code="41" name="/GPIO0">
-      <node ref="J3" pin="13"/>
-      <node ref="D15" pin="1"/>
-      <node ref="R80" pin="2"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="R81" pin="1"/>
-    </net>
-    <net code="42" name="Net-(J1-PadB1/A12)">
+    <net code="17" name="Net-(J1-PadB1/A12)">
       <node ref="R4" pin="1"/>
       <node ref="J1" pin="B1/A12"/>
     </net>
-    <net code="43" name="Net-(J1-PadS2)">
-      <node ref="R88" pin="1"/>
-      <node ref="J1" pin="S2"/>
+    <net code="18" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
     </net>
-    <net code="44" name="Net-(J1-PadB8)">
+    <net code="19" name="Net-(J1-PadA8)">
+      <node ref="R31" pin="1"/>
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="20" name="Net-(J1-PadB8)">
       <node ref="R20" pin="1"/>
       <node ref="J1" pin="B8"/>
     </net>
-    <net code="45" name="Net-(J1-PadB5)">
+    <net code="21" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="23" name="Net-(U5-Pad12)">
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="24" name="Net-(U5-Pad15)">
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="25" name="Net-(U5-Pad16)">
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="26" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="27" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="28" name="+5V">
+      <node ref="C20" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="R35" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="R65" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="29" name="/IO13">
+      <node ref="R66" pin="1"/>
+    </net>
+    <net code="30" name="Net-(J1-PadB5)">
       <node ref="J1" pin="B5"/>
     </net>
-    <net code="46" name="Net-(J1-PadA8)">
-      <node ref="J1" pin="A8"/>
-      <node ref="R31" pin="1"/>
-    </net>
-    <net code="47" name="Net-(J1-PadA5)">
+    <net code="31" name="Net-(J1-PadA5)">
       <node ref="J1" pin="A5"/>
     </net>
-    <net code="48" name="Net-(C40-Pad1)">
-      <node ref="U11" pin="2"/>
-      <node ref="Y2" pin="1"/>
-      <node ref="C40" pin="1"/>
+    <net code="32" name="Net-(U5-Pad22)">
+      <node ref="U5" pin="22"/>
     </net>
-    <net code="49" name="/SDA">
-      <node ref="U11" pin="5"/>
-      <node ref="J3" pin="3"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R73" pin="2"/>
-      <node ref="U7" pin="1"/>
-      <node ref="D2" pin="3"/>
+    <net code="33" name="Net-(U5-Pad21)">
+      <node ref="U5" pin="21"/>
     </net>
-    <net code="50" name="/SCL">
-      <node ref="J3" pin="5"/>
-      <node ref="D2" pin="1"/>
-      <node ref="U11" pin="6"/>
-      <node ref="U7" pin="6"/>
-      <node ref="R16" pin="2"/>
-      <node ref="R70" pin="2"/>
+    <net code="34" name="Net-(U5-Pad20)">
+      <node ref="U5" pin="20"/>
     </net>
-    <net code="51" name="Net-(U11-Pad7)">
-      <node ref="U11" pin="7"/>
+    <net code="35" name="Net-(R83-Pad1)">
+      <node ref="R83" pin="1"/>
+      <node ref="U5" pin="11"/>
     </net>
-    <net code="52" name="Net-(D12-Pad2)">
-      <node ref="D12" pin="2"/>
+    <net code="36" name="Net-(D23-Pad1)">
+      <node ref="D23" pin="1"/>
+      <node ref="R85" pin="2"/>
     </net>
-    <net code="53" name="/TXD">
+    <net code="37" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R84" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R85-Pad1)">
+      <node ref="U5" pin="19"/>
+      <node ref="R85" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R84-Pad1)">
+      <node ref="U5" pin="18"/>
+      <node ref="R84" pin="1"/>
+    </net>
+    <net code="40" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="41" name="+3V3">
+      <node ref="R7" pin="2"/>
+      <node ref="R82" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="R81" pin="2"/>
+      <node ref="J3" pin="17"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U13" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="D16" pin="2"/>
+      <node ref="U10" pin="10"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="U10" pin="11"/>
+      <node ref="U10" pin="3"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="R64" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="42" name="/TXD">
+      <node ref="R42" pin="2"/>
       <node ref="Q7" pin="3"/>
       <node ref="J3" pin="8"/>
       <node ref="D32" pin="1"/>
-      <node ref="R42" pin="2"/>
     </net>
-    <net code="54" name="Net-(U7-Pad4)">
-      <node ref="U7" pin="4"/>
-    </net>
-    <net code="55" name="Net-(C39-Pad1)">
-      <node ref="U11" pin="1"/>
-      <node ref="C39" pin="1"/>
-      <node ref="Y2" pin="2"/>
-    </net>
-    <net code="56" name="/RXD">
-      <node ref="J3" pin="10"/>
-      <node ref="R41" pin="2"/>
+    <net code="43" name="/RXD">
       <node ref="D32" pin="3"/>
       <node ref="Q5" pin="3"/>
+      <node ref="J3" pin="10"/>
+      <node ref="R41" pin="2"/>
     </net>
-    <net code="57" name="Net-(J1-PadA1/B12)">
-      <node ref="R89" pin="1"/>
-      <node ref="J1" pin="A1/B12"/>
-    </net>
-    <net code="58" name="Net-(R10-Pad1)">
-      <node ref="U9" pin="5"/>
-      <node ref="U9" pin="4"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="59" name="Net-(R13-Pad1)">
-      <node ref="U9" pin="15"/>
-      <node ref="R13" pin="1"/>
-      <node ref="U9" pin="16"/>
-    </net>
-    <net code="60" name="/AIN1">
-      <node ref="J3" pin="40"/>
-      <node ref="SW1" pin="3"/>
-      <node ref="U9" pin="1"/>
-    </net>
-    <net code="61" name="/VDD_F">
-      <node ref="FL1" pin="3"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R30" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="62" name="Net-(D33-Pad3)">
-      <node ref="D33" pin="3"/>
-    </net>
-    <net code="63" name="+5VD">
+    <net code="44" name="+5VD">
+      <node ref="Q9" pin="3"/>
+      <node ref="J5" pin="3"/>
       <node ref="J3" pin="2"/>
       <node ref="D19" pin="1"/>
-      <node ref="Q9" pin="3"/>
       <node ref="J3" pin="4"/>
-      <node ref="J5" pin="3"/>
     </net>
-    <net code="64" name="Net-(U5-Pad14)">
-      <node ref="U5" pin="14"/>
+    <net code="45" name="/TX25">
+      <node ref="J4" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R17" pin="2"/>
     </net>
-    <net code="65" name="Net-(U5-Pad13)">
-      <node ref="U5" pin="13"/>
+    <net code="46" name="/TX2">
+      <node ref="Q2" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R77" pin="2"/>
     </net>
-    <net code="66" name="Net-(U5-Pad12)">
-      <node ref="U5" pin="12"/>
+    <net code="47" name="Net-(U13-Pad8)">
+      <node ref="U13" pin="8"/>
     </net>
-    <net code="67" name="Net-(U5-Pad15)">
-      <node ref="U5" pin="15"/>
+    <net code="48" name="Net-(U13-Pad7)">
+      <node ref="U13" pin="7"/>
     </net>
-    <net code="68" name="Net-(U5-Pad16)">
-      <node ref="U5" pin="16"/>
+    <net code="49" name="Net-(U13-Pad5)">
+      <node ref="U13" pin="5"/>
     </net>
-    <net code="69" name="Net-(U5-Pad2)">
-      <node ref="U5" pin="2"/>
+    <net code="50" name="Net-(U13-Pad3)">
+      <node ref="U13" pin="3"/>
     </net>
-    <net code="70" name="Net-(U5-Pad1)">
-      <node ref="U5" pin="1"/>
+    <net code="51" name="Net-(U13-Pad1)">
+      <node ref="U13" pin="1"/>
     </net>
-    <net code="71" name="Net-(U5-Pad6)">
-      <node ref="U5" pin="6"/>
+    <net code="52" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U9" pin="9"/>
     </net>
-    <net code="72" name="/IO13">
-      <node ref="R66" pin="1"/>
+    <net code="53" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="U13" pin="6"/>
+      <node ref="U10" pin="7"/>
     </net>
-    <net code="73" name="Net-(U5-Pad10)">
-      <node ref="U5" pin="10"/>
+    <net code="54" name="Net-(R34-Pad1)">
+      <node ref="SW1" pin="8"/>
+      <node ref="R34" pin="1"/>
     </net>
-    <net code="74" name="Net-(U5-Pad22)">
-      <node ref="U5" pin="22"/>
+    <net code="55" name="Net-(R26-Pad1)">
+      <node ref="SW1" pin="7"/>
+      <node ref="R26" pin="1"/>
     </net>
-    <net code="75" name="Net-(U5-Pad21)">
-      <node ref="U5" pin="21"/>
+    <net code="56" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="SW1" pin="6"/>
     </net>
-    <net code="76" name="Net-(U5-Pad20)">
-      <node ref="U5" pin="20"/>
+    <net code="57" name="Net-(R28-Pad1)">
+      <node ref="SW1" pin="5"/>
+      <node ref="R28" pin="1"/>
     </net>
-    <net code="77" name="Net-(R83-Pad1)">
-      <node ref="U5" pin="11"/>
-      <node ref="R83" pin="1"/>
+    <net code="58" name="Net-(U11-Pad10)">
+      <node ref="U11" pin="10"/>
     </net>
-    <net code="78" name="/RS485">
+    <net code="59" name="/SDA">
+      <node ref="U7" pin="4"/>
+      <node ref="J3" pin="3"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="R73" pin="2"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="60" name="/SCL">
+      <node ref="U7" pin="5"/>
+      <node ref="R70" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U8" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="62" name="/AN1">
+      <node ref="U10" pin="8"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="63" name="/AIN3">
+      <node ref="J3" pin="35"/>
+      <node ref="U9" pin="10"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="64" name="/AIN0">
+      <node ref="SW1" pin="4"/>
+      <node ref="U9" pin="3"/>
+      <node ref="J3" pin="38"/>
+    </net>
+    <net code="65" name="/AIN2">
+      <node ref="J3" pin="37"/>
+      <node ref="U9" pin="12"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="66" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="67" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="U9" pin="15"/>
+      <node ref="U9" pin="16"/>
+    </net>
+    <net code="68" name="/AIN1">
+      <node ref="J3" pin="40"/>
+      <node ref="U9" pin="1"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="69" name="/VDD_F">
+      <node ref="C1" pin="1"/>
+      <node ref="FL1" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D33-Pad3)">
+      <node ref="D33" pin="3"/>
+    </net>
+    <net code="71" name="/COM">
+      <node ref="U11" pin="9"/>
+      <node ref="J3" pin="28"/>
+      <node ref="D28" pin="3"/>
+    </net>
+    <net code="72" name="Net-(C13-Pad1)">
+      <node ref="U4" pin="8"/>
+      <node ref="R64" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R65" pin="1"/>
+    </net>
+    <net code="73" name="Net-(BT1-Pad1)">
+      <node ref="R91" pin="2"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="74" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="75" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D34-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="D34" pin="2"/>
+    </net>
+    <net code="77" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="78" name="Net-(R90-Pad2)">
+      <node ref="U7" pin="7"/>
+      <node ref="R90" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D20-Pad1)">
+      <node ref="U7" pin="9"/>
+      <node ref="D20" pin="1"/>
+      <node ref="R90" pin="1"/>
+      <node ref="R91" pin="1"/>
+    </net>
+    <net code="80" name="Net-(U7-Pad10)">
+      <node ref="U7" pin="10"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="81" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="82" name="/RS485">
       <node ref="U5" pin="17"/>
       <node ref="U4" pin="3"/>
       <node ref="U4" pin="2"/>
     </net>
-    <net code="79" name="VDD">
-      <node ref="Q8" pin="3"/>
+    <net code="83" name="/GND_IN">
+      <node ref="J5" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="FL1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="84" name="VDD">
       <node ref="D13" pin="1"/>
+      <node ref="Q8" pin="3"/>
       <node ref="J5" pin="1"/>
     </net>
-    <net code="80" name="/GND_IN">
-      <node ref="FL1" pin="1"/>
-      <node ref="D13" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="J5" pin="2"/>
+    <net code="85" name="/O33">
+      <node ref="D22" pin="3"/>
+      <node ref="U11" pin="16"/>
+      <node ref="J3" pin="27"/>
     </net>
-    <net code="81" name="+5V">
-      <node ref="U2" pin="4"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C23" pin="1"/>
-      <node ref="U9" pin="2"/>
-      <node ref="D3" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="R42" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="R36" pin="2"/>
-      <node ref="U3" pin="8"/>
-      <node ref="U3" pin="7"/>
-      <node ref="D12" pin="1"/>
-      <node ref="U3" pin="6"/>
-      <node ref="C20" pin="1"/>
-      <node ref="Q9" pin="2"/>
-      <node ref="R6" pin="1"/>
-      <node ref="U3" pin="4"/>
-      <node ref="D9" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="D24" pin="1"/>
-      <node ref="C41" pin="1"/>
-      <node ref="R35" pin="1"/>
-      <node ref="U3" pin="3"/>
-      <node ref="R41" pin="1"/>
-      <node ref="R17" pin="1"/>
-      <node ref="U3" pin="2"/>
+    <net code="86" name="Net-(J1-PadA1/B12)">
+      <node ref="J1" pin="A1/B12"/>
+      <node ref="R89" pin="1"/>
     </net>
-    <net code="82" name="Net-(R36-Pad1)">
+    <net code="87" name="Net-(J1-PadS2)">
+      <node ref="J1" pin="S2"/>
+      <node ref="R88" pin="1"/>
+    </net>
+    <net code="88" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="89" name="Net-(R36-Pad1)">
+      <node ref="R36" pin="1"/>
       <node ref="U12" pin="3"/>
       <node ref="R37" pin="2"/>
-      <node ref="R36" pin="1"/>
     </net>
-    <net code="83" name="Net-(D7-Pad2)">
-      <node ref="L2" pin="2"/>
+    <net code="90" name="Net-(D7-Pad2)">
       <node ref="U12" pin="1"/>
       <node ref="D7" pin="2"/>
+      <node ref="L2" pin="2"/>
     </net>
-    <net code="84" name="+3V3">
-      <node ref="D6" pin="2"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C34" pin="1"/>
-      <node ref="R33" pin="1"/>
-      <node ref="U10" pin="3"/>
-      <node ref="R19" pin="1"/>
-      <node ref="U10" pin="11"/>
-      <node ref="U10" pin="10"/>
-      <node ref="U13" pin="2"/>
-      <node ref="R81" pin="2"/>
-      <node ref="U6" pin="2"/>
-      <node ref="U7" pin="5"/>
-      <node ref="C32" pin="1"/>
-      <node ref="D10" pin="2"/>
-      <node ref="D11" pin="2"/>
-      <node ref="D16" pin="2"/>
-      <node ref="C29" pin="1"/>
-      <node ref="R64" pin="1"/>
-      <node ref="R82" pin="1"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="R15" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="Q5" pin="1"/>
-      <node ref="Q7" pin="1"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="U4" pin="8"/>
-      <node ref="C13" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R16" pin="1"/>
-      <node ref="R14" pin="1"/>
-      <node ref="J3" pin="17"/>
-      <node ref="U11" pin="8"/>
-    </net>
-    <net code="85" name="/AN0">
-      <node ref="U10" pin="9"/>
-      <node ref="R27" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="C25" pin="1"/>
-    </net>
-    <net code="86" name="/CS">
-      <node ref="R76" pin="2"/>
-      <node ref="J3" pin="26"/>
-      <node ref="D28" pin="1"/>
-    </net>
-    <net code="87" name="/SCK">
-      <node ref="J3" pin="23"/>
-      <node ref="R75" pin="2"/>
-      <node ref="U10" pin="15"/>
-      <node ref="D21" pin="3"/>
-    </net>
-    <net code="88" name="/MISO">
-      <node ref="J3" pin="21"/>
-      <node ref="D21" pin="1"/>
-      <node ref="R74" pin="2"/>
-      <node ref="U10" pin="13"/>
-    </net>
-    <net code="89" name="/MOSI">
-      <node ref="D17" pin="1"/>
-      <node ref="U10" pin="14"/>
-      <node ref="J3" pin="19"/>
-      <node ref="R69" pin="2"/>
-    </net>
-    <net code="90" name="+BATT">
-      <node ref="R11" pin="2"/>
-      <node ref="BT2" pin="1"/>
-      <node ref="U12" pin="5"/>
-      <node ref="L2" pin="1"/>
-      <node ref="R38" pin="2"/>
-      <node ref="U2" pin="3"/>
-      <node ref="D31" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="C17" pin="1"/>
-    </net>
-    <net code="91" name="Net-(R12-Pad1)">
-      <node ref="R12" pin="1"/>
-      <node ref="U2" pin="5"/>
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="92" name="Net-(Q4-Pad1)">
-      <node ref="Q4" pin="1"/>
-      <node ref="R21" pin="2"/>
-    </net>
-    <net code="93" name="/O25">
-      <node ref="J3" pin="29"/>
-      <node ref="D22" pin="1"/>
-      <node ref="U8" pin="15"/>
-    </net>
-    <net code="94" name="/O26">
-      <node ref="D29" pin="3"/>
-      <node ref="U8" pin="14"/>
-      <node ref="J3" pin="32"/>
-    </net>
-    <net code="95" name="/O27">
-      <node ref="D25" pin="3"/>
-      <node ref="U8" pin="13"/>
-      <node ref="J3" pin="31"/>
-    </net>
-    <net code="96" name="/O14">
-      <node ref="D25" pin="1"/>
-      <node ref="U8" pin="12"/>
-      <node ref="J3" pin="33"/>
-    </net>
-    <net code="97" name="/O12">
-      <node ref="D29" pin="1"/>
-      <node ref="J3" pin="36"/>
-      <node ref="U8" pin="11"/>
-    </net>
-    <net code="98" name="/EN_STEP_UP">
-      <node ref="U12" pin="4"/>
+    <net code="91" name="/EN_STEP_UP">
       <node ref="Q6" pin="3"/>
       <node ref="R11" pin="1"/>
+      <node ref="U12" pin="4"/>
     </net>
-    <net code="99" name="Net-(Q6-Pad1)">
-      <node ref="R30" pin="1"/>
-      <node ref="Q6" pin="1"/>
+    <net code="92" name="+BATT">
+      <node ref="U2" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U12" pin="5"/>
+      <node ref="C17" pin="1"/>
+      <node ref="BT2" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="L2" pin="1"/>
     </net>
-    <net code="100" name="/IO14">
-      <node ref="U8" pin="5"/>
-      <node ref="R61" pin="2"/>
+    <net code="93" name="/AN0">
+      <node ref="C25" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="U10" pin="9"/>
     </net>
-    <net code="101" name="/O33">
-      <node ref="U8" pin="16"/>
-      <node ref="J3" pin="27"/>
-      <node ref="D22" pin="3"/>
+    <net code="94" name="/CS">
+      <node ref="R76" pin="2"/>
+      <node ref="D28" pin="1"/>
+      <node ref="J3" pin="26"/>
     </net>
-    <net code="102" name="Net-(R53-Pad1)">
-      <node ref="R53" pin="1"/>
-      <node ref="U6" pin="4"/>
+    <net code="95" name="/SCK">
+      <node ref="D21" pin="3"/>
+      <node ref="U10" pin="15"/>
+      <node ref="R75" pin="2"/>
+      <node ref="J3" pin="23"/>
     </net>
-    <net code="103" name="/I36">
-      <node ref="R53" pin="2"/>
+    <net code="96" name="/MISO">
+      <node ref="J3" pin="21"/>
+      <node ref="D21" pin="1"/>
+      <node ref="U10" pin="13"/>
+      <node ref="R74" pin="2"/>
+    </net>
+    <net code="97" name="/MOSI">
+      <node ref="D17" pin="1"/>
+      <node ref="U10" pin="14"/>
+      <node ref="R69" pin="2"/>
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="98" name="/O25">
+      <node ref="D22" pin="1"/>
+      <node ref="U11" pin="15"/>
+      <node ref="J3" pin="29"/>
+    </net>
+    <net code="99" name="Net-(C35-Pad1)">
+      <node ref="R40" pin="2"/>
+      <node ref="D6" pin="3"/>
+      <node ref="C35" pin="1"/>
+      <node ref="R49" pin="1"/>
+    </net>
+    <net code="100" name="/I36">
       <node ref="R49" pin="2"/>
+      <node ref="R53" pin="2"/>
     </net>
-    <net code="104" name="/IO12">
+    <net code="101" name="/O26">
+      <node ref="J3" pin="32"/>
+      <node ref="U11" pin="14"/>
+      <node ref="D29" pin="3"/>
+    </net>
+    <net code="102" name="/O27">
+      <node ref="J3" pin="31"/>
+      <node ref="U11" pin="13"/>
+      <node ref="D25" pin="3"/>
+    </net>
+    <net code="103" name="/O14">
+      <node ref="D25" pin="1"/>
+      <node ref="U11" pin="12"/>
+      <node ref="J3" pin="33"/>
+    </net>
+    <net code="104" name="/O12">
+      <node ref="D29" pin="1"/>
+      <node ref="J3" pin="36"/>
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="105" name="/DI34">
+      <node ref="D27" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="J3" pin="22"/>
+    </net>
+    <net code="106" name="Net-(C38-Pad1)">
+      <node ref="C38" pin="1"/>
+      <node ref="R52" pin="1"/>
+      <node ref="D11" pin="3"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C36-Pad1)">
+      <node ref="D10" pin="3"/>
+      <node ref="R50" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="108" name="/GPIO0">
+      <node ref="Q4" pin="3"/>
+      <node ref="D15" pin="1"/>
+      <node ref="R81" pin="1"/>
+      <node ref="J3" pin="13"/>
+      <node ref="R80" pin="2"/>
+    </net>
+    <net code="109" name="Net-(Q3-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="110" name="Net-(Q4-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="111" name="/IO12">
       <node ref="R62" pin="2"/>
-      <node ref="U8" pin="6"/>
+      <node ref="U11" pin="6"/>
     </net>
-    <net code="105" name="/IO27">
-      <node ref="U8" pin="4"/>
+    <net code="112" name="Net-(R53-Pad1)">
+      <node ref="U6" pin="4"/>
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="113" name="/IO14">
+      <node ref="R61" pin="2"/>
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="114" name="/IO27">
       <node ref="R60" pin="2"/>
+      <node ref="U11" pin="4"/>
     </net>
-    <net code="106" name="Net-(R69-Pad1)">
+    <net code="115" name="Net-(R69-Pad1)">
       <node ref="U6" pin="37"/>
       <node ref="R69" pin="1"/>
     </net>
-    <net code="107" name="Net-(R74-Pad1)">
+    <net code="116" name="Net-(R74-Pad1)">
       <node ref="U6" pin="31"/>
       <node ref="R74" pin="1"/>
     </net>
-    <net code="108" name="Net-(R75-Pad1)">
+    <net code="117" name="Net-(R75-Pad1)">
       <node ref="U6" pin="30"/>
       <node ref="R75" pin="1"/>
     </net>
-    <net code="109" name="Net-(R76-Pad1)">
-      <node ref="U6" pin="29"/>
+    <net code="118" name="Net-(R76-Pad1)">
       <node ref="R76" pin="1"/>
+      <node ref="U6" pin="29"/>
     </net>
-    <net code="110" name="Net-(R78-Pad1)">
-      <node ref="U6" pin="27"/>
+    <net code="119" name="Net-(R78-Pad1)">
       <node ref="R78" pin="1"/>
+      <node ref="U6" pin="27"/>
     </net>
-    <net code="111" name="Net-(R77-Pad1)">
-      <node ref="U6" pin="28"/>
+    <net code="120" name="Net-(R77-Pad1)">
       <node ref="R77" pin="1"/>
+      <node ref="U6" pin="28"/>
     </net>
-    <net code="112" name="Net-(U6-Pad17)">
+    <net code="121" name="/IO2">
+      <node ref="J3" pin="16"/>
+      <node ref="D26" pin="1"/>
+      <node ref="U6" pin="24"/>
+    </net>
+    <net code="122" name="Net-(R79-Pad1)">
+      <node ref="R79" pin="1"/>
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="123" name="Net-(R55-Pad1)">
+      <node ref="R55" pin="1"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="124" name="/I35">
+      <node ref="R51" pin="2"/>
+      <node ref="R56" pin="2"/>
+    </net>
+    <net code="125" name="/I34">
+      <node ref="R55" pin="2"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="126" name="/RX25">
+      <node ref="Q1" pin="3"/>
+      <node ref="D8" pin="1"/>
+      <node ref="R35" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="127" name="Net-(U6-Pad17)">
       <node ref="U6" pin="17"/>
     </net>
-    <net code="113" name="Net-(U6-Pad18)">
+    <net code="128" name="Net-(U6-Pad18)">
       <node ref="U6" pin="18"/>
     </net>
-    <net code="114" name="Net-(U6-Pad19)">
+    <net code="129" name="Net-(U6-Pad19)">
       <node ref="U6" pin="19"/>
     </net>
-    <net code="115" name="Net-(U6-Pad20)">
+    <net code="130" name="Net-(U6-Pad20)">
       <node ref="U6" pin="20"/>
     </net>
-    <net code="116" name="Net-(U6-Pad22)">
+    <net code="131" name="Net-(U6-Pad22)">
       <node ref="U6" pin="22"/>
     </net>
-    <net code="117" name="Net-(R48-Pad1)">
-      <node ref="R48" pin="1"/>
+    <net code="132" name="Net-(R48-Pad1)">
       <node ref="U6" pin="3"/>
+      <node ref="R48" pin="1"/>
     </net>
-    <net code="118" name="Net-(R72-Pad1)">
+    <net code="133" name="/B">
+      <node ref="U4" pin="6"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D30" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="134" name="Net-(R72-Pad1)">
       <node ref="R72" pin="1"/>
       <node ref="U6" pin="34"/>
     </net>
-    <net code="119" name="Net-(R71-Pad1)">
+    <net code="135" name="Net-(R71-Pad1)">
       <node ref="R71" pin="1"/>
       <node ref="U6" pin="35"/>
     </net>
-    <net code="120" name="Net-(R70-Pad1)">
+    <net code="136" name="Net-(R70-Pad1)">
       <node ref="R70" pin="1"/>
       <node ref="U6" pin="36"/>
     </net>
-    <net code="121" name="Net-(R73-Pad1)">
-      <node ref="R73" pin="1"/>
+    <net code="137" name="Net-(R73-Pad1)">
       <node ref="U6" pin="33"/>
+      <node ref="R73" pin="1"/>
     </net>
-    <net code="122" name="/A">
+    <net code="138" name="/IO26">
+      <node ref="R59" pin="2"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="139" name="/IO33">
+      <node ref="R57" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="140" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="U9" pin="14"/>
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="141" name="/AN3">
+      <node ref="R23" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="142" name="/AN2">
+      <node ref="R10" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="143" name="/IO25">
+      <node ref="U11" pin="2"/>
+      <node ref="R58" pin="2"/>
+    </net>
+    <net code="144" name="/I39">
+      <node ref="R54" pin="2"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="145" name="Net-(R67-Pad2)">
+      <node ref="R67" pin="2"/>
+      <node ref="U6" pin="21"/>
+    </net>
+    <net code="146" name="Net-(R80-Pad1)">
+      <node ref="R80" pin="1"/>
+      <node ref="U6" pin="25"/>
+    </net>
+    <net code="147" name="Net-(R66-Pad2)">
+      <node ref="U6" pin="16"/>
+      <node ref="R66" pin="2"/>
+    </net>
+    <net code="148" name="Net-(R82-Pad2)">
+      <node ref="R82" pin="2"/>
+      <node ref="U10" pin="12"/>
+    </net>
+    <net code="149" name="/RX2">
+      <node ref="R78" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="150" name="/CSADC">
+      <node ref="R67" pin="1"/>
+      <node ref="U10" pin="16"/>
+    </net>
+    <net code="151" name="Net-(R68-Pad2)">
+      <node ref="R68" pin="2"/>
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="152" name="Net-(R60-Pad1)">
+      <node ref="U6" pin="12"/>
+      <node ref="R60" pin="1"/>
+    </net>
+    <net code="153" name="Net-(R62-Pad1)">
+      <node ref="U6" pin="14"/>
+      <node ref="R62" pin="1"/>
+    </net>
+    <net code="154" name="Net-(R61-Pad1)">
+      <node ref="U6" pin="13"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="155" name="Net-(R59-Pad1)">
+      <node ref="R59" pin="1"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="156" name="Net-(R58-Pad1)">
+      <node ref="R58" pin="1"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="157" name="/A">
       <node ref="U4" pin="7"/>
       <node ref="J2" pin="2"/>
       <node ref="R5" pin="2"/>
       <node ref="D30" pin="1"/>
     </net>
-    <net code="123" name="/B">
-      <node ref="R5" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="U4" pin="6"/>
-      <node ref="D30" pin="2"/>
+    <net code="158" name="/IO4">
+      <node ref="J3" pin="12"/>
+      <node ref="R79" pin="2"/>
+      <node ref="D33" pin="1"/>
     </net>
-    <net code="124" name="Net-(R23-Pad2)">
-      <node ref="U9" pin="14"/>
-      <node ref="U9" pin="13"/>
-      <node ref="R23" pin="2"/>
+    <net code="159" name="Net-(R57-Pad1)">
+      <node ref="R57" pin="1"/>
+      <node ref="U6" pin="9"/>
     </net>
-    <net code="125" name="Net-(R79-Pad1)">
-      <node ref="U6" pin="26"/>
-      <node ref="R79" pin="1"/>
-    </net>
-    <net code="126" name="/IO2">
-      <node ref="U6" pin="24"/>
-      <node ref="J3" pin="16"/>
-      <node ref="D26" pin="1"/>
-    </net>
-    <net code="127" name="Net-(R55-Pad1)">
-      <node ref="U6" pin="6"/>
-      <node ref="R55" pin="1"/>
-    </net>
-    <net code="128" name="/I35">
-      <node ref="R51" pin="2"/>
-      <node ref="R56" pin="2"/>
-    </net>
-    <net code="129" name="/I34">
-      <node ref="R52" pin="2"/>
-      <node ref="R55" pin="2"/>
-    </net>
-    <net code="130" name="/RX25">
-      <node ref="J4" pin="1"/>
-      <node ref="R35" pin="2"/>
-      <node ref="D8" pin="1"/>
-      <node ref="Q1" pin="3"/>
-    </net>
-    <net code="131" name="/AN3">
-      <node ref="U10" pin="4"/>
-      <node ref="R29" pin="2"/>
-      <node ref="R23" pin="1"/>
-      <node ref="C28" pin="1"/>
-    </net>
-    <net code="132" name="/AN2">
-      <node ref="R32" pin="2"/>
-      <node ref="U10" pin="5"/>
-      <node ref="R10" pin="2"/>
-      <node ref="C27" pin="1"/>
-    </net>
-    <net code="133" name="/IO26">
-      <node ref="R59" pin="2"/>
-      <node ref="U8" pin="3"/>
-    </net>
-    <net code="134" name="/IO25">
-      <node ref="U8" pin="2"/>
-      <node ref="R58" pin="2"/>
-    </net>
-    <net code="135" name="/BAT_LEVEL">
+    <net code="160" name="/BAT_LEVEL">
       <node ref="R39" pin="2"/>
       <node ref="R38" pin="1"/>
       <node ref="U6" pin="8"/>
     </net>
-    <net code="136" name="Net-(R82-Pad2)">
-      <node ref="R82" pin="2"/>
-      <node ref="U10" pin="12"/>
-    </net>
-    <net code="137" name="Net-(C37-Pad1)">
-      <node ref="D16" pin="3"/>
-      <node ref="R51" pin="1"/>
-      <node ref="R46" pin="2"/>
-      <node ref="C37" pin="1"/>
-    </net>
-    <net code="138" name="/COM">
-      <node ref="D28" pin="3"/>
-      <node ref="J3" pin="28"/>
-      <node ref="U8" pin="9"/>
-    </net>
-    <net code="139" name="Net-(C38-Pad1)">
-      <node ref="R45" pin="2"/>
-      <node ref="D11" pin="3"/>
-      <node ref="R52" pin="1"/>
-      <node ref="C38" pin="1"/>
-    </net>
-    <net code="140" name="/RX2">
-      <node ref="R9" pin="2"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="R78" pin="2"/>
-    </net>
-    <net code="141" name="Net-(R80-Pad1)">
-      <node ref="U6" pin="25"/>
-      <node ref="R80" pin="1"/>
-    </net>
-    <net code="142" name="/RGBLED">
-      <node ref="R68" pin="1"/>
-      <node ref="D12" pin="4"/>
-    </net>
-    <net code="143" name="Net-(R68-Pad2)">
-      <node ref="R68" pin="2"/>
-      <node ref="U6" pin="23"/>
-    </net>
-    <net code="144" name="/IO33">
-      <node ref="R57" pin="2"/>
-      <node ref="U8" pin="1"/>
-    </net>
-    <net code="145" name="Net-(R61-Pad1)">
-      <node ref="R61" pin="1"/>
-      <node ref="U6" pin="13"/>
-    </net>
-    <net code="146" name="Net-(R60-Pad1)">
-      <node ref="R60" pin="1"/>
-      <node ref="U6" pin="12"/>
-    </net>
-    <net code="147" name="Net-(R59-Pad1)">
-      <node ref="R59" pin="1"/>
-      <node ref="U6" pin="11"/>
-    </net>
-    <net code="148" name="Net-(R58-Pad1)">
-      <node ref="R58" pin="1"/>
-      <node ref="U6" pin="10"/>
-    </net>
-    <net code="149" name="Net-(R57-Pad1)">
-      <node ref="U6" pin="9"/>
-      <node ref="R57" pin="1"/>
-    </net>
-    <net code="150" name="Net-(R56-Pad1)">
-      <node ref="R56" pin="1"/>
+    <net code="161" name="Net-(R56-Pad1)">
       <node ref="U6" pin="7"/>
+      <node ref="R56" pin="1"/>
     </net>
-    <net code="151" name="Net-(R54-Pad1)">
-      <node ref="R54" pin="1"/>
+    <net code="162" name="Net-(R54-Pad1)">
       <node ref="U6" pin="5"/>
+      <node ref="R54" pin="1"/>
     </net>
-    <net code="152" name="/IO4">
-      <node ref="R79" pin="2"/>
-      <node ref="D33" pin="1"/>
-      <node ref="J3" pin="12"/>
+    <net code="163" name="Net-(U6-Pad32)">
+      <node ref="U6" pin="32"/>
     </net>
-    <net code="153" name="Net-(R67-Pad2)">
-      <node ref="R67" pin="2"/>
-      <node ref="U6" pin="21"/>
-    </net>
-    <net code="154" name="/CSADC">
-      <node ref="U10" pin="16"/>
-      <node ref="R67" pin="1"/>
-    </net>
-    <net code="155" name="Net-(R66-Pad2)">
-      <node ref="R66" pin="2"/>
-      <node ref="U6" pin="16"/>
-    </net>
-    <net code="156" name="Net-(R62-Pad1)">
-      <node ref="R62" pin="1"/>
-      <node ref="U6" pin="14"/>
-    </net>
-    <net code="157" name="/DI39">
-      <node ref="R44" pin="1"/>
-      <node ref="D26" pin="3"/>
-      <node ref="J3" pin="18"/>
-    </net>
-    <net code="158" name="/DI34">
-      <node ref="R45" pin="1"/>
-      <node ref="D27" pin="1"/>
-      <node ref="J3" pin="22"/>
-    </net>
-    <net code="159" name="/DI35">
-      <node ref="D27" pin="3"/>
-      <node ref="J3" pin="24"/>
-      <node ref="R46" pin="1"/>
-    </net>
-    <net code="160" name="/I39">
-      <node ref="R50" pin="2"/>
-      <node ref="R54" pin="2"/>
-    </net>
-    <net code="161" name="/DI36">
+    <net code="164" name="/DI36">
       <node ref="D17" pin="3"/>
       <node ref="J3" pin="15"/>
       <node ref="R40" pin="1"/>
     </net>
-    <net code="162" name="Net-(C36-Pad1)">
-      <node ref="R44" pin="2"/>
-      <node ref="D10" pin="3"/>
-      <node ref="C36" pin="1"/>
-      <node ref="R50" pin="1"/>
+    <net code="165" name="/DI39">
+      <node ref="D26" pin="3"/>
+      <node ref="J3" pin="18"/>
+      <node ref="R44" pin="1"/>
     </net>
-    <net code="163" name="Net-(C35-Pad1)">
-      <node ref="R40" pin="2"/>
-      <node ref="D6" pin="3"/>
-      <node ref="R49" pin="1"/>
-      <node ref="C35" pin="1"/>
+    <net code="166" name="/DI35">
+      <node ref="D27" pin="3"/>
+      <node ref="R46" pin="1"/>
+      <node ref="J3" pin="24"/>
     </net>
-    <net code="164" name="Net-(BT1-Pad1)">
-      <node ref="U11" pin="3"/>
-      <node ref="BT1" pin="1"/>
-      <node ref="D20" pin="1"/>
+    <net code="167" name="Net-(C37-Pad1)">
+      <node ref="D16" pin="3"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R51" pin="1"/>
+      <node ref="R46" pin="2"/>
     </net>
-    <net code="165" name="Net-(U6-Pad32)">
-      <node ref="U6" pin="32"/>
+    <net code="168" name="/RGBLED">
+      <node ref="R68" pin="1"/>
+      <node ref="D12" pin="4"/>
     </net>
-    <net code="166" name="Net-(U7-Pad7)">
-      <node ref="U7" pin="7"/>
-    </net>
-    <net code="167" name="Net-(C8-Pad2)">
+    <net code="169" name="Net-(C8-Pad2)">
       <node ref="L1" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="C8" pin="2"/>
       <node ref="D18" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="168" name="Net-(D14-Pad1)">
+    <net code="170" name="Net-(D14-Pad1)">
       <node ref="D14" pin="1"/>
       <node ref="Q8" pin="2"/>
       <node ref="FL1" pin="2"/>
     </net>
-    <net code="169" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2"/>
+    <net code="171" name="Net-(D14-Pad2)">
       <node ref="Q8" pin="1"/>
+      <node ref="D14" pin="2"/>
       <node ref="R1" pin="1"/>
     </net>
-    <net code="170" name="Net-(D24-Pad2)">
-      <node ref="R87" pin="1"/>
+    <net code="172" name="Net-(D24-Pad2)">
       <node ref="Q9" pin="1"/>
+      <node ref="R87" pin="1"/>
       <node ref="D24" pin="2"/>
     </net>
-    <net code="171" name="Net-(C10-Pad1)">
+    <net code="173" name="Net-(C10-Pad1)">
       <node ref="C9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="R8" pin="2"/>
       <node ref="L1" pin="2"/>
       <node ref="D19" pin="2"/>
       <node ref="C11" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C10" pin="1"/>
     </net>
-    <net code="172" name="Net-(C3-Pad1)">
-      <node ref="U1" pin="4"/>
+    <net code="174" name="Net-(C3-Pad1)">
       <node ref="C3" pin="1"/>
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="173" name="Net-(C7-Pad2)">
-      <node ref="C7" pin="2"/>
+    <net code="175" name="Net-(C7-Pad2)">
       <node ref="R2" pin="1"/>
+      <node ref="C7" pin="2"/>
     </net>
-    <net code="174" name="Net-(C8-Pad1)">
-      <node ref="C8" pin="1"/>
+    <net code="176" name="Net-(C8-Pad1)">
       <node ref="U1" pin="1"/>
+      <node ref="C8" pin="1"/>
     </net>
-    <net code="175" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-      <node ref="U1" pin="6"/>
+    <net code="177" name="Net-(C5-Pad1)">
       <node ref="C7" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C5" pin="1"/>
     </net>
-    <net code="176" name="Net-(R8-Pad1)">
+    <net code="178" name="Net-(R8-Pad1)">
       <node ref="R86" pin="2"/>
       <node ref="R8" pin="1"/>
       <node ref="U1" pin="5"/>

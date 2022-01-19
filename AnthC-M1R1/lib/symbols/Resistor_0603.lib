@@ -9,13 +9,11 @@ F1 "0" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
 F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "AC0603JR-070RL" 0 1125 50 H I C CNN "MPN"
-F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
-F7 "311-0.0LECT-ND" 0 1525 50 H I C CNN "Supplier Nr."
-F8 "-" 0 750 50 H I C CNN "Tolerance"
-F9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
-F10 "100mW" 0 1400 50 H I C CNN "Power"
-F11 "0.09" 0 825 50 H I C CNN "Price"
+F5 "RC0603JR-070RL" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "603-RC0603JR-070RL" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)" 0 925 50 H I C CNN "Description"
+F9 "100mW" 0 1400 50 H I C CNN "Power"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -108,14 +106,13 @@ F0 "R" 150 50 50 H V C CNN
 F1 "10KΩ" 150 -50 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
-F4 "Yageo" 0 1325 50 H I C CNN "Manufacturer"
-F5 "RC0603FR-0710KL" 0 1125 50 H I C CNN "MPN"
-F6 "Digikey" 0 1225 50 H I C CNN "Supplier"
-F7 "311-10.0KHRCT-ND" 0 1525 50 H I C CNN "Supplier Nr."
+F4 "Panasonic" 0 1325 50 H I C CNN "Manufacturer"
+F5 "ERJ-3EKF1002V" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "667-ERJ-3EKF1002V" 0 1525 50 H I C CNN "Supplier Nr."
 F8 "100mW" 0 1400 50 H I C CNN "Power"
 F9 "1%" 0 750 50 H I C CNN "Tolerance"
-F10 "0.09" 0 825 50 H I C CNN "Price"
-F11 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
+F10 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" 0 925 50 H I C CNN "Description"
 $FPLIST
  R_*
 $ENDFPLIST

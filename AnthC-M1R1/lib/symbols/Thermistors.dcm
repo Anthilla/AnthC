@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTC_10K
+D Thermistances CTN THERMISTOR, NTC 10K OHM, 1%, 0603
+K Thermistances CTN THERMISTOR, NTC 10K OHM, 1%, 0603
+F https://product.tdk.com/system/files/dam/doc/product/sensor/ntc/chip-ntc-thermistor/catalog/tpd_commercial_ntc-thermistor_ntcg_en.pdf
+$ENDCMP
+#
+#End Doc Library

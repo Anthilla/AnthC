@@ -1,9 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 10uF
-D CAP CER 10UF 50V X7R 1206
-K cap capacitor X7R 1206
-F https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf
+D CAP CER 10UF 50V X5R 1206
+K CAP CER 10UF 50V X5R 1206
+F https://www.mouser.be/datasheet/2/281/GRT31CR61H106ME01-01-1065064.pdf
 $ENDCMP
 #
 $CMP 22nF
@@ -19,9 +19,9 @@ F http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KAHNNNE.jsp
 $ENDCMP
 #
 $CMP 47uF
-D CAP CER 47UF 10V X5R 1206
-K cap capacitor X5R 1206 10V
-F https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf
+D CAP CER 47UF 10V X7R 1206
+K cap capacitor X7R 1206 10V
+F https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf
 $ENDCMP
 #
 #End Doc Library

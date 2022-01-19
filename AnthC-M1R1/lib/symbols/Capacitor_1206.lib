@@ -8,15 +8,13 @@ F0 "C" 25 100 50 H V L CNN
 F1 "10uF" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 1300 200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "Samsung Electro-Mechanics" 1100 950 50 H I C CNN "Manufacturer"
-F5 "CL31B106KBHNNNE" 1050 500 50 H I C CNN "MPN"
+F4 "Murata Electronics" 1100 950 50 H I C CNN "Manufacturer"
+F5 "GRT31CR61H106ME01L" 1050 500 50 H I C CNN "MPN"
 F6 "Mouser" 800 400 50 H I C CNN "Supplier"
-F7 "187-CL31B106KBHNNNE" 850 350 50 H I C CNN "Supplier Nr."
-F8 "10%" 300 -50 50 H I C CNN "Tolerance"
+F7 "81-GRT31CR61H106ME1L" 850 350 50 H I C CNN "Supplier Nr."
+F8 "20%" 300 -50 50 H I C CNN "Tolerance"
 F9 "50V" 300 50 50 H I C CNN "Voltage"
-F10 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3216" 1700 150 50 H I C CNN "Description"
-F11 "X7R" 600 50 50 H I C CNN "Dielectric"
-F12 "0.22" 1050 50 50 H I C CNN "Price"
+F10 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-20% 50V X5R 1206" 1700 150 50 H I C CNN "Description"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -85,15 +83,14 @@ F0 "C" 25 100 50 H V L CNN
 F1 "47uF" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 650 250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "Samsung Electro-Mechanics" 300 650 50 H I C CNN "Manufacturer"
-F5 "CL31A476MPHNNNE" 600 550 50 H I C CNN "MPN"
+F4 "Murata Electronics" 300 650 50 H I C CNN "Manufacturer"
+F5 "GRT31CR61A476KE13L" 600 550 50 H I C CNN "MPN"
 F6 "Mouser" 300 450 50 H I C CNN "Supplier"
-F7 "187-CL31A476MPHNNNE" 850 350 50 H I C CNN "Supplier Nr."
-F8 "20%" 300 -50 50 H I C CNN "Tolerance"
+F7 "81-GRT31CR61A476KE3L" 850 350 50 H I C CNN "Supplier Nr."
+F8 "10%" 300 -50 50 H I C CNN "Tolerance"
 F9 "10V" 300 50 50 H I C CNN "Voltage"
-F10 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" 1700 150 50 H I C CNN "Description"
-F11 "X5R" 600 50 50 H I C CNN "Dielectric"
-F12 "0.22" 1050 50 50 H I C CNN "Price"
+F10 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" 1700 150 50 H I C CNN "Description"
+F11 "X7R" 600 50 50 H I C CNN "Dielectric"
 $FPLIST
  C_*
 $ENDFPLIST

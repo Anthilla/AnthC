@@ -18,6 +18,12 @@ K Analog to Digital Converters - ADC Low-Power Low-Noise 16-Bit ADC
 F https://www.ti.com/lit/gpn/ads1120
 $ENDCMP
 #
+$CMP CP2102N-A02-GQFN20
+D IC USB TO UART BRIDGE QFN20
+K IC USB TO UART BRIDGE QFN20
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
 $CMP CP2102N-A02-GQFN24
 D IC USB TO UART BRIDGE QFN24
 K IC USB TO UART BRIDGE QFN24
@@ -184,6 +190,34 @@ K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
 #
+$CMP MCP73811T-420I-OT
+D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA, 4.2V, SOT23-5
+K Lithium-Ion Battery Charger
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
+$ENDCMP
+#
+$CMP MCP73811T-435I-OT
+D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA, 4.35V, SOT23-5
+K Lithium-Ion Battery Charger
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
+$ENDCMP
+#
+$CMP MCP73812T-435I-OT
+D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA, 4.35V, SOT23-5
+K Lithium-Ion Battery Charger
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
+$ENDCMP
+#
+$CMP MCP73830T
+D Single-Cell Li-Ion/Li-Polymer Battery Charge Management
+K Single-Cell Li-Ion/Li-Polymer Battery Charge Management
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555820
+$ENDCMP
+#
+$CMP MCP73833
+F https://www.mouser.be/datasheet/2/268/MCHPS02791_1-2520625.pdf
+$ENDCMP
+#
 $CMP OPA1604
 D Quad SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-14/TSSOP-14
 K quad opamp
@@ -320,6 +354,18 @@ $CMP REF5050ID
 D 5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP RV-3129-C3
+D Real-Time Clock Module with I2C-Bus with XTAL
+K Real-Time Clock Module with I2C-Bus with XTAL
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3129-C3.pdf
+$ENDCMP
+#
+$CMP SHT40-AD1B-R2
+D Digital Humidity Sensor SHT4x (RH/T)
+K Digital Humidity Sensor SHT4x (RH/T)
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT4x_Datasheet.pdf
 $ENDCMP
 #
 $CMP SP3481EN

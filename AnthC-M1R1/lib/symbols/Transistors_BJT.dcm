@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ULN2004D1013TR
+D TRANSISTOR ARRAY, 7 NPN 50V 500 mA
+K TRANSISTOR ARRAY, 7 NPN 50V 500 mA
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf
+$ENDCMP
+#
+#End Doc Library

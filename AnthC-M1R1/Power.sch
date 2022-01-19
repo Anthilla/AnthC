@@ -91,17 +91,15 @@ AR Path="/6243F6D9/6251F7CB" Ref="C12"  Part="1"
 F 0 "C12" H 7900 2100 50  0000 L CNN
 F 1 "47uF" H 7850 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8700 2250 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 8050 2000 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8350 2650 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" H 9750 2150 50  0001 C CNN "Description"
-F 6 "X5R" H 8650 2050 50  0001 C CNN "Dielectric"
-F 7 "CL31A476MPHNNNE" H 8650 2550 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 9100 2050 50  0001 C CNN "Price"
-F 9 "Mouser" H 8350 2450 50  0001 C CNN "Supplier"
-F 10 "187-CL31A476MPHNNNE" H 8900 2350 50  0001 C CNN "Supplier Nr."
-F 11 "20%" H 8350 1950 50  0001 C CNN "Tolerance"
-F 12 "10V" H 8350 2050 50  0001 C CNN "Voltage"
-F 13 "CL31A476MPHNNNE" H 8050 2000 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf" H 8050 2000 50  0001 C CNN
+F 4 "Murata Electronics" H 8350 2650 50  0001 C CNN "Manufacturer"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" H 9750 2150 50  0001 C CNN "Description"
+F 6 "X7R" H 8650 2050 50  0001 C CNN "Dielectric"
+F 7 "Mouser" H 8350 2450 50  0001 C CNN "Supplier"
+F 8 "81-GRT31CR61A476KE3L" H 8900 2350 50  0001 C CNN "Supplier Nr."
+F 9 "10%" H 8350 1950 50  0001 C CNN "Tolerance"
+F 10 "10V" H 8350 2050 50  0001 C CNN "Voltage"
+F 11 "GRT31CR61A476KE13L" H 8650 2550 50  0001 C CNN "MPN"
 	1    8050 2000
 	1    0    0    -1  
 $EndComp
@@ -117,17 +115,15 @@ AR Path="/6243F6D9/6251F7DC" Ref="C22"  Part="1"
 F 0 "C22" H 9000 2100 50  0000 L CNN
 F 1 "47uF" H 8900 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 9800 2250 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 9150 2000 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 9450 2650 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" H 10850 2150 50  0001 C CNN "Description"
-F 6 "X5R" H 9750 2050 50  0001 C CNN "Dielectric"
-F 7 "CL31A476MPHNNNE" H 9750 2550 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 10200 2050 50  0001 C CNN "Price"
-F 9 "Mouser" H 9450 2450 50  0001 C CNN "Supplier"
-F 10 "187-CL31A476MPHNNNE" H 10000 2350 50  0001 C CNN "Supplier Nr."
-F 11 "20%" H 9450 1950 50  0001 C CNN "Tolerance"
-F 12 "10V" H 9450 2050 50  0001 C CNN "Voltage"
-F 13 "CL31A476MPHNNNE" H 9150 2000 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf" H 9150 2000 50  0001 C CNN
+F 4 "Murata Electronics" H 9450 2650 50  0001 C CNN "Manufacturer"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" H 10850 2150 50  0001 C CNN "Description"
+F 6 "X7R" H 9750 2050 50  0001 C CNN "Dielectric"
+F 7 "Mouser" H 9450 2450 50  0001 C CNN "Supplier"
+F 8 "81-GRT31CR61A476KE3L" H 10000 2350 50  0001 C CNN "Supplier Nr."
+F 9 "10%" H 9450 1950 50  0001 C CNN "Tolerance"
+F 10 "10V" H 9450 2050 50  0001 C CNN "Voltage"
+F 11 "GRT31CR61A476KE13L" H 9750 2550 50  0001 C CNN "MPN"
 	1    9150 2000
 	1    0    0    -1  
 $EndComp
@@ -165,17 +161,14 @@ AR Path="/6243F6D9/6251F7FC" Ref="C2"  Part="1"
 F 0 "C2" H 3150 1700 50  0000 L CNN
 F 1 "10uF" H 2900 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4400 1800 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 3100 1600 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4200 2550 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3216" H 4800 1750 50  0001 C CNN "Description"
-F 6 "X7R" H 3700 1650 50  0001 C CNN "Dielectric"
-F 7 "CL31B106KBHNNNE" H 4150 2100 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 4150 1650 50  0001 C CNN "Price"
-F 9 "Mouser" H 3900 2000 50  0001 C CNN "Supplier"
-F 10 "187-CL31B106KBHNNNE" H 3950 1950 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 3400 1550 50  0001 C CNN "Tolerance"
-F 12 "50V" H 3400 1650 50  0001 C CNN "Voltage"
-F 13 "CL31B106KBHNNNE" H 3100 1600 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.be/datasheet/2/281/GRT31CR61H106ME01-01-1065064.pdf" H 3100 1600 50  0001 C CNN
+F 4 "Murata Electronics" H 4200 2550 50  0001 C CNN "Manufacturer"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-20% 50V X5R 1206" H 4800 1750 50  0001 C CNN "Description"
+F 6 "Mouser" H 3900 2000 50  0001 C CNN "Supplier"
+F 7 "81-GRT31CR61H106ME1L" H 3950 1950 50  0001 C CNN "Supplier Nr."
+F 8 "20%" H 3400 1550 50  0001 C CNN "Tolerance"
+F 9 "50V" H 3400 1650 50  0001 C CNN "Voltage"
+F 10 "GRT31CR61H106ME01L" H 3100 1600 50  0001 C CNN "MPN"
 	1    3100 1600
 	1    0    0    -1  
 $EndComp
@@ -409,17 +402,15 @@ AR Path="/6243F6D9/6269B483" Ref="C10"  Part="1"
 F 0 "C10" H 5300 1950 50  0000 L CNN
 F 1 "47uF" H 5250 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6100 2100 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 5450 1850 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 5750 2500 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" H 7150 2000 50  0001 C CNN "Description"
-F 6 "X5R" H 6050 1900 50  0001 C CNN "Dielectric"
-F 7 "CL31A476MPHNNNE" H 6050 2400 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 6500 1900 50  0001 C CNN "Price"
-F 9 "Mouser" H 5750 2300 50  0001 C CNN "Supplier"
-F 10 "187-CL31A476MPHNNNE" H 6300 2200 50  0001 C CNN "Supplier Nr."
-F 11 "20%" H 5750 1800 50  0001 C CNN "Tolerance"
-F 12 "10V" H 5750 1900 50  0001 C CNN "Voltage"
-F 13 "CL31A476MPHNNNE" H 5450 1850 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf" H 5450 1850 50  0001 C CNN
+F 4 "Murata Electronics" H 5750 2500 50  0001 C CNN "Manufacturer"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" H 7150 2000 50  0001 C CNN "Description"
+F 6 "X7R" H 6050 1900 50  0001 C CNN "Dielectric"
+F 7 "Mouser" H 5750 2300 50  0001 C CNN "Supplier"
+F 8 "81-GRT31CR61A476KE3L" H 6300 2200 50  0001 C CNN "Supplier Nr."
+F 9 "10%" H 5750 1800 50  0001 C CNN "Tolerance"
+F 10 "10V" H 5750 1900 50  0001 C CNN "Voltage"
+F 11 "GRT31CR61A476KE13L" H 5450 1850 50  0001 C CNN "MPN"
 	1    5450 1850
 	1    0    0    -1  
 $EndComp
@@ -605,19 +596,16 @@ AR Path="/602E71BC/6269B4F8" Ref="C?"  Part="1"
 AR Path="/6269B4F8" Ref="C?"  Part="1" 
 AR Path="/6243F6D9/6269B4F8" Ref="C1"  Part="1" 
 F 0 "C1" H 2650 1700 50  0000 L CNN
-F 1 "10uF_50V" H 2450 1500 50  0000 L CNN
+F 1 "10uF" H 2600 1550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4150 1800 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 2850 1600 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3950 2550 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3216" H 4550 1750 50  0001 C CNN "Description"
-F 6 "X7R" H 3450 1650 50  0001 C CNN "Dielectric"
-F 7 "CL31B106KBHNNNE" H 3900 2100 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 3900 1650 50  0001 C CNN "Price"
-F 9 "Mouser" H 3650 2000 50  0001 C CNN "Supplier"
-F 10 "187-CL31B106KBHNNNE" H 3700 1950 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 3150 1550 50  0001 C CNN "Tolerance"
-F 12 "50V" H 3150 1650 50  0001 C CNN "Voltage"
-F 13 "CL31B106KBHNNNE" H 2850 1600 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.be/datasheet/2/281/GRT31CR61H106ME01-01-1065064.pdf" H 2850 1600 50  0001 C CNN
+F 4 "Murata Electronics" H 3950 2550 50  0001 C CNN "Manufacturer"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-20% 50V X5R 1206" H 4550 1750 50  0001 C CNN "Description"
+F 6 "Mouser" H 3650 2000 50  0001 C CNN "Supplier"
+F 7 "81-GRT31CR61H106ME1L" H 3700 1950 50  0001 C CNN "Supplier Nr."
+F 8 "20%" H 3150 1550 50  0001 C CNN "Tolerance"
+F 9 "50V" H 3150 1650 50  0001 C CNN "Voltage"
+F 10 "GRT31CR61H106ME01L" H 2850 1600 50  0001 C CNN "MPN"
 	1    2850 1600
 	1    0    0    -1  
 $EndComp
@@ -652,17 +640,15 @@ AR Path="/6243F6D9/6269B512" Ref="C9"  Part="1"
 F 0 "C9" H 5100 1950 50  0000 L CNN
 F 1 "47uF" H 5000 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5850 2100 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/585/MLCC-1837944.pdf" H 5200 1850 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 5500 2500 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-20% 10V X5R 1206" H 6900 2000 50  0001 C CNN "Description"
-F 6 "X5R" H 5800 1900 50  0001 C CNN "Dielectric"
-F 7 "CL31A476MPHNNNE" H 5800 2400 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.22" H 6250 1900 50  0001 C CNN "Price"
-F 9 "Mouser" H 5500 2300 50  0001 C CNN "Supplier"
-F 10 "187-CL31A476MPHNNNE" H 6050 2200 50  0001 C CNN "Supplier Nr."
-F 11 "20%" H 5500 1800 50  0001 C CNN "Tolerance"
-F 12 "10V" H 5500 1900 50  0001 C CNN "Voltage"
-F 13 "CL31A476MPHNNNE" H 5200 1850 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf" H 5200 1850 50  0001 C CNN
+F 4 "Murata Electronics" H 5500 2500 50  0001 C CNN "Manufacturer"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" H 6900 2000 50  0001 C CNN "Description"
+F 6 "X7R" H 5800 1900 50  0001 C CNN "Dielectric"
+F 7 "Mouser" H 5500 2300 50  0001 C CNN "Supplier"
+F 8 "81-GRT31CR61A476KE3L" H 6050 2200 50  0001 C CNN "Supplier Nr."
+F 9 "10%" H 5500 1800 50  0001 C CNN "Tolerance"
+F 10 "10V" H 5500 1900 50  0001 C CNN "Voltage"
+F 11 "GRT31CR61A476KE13L" H 5200 1850 50  0001 C CNN "MPN"
 	1    5200 1850
 	1    0    0    -1  
 $EndComp

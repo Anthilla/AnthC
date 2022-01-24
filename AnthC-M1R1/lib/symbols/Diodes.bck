@@ -6,6 +6,12 @@ K zener diode
 F https://www.vishay.com/docs/85816/1n4728a.pdf
 $ENDCMP
 #
+$CMP BAT54S
+D BAT54S,235,DIODE SCHOTTKY TAPE -11, SOT23, R76<AZ
+K BAT54S,235,DIODE SCHOTTKY TAPE -11, SOT23, R76<AZ
+F https://www.mouser.be/datasheet/2/916/BAT54_SER-1598556.pdf
+$ENDCMP
+#
 $CMP PESD3V3L2BT
 D Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode
 K Low capacitance unidirectional double ElectroStatic Discharge (ESD) protection diode

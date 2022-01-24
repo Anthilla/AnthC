@@ -214,6 +214,10 @@ K Single-Cell Li-Ion/Li-Polymer Battery Charge Management
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555820
 $ENDCMP
 #
+$CMP MCP73833
+F https://www.mouser.be/datasheet/2/268/MCHPS02791_1-2520625.pdf
+$ENDCMP
+#
 $CMP OPA1604
 D Quad SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-14/TSSOP-14
 K quad opamp

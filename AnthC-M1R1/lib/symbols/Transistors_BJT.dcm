@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MMSS8050-H-TP
+D Bipolar Transistor - BJT 625mW, 25V, 1500mA
+K Bipolar Transistor - BJT 625mW, 25V, 1500mA
+F https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf
+$ENDCMP
+#
 $CMP ULN2004D1013TR
 D TRANSISTOR ARRAY, 7 NPN 50V 500 mA
 K TRANSISTOR ARRAY, 7 NPN 50V 500 mA

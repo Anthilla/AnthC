@@ -6,4 +6,8 @@ K Modules Wi-Fi - 802.11 SMD module, ESP32-S2, 4 MB SPI flash, PCB antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP ESP32-S3-WROOM
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+$ENDCMP
+#
 #End Doc Library

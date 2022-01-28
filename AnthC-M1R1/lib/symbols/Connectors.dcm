@@ -18,6 +18,12 @@ K Pluggable Terminal Blocks WR-TBL 300VAC 20A 4P Right Angle
 F https://www.mouser.be/datasheet/2/445/691312510004-1719616.pdf
 $ENDCMP
 #
+$CMP Conn_02x20_Odd_Even
+D Headers & Wire Housings ECONOSTIK HEADER DR VT TH 2X20
+K Headers & Wire Housings ECONOSTIK HEADER DR VT TH 2X20
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf
+$ENDCMP
+#
 $CMP Screw_Terminal_01x03
 D Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
 K screw terminal

@@ -42,6 +42,12 @@ K Board Mount Humidity Sensors &plusmn;2% ultra-low-power, digital humidity sens
 F http://www.ti.com/lit/ds/symlink/hdc2080.pdf
 $ENDCMP
 #
+$CMP LM2735X
+D LM2735X 1.6-MHz Space-Efficient Boost and SEPIC DC/DC Regulator
+K LM2735X 1.6-MHz Space-Efficient Boost and SEPIC DC/DC Regulator
+F https://www.ti.com/lit/ds/symlink/lm2735.pdf
+$ENDCMP
+#
 $CMP LM2902
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
@@ -284,7 +290,19 @@ K Low Noise Precision Voltage Reference 10V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
+$CMP REF5010AD_copy
+D 10V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 10V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
 $CMP REF5010ID
+D 10V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 10V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP REF5010ID_copy
 D 10V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 10V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
@@ -296,13 +314,37 @@ K Low Noise Precision Voltage Reference 2.048V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
+$CMP REF5020ID_copy
+D 2.048V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 2.048V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
 $CMP REF5025AD
 D 2.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
+$CMP REF5025AD_copy
+D 2.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 2.5V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP REF5025AID
+D Low-Noise, Very Low Drift, Precision Voltage Reference Standard Grade 8ppm/ºC
+K Low Noise Precision Voltage Reference 2.5V 8ppm/ºC
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
 $CMP REF5025ID
+D Low-Noise, Very Low Drift, Precision Voltage Reference
+K Low Noise Precision Voltage Reference 2.048V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP REF5025ID_copy
 D Low-Noise, Very Low Drift, Precision Voltage Reference
 K Low Noise Precision Voltage Reference 2.048V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
@@ -314,7 +356,19 @@ K Low Noise Precision Voltage Reference 3V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
+$CMP REF5030AD_copy
+D 3V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 3V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
 $CMP REF5030ID
+D 3V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 3V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP REF5030ID_copy
 D 3V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 3V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
@@ -326,7 +380,19 @@ K Low Noise Precision Voltage Reference 4.096V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
+$CMP REF5040AD_copy
+D 4.096V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 4.096V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
 $CMP REF5040ID
+D 4.096V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 4.096V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP REF5040ID_copy
 D 4.096V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 4.096V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
@@ -338,7 +404,19 @@ K Low Noise Precision Voltage Reference 4.5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
+$CMP REF5045AD_copy
+D 4.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 4.5V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
 $CMP REF5045ID
+D 4.5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 4.5V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP REF5045ID_copy
 D 4.5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 4.5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
@@ -350,7 +428,19 @@ K Low Noise Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
+$CMP REF5050AD_copy
+D 5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 5V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
 $CMP REF5050ID
+D 5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
+K Low Noise Precision Voltage Reference 5V
+F http://www.ti.com/lit/ds/symlink/ref5030.pdf
+$ENDCMP
+#
+$CMP REF5050ID_copy
 D 5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf

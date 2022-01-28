@@ -35,6 +35,18 @@ K 110 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
+$CMP 11K
+D RES SMD 11K OHM 1% 1/10W 0603
+K RES SMD 11K OHM 1% 1/10W 0603
+F https://www.mouser.be/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf
+$ENDCMP
+#
+$CMP 12.7KΩ
+D Thin Film Resistors - SMD 1/10W 12.7K ohm 1% 50ppm
+K Thin Film Resistors - SMD 1/10W 12.7K ohm 1% 50ppm
+F https://www.mouser.be/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf
+$ENDCMP
+#
 $CMP 120Ω
 D Thick Film Resistors - SMD 120ohm 1% 1/10W
 K Thick Film Resistors - SMD 120ohm 1% 1/10W
@@ -83,10 +95,22 @@ K Thick Film Resistors - SMD 2K OHM 1% 0603
 F https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf
 $ENDCMP
 #
+$CMP 33.2KΩ
+D Thin Film Resistors - SMD 33.2K ohm 1% 50ppm
+K Thin Film Resistors - SMD 33.2K ohm 1% 50ppm
+F https://www.mouser.be/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf
+$ENDCMP
+#
 $CMP 33K
 D 33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
 K 33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 36KΩ
+D Thin Film Resistors - SMD 36kOhm,0603,1%,50ppm ,100mW,75V
+K Thin Film Resistors - SMD 36kOhm,0603,1%,50ppm ,100mW,75V
+F https://www.mouser.be/datasheet/2/219/RN73H-1843478.pdf
 $ENDCMP
 #
 $CMP 43KΩ
@@ -102,8 +126,8 @@ F https://www.mouser.be/datasheet/2/427/VISH_S_A0003599164_1-2569050.pdf
 $ENDCMP
 #
 $CMP 47K5
-D RES 47.5K OHM 1% 1/10W 0603
-K RES 47.5K OHM 1% 1/10W 0603
+D Resistor SMD 0603 1/10W 47.5K Ohms .5%
+K Resistor SMD 0603 1/10W 47.5K Ohms .5%
 F https://www.seielect.com/catalog/sei-packaging.pdf
 $ENDCMP
 #

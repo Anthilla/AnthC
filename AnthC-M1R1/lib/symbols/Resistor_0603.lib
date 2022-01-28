@@ -148,6 +148,50 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 11K
+#
+DEF 11K R 0 0 N Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "11K" 0 0 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1050 50 H I C CNN "Manufacturer"
+F5 "RT0603FRE0711KL" 0 950 50 H I C CNN "MPN"
+F6 "Mouser" 0 850 50 H I C CNN "Supplier"
+F7 "603-RT0603FRE0711KL" 0 750 50 H I C CNN "Supplier Part Number"
+F8 "Thin Film Resistors - SMD 1/10W 11K ohm 1% 50ppm" 0 1150 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 12.7KΩ
+#
+DEF 12.7KΩ R 0 0 N Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "12.7KΩ" 0 0 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Yageo" 0 1050 50 H I C CNN "Manufacturer"
+F5 "RT0603FRE0712K7L" 0 950 50 H I C CNN "MPN"
+F6 "Mouser" 0 850 50 H I C CNN "Supplier"
+F7 "603-RT0603FRE0712KL" 0 750 50 H I C CNN "Supplier Part Number"
+F8 "Thin Film Resistors - SMD 1/10W 12.7K ohm 1% 50ppm" 0 1150 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 120Ω
 #
 DEF 120Ω R 0 0 N Y 1 F N
@@ -340,6 +384,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 33.2KΩ
+#
+DEF 33.2KΩ R 0 0 N Y 1 F N
+F0 "R" 250 50 50 H V C CNN
+F1 "33.2KΩ" 250 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "YAGEO" 0 1325 50 H I C CNN "Manufacturer"
+F5 "RT0603FRE1333K2L" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "603-RT0603FRE1333K2L" 0 800 50 H I C CNN "Supplier Part Number"
+F8 "Thin Film Resistors - SMD 33.2K ohm 1% 50ppm" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 33K
 #
 DEF 33K R 0 0 N Y 1 F N
@@ -362,6 +428,28 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 36KΩ
+#
+DEF 36KΩ R 0 0 N Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "36KΩ" 0 0 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "KOA Speer" 0 1050 50 H I C CNN "Manufacturer"
+F5 "RN73H1JTTD3602F50" 0 950 50 H I C CNN "MPN"
+F6 "Mouser" 0 850 50 H I C CNN "Supplier"
+F7 "660-RN73H1JTD3602F50" 0 750 50 H I C CNN "Supplier Part Number"
+F8 "Thin Film Resistors - SMD 36kOhm,0603,1%,50ppm ,100mW,75V" 0 1150 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -422,11 +510,11 @@ F0 "R" 0 100 50 H V C CNN
 F1 "47K5" 0 0 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 1250 50 H I C CNN
 F3 "" -350 50 50 V I C CNN
-F4 "Stackpole Electronics Inc" 0 1050 50 H I C CNN "Manufacturer"
-F5 "RMCF0603FT47K5" 0 950 50 H I C CNN "MPN"
-F6 "Digikey" 0 850 50 H I C CNN "Supplier"
-F7 "RMCF0603FT47K5CT-ND" 0 750 50 H I C CNN "Supplier Part Number"
-F8 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" 0 1150 50 H I C CNN "Description"
+F4 "YAGEO" 0 1050 50 H I C CNN "Manufacturer"
+F5 "RT0603DRE0747K5L" 0 950 50 H I C CNN "MPN"
+F6 "Mouser" 0 850 50 H I C CNN "Supplier"
+F7 "603-RT0603DRE0747K5L" 0 750 50 H I C CNN "Supplier Part Number"
+F8 "Resistor SMD 0603 1/10W 47.5K Ohms .5%" 0 1150 50 H I C CNN "Description"
 $FPLIST
  R_*
 $ENDFPLIST

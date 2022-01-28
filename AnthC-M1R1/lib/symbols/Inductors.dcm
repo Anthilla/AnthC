@@ -12,6 +12,12 @@ K FIXED IND 10UH 5A 26.5 MOHM SMD
 F https://www.we-online.com/catalog/datasheet/74439346100.pdf
 $ENDCMP
 #
+$CMP 33μH-2.1A
+D Fixed Inductors WE-TPC 1038 33uH 2.1A .092Ohm
+K Fixed Inductors WE-TPC 1038 33uH 2.1A .092Ohm
+F https://www.we-online.com/catalog/datasheet/744066330.pdf
+$ENDCMP
+#
 $CMP 4.7μH
 D Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
 K Fixed Inductors WE-LQS 4.7uH 1.55A DCR=91mOhms AECQ200
@@ -22,6 +28,12 @@ $CMP 4.7μH-1.3A
 D Fixed Inductors WE-LQS 4.7uH 1.3A DCR=96mOhms AECQ200
 K Fixed Inductors WE-LQS 4.7uH 1.3A DCR=96mOhms AECQ200
 F https://www.we-online.com/catalog/datasheet/74404032047.pdf
+$ENDCMP
+#
+$CMP 47μH-1.4A
+D Fixed Inductors WE-LQS 47uH 1.2A DCR=200mOhms AECQ200
+K Fixed Inductors WE-LQS 47uH 1.2A DCR=200mOhms AECQ200
+F https://www.we-online.com/catalog/datasheet/74404064470.pdf
 $ENDCMP
 #
 $CMP 744231121

@@ -40,6 +40,33 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# B220AF-13
+#
+DEF B220AF-13 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "B220AF-13" 0 -100 50 H V C CNN
+F2 "Diode_SMD:D_SMA" 0 1250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Diode Schottky 20V 2A Surface Mount SMAF" 0 1150 50 H I C CNN "Description"
+F5 "Diodes Incorporated" 0 1050 50 H I C CNN "Manufacturer"
+F6 "B220AF-13" 50 950 50 H I C CNN "Manufacturer Nr."
+F7 "Mouser" 0 850 50 H I C CNN "Supplier"
+F8 "621-B220AF-13" 0 750 50 H I C CNN "Supplier Nr."
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BAT54S
 #
 DEF BAT54S D 0 40 Y Y 1 F N

@@ -1,6 +1,36 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# MMSS8050-H-TP
+#
+DEF MMSS8050-H-TP Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "MMSS8050-H-TP" 206 0 60 V V C CNN
+F2 "Transistors:SOT-23" 600 400 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "MMSS8050-H-TP" 600 500 60 H I L CNN "MPN"
+F5 "Discrete Semiconductor Products" 600 600 60 H I L CNN "Category"
+F6 "Transistors - Bipolar (BJT) - Single" 600 700 60 H I L CNN "Family"
+F7 "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf" 600 800 60 H I L CNN "DK_Datasheet_Link"
+F8 "TRANS NPN 25V 1.5A SOT23" 600 1000 60 H I L CNN "Description"
+F9 "Micro Commercial Co" 600 1100 60 H I L CNN "Manufacturer"
+F10 "Active" 600 1200 60 H I L CNN "Status"
+F11 "Mouser" 3300 400 50 H I C CNN "Supplier"
+F12 "833-MMSS8050-H-TP" 2600 400 50 H I C CNN "Supplier Part Number"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X B 1 -200 0 100 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ULN2004D1013TR
 #
 DEF ULN2004D1013TR U 0 40 Y Y 1 F N

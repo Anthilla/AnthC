@@ -56,6 +56,33 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 33μH-2.1A
+#
+DEF 33μH-2.1A L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "33μH-2.1A" 75 0 50 V V C CNN
+F2 "Inductors:Inductor_Wurth_TPC-1038" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Wurth Elektronik" 500 450 50 H I C CNN "Manufacturer"
+F5 "744066330" 1200 450 50 H I C CNN "MPN"
+F6 "Mouser" 350 350 50 H I C CNN "Supplier"
+F7 "710-744066330" 1300 350 50 H I C CNN "Supplier Part Number"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 4.7μH
 #
 DEF 4.7μH L 0 40 N N 1 F N
@@ -95,6 +122,36 @@ F4 "Wurth Elektronik" 500 450 50 H I C CNN "Manufacturer"
 F5 "74404032047" 1200 450 50 H I C CNN "MPN"
 F6 "Mouser" 350 350 50 H I C CNN "Supplier"
 F7 "710-74404032047" 1300 350 50 H I C CNN "Supplier Part Number"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47μH-1.4A
+#
+DEF 47μH-1.4A L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "47μH-1.4A" 75 0 50 V V C CNN
+F2 "Inductors:Inductor_Wurth_LQS-6045" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Wurth Elektronik" 500 450 50 H I C CNN "Manufacturer"
+F5 "74404064470" 1200 450 50 H I C CNN "MPN"
+F6 "Mouser" 350 350 50 H I C CNN "Supplier"
+F7 "710-74404064470" 1300 350 50 H I C CNN "Supplier Part Number"
+F8 "1.6A" 0 0 50 H I C CNN "Isat"
+F9 "1.4A" 0 0 50 H I C CNN "Imax"
+F10 "0.2" 0 0 50 H I C CNN "DCR"
 $FPLIST
  Choke_*
  *Coil*

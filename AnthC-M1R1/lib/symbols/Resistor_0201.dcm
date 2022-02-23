@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 49.9
+D Resistor Thin Film 49.9Ohm 0.1% 2-Pin 0201 Paper T/R
+K Resistor Thin Film 49.9Ohm 0.1% 2-Pin 0201 Paper T/R
+F https://www.mouser.be/datasheet/2/427/VISH_S_A0011410627_1-2571984.pdf
+$ENDCMP
+#
+#End Doc Library

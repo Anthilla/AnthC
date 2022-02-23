@@ -160,6 +160,12 @@ K quad opamp
 F https://www.onsemi.com/pub/Collateral/MC33178-D.PDF
 $ENDCMP
 #
+$CMP MCP3464T-E_NC
+D 16-BIT Delta-sigma Adc, Quad Channel, 3V 20 Uqfn 3X3X0.55MM T/r Rohs
+K 16-BIT Delta-sigma Adc, Quad Channel, 3V 20 Uqfn 3X3X0.55MM T/r Rohs
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP3461-2-4-Two-Four-Eight-Channel-153.6-ksps-Low-Noise-16-Bit-Delta-Sigma-ADC-Data-Sheet-20006180D.pdf
+$ENDCMP
+#
 $CMP MCP6004
 D 1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14
 K quad opamp
@@ -221,6 +227,15 @@ F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555820
 $ENDCMP
 #
 $CMP MCP73833
+F https://www.mouser.be/datasheet/2/268/MCHPS02791_1-2520625.pdf
+$ENDCMP
+#
+$CMP MCP73833-DFN
+D Battery Management - Advanced Lithium-Ion/-Polymer Charge Management Controllers
+F https://www.mouser.be/datasheet/2/268/MCHPS02791_1-2520625.pdf
+$ENDCMP
+#
+$CMP MCP73833-MSOP
 F https://www.mouser.be/datasheet/2/268/MCHPS02791_1-2520625.pdf
 $ENDCMP
 #
@@ -339,12 +354,6 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5025ID
-D Low-Noise, Very Low Drift, Precision Voltage Reference
-K Low Noise Precision Voltage Reference 2.048V
-F http://www.ti.com/lit/ds/symlink/ref5030.pdf
-$ENDCMP
-#
-$CMP REF5025ID_copy
 D Low-Noise, Very Low Drift, Precision Voltage Reference
 K Low Noise Precision Voltage Reference 2.048V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf

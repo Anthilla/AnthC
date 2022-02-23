@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 49.9
+#
+DEF 49.9 R 0 0 N Y 1 F N
+F0 "R" 150 50 50 H V C CNN
+F1 "49.9" 150 -50 50 H V C CNN
+F2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" 0 1000 50 H I C CNN
+F3 "" -350 50 50 V I C CNN
+F4 "Vishay" 0 1325 50 H I C CNN "Manufacturer"
+F5 "TNPW020149R9BEED" 0 1125 50 H I C CNN "MPN"
+F6 "Mouser" 0 1225 50 H I C CNN "Supplier"
+F7 "71-TNPW020149R9BEED" 0 1525 50 H I C CNN "Supplier Nr."
+F8 "75mW" 0 1400 50 H I C CNN "Power"
+F9 "1%" 0 750 50 H I C CNN "Tolerance"
+F10 "0.09" 0 825 50 H I C CNN "Price"
+F11 "Resistor Thin Film 49.9Ohm 0.1% 2-Pin 0201 Paper T/R" 0 925 50 H I C CNN "Description"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

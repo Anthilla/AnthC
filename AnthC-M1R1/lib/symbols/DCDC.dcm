@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BD33FC0FP-E2
+D LDO Voltage Regulators 1A 26.5-4 LDO 35V Std TO252-3
+K LDO Voltage Regulators 1A 26.5-4 LDO 35V Std TO252-3
+F https://www.mouser.be/datasheet/2/348/bdxxfc0wefj-e-1874088.pdf
+$ENDCMP
+#
 $CMP LP5912-5
 D Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-WSON (2x2)
 K Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-WSON (2x2)

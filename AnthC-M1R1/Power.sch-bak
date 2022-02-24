@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title "AnthC - Power"
-Date "2021-12-14"
-Rev "2.0"
+Title "AnthC - Main"
+Date "2022-01-28"
+Rev "M2-R1"
 Comp "ANTHILLA"
-Comment1 ""
-Comment2 "https://www.anthilla.com/"
-Comment3 ""
+Comment1 "Ignacio de Mendizabal - www.clearemc.com"
+Comment2 ""
+Comment3 "https://www.anthilla.com/"
 Comment4 "https://github.com/Open-Hardware-Skunkworks/AnthC"
 $EndDescr
 $Comp
@@ -39,48 +39,46 @@ $EndComp
 $Comp
 L Capacitors_0603:100nF C?
 U 1 1 6251F79F
-P 9500 2000
+P 9900 2000
 AR Path="/6251F79F" Ref="C?"  Part="1" 
 AR Path="/6243F6D9/6251F79F" Ref="C24"  Part="1" 
-F 0 "C24" H 9300 2100 50  0000 L CNN
-F 1 "100nF" H 9250 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10900 2200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9500 2000 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 10600 2350 50  0001 C CNN "Manufacturer"
-F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 11950 2100 50  0001 C CNN "Description"
-F 6 "X7R" H 9900 1950 50  0001 C CNN "Dielectric"
-F 7 "CL10B104KB8NNNC" H 10050 2350 50  0001 C CNN "Manufacturer Nr."
-F 8 "0.09" H 10850 2350 50  0001 C CNN "Price"
-F 9 "Digikey" H 9850 2150 50  0001 C CNN "Supplier"
-F 10 "1276-1000-1-ND" H 10050 2250 50  0001 C CNN "Supplier Nr."
-F 11 "10%" H 11550 2200 50  0001 C CNN "Tolerance"
-F 12 "50V" H 9800 2050 50  0001 C CNN "Voltage"
-F 13 "CL10B104KB8NNNC" H 9500 2000 50  0001 C CNN "MPN"
-	1    9500 2000
+F 0 "C24" H 9700 2100 50  0000 L CNN
+F 1 "100nF" H 9650 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11300 2200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9900 2000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 11000 2350 50  0001 C CNN "Manufacturer"
+F 5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 12350 2100 50  0001 C CNN "Description"
+F 6 "X7R" H 10300 1950 50  0001 C CNN "Dielectric"
+F 7 "CL10B104KB8NNNC" H 10450 2350 50  0001 C CNN "Manufacturer Nr."
+F 8 "0.09" H 11250 2350 50  0001 C CNN "Price"
+F 9 "Digikey" H 10250 2150 50  0001 C CNN "Supplier"
+F 10 "1276-1000-1-ND" H 10450 2250 50  0001 C CNN "Supplier Nr."
+F 11 "10%" H 11950 2200 50  0001 C CNN "Tolerance"
+F 12 "50V" H 10200 2050 50  0001 C CNN "Voltage"
+F 13 "CL10B104KB8NNNC" H 9900 2000 50  0001 C CNN "MPN"
+	1    9900 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 1600 9150 1850
+	9550 1600 9550 1850
 Wire Wire Line
-	9500 1600 9500 1850
-Wire Wire Line
-	9000 1600 9150 1600
+	9900 1600 9900 1850
 $Comp
 L power:GND #PWR?
 U 1 1 6251F7A9
-P 8700 2400
+P 8900 2400
 AR Path="/6251F7A9" Ref="#PWR?"  Part="1" 
 AR Path="/6243F6D9/6251F7A9" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 8700 2150 50  0001 C CNN
-F 1 "GND" H 8705 2227 50  0001 C CNN
-F 2 "" H 8700 2400 50  0001 C CNN
-F 3 "" H 8700 2400 50  0001 C CNN
-	1    8700 2400
+F 0 "#PWR0114" H 8900 2150 50  0001 C CNN
+F 1 "GND" H 8905 2227 50  0001 C CNN
+F 2 "" H 8900 2400 50  0001 C CNN
+F 3 "" H 8900 2400 50  0001 C CNN
+	1    8900 2400
 	1    0    0    -1  
 $EndComp
-Connection ~ 9150 1600
+Connection ~ 9550 1600
 Wire Wire Line
-	9150 1600 9500 1600
+	9550 1600 9900 1600
 $Comp
 L Capacitor_1206:47uF C?
 U 1 1 6251F7CB
@@ -108,23 +106,23 @@ Wire Wire Line
 $Comp
 L Capacitor_1206:47uF C?
 U 1 1 6251F7DC
-P 9150 2000
+P 9550 2000
 AR Path="/602E71BC/6251F7DC" Ref="C?"  Part="1" 
 AR Path="/6251F7DC" Ref="C?"  Part="1" 
 AR Path="/6243F6D9/6251F7DC" Ref="C22"  Part="1" 
-F 0 "C22" H 9000 2100 50  0000 L CNN
-F 1 "47uF" H 8900 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 9800 2250 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf" H 9150 2000 50  0001 C CNN
-F 4 "Murata Electronics" H 9450 2650 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" H 10850 2150 50  0001 C CNN "Description"
-F 6 "X7R" H 9750 2050 50  0001 C CNN "Dielectric"
-F 7 "Mouser" H 9450 2450 50  0001 C CNN "Supplier"
-F 8 "81-GRT31CR61A476KE3L" H 10000 2350 50  0001 C CNN "Supplier Nr."
-F 9 "10%" H 9450 1950 50  0001 C CNN "Tolerance"
-F 10 "10V" H 9450 2050 50  0001 C CNN "Voltage"
-F 11 "GRT31CR61A476KE13L" H 9750 2550 50  0001 C CNN "MPN"
-	1    9150 2000
+F 0 "C22" H 9400 2100 50  0000 L CNN
+F 1 "47uF" H 9300 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 10200 2250 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf" H 9550 2000 50  0001 C CNN
+F 4 "Murata Electronics" H 9850 2650 50  0001 C CNN "Manufacturer"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" H 11250 2150 50  0001 C CNN "Description"
+F 6 "X7R" H 10150 2050 50  0001 C CNN "Dielectric"
+F 7 "Mouser" H 9850 2450 50  0001 C CNN "Supplier"
+F 8 "81-GRT31CR61A476KE3L" H 10400 2350 50  0001 C CNN "Supplier Nr."
+F 9 "10%" H 9850 1950 50  0001 C CNN "Tolerance"
+F 10 "10V" H 9850 2050 50  0001 C CNN "Voltage"
+F 11 "GRT31CR61A476KE13L" H 10150 2550 50  0001 C CNN "MPN"
+	1    9550 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -172,53 +170,19 @@ F 10 "GRT31CR61H106ME01L" H 3100 1600 50  0001 C CNN "MPN"
 	1    3100 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L DCDC:TPS78533 U?
-U 1 1 6251F80F
-P 8700 1900
-AR Path="/6251F80F" Ref="U?"  Part="1" 
-AR Path="/6243F6D9/6251F80F" Ref="U3"  Part="1" 
-F 0 "U3" H 8700 2515 50  0000 C CNN
-F 1 "TPS78533" H 8700 2424 50  0000 C CNN
-F 2 "IC:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm" H 8500 1950 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tps785-q1.pdf" H 8500 1950 50  0001 C CNN
-F 4 "Texas Instruments" H 9650 2600 50  0001 C CNN "Manufacturer"
-F 5 "TPS78533QWDRBRQ1" H 10550 2600 50  0001 C CNN "MPN"
-F 6 "Mouser" H 9450 2500 50  0001 C CNN "Supplier"
-F 7 "595-TPS78533QWDRBRQ1" H 10650 2500 50  0001 C CNN "Supplier Part Number"
-F 8 "1.25" H 10250 2400 50  0001 C CNN "Price"
-	1    8700 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8050 2350 8050 2150
 Wire Wire Line
-	9500 2350 9500 2150
+	9900 2350 9900 2150
 Wire Wire Line
 	8400 2150 8400 2350
-Connection ~ 8400 2350
 Wire Wire Line
-	8400 2350 8700 2350
+	9550 2150 9550 2350
+Connection ~ 9550 2350
 Wire Wire Line
-	8700 2000 8700 2350
-Connection ~ 8700 2350
+	9550 2350 9900 2350
 Wire Wire Line
-	8700 2350 9150 2350
-Wire Wire Line
-	8700 2350 8700 2400
-Wire Wire Line
-	9150 2150 9150 2350
-Connection ~ 9150 2350
-Wire Wire Line
-	9150 2350 9500 2350
-Wire Wire Line
-	8400 1600 8400 1700
-Wire Wire Line
-	8400 1850 8400 1700
-Connection ~ 8400 1850
-Connection ~ 8400 1700
-Wire Wire Line
-	5850 1600 5900 1600
+	5850 1600 5950 1600
 Connection ~ 5850 1600
 Wire Wire Line
 	5850 1750 5850 1600
@@ -237,23 +201,6 @@ Wire Wire Line
 	4150 2250 4150 2400
 Wire Wire Line
 	4250 2250 4250 2400
-$Comp
-L AnthC-Lib-Symbols:1N5820 D?
-U 1 1 6269B422
-P 6050 1600
-AR Path="/602E71BC/6269B422" Ref="D?"  Part="1" 
-AR Path="/6269B422" Ref="D?"  Part="1" 
-AR Path="/6243F6D9/6269B422" Ref="D19"  Part="1" 
-F 0 "D19" V 6004 1679 50  0000 L CNN
-F 1 "B5819W" H 6050 1500 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 6050 1425 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 6050 1600 50  0001 C CNN
-F 4 "B5819W" H 6050 1600 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 6050 1600 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 6050 1600 50  0001 C CNN "LCSC-PN"
-	1    6050 1600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5850 2100 5850 2050
 $Comp
@@ -305,35 +252,22 @@ Wire Wire Line
 Wire Wire Line
 	3750 1750 3600 1750
 Wire Wire Line
-	5700 2000 5700 2200
-Wire Wire Line
-	5650 2000 5700 2000
-Wire Wire Line
-	5650 2150 5650 2000
-Connection ~ 5700 2000
-Wire Wire Line
-	5700 1950 5700 2000
-Wire Wire Line
 	5700 1600 5850 1600
 Connection ~ 5700 1600
 Wire Wire Line
 	5700 1650 5700 1600
-Wire Wire Line
-	4550 2150 5650 2150
-Wire Wire Line
-	4550 1900 4550 2150
 $Comp
 L power:GND #PWR?
 U 1 1 6269B455
-P 5700 2500
+P 5700 2600
 AR Path="/602E71BC/6269B455" Ref="#PWR?"  Part="1" 
 AR Path="/6269B455" Ref="#PWR?"  Part="1" 
 AR Path="/6243F6D9/6269B455" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 5700 2250 50  0001 C CNN
-F 1 "GND" H 5705 2327 50  0000 C CNN
-F 2 "" H 5700 2500 50  0001 C CNN
-F 3 "" H 5700 2500 50  0001 C CNN
-	1    5700 2500
+F 0 "#PWR0118" H 5700 2350 50  0001 C CNN
+F 1 "GND" H 5705 2427 50  0000 C CNN
+F 2 "" H 5700 2600 50  0001 C CNN
+F 3 "" H 5700 2600 50  0001 C CNN
+	1    5700 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -353,38 +287,38 @@ $EndComp
 $Comp
 L Resistor_0603:8.2KΩ R?
 U 1 1 6269B46A
-P 5700 2350
+P 5700 2450
 AR Path="/602E71BC/6269B46A" Ref="R?"  Part="1" 
 AR Path="/6269B46A" Ref="R?"  Part="1" 
 AR Path="/6243F6D9/6269B46A" Ref="R86"  Part="1" 
-F 0 "R86" V 5700 2300 50  0000 L CNN
-F 1 "8.2KΩ" H 5900 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5700 3350 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/315/AOA0000C304-1149620.pdf" V 5350 2400 50  0001 C CNN
-F 4 "Panasonic" H 5700 3675 50  0001 C CNN "Manufacturer"
-F 5 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" H 5700 3275 50  0001 C CNN "Description"
-F 6 "ERJ-3EKF8201V" H 5700 3475 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 5700 3750 50  0001 C CNN "Power"
-F 8 "0.05" H 5700 3175 50  0001 C CNN "Price"
-F 9 "Mouser" H 5700 3575 50  0001 C CNN "Supplier"
-F 10 "667-ERJ-3EKF8201V" H 5700 3875 50  0001 C CNN "Supplier Nr."
-F 11 "1%" H 5700 3100 50  0001 C CNN "Tolerance"
-F 12 "ERJ-3EKF8201V" H 5700 2350 50  0001 C CNN "MPN"
-	1    5700 2350
+F 0 "R86" V 5700 2400 50  0000 L CNN
+F 1 "8.2KΩ" H 5900 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5700 3450 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/315/AOA0000C304-1149620.pdf" V 5350 2500 50  0001 C CNN
+F 4 "Panasonic" H 5700 3775 50  0001 C CNN "Manufacturer"
+F 5 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" H 5700 3375 50  0001 C CNN "Description"
+F 6 "ERJ-3EKF8201V" H 5700 3575 50  0001 C CNN "Manufacturer Nr."
+F 7 "100mW" H 5700 3850 50  0001 C CNN "Power"
+F 8 "0.05" H 5700 3275 50  0001 C CNN "Price"
+F 9 "Mouser" H 5700 3675 50  0001 C CNN "Supplier"
+F 10 "667-ERJ-3EKF8201V" H 5700 3975 50  0001 C CNN "Supplier Nr."
+F 11 "1%" H 5700 3200 50  0001 C CNN "Tolerance"
+F 12 "ERJ-3EKF8201V" H 5700 2450 50  0001 C CNN "MPN"
+	1    5700 2450
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6269B470
-P 5450 2000
+P 5300 2100
 AR Path="/602E71BC/6269B470" Ref="#PWR?"  Part="1" 
 AR Path="/6269B470" Ref="#PWR?"  Part="1" 
 AR Path="/6243F6D9/6269B470" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 5450 1750 50  0001 C CNN
-F 1 "GND" H 5550 2000 50  0001 C CNN
-F 2 "" H 5450 2000 50  0001 C CNN
-F 3 "" H 5450 2000 50  0001 C CNN
-	1    5450 2000
+F 0 "#PWR0126" H 5300 1850 50  0001 C CNN
+F 1 "GND" H 5400 2100 50  0001 C CNN
+F 2 "" H 5300 2100 50  0001 C CNN
+F 3 "" H 5300 2100 50  0001 C CNN
+	1    5300 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -541,7 +475,7 @@ Connection ~ 3600 1900
 Wire Wire Line
 	3600 1900 3600 1950
 $Comp
-L Resistor_0603:49.9 R?
+L Resistor_0201:49.9 R?
 U 1 1 6269B4DA
 P 3600 2300
 AR Path="/602E71BC/6269B4DA" Ref="R?"  Part="1" 
@@ -549,17 +483,16 @@ AR Path="/6269B4DA" Ref="R?"  Part="1"
 AR Path="/6243F6D9/6269B4DA" Ref="R2"  Part="1" 
 F 0 "R2" H 3650 2400 50  0000 L CNN
 F 1 "49.9" H 3750 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3600 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3600 3300 50  0001 C CNN
 F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0011410627_1-2571984.pdf" V 3250 2350 50  0001 C CNN
 F 4 "Vishay" H 3600 3625 50  0001 C CNN "Manufacturer"
-F 5 "33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 3600 3225 50  0001 C CNN "Description"
-F 6 "TNPW020149R9BEED" H 3600 3425 50  0001 C CNN "Manufacturer Nr."
-F 7 "75mW" H 3600 3700 50  0001 C CNN "Power"
-F 8 "0.09" H 3600 3125 50  0001 C CNN "Price"
-F 9 "Mouser" H 3600 3525 50  0001 C CNN "Supplier"
-F 10 "71-TNPW020149R9BEED" H 3600 3825 50  0001 C CNN "Supplier Nr."
-F 11 "1%" H 3600 3050 50  0001 C CNN "Tolerance"
-F 12 "TNPW020149R9BEED" H 3600 2300 50  0001 C CNN "MPN"
+F 5 "Resistor Thin Film 49.9Ohm 0.1% 2-Pin 0201 Paper T/R" H 3600 3225 50  0001 C CNN "Description"
+F 6 "75mW" H 3600 3700 50  0001 C CNN "Power"
+F 7 "0.09" H 3600 3125 50  0001 C CNN "Price"
+F 8 "Mouser" H 3600 3525 50  0001 C CNN "Supplier"
+F 9 "71-TNPW020149R9BEED" H 3600 3825 50  0001 C CNN "Supplier Nr."
+F 10 "1%" H 3600 3050 50  0001 C CNN "Tolerance"
+F 11 "TNPW020149R9BEED" H 3600 3425 50  0001 C CNN "MPN"
 	1    3600 2300
 	1    0    0    -1  
 $EndComp
@@ -607,49 +540,6 @@ F 8 "20%" H 3150 1550 50  0001 C CNN "Tolerance"
 F 9 "50V" H 3150 1650 50  0001 C CNN "Voltage"
 F 10 "GRT31CR61H106ME01L" H 2850 1600 50  0001 C CNN "MPN"
 	1    2850 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 1600 5450 1600
-Wire Wire Line
-	5200 1600 5150 1600
-Connection ~ 5200 1600
-Wire Wire Line
-	5200 1700 5200 1600
-$Comp
-L power:GND #PWR?
-U 1 1 6269B502
-P 5200 2000
-AR Path="/602E71BC/6269B502" Ref="#PWR?"  Part="1" 
-AR Path="/6269B502" Ref="#PWR?"  Part="1" 
-AR Path="/6243F6D9/6269B502" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 5200 1750 50  0001 C CNN
-F 1 "GND" H 5300 2000 50  0001 C CNN
-F 2 "" H 5200 2000 50  0001 C CNN
-F 3 "" H 5200 2000 50  0001 C CNN
-	1    5200 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitor_1206:47uF C?
-U 1 1 6269B512
-P 5200 1850
-AR Path="/602E71BC/6269B512" Ref="C?"  Part="1" 
-AR Path="/6269B512" Ref="C?"  Part="1" 
-AR Path="/6243F6D9/6269B512" Ref="C9"  Part="1" 
-F 0 "C9" H 5100 1950 50  0000 L CNN
-F 1 "47uF" H 5000 1750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5850 2100 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf" H 5200 1850 50  0001 C CNN
-F 4 "Murata Electronics" H 5500 2500 50  0001 C CNN "Manufacturer"
-F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" H 6900 2000 50  0001 C CNN "Description"
-F 6 "X7R" H 5800 1900 50  0001 C CNN "Dielectric"
-F 7 "Mouser" H 5500 2300 50  0001 C CNN "Supplier"
-F 8 "81-GRT31CR61A476KE3L" H 6050 2200 50  0001 C CNN "Supplier Nr."
-F 9 "10%" H 5500 1800 50  0001 C CNN "Tolerance"
-F 10 "10V" H 5500 1900 50  0001 C CNN "Voltage"
-F 11 "GRT31CR61A476KE13L" H 5200 1850 50  0001 C CNN "MPN"
-	1    5200 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -781,15 +671,10 @@ Wire Wire Line
 Connection ~ 5850 2050
 Wire Wire Line
 	8400 1600 8050 1600
-Connection ~ 8400 1600
 Connection ~ 8050 1600
-Text HLabel 6300 1500 1    50   Input ~ 0
-5VD
-Text HLabel 10000 1600 2    50   Input ~ 0
+Text HLabel 10400 1600 2    50   Input ~ 0
 3V3
-Connection ~ 9500 1600
-Wire Wire Line
-	6300 1600 6300 1500
+Connection ~ 9900 1600
 $Comp
 L Diodes:SMBJ30CA D13
 U 1 1 63ECF72F
@@ -823,13 +708,8 @@ Wire Wire Line
 	3350 1450 3650 1450
 Wire Wire Line
 	3100 1800 3350 1800
-Connection ~ 6300 1600
-Wire Wire Line
-	6300 1600 6200 1600
-Text HLabel 7600 1550 1    50   Input ~ 0
+Text HLabel 7550 1400 1    50   Input ~ 0
 5V
-Wire Wire Line
-	7600 1550 7600 1600
 $Comp
 L Inductors:ACM7060-701-2PL-TL01 FL1
 U 1 1 6236793A
@@ -924,9 +804,6 @@ Wire Wire Line
 	800  2100 850  2100
 Wire Wire Line
 	6300 2050 6300 2350
-Connection ~ 7600 1600
-Wire Wire Line
-	7200 1600 7600 1600
 Wire Wire Line
 	7200 1950 7200 1900
 Wire Wire Line
@@ -998,45 +875,38 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6269B412
-P 7800 1600
+P 7700 1450
 AR Path="/602E71BC/6269B412" Ref="#PWR?"  Part="1" 
 AR Path="/6269B412" Ref="#PWR?"  Part="1" 
 AR Path="/6243F6D9/6269B412" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 7800 1450 50  0001 C CNN
-F 1 "+5V" H 7800 1750 50  0000 C CNN
-F 2 "" H 7800 1600 50  0001 C CNN
-F 3 "" H 7800 1600 50  0001 C CNN
-	1    7800 1600
+F 0 "#PWR0133" H 7700 1300 50  0001 C CNN
+F 1 "+5V" H 7700 1600 50  0000 C CNN
+F 2 "" H 7700 1450 50  0001 C CNN
+F 3 "" H 7700 1450 50  0001 C CNN
+	1    7700 1450
 	1    0    0    -1  
 $EndComp
-Text HLabel 10000 2350 2    50   Input ~ 0
+Text HLabel 10400 2350 2    50   Input ~ 0
 GND
 Wire Wire Line
-	10000 2350 9500 2350
-Connection ~ 9500 2350
+	10400 2350 9900 2350
+Connection ~ 9900 2350
 Wire Wire Line
-	7600 1600 7800 1600
-Wire Wire Line
-	9500 1600 9800 1600
+	9900 1600 10200 1600
 $Comp
 L power:+3V3 #PWR0150
 U 1 1 61FA568E
-P 9800 1600
-F 0 "#PWR0150" H 9800 1450 50  0001 C CNN
-F 1 "+3V3" H 9815 1773 50  0000 C CNN
-F 2 "" H 9800 1600 50  0001 C CNN
-F 3 "" H 9800 1600 50  0001 C CNN
-	1    9800 1600
+P 10200 1600
+F 0 "#PWR0150" H 10200 1450 50  0001 C CNN
+F 1 "+3V3" H 10215 1773 50  0000 C CNN
+F 2 "" H 10200 1600 50  0001 C CNN
+F 3 "" H 10200 1600 50  0001 C CNN
+	1    10200 1600
 	1    0    0    -1  
 $EndComp
-Connection ~ 9800 1600
+Connection ~ 10200 1600
 Wire Wire Line
-	9800 1600 10000 1600
-Connection ~ 7800 1600
-Wire Wire Line
-	7800 1600 8050 1600
-Wire Wire Line
-	6300 1600 6700 1600
+	10200 1600 10400 1600
 $Comp
 L Resistor_0603:12K R1
 U 1 1 62430F9E
@@ -1065,4 +935,114 @@ Wire Wire Line
 Connection ~ 2600 1450
 Wire Wire Line
 	2600 1450 2850 1450
+$Comp
+L DCDC:BD33FC0FP-E2 U3
+U 1 1 622602BD
+P 8600 1850
+F 0 "U3" H 8925 2340 50  0000 C CNN
+F 1 "BD33FC0FP-E2" H 8925 2249 50  0000 C CNN
+F 2 "IC:TO-252-2" H 9650 2400 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/348/bdxxfc0wefj-e-1874088.pdf" H 8600 1850 50  0001 C CNN
+F 4 "Onsemi" H 8850 2850 50  0001 C CNN "Manufacturer"
+F 5 "BD33FC0FP-E2" H 9500 2850 50  0001 C CNN "MPN"
+F 6 "Mouser" H 8850 2950 50  0001 C CNN "Supplier"
+F 7 "755-BD33FC0FP-E2" H 9600 2950 50  0001 C CNN "Supplier Nr."
+	1    8600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1600 8400 1850
+Connection ~ 8400 1600
+Wire Wire Line
+	9450 1600 9550 1600
+Wire Wire Line
+	8900 2400 8900 2350
+Connection ~ 8400 2350
+Wire Wire Line
+	8400 2350 8900 2350
+Connection ~ 8900 2350
+Wire Wire Line
+	8900 2350 8900 2050
+Wire Wire Line
+	8900 2350 9550 2350
+Wire Wire Line
+	5150 1600 5200 1600
+Wire Wire Line
+	7200 1600 7550 1600
+Wire Wire Line
+	7700 1450 7700 1600
+Connection ~ 7700 1600
+Wire Wire Line
+	7700 1600 8050 1600
+Text HLabel 5950 1350 1    50   Input ~ 0
+5V_IN
+Wire Wire Line
+	5950 1350 5950 1600
+Wire Wire Line
+	7550 1400 7550 1600
+Connection ~ 7550 1600
+Wire Wire Line
+	7550 1600 7700 1600
+Connection ~ 5950 1600
+Wire Wire Line
+	5950 1600 6150 1600
+$Comp
+L Capacitor_1206:47uF C?
+U 1 1 624ADF6B
+P 5200 1850
+AR Path="/602E71BC/624ADF6B" Ref="C?"  Part="1" 
+AR Path="/624ADF6B" Ref="C?"  Part="1" 
+AR Path="/6243F6D9/624ADF6B" Ref="C9"  Part="1" 
+F 0 "C9" H 5050 1950 50  0000 L CNN
+F 1 "47uF" H 5000 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5850 2100 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/281/1/GRT31CR61A476KE13_01-1989683.pdf" H 5200 1850 50  0001 C CNN
+F 4 "Murata Electronics" H 5500 2500 50  0001 C CNN "Manufacturer"
+F 5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF+/-10% 10V X7R 1206" H 6900 2000 50  0001 C CNN "Description"
+F 6 "X7R" H 5800 1900 50  0001 C CNN "Dielectric"
+F 7 "Mouser" H 5500 2300 50  0001 C CNN "Supplier"
+F 8 "81-GRT31CR61A476KE3L" H 6050 2200 50  0001 C CNN "Supplier Nr."
+F 9 "10%" H 5500 1800 50  0001 C CNN "Tolerance"
+F 10 "10V" H 5500 1900 50  0001 C CNN "Voltage"
+F 11 "GRT31CR61A476KE13L" H 5200 1850 50  0001 C CNN "MPN"
+	1    5200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1700 5200 1600
+Connection ~ 5200 1600
+Wire Wire Line
+	5200 1600 5450 1600
+Wire Wire Line
+	5700 2250 4550 2250
+Connection ~ 5700 2250
+Wire Wire Line
+	5700 2250 5700 2300
+Wire Wire Line
+	4550 1900 4550 2250
+Wire Wire Line
+	5700 1950 5700 2250
+Wire Wire Line
+	5300 2100 5200 2100
+Wire Wire Line
+	5200 2100 5200 2000
+Wire Wire Line
+	5300 2100 5450 2100
+Wire Wire Line
+	5450 2100 5450 2000
+Connection ~ 5300 2100
+$Comp
+L power:+5VD #PWR0154
+U 1 1 626A4669
+P 6150 1600
+F 0 "#PWR0154" H 6150 1450 50  0001 C CNN
+F 1 "+5VD" H 6165 1773 50  0000 C CNN
+F 2 "" H 6150 1600 50  0001 C CNN
+F 3 "" H 6150 1600 50  0001 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 1600
+Wire Wire Line
+	6150 1600 6700 1600
 $EndSCHEMATC

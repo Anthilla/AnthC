@@ -1,11 +1,11 @@
-(module SOT-23 (layer F.Cu) (tedit 60D2FB08)
+(module SOT-23 (layer F.Cu) (tedit 6217B861)
   (descr "SOT-23, Standard")
   (tags SOT-23)
   (attr smd)
   (fp_text reference REF** (at 0 -2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SOT-23 (at 0 2.5) (layer F.Fab)
+  (fp_text value SOT-23 (at 0 2.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))

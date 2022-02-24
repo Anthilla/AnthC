@@ -18,4 +18,5 @@
   (lib (name Optical)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/Optical.lib)(options "")(descr ""))
   (lib (name Transistors_BJT)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/Transistors_BJT.lib)(options "")(descr ""))
   (lib (name Thermistors)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/Thermistors.lib)(options "")(descr ""))
+  (lib (name Resistor_0201)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/Resistor_0201.lib)(options "")(descr ""))
 )

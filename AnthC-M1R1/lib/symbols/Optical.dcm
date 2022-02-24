@@ -6,4 +6,10 @@ K LED RED DIFFUSED 0603 SMD
 F https://www.we-online.de/katalog/datasheet/150060RS55040.pdf
 $ENDCMP
 #
+$CMP WS2812B
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
 #End Doc Library

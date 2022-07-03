@@ -84,31 +84,31 @@ NoConn ~ 9450 3200
 $Comp
 L Resistor_0603:10KΩ R14
 U 1 1 5F1C5C36
-P 11600 1600
-F 0 "R14" H 11650 1950 50  0000 L CNN
-F 1 "10K" H 11700 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 11600 2600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 11250 1650 50  0001 C CNN
-F 4 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 11600 2525 50  0001 C CNN "Description"
-F 5 "Yageo" H 11600 2925 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-0710KL" H 11600 2725 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 11600 3000 50  0001 C CNN "Power"
-F 8 "0.09" H 11600 2425 50  0001 C CNN "Price"
-F 9 "Digikey" H 11600 2825 50  0001 C CNN "Supplier"
-F 10 "311-10.0KHRCT-ND" H 11600 3125 50  0001 C CNN "Supplier Nr."
-F 11 "1%" H 11600 2350 50  0001 C CNN "Tolerance"
-F 12 "RC0603FR-0710KL" H 11600 1600 50  0001 C CNN "MPN"
-	1    11600 1600
+P 11600 1400
+F 0 "R14" H 11650 1650 50  0000 L CNN
+F 1 "10K" H 11700 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11600 2400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 11250 1450 50  0001 C CNN
+F 4 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 11600 2325 50  0001 C CNN "Description"
+F 5 "Yageo" H 11600 2725 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0710KL" H 11600 2525 50  0001 C CNN "Manufacturer Nr."
+F 7 "100mW" H 11600 2800 50  0001 C CNN "Power"
+F 8 "0.09" H 11600 2225 50  0001 C CNN "Price"
+F 9 "Digikey" H 11600 2625 50  0001 C CNN "Supplier"
+F 10 "311-10.0KHRCT-ND" H 11600 2925 50  0001 C CNN "Supplier Nr."
+F 11 "1%" H 11600 2150 50  0001 C CNN "Tolerance"
+F 12 "RC0603FR-0710KL" H 11600 1400 50  0001 C CNN "MPN"
+	1    11600 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11600 1800 11600 1750
+	11600 1800 11600 1550
 $Comp
 L Resistor_0603:10KΩ R16
 U 1 1 5F1EFF39
 P 11350 1400
-F 0 "R16" H 11400 1600 50  0000 L CNN
-F 1 "10K" H 11450 1500 50  0000 C CNN
+F 0 "R16" H 11150 1650 50  0000 L CNN
+F 1 "10K" H 11200 1550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 11350 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 11000 1450 50  0001 C CNN
 F 4 "Yageo" H 11350 2725 50  0001 C CNN "Manufacturer"
@@ -273,7 +273,7 @@ Text Label 11100 1600 2    50   ~ 0
 MOSI
 Text Label 10950 2000 0    50   ~ 0
 MISO
-Text Label 11200 2600 2    50   ~ 0
+Text Label 11300 2600 2    50   ~ 0
 SCK
 Text Label 11100 1900 2    50   ~ 0
 CS
@@ -1686,9 +1686,9 @@ $EndComp
 Wire Wire Line
 	9350 4300 9350 4400
 Text Label 9850 4700 0    50   ~ 0
-SCL
-Text Label 9850 4800 0    50   ~ 0
 SDA
+Text Label 9850 4800 0    50   ~ 0
+SCL
 Wire Wire Line
 	9750 4700 9850 4700
 Wire Wire Line
@@ -3267,11 +3267,9 @@ F 3 "" H 14600 9250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 1800 11600 1800
-Wire Wire Line
 	11350 1100 11500 1100
 Wire Wire Line
-	11600 1100 11600 1450
+	11600 1100 11600 1250
 Connection ~ 11500 1100
 Wire Wire Line
 	11500 1100 11600 1100
@@ -3422,9 +3420,9 @@ Wire Wire Line
 Wire Wire Line
 	4950 5950 4850 5950
 Text Label 4850 6050 2    50   ~ 0
-SCL
-Text Label 4850 5950 2    50   ~ 0
 SDA
+Text Label 4850 5950 2    50   ~ 0
+SCL
 $Comp
 L power:+3V3 #PWR014
 U 1 1 61CCFC74
@@ -6584,8 +6582,6 @@ Connection ~ 2650 5400
 Wire Wire Line
 	2650 5850 2900 5850
 Wire Wire Line
-	10950 2600 11200 2600
-Wire Wire Line
 	8650 900  8450 900 
 Wire Wire Line
 	8450 900  8450 1000
@@ -6605,7 +6601,7 @@ F 3 "" H 8450 1000 50  0001 C CNN
 $EndComp
 Text Label 2650 7450 0    50   ~ 0
 DI1
-Text Label 10950 2500 0    50   ~ 0
+Text Label 11300 2500 2    50   ~ 0
 GPIO1
 Text Label 13150 7150 0    50   ~ 0
 GPIO1
@@ -6646,8 +6642,6 @@ Wire Wire Line
 	10950 1600 11100 1600
 Wire Wire Line
 	11350 1550 11350 1700
-Wire Wire Line
-	11000 1700 11350 1700
 NoConn ~ 10500 2300
 Wire Wire Line
 	10650 1900 10500 1900
@@ -7003,10 +6997,10 @@ Wire Wire Line
 Wire Wire Line
 	3550 5950 3550 6150
 $Comp
-L Capacitors_0603:1nF C?
+L Capacitors_0603:1nF C44
 U 1 1 62DCF018
 P 3200 5600
-F 0 "C?" H 3250 5700 50  0000 L CNN
+F 0 "C44" H 3250 5700 50  0000 L CNN
 F 1 "1nF" H 3250 5500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 6400 50  0001 C CNN
 F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B102KB8NNN" H 3750 5800 50  0001 C CNN
@@ -7031,4 +7025,12 @@ Wire Wire Line
 Connection ~ 3200 5400
 Wire Wire Line
 	3200 5400 3550 5400
+Wire Wire Line
+	10950 1700 11350 1700
+Wire Wire Line
+	10950 1800 11600 1800
+Wire Wire Line
+	10950 2500 11300 2500
+Wire Wire Line
+	10950 2600 11300 2600
 $EndSCHEMATC

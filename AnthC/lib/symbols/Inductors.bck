@@ -30,16 +30,16 @@ K Fixed Inductors WE-LQS 4.7uH 1.3A DCR=96mOhms AECQ200
 F https://www.we-online.com/catalog/datasheet/74404032047.pdf
 $ENDCMP
 #
-$CMP 47H-1.4A
+$CMP 47μH-1.4A
 D Fixed Inductors WE-LQS 47uH 1.2A DCR=200mOhms AECQ200
 K Fixed Inductors WE-LQS 47uH 1.2A DCR=200mOhms AECQ200
 F https://www.we-online.com/catalog/datasheet/74404064470.pdf
 $ENDCMP
 #
-$CMP 47μH-1.4A
-D Fixed Inductors WE-LQS 47uH 1.2A DCR=200mOhms AECQ200
-K Fixed Inductors WE-LQS 47uH 1.2A DCR=200mOhms AECQ200
-F https://www.we-online.com/catalog/datasheet/74404064470.pdf
+$CMP 6.8μH-3.2A
+D Fixed Inductors WE-LQS 6.8uH 3A DCR=31mOhms AECQ200
+K Fixed Inductors WE-LQS 6.8uH 3A DCR=31mOhms AECQ200
+F https://www.we-online.com/catalog/datasheet/74404064068.pdf
 $ENDCMP
 #
 $CMP 744231121

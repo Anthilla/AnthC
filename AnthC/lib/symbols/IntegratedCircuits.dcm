@@ -48,6 +48,12 @@ K LM2735X 1.6-MHz Space-Efficient Boost and SEPIC DC/DC Regulator
 F https://www.ti.com/lit/ds/symlink/lm2735.pdf
 $ENDCMP
 #
+$CMP LM2735Y
+D LM2735Y 520 KHz Space-Efficient Boost and SEPIC DC/DC Regulator
+K LM2735Y 520 KHz Space-Efficient Boost and SEPIC DC/DC Regulator
+F https://www.ti.com/lit/ds/symlink/lm2735.pdf
+$ENDCMP
+#
 $CMP LM2902
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp

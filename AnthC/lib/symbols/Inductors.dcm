@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1.8μH-5.8A
+D Fixed Inductors WE-LQS 1.8uH 5.8A DCR=12mOhms AECQ200
+K Fixed Inductors WE-LQS 1.8uH 5.8A DCR=12mOhms AECQ200
+F https://www.we-online.com/catalog/datasheet/74404064018.pdf
+$ENDCMP
+#
 $CMP 10μH
 D Fixed Inductors WE-LQS 10uH 1.76A DCR=89mOhms AECQ200
 K Fixed Inductors WE-LQS 10uH 1.76A DCR=89mOhms AECQ200

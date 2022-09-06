@@ -1,6 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1.8μH-5.8A
+#
+DEF 1.8μH-5.8A L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "1.8μH-5.8A" 75 0 50 V V C CNN
+F2 "Inductors:Inductor_Wurth_LQS-6045" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Wurth Elektronik" 500 450 50 H I C CNN "Manufacturer"
+F5 "74404064018" 1200 450 50 H I C CNN "MPN"
+F6 "Mouser" 350 350 50 H I C CNN "Supplier"
+F7 "710-74404064018" 1300 350 50 H I C CNN "Supplier Part Number"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 10μH
 #
 DEF 10μH L 0 40 N N 1 F N

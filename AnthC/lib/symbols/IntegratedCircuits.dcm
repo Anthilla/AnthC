@@ -43,8 +43,8 @@ F http://www.ti.com/lit/ds/symlink/hdc2080.pdf
 $ENDCMP
 #
 $CMP LM2735X
-D LM2735X 1.6-MHz Space-Efficient Boost and SEPIC DC/DC Regulator
-K LM2735X 1.6-MHz Space-Efficient Boost and SEPIC DC/DC Regulator
+D LM2735X 1.6-MHz Space-Efficient Boost and SEPIC DC/DC Regulator WSON-6
+K LM2735X 1.6-MHz Space-Efficient Boost and SEPIC DC/DC Regulator WSON-6
 F https://www.ti.com/lit/ds/symlink/lm2735.pdf
 $ENDCMP
 #

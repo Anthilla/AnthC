@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TestPoint_1.5mm
+#
+DEF TestPoint_1.5mm TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "TestPoint_1.5mm" 0 200 50 H I C CNN
+F2 "TestPoint:TestPoint_Pad_D1.5mm" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

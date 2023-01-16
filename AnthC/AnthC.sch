@@ -2257,18 +2257,16 @@ Text Label 13350 4150 0    50   ~ 0
 AN4
 Text Label 9750 3550 3    50   ~ 0
 CSADC
-Text Label 14800 4800 0    50   ~ 0
+Text Label 15700 4800 0    50   ~ 0
 CSADC
-Text Label 14800 4600 0    50   ~ 0
+Text Label 15750 4600 0    50   ~ 0
 MOSI
-Text Label 14800 4700 0    50   ~ 0
+Text Label 15750 4700 0    50   ~ 0
 SCK
-Text Label 14800 4500 0    50   ~ 0
+Text Label 15750 4500 0    50   ~ 0
 MISO
 Wire Wire Line
-	14900 3850 14900 3800
-Wire Wire Line
-	14650 4200 14900 4200
+	14650 4200 14750 4200
 $Comp
 L Resistor_0603:100 R48
 U 1 1 62ADE02A
@@ -3685,21 +3683,21 @@ Wire Wire Line
 $Comp
 L Resistor_0603:2KΩ R82
 U 1 1 63723797
-P 14900 4000
-F 0 "R82" H 14970 4046 50  0000 L CNN
-F 1 "2KΩ" H 14970 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 14900 5000 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf" V 14550 4050 50  0001 C CNN
-F 4 "Bourns" H 14900 5325 50  0001 C CNN "Manufacturer"
-F 5 "CR0603-FX-2001ELF" H 14900 5125 50  0001 C CNN "Manufacturer Nr."
-F 6 "Mouser" H 14900 5225 50  0001 C CNN "Supplier"
-F 7 "652-CR0603-FX-2001LF" H 14900 5525 50  0001 C CNN "Supplier Nr."
-F 8 "100mW" H 14900 5400 50  0001 C CNN "Power"
-F 9 "1%" H 14900 4750 50  0001 C CNN "Tolerance"
-F 10 "0.07" H 14900 4825 50  0001 C CNN "Price"
-F 11 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" H 14900 4925 50  0001 C CNN "Description"
-F 12 "CR0603-FX-2001ELF" H 14900 4000 50  0001 C CNN "MPN"
-	1    14900 4000
+P 14750 4000
+F 0 "R82" H 14820 4046 50  0000 L CNN
+F 1 "2KΩ" H 14820 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14750 5000 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf" V 14400 4050 50  0001 C CNN
+F 4 "Bourns" H 14750 5325 50  0001 C CNN "Manufacturer"
+F 5 "CR0603-FX-2001ELF" H 14750 5125 50  0001 C CNN "Manufacturer Nr."
+F 6 "Mouser" H 14750 5225 50  0001 C CNN "Supplier"
+F 7 "652-CR0603-FX-2001LF" H 14750 5525 50  0001 C CNN "Supplier Nr."
+F 8 "100mW" H 14750 5400 50  0001 C CNN "Power"
+F 9 "1%" H 14750 4750 50  0001 C CNN "Tolerance"
+F 10 "0.07" H 14750 4825 50  0001 C CNN "Price"
+F 11 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" H 14750 4925 50  0001 C CNN "Description"
+F 12 "CR0603-FX-2001ELF" H 14750 4000 50  0001 C CNN "MPN"
+	1    14750 4000
 	1    0    0    -1  
 $EndComp
 NoConn ~ 12700 4900
@@ -4339,53 +4337,51 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0110
 U 1 1 64949A72
-P 1450 2300
-F 0 "#PWR0110" H 1450 2050 50  0001 C CNN
-F 1 "GND" H 1450 2150 50  0000 C CNN
-F 2 "" H 1450 2300 50  0001 C CNN
-F 3 "" H 1450 2300 50  0001 C CNN
-	1    1450 2300
+P 2100 2300
+F 0 "#PWR0110" H 2100 2050 50  0001 C CNN
+F 1 "GND" H 2100 2150 50  0000 C CNN
+F 2 "" H 2100 2300 50  0001 C CNN
+F 3 "" H 2100 2300 50  0001 C CNN
+	1    2100 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diodes:Zener_6V D8
 U 1 1 61A97A75
-P 1600 1950
-F 0 "D8" V 1554 2030 50  0000 L CNN
-F 1 "Zener_6V" V 1645 2030 50  0001 L CNN
-F 2 "Semiconductors:D_SOD-123" H 1600 1775 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1600 1950 50  0001 C CNN
-F 4 "Vishay" H 1900 2550 50  0001 C CNN "Manufacturer"
-F 5 "Mouser" H 1900 2450 50  0001 C CNN "Supplier"
-F 6 "78-MMSZ5233B-E3-08" H 2600 2450 50  0001 C CNN "Supplier Part Number"
-F 7 "6V" H 2200 2250 50  0001 C CNN "Voltage"
-F 8 "500mW" H 2300 2350 50  0001 C CNN "Power"
-F 9 "MMSZ5233B-E3-08" H 1600 1950 50  0001 C CNN "MPN"
-	1    1600 1950
+P 2250 1950
+F 0 "D8" V 2204 2030 50  0000 L CNN
+F 1 "Zener_6V" V 2295 2030 50  0001 L CNN
+F 2 "Semiconductors:D_SOD-123" H 2250 1775 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 2250 1950 50  0001 C CNN
+F 4 "Vishay" H 2550 2550 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 2550 2450 50  0001 C CNN "Supplier"
+F 6 "78-MMSZ5233B-E3-08" H 3250 2450 50  0001 C CNN "Supplier Part Number"
+F 7 "6V" H 2850 2250 50  0001 C CNN "Voltage"
+F 8 "500mW" H 2950 2350 50  0001 C CNN "Power"
+F 9 "MMSZ5233B-E3-08" H 2250 1950 50  0001 C CNN "MPN"
+	1    2250 1950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1100 1700 1600 1700
 $Comp
 L Diodes:Zener_6V D1
 U 1 1 64A0EB04
-P 1300 2050
-F 0 "D1" V 1350 1850 50  0000 L CNN
-F 1 "Zener_6V" V 1400 2050 50  0001 L CNN
-F 2 "Semiconductors:D_SOD-123" H 1300 1875 50  0001 C CNN
-F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1300 2050 50  0001 C CNN
-F 4 "Vishay" H 1600 2650 50  0001 C CNN "Manufacturer"
-F 5 "MMSZ5233B-E3-08" H 2200 2650 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 1600 2550 50  0001 C CNN "Supplier"
-F 7 "78-MMSZ5233B-E3-08" H 2300 2550 50  0001 C CNN "Supplier Part Number"
-F 8 "6V" H 1900 2350 50  0001 C CNN "Voltage"
-F 9 "500mW" H 2000 2450 50  0001 C CNN "Power"
-F 10 "MMSZ5233B-E3-08" H 1300 2050 50  0001 C CNN "MPN"
-	1    1300 2050
+P 1950 2050
+F 0 "D1" V 2000 1850 50  0000 L CNN
+F 1 "Zener_6V" V 2050 2050 50  0001 L CNN
+F 2 "Semiconductors:D_SOD-123" H 1950 1875 50  0001 C CNN
+F 3 "https://www.mouser.be/datasheet/2/427/VISH_S_A0003941535_1-2569124.pdf" H 1950 2050 50  0001 C CNN
+F 4 "Vishay" H 2250 2650 50  0001 C CNN "Manufacturer"
+F 5 "MMSZ5233B-E3-08" H 2850 2650 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 2250 2550 50  0001 C CNN "Supplier"
+F 7 "78-MMSZ5233B-E3-08" H 2950 2550 50  0001 C CNN "Supplier Part Number"
+F 8 "6V" H 2550 2350 50  0001 C CNN "Voltage"
+F 9 "500mW" H 2650 2450 50  0001 C CNN "Power"
+F 10 "MMSZ5233B-E3-08" H 1950 2050 50  0001 C CNN "MPN"
+	1    1950 2050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 1800 1600 1700
+	2250 1800 2250 1700
 Text Label 1400 1100 0    50   ~ 0
 GND_IN
 Wire Wire Line
@@ -4473,14 +4469,14 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 62522592
-P 14900 3800
+P 14750 3850
 AR Path="/606FCEC4/5EEADDE8/62522592" Ref="#PWR?"  Part="1" 
 AR Path="/62522592" Ref="#PWR0139"  Part="1" 
-F 0 "#PWR0139" H 14900 3650 50  0001 C CNN
-F 1 "+3V3" H 14915 3973 50  0000 C CNN
-F 2 "" H 14900 3800 50  0001 C CNN
-F 3 "" H 14900 3800 50  0001 C CNN
-	1    14900 3800
+F 0 "#PWR0139" H 14750 3700 50  0001 C CNN
+F 1 "+3V3" H 14765 4023 50  0000 C CNN
+F 2 "" H 14750 3850 50  0001 C CNN
+F 3 "" H 14750 3850 50  0001 C CNN
+	1    14750 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5255,29 +5251,22 @@ Connection ~ 2900 1000
 Wire Wire Line
 	2900 1000 3100 1000
 Wire Wire Line
-	1300 2200 1300 2300
+	1950 2200 1950 2300
 Wire Wire Line
-	1300 2300 1450 2300
+	1950 2300 2100 2300
 Wire Wire Line
-	1600 2100 1600 2300
-Connection ~ 1450 2300
+	2250 2100 2250 2300
 Wire Wire Line
-	1450 2300 1600 2300
-Wire Wire Line
-	1100 1900 1300 1900
-Wire Wire Line
-	1100 1800 1450 1800
-Wire Wire Line
-	1450 1800 1450 1850
+	2100 2300 2250 2300
 $Comp
 L power:GND #PWR0104
 U 1 1 621C6474
-P 1450 1850
-F 0 "#PWR0104" H 1450 1600 50  0001 C CNN
-F 1 "GND" H 1450 1700 50  0000 C CNN
-F 2 "" H 1450 1850 50  0001 C CNN
-F 3 "" H 1450 1850 50  0001 C CNN
-	1    1450 1850
+P 2100 1850
+F 0 "#PWR0104" H 2100 1600 50  0001 C CNN
+F 1 "GND" H 2100 1700 50  0000 C CNN
+F 2 "" H 2100 1850 50  0001 C CNN
+F 3 "" H 2100 1850 50  0001 C CNN
+	1    2100 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5409,7 +5398,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 6050 5950 6050
 Wire Wire Line
-	6150 5450 6550 5450
+	6150 5450 6350 5450
 Wire Wire Line
 	6150 5750 6150 5800
 Wire Wire Line
@@ -6200,7 +6189,7 @@ Wire Wire Line
 	2500 3500 2500 3450
 Connection ~ 2500 3450
 Wire Wire Line
-	2500 3450 2800 3450
+	2500 3450 2600 3450
 Wire Wire Line
 	2500 3800 2500 3950
 Wire Wire Line
@@ -6445,15 +6434,9 @@ Wire Wire Line
 Wire Wire Line
 	13250 4350 13250 4400
 Wire Wire Line
-	14650 4800 14800 4800
+	14650 4800 15250 4800
 Wire Wire Line
-	14650 4700 14800 4700
-Wire Wire Line
-	14650 4600 14800 4600
-Wire Wire Line
-	14650 4500 14800 4500
-Wire Wire Line
-	14900 4150 14900 4200
+	14750 4150 14750 4200
 $Comp
 L Resistor_0603:0 R83
 U 1 1 62BC8DE9
@@ -6473,23 +6456,19 @@ F 11 "0.09" H 14800 5175 50  0001 C CNN "Price"
 	1    14800 4350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	14950 4350 15250 4350
-Wire Wire Line
-	15250 4350 15250 4500
 $Comp
 L power:GND #PWR0160
 U 1 1 62CC9F3E
-P 15250 4500
+P 15000 4350
 AR Path="/62CC9F3E" Ref="#PWR0160"  Part="1" 
 AR Path="/5EEADDE8/62CC9F3E" Ref="#PWR?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/62CC9F3E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0160" H 15250 4250 50  0001 C CNN
-F 1 "GND" H 15255 4327 50  0000 C CNN
-F 2 "" H 15250 4500 50  0001 C CNN
-F 3 "" H 15250 4500 50  0001 C CNN
-	1    15250 4500
-	1    0    0    -1  
+F 0 "#PWR0160" H 15000 4100 50  0001 C CNN
+F 1 "GND" H 15005 4177 50  0000 C CNN
+F 2 "" H 15000 4350 50  0001 C CNN
+F 3 "" H 15000 4350 50  0001 C CNN
+	1    15000 4350
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	14000 5050 14000 5150
@@ -7139,4 +7118,216 @@ Wire Wire Line
 	4250 1500 4550 1500
 Text Label 4250 1500 0    50   ~ 0
 TX0_3V3
+$Comp
+L Testpoints:TestPoint_1.5mm TP2
+U 1 1 63E142AE
+P 2250 1700
+F 0 "TP2" H 2308 1772 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 2250 1900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2450 1700 50  0001 C CNN
+F 3 "~" H 2450 1700 50  0001 C CNN
+	1    2250 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 1700
+Wire Wire Line
+	2100 1800 2100 1850
+Wire Wire Line
+	1100 1800 2100 1800
+Wire Wire Line
+	1100 1700 2250 1700
+Connection ~ 2100 2300
+Wire Wire Line
+	1100 1900 1450 1900
+$Comp
+L Testpoints:TestPoint_1.5mm TP1
+U 1 1 64165D55
+P 1450 1900
+F 0 "TP1" H 1392 1972 50  0000 R CNN
+F 1 "TestPoint_1.5mm" H 1450 2100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1650 1900 50  0001 C CNN
+F 3 "~" H 1650 1900 50  0001 C CNN
+	1    1450 1900
+	-1   0    0    1   
+$EndComp
+Connection ~ 1450 1900
+Wire Wire Line
+	1450 1900 1950 1900
+$Comp
+L Testpoints:TestPoint_1.5mm TP3
+U 1 1 64167E65
+P 2600 3450
+F 0 "TP3" H 2658 3522 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 2600 3650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2800 3450 50  0001 C CNN
+F 3 "~" H 2800 3450 50  0001 C CNN
+	1    2600 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 3450
+Wire Wire Line
+	2600 3450 2800 3450
+$Comp
+L Testpoints:TestPoint_1.5mm TP4
+U 1 1 64169DD1
+P 2600 5200
+F 0 "TP4" H 2658 5272 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 2600 5400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2800 5200 50  0001 C CNN
+F 3 "~" H 2800 5200 50  0001 C CNN
+	1    2600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP5
+U 1 1 6416BE76
+P 3250 5200
+F 0 "TP5" H 3308 5272 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 3250 5400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3450 5200 50  0001 C CNN
+F 3 "~" H 3450 5200 50  0001 C CNN
+	1    3250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP6
+U 1 1 6416C1F7
+P 6350 5450
+F 0 "TP6" H 6408 5522 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 6350 5650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 5450 50  0001 C CNN
+F 3 "~" H 6550 5450 50  0001 C CNN
+	1    6350 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 5450
+Wire Wire Line
+	6350 5450 6550 5450
+$Comp
+L Testpoints:TestPoint_1.5mm TP10
+U 1 1 645D1598
+P 15250 4450
+F 0 "TP10" H 15100 4700 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 15250 4650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15450 4450 50  0001 C CNN
+F 3 "~" H 15450 4450 50  0001 C CNN
+	1    15250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 4450 15250 4800
+Connection ~ 15250 4800
+Wire Wire Line
+	14650 4500 15550 4500
+Wire Wire Line
+	14650 4600 15450 4600
+Wire Wire Line
+	15250 4800 15700 4800
+$Comp
+L Testpoints:TestPoint_1.5mm TP11
+U 1 1 64E98557
+P 15350 4450
+F 0 "TP11" H 15250 4700 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 15350 4650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15550 4450 50  0001 C CNN
+F 3 "~" H 15550 4450 50  0001 C CNN
+	1    15350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14650 4700 15350 4700
+Wire Wire Line
+	15350 4450 15350 4700
+Connection ~ 15350 4700
+Wire Wire Line
+	15350 4700 15750 4700
+$Comp
+L Testpoints:TestPoint_1.5mm TP12
+U 1 1 64FB33DB
+P 15450 4450
+F 0 "TP12" H 15400 4700 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 15450 4650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15650 4450 50  0001 C CNN
+F 3 "~" H 15650 4450 50  0001 C CNN
+	1    15450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15450 4450 15450 4600
+Connection ~ 15450 4600
+Wire Wire Line
+	15450 4600 15750 4600
+$Comp
+L Testpoints:TestPoint_1.5mm TP15
+U 1 1 650418B3
+P 15550 4450
+F 0 "TP15" H 15550 4700 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 15550 4650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15750 4450 50  0001 C CNN
+F 3 "~" H 15750 4450 50  0001 C CNN
+	1    15550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15550 4450 15550 4500
+Connection ~ 15550 4500
+Wire Wire Line
+	15550 4500 15750 4500
+Wire Wire Line
+	15000 4350 14950 4350
+$Comp
+L Testpoints:TestPoint_1.5mm TP7
+U 1 1 65164D54
+P 12900 4700
+F 0 "TP7" H 12958 4772 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 12900 4900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 13100 4700 50  0001 C CNN
+F 3 "~" H 13100 4700 50  0001 C CNN
+	1    12900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP9
+U 1 1 65167F52
+P 13750 1050
+F 0 "TP9" H 13700 1250 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 13750 1250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 13950 1050 50  0001 C CNN
+F 3 "~" H 13950 1050 50  0001 C CNN
+	1    13750 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP8
+U 1 1 6516A11B
+P 13700 1800
+F 0 "TP8" H 13650 2000 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 13700 2000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 13900 1800 50  0001 C CNN
+F 3 "~" H 13900 1800 50  0001 C CNN
+	1    13700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP14
+U 1 1 6516E0DE
+P 15550 950
+F 0 "TP14" H 15500 1150 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 15550 1150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15750 950 50  0001 C CNN
+F 3 "~" H 15750 950 50  0001 C CNN
+	1    15550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP13
+U 1 1 65172114
+P 15500 1700
+F 0 "TP13" H 15450 1900 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 15500 1900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15700 1700 50  0001 C CNN
+F 3 "~" H 15700 1700 50  0001 C CNN
+	1    15500 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

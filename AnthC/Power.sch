@@ -187,10 +187,6 @@ Connection ~ 5850 1600
 Wire Wire Line
 	5850 1750 5850 1600
 Wire Wire Line
-	3650 1600 3650 1450
-Wire Wire Line
-	3750 1600 3650 1600
-Wire Wire Line
 	4200 2450 4200 2400
 Wire Wire Line
 	4200 2400 4250 2400
@@ -241,8 +237,6 @@ F 13 "CL10B104KB8NNNC" H 5850 1900 50  0001 C CNN "MPN"
 	1    5850 1900
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 1450 3650 1450
 Wire Wire Line
 	3150 1850 3150 2050
 Wire Wire Line
@@ -549,7 +543,7 @@ P 4150 1850
 AR Path="/602E71BC/6269B51B" Ref="U?"  Part="1" 
 AR Path="/6269B51B" Ref="U?"  Part="1" 
 AR Path="/6243F6D9/6269B51B" Ref="U1"  Part="1" 
-F 0 "U1" H 4350 1350 50  0000 C CNN
+F 0 "U1" H 3800 2400 50  0000 C CNN
 F 1 "TPS54331DR" H 4150 2400 50  0000 C CNN
 F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias" H 4200 1750 50  0001 C CNN
 F 3 "" H 4200 1750 50  0001 C CNN
@@ -647,7 +641,6 @@ Text HLabel 800  2100 0    50   Input ~ 0
 GND_IN
 Wire Wire Line
 	2850 1750 2850 1800
-Connection ~ 3650 1450
 Connection ~ 2850 1800
 $Comp
 L power:GND #PWR?
@@ -705,8 +698,6 @@ Connection ~ 3100 1800
 Wire Wire Line
 	2850 1800 3100 1800
 Wire Wire Line
-	3350 1450 3650 1450
-Wire Wire Line
 	3100 1800 3350 1800
 Text HLabel 7550 1400 1    50   Input ~ 0
 5V
@@ -760,7 +751,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 1450 1700 1500
 Wire Wire Line
-	1700 1500 2000 1500
+	1700 1500 1800 1500
 $Comp
 L Diodes:Zener_6V D14
 U 1 1 623922A4
@@ -794,7 +785,7 @@ Wire Wire Line
 	850  1600 850  1450
 Connection ~ 850  1450
 Wire Wire Line
-	850  1450 1150 1450
+	850  1450 900  1450
 Wire Wire Line
 	850  1900 850  2100
 Connection ~ 850  2100
@@ -1012,7 +1003,7 @@ Wire Wire Line
 	5200 1700 5200 1600
 Connection ~ 5200 1600
 Wire Wire Line
-	5200 1600 5450 1600
+	5200 1600 5300 1600
 Wire Wire Line
 	5700 2250 4550 2250
 Connection ~ 5700 2250
@@ -1045,4 +1036,83 @@ $EndComp
 Connection ~ 6150 1600
 Wire Wire Line
 	6150 1600 6700 1600
+Wire Wire Line
+	3350 1450 3750 1450
+NoConn ~ 3750 1600
+$Comp
+L Testpoints:TestPoint_1.5mm TP16
+U 1 1 63E06CD1
+P 900 1450
+F 0 "TP16" H 958 1522 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 900 1650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1100 1450 50  0001 C CNN
+F 3 "~" H 1100 1450 50  0001 C CNN
+	1    900  1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 900  1450
+Wire Wire Line
+	900  1450 1150 1450
+$Comp
+L Testpoints:TestPoint_1.5mm TP17
+U 1 1 63E07500
+P 1800 1500
+F 0 "TP17" H 1858 1572 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 1800 1700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2000 1500 50  0001 C CNN
+F 3 "~" H 2000 1500 50  0001 C CNN
+	1    1800 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 1500
+Wire Wire Line
+	1800 1500 2000 1500
+$Comp
+L Testpoints:TestPoint_1.5mm TP18
+U 1 1 63E07D61
+P 4600 1250
+F 0 "TP18" H 4658 1322 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 4600 1450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4800 1250 50  0001 C CNN
+F 3 "~" H 4800 1250 50  0001 C CNN
+	1    4600 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 1250
+$Comp
+L Testpoints:TestPoint_1.5mm TP19
+U 1 1 63E088F4
+P 5300 1600
+F 0 "TP19" H 5358 1672 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 5300 1800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5500 1600 50  0001 C CNN
+F 3 "~" H 5500 1600 50  0001 C CNN
+	1    5300 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 1600
+Wire Wire Line
+	5300 1600 5450 1600
+$Comp
+L Testpoints:TestPoint_1.5mm TP20
+U 1 1 63E0941B
+P 8050 1600
+F 0 "TP20" H 8108 1672 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 8050 1800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8250 1600 50  0001 C CNN
+F 3 "~" H 8250 1600 50  0001 C CNN
+	1    8050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP21
+U 1 1 63E09D4F
+P 9900 1600
+F 0 "TP21" H 9958 1672 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 9900 1800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10100 1600 50  0001 C CNN
+F 3 "~" H 10100 1600 50  0001 C CNN
+	1    9900 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

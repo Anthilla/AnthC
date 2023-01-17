@@ -2255,7 +2255,7 @@ Text Label 13350 4050 0    50   ~ 0
 AN3
 Text Label 13350 4150 0    50   ~ 0
 AN4
-Text Label 9750 3550 3    50   ~ 0
+Text Label 9750 3650 3    50   ~ 0
 CSADC
 Text Label 15700 4800 0    50   ~ 0
 CSADC
@@ -2974,32 +2974,32 @@ $EndComp
 $Comp
 L Resistor_0603:10KΩ R81
 U 1 1 6203A39A
-P 11350 2200
-F 0 "R81" V 11250 2150 50  0000 L CNN
-F 1 "10K" H 11500 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 11350 3200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 11000 2250 50  0001 C CNN
-F 4 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 11350 3125 50  0001 C CNN "Description"
-F 5 "Yageo" H 11350 3525 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-0710KL" H 11350 3325 50  0001 C CNN "Manufacturer Nr."
-F 7 "100mW" H 11350 3600 50  0001 C CNN "Power"
-F 8 "0.09" H 11350 3025 50  0001 C CNN "Price"
-F 9 "Digikey" H 11350 3425 50  0001 C CNN "Supplier"
-F 10 "311-10.0KHRCT-ND" H 11350 3725 50  0001 C CNN "Supplier Nr."
-F 11 "1%" H 11350 2950 50  0001 C CNN "Tolerance"
-F 12 "RC0603FR-0710KL" H 11350 2200 50  0001 C CNN "MPN"
-	1    11350 2200
+P 11550 2200
+F 0 "R81" V 11450 2150 50  0000 L CNN
+F 1 "10K" H 11700 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11550 3200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" V 11200 2250 50  0001 C CNN
+F 4 "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 11550 3125 50  0001 C CNN "Description"
+F 5 "Yageo" H 11550 3525 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0710KL" H 11550 3325 50  0001 C CNN "Manufacturer Nr."
+F 7 "100mW" H 11550 3600 50  0001 C CNN "Power"
+F 8 "0.09" H 11550 3025 50  0001 C CNN "Price"
+F 9 "Digikey" H 11550 3425 50  0001 C CNN "Supplier"
+F 10 "311-10.0KHRCT-ND" H 11550 3725 50  0001 C CNN "Supplier Nr."
+F 11 "1%" H 11550 2950 50  0001 C CNN "Tolerance"
+F 12 "RC0603FR-0710KL" H 11550 2200 50  0001 C CNN "MPN"
+	1    11550 2200
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR037
 U 1 1 620874B4
-P 11350 2050
-F 0 "#PWR037" H 11350 1900 50  0001 C CNN
-F 1 "+3V3" H 11365 2223 50  0000 C CNN
-F 2 "" H 11350 2050 50  0001 C CNN
-F 3 "" H 11350 2050 50  0001 C CNN
-	1    11350 2050
+P 11550 2050
+F 0 "#PWR037" H 11550 1900 50  0001 C CNN
+F 1 "+3V3" H 11565 2223 50  0000 C CNN
+F 2 "" H 11550 2050 50  0001 C CNN
+F 3 "" H 11550 2050 50  0001 C CNN
+	1    11550 2050
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -5398,8 +5398,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 6050 5950 6050
 Wire Wire Line
-	6150 5450 6350 5450
-Wire Wire Line
 	6150 5750 6150 5800
 Wire Wire Line
 	6550 5450 6550 5800
@@ -6590,10 +6588,6 @@ F 8 "710-691312510003" H 2250 2150 50  0001 C CNN "Supplier Part Number"
 	1    900  1800
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	11350 2400 11350 2350
-Wire Wire Line
-	10950 2400 11350 2400
 $Comp
 L Capacitors_0603:1nF C44
 U 1 1 62DCF018
@@ -7168,17 +7162,6 @@ Connection ~ 2600 3450
 Wire Wire Line
 	2600 3450 2800 3450
 $Comp
-L Testpoints:TestPoint_1.5mm TP4
-U 1 1 64169DD1
-P 2600 5200
-F 0 "TP4" H 2658 5272 50  0000 L CNN
-F 1 "TestPoint_1.5mm" H 2600 5400 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2800 5200 50  0001 C CNN
-F 3 "~" H 2800 5200 50  0001 C CNN
-	1    2600 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Testpoints:TestPoint_1.5mm TP5
 U 1 1 6416BE76
 P 3250 5200
@@ -7192,27 +7175,13 @@ $EndComp
 $Comp
 L Testpoints:TestPoint_1.5mm TP6
 U 1 1 6416C1F7
-P 6350 5450
-F 0 "TP6" H 6408 5522 50  0000 L CNN
-F 1 "TestPoint_1.5mm" H 6350 5650 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 5450 50  0001 C CNN
-F 3 "~" H 6550 5450 50  0001 C CNN
-	1    6350 5450
-	1    0    0    -1  
-$EndComp
-Connection ~ 6350 5450
-Wire Wire Line
-	6350 5450 6550 5450
-$Comp
-L Testpoints:TestPoint_1.5mm TP10
-U 1 1 645D1598
-P 15250 4450
-F 0 "TP10" H 15100 4700 50  0000 L CNN
-F 1 "TestPoint_1.5mm" H 15250 4650 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15450 4450 50  0001 C CNN
-F 3 "~" H 15450 4450 50  0001 C CNN
-	1    15250 4450
-	1    0    0    -1  
+P 6150 5800
+F 0 "TP6" H 6208 5872 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 6150 6000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6350 5800 50  0001 C CNN
+F 3 "~" H 6350 5800 50  0001 C CNN
+	1    6150 5800
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	15250 4450 15250 4800
@@ -7245,7 +7214,7 @@ $Comp
 L Testpoints:TestPoint_1.5mm TP12
 U 1 1 64FB33DB
 P 15450 4450
-F 0 "TP12" H 15400 4700 50  0000 L CNN
+F 0 "TP12" H 15450 4700 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 15450 4650 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15650 4450 50  0001 C CNN
 F 3 "~" H 15650 4450 50  0001 C CNN
@@ -7261,7 +7230,7 @@ $Comp
 L Testpoints:TestPoint_1.5mm TP15
 U 1 1 650418B3
 P 15550 4450
-F 0 "TP15" H 15550 4700 50  0000 L CNN
+F 0 "TP15" H 15650 4700 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 15550 4650 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15750 4450 50  0001 C CNN
 F 3 "~" H 15750 4450 50  0001 C CNN
@@ -7330,4 +7299,29 @@ F 3 "~" H 15700 1700 50  0001 C CNN
 	1    15500 1700
 	1    0    0    -1  
 $EndComp
+Connection ~ 6150 5800
+Wire Wire Line
+	11550 2400 11550 2350
+Wire Wire Line
+	6150 5450 6550 5450
+Wire Wire Line
+	10950 2400 11550 2400
+$Comp
+L Testpoints:TestPoint_1.5mm TP10
+U 1 1 645D1598
+P 9650 3600
+F 0 "TP10" H 9400 3700 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 9650 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9850 3600 50  0001 C CNN
+F 3 "~" H 9850 3600 50  0001 C CNN
+	1    9650 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9750 3550 9750 3600
+Wire Wire Line
+	9650 3600 9750 3600
+Connection ~ 9750 3600
+Wire Wire Line
+	9750 3600 9750 3650
 $EndSCHEMATC

@@ -5,13 +5,13 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
 Title "AnthC - Main"
-Date "2022-01-28"
-Rev "M2-R1"
+Date "2023-01-19"
+Rev "M2-R2"
 Comp "ANTHILLA"
 Comment1 "Ignacio de Mendizabal - www.clearemc.com"
 Comment2 ""
 Comment3 "https://www.anthilla.com/"
-Comment4 "https://github.com/Open-Hardware-Skunkworks/AnthC"
+Comment4 "https://github.com/Anthilla/AnthC"
 $EndDescr
 Text Label 7950 1650 0    50   ~ 0
 RESET
@@ -1033,7 +1033,7 @@ F 3 "" H 3250 10100 50  0001 C CNN
 	1    3250 10100
 	1    0    0    -1  
 $EndComp
-Text Notes 3050 6750 0    50   ~ 0
+Text Notes 3200 6750 0    50   ~ 0
 USB INTERFACE
 $Comp
 L Transistors_BJT:MMSS8050-H-TP Q3
@@ -2880,83 +2880,79 @@ Wire Wire Line
 $Comp
 L Connectors:USB4105-GF-A J1
 U 1 1 617194FC
-P 3500 7650
-F 0 "J1" H 3850 8400 50  0000 C CNN
-F 1 "USB4105-GF-A" H 3750 8400 50  0000 R CNN
-F 2 "Connectors:USB4105-GF-A" H 3500 9600 50  0001 C CNN
-F 3 "https://gct.co/files/drawings/usb4105.pdf" H 3650 7650 50  0001 C CNN
-F 4 "GCT" H 3500 9500 50  0001 C CNN "Manufacturer"
-F 5 "Farnell" H 3500 9300 50  0001 C CNN "Supplier"
-F 6 "3588205" H 3500 9200 50  0001 C CNN "Supplier Part Number"
-F 7 "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole" H 3500 9700 50  0001 C CNN "Description"
-F 8 "USB4105-GF-A" H 3500 7650 50  0001 C CNN "MPN"
-	1    3500 7650
+P 3650 7650
+F 0 "J1" H 4000 8400 50  0000 C CNN
+F 1 "USB4105-GF-A" H 3900 8400 50  0000 R CNN
+F 2 "Connectors:USB4105-GF-A" H 3650 9600 50  0001 C CNN
+F 3 "https://gct.co/files/drawings/usb4105.pdf" H 3800 7650 50  0001 C CNN
+F 4 "GCT" H 3650 9500 50  0001 C CNN "Manufacturer"
+F 5 "Farnell" H 3650 9300 50  0001 C CNN "Supplier"
+F 6 "3588205" H 3650 9200 50  0001 C CNN "Supplier Part Number"
+F 7 "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole" H 3650 9700 50  0001 C CNN "Description"
+F 8 "USB4105-GF-A" H 3650 7650 50  0001 C CNN "MPN"
+	1    3650 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 6171B0EB
-P 3350 8950
-F 0 "#PWR04" H 3350 8700 50  0001 C CNN
-F 1 "GND" H 3355 8777 50  0000 C CNN
-F 2 "" H 3350 8950 50  0001 C CNN
-F 3 "" H 3350 8950 50  0001 C CNN
-	1    3350 8950
+P 3600 9050
+F 0 "#PWR04" H 3600 8800 50  0001 C CNN
+F 1 "GND" H 3605 8877 50  0000 C CNN
+F 2 "" H 3600 9050 50  0001 C CNN
+F 3 "" H 3600 9050 50  0001 C CNN
+	1    3600 9050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 8950 3300 8950
+	3600 9050 3650 9050
 Wire Wire Line
-	3200 8950 3200 8900
-Wire Wire Line
-	3350 8950 3400 8950
-Wire Wire Line
-	3500 8950 3500 8900
+	3750 9050 3750 9000
 $Comp
 L power:VBUS #PWR06
 U 1 1 618D8DC7
-P 4150 7000
-F 0 "#PWR06" H 4150 6850 50  0001 C CNN
-F 1 "VBUS" H 4165 7173 50  0000 C CNN
-F 2 "" H 4150 7000 50  0001 C CNN
-F 3 "" H 4150 7000 50  0001 C CNN
-	1    4150 7000
+P 4300 7000
+F 0 "#PWR06" H 4300 6850 50  0001 C CNN
+F 1 "VBUS" H 4315 7173 50  0000 C CNN
+F 2 "" H 4300 7000 50  0001 C CNN
+F 3 "" H 4300 7000 50  0001 C CNN
+	1    4300 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 619264A1
-P 4900 7050
+P 5050 7050
 AR Path="/602E71BC/619264A1" Ref="#PWR?"  Part="1" 
 AR Path="/619264A1" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 4900 6900 50  0001 C CNN
-F 1 "+5V" H 4915 7223 50  0000 C CNN
-F 2 "" H 4900 7050 50  0001 C CNN
-F 3 "" H 4900 7050 50  0001 C CNN
-	1    4900 7050
+F 0 "#PWR08" H 5050 6900 50  0001 C CNN
+F 1 "+5V" H 5065 7223 50  0000 C CNN
+F 2 "" H 5050 7050 50  0001 C CNN
+F 3 "" H 5050 7050 50  0001 C CNN
+	1    5050 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 7550 4350 7650
+	4500 7550 4500 7650
 Wire Wire Line
-	4350 7650 4100 7650
+	4500 7650 4250 7650
 Wire Wire Line
-	4100 7550 4350 7550
-Text Label 4550 7850 0    50   ~ 0
+	4250 7550 4500 7550
+Text Label 4700 7850 0    50   ~ 0
 DP
 Wire Wire Line
-	4100 7750 4350 7750
+	4250 7750 4500 7750
 Wire Wire Line
-	4350 7850 4100 7850
+	4500 7850 4250 7850
 Wire Wire Line
-	4350 7750 4350 7850
+	4500 7750 4500 7850
 Wire Wire Line
-	4350 7650 4550 7650
-Connection ~ 4350 7650
+	4500 7650 4700 7650
+Connection ~ 4500 7650
 Wire Wire Line
-	4350 7850 4550 7850
-Connection ~ 4350 7850
-Text Label 4550 7650 0    50   ~ 0
+	4500 7850 4700 7850
+Connection ~ 4500 7850
+Text Label 4700 7650 0    50   ~ 0
 DN
 Wire Wire Line
 	7650 1650 7650 1600
@@ -3909,71 +3905,48 @@ Wire Wire Line
 $Comp
 L AnthC-Lib-Symbols:1N5820 D?
 U 1 1 61A1538B
-P 4650 7050
+P 4800 7050
 AR Path="/602E71BC/61A1538B" Ref="D?"  Part="1" 
 AR Path="/61A1538B" Ref="D3"  Part="1" 
-F 0 "D3" V 4604 7129 50  0000 L CNN
-F 1 "B5819W" H 4550 6950 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4650 6875 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 4650 7050 50  0001 C CNN
-F 4 "B5819W" H 4650 7050 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 4650 7050 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 4650 7050 50  0001 C CNN "LCSC-PN"
-	1    4650 7050
+F 0 "D3" V 4754 7129 50  0000 L CNN
+F 1 "B5819W" H 4700 6950 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 6875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 4800 7050 50  0001 C CNN
+F 4 "B5819W" H 4800 7050 50  0001 C CNN "MPN"
+F 5 "Changjiang Electronics Tech (CJ)" H 4800 7050 50  0001 C CNN "Manufacturer"
+F 6 "C8598" H 4800 7050 50  0001 C CNN "LCSC-PN"
+	1    4800 7050
 	-1   0    0    1   
-$EndComp
-$Comp
-L Resistor_0603:0 R3
-U 1 1 61F06B6A
-P 3200 8750
-F 0 "R3" V 3600 8750 50  0000 L CNN
-F 1 "0" V 3200 8750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 9750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 2850 8800 50  0001 C CNN
-F 4 "Yageo" H 3200 10075 50  0001 C CNN "Manufacturer"
-F 5 "AC0603JR-070RL" H 3200 9875 50  0001 C CNN "MPN"
-F 6 "Digikey" H 3200 9975 50  0001 C CNN "Supplier"
-F 7 "311-0.0LECT-ND" H 3200 10275 50  0001 C CNN "Supplier Nr."
-F 8 "-" H 3200 9500 50  0001 C CNN "Tolerance"
-F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3200 9675 50  0001 C CNN "Description"
-F 10 "100mW" H 3200 10150 50  0001 C CNN "Power"
-F 11 "0.09" H 3200 9575 50  0001 C CNN "Price"
-	1    3200 8750
-	1    0    0    -1  
 $EndComp
 $Comp
 L Resistor_0603:0 R4
 U 1 1 61F08D4B
-P 3500 8750
-F 0 "R4" V 3900 8750 50  0000 L CNN
-F 1 "0" V 3500 8750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 9750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3150 8800 50  0001 C CNN
-F 4 "Yageo" H 3500 10075 50  0001 C CNN "Manufacturer"
-F 5 "AC0603JR-070RL" H 3500 9875 50  0001 C CNN "MPN"
-F 6 "Digikey" H 3500 9975 50  0001 C CNN "Supplier"
-F 7 "311-0.0LECT-ND" H 3500 10275 50  0001 C CNN "Supplier Nr."
-F 8 "-" H 3500 9500 50  0001 C CNN "Tolerance"
-F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3500 9675 50  0001 C CNN "Description"
-F 10 "100mW" H 3500 10150 50  0001 C CNN "Power"
-F 11 "0.09" H 3500 9575 50  0001 C CNN "Price"
-	1    3500 8750
+P 3750 8850
+F 0 "R4" V 3700 9000 50  0000 L CNN
+F 1 "0" V 3750 8800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3750 9850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3400 8900 50  0001 C CNN
+F 4 "Yageo" H 3750 10175 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 3750 9975 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3750 10075 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 3750 10375 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 3750 9600 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3750 9775 50  0001 C CNN "Description"
+F 10 "100mW" H 3750 10250 50  0001 C CNN "Power"
+F 11 "0.09" H 3750 9675 50  0001 C CNN "Price"
+	1    3750 8850
 	1    0    0    -1  
 $EndComp
-Connection ~ 3350 8950
-Wire Wire Line
-	3500 8600 3500 8550
-Wire Wire Line
-	3200 8600 3200 8550
+Connection ~ 3600 9050
 Wire Wire Line
 	7150 5600 7400 5600
 Wire Wire Line
-	4100 7050 4150 7050
+	4250 7050 4300 7050
 Wire Wire Line
-	4150 7000 4150 7050
-Connection ~ 4150 7050
+	4300 7000 4300 7050
+Connection ~ 4300 7050
 Wire Wire Line
-	4800 7050 4900 7050
+	4950 7050 5050 7050
 Wire Wire Line
 	7400 6800 7150 6800
 $Comp
@@ -4123,69 +4096,69 @@ Wire Notes Line
 $Comp
 L Resistor_0603:0 R20
 U 1 1 64978C25
-P 4100 8550
-F 0 "R20" H 4170 8596 50  0000 L CNN
-F 1 "0" H 4170 8505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4100 9550 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3750 8600 50  0001 C CNN
-F 4 "Yageo" H 4100 9875 50  0001 C CNN "Manufacturer"
-F 5 "AC0603JR-070RL" H 4100 9675 50  0001 C CNN "MPN"
-F 6 "Digikey" H 4100 9775 50  0001 C CNN "Supplier"
-F 7 "311-0.0LECT-ND" H 4100 10075 50  0001 C CNN "Supplier Nr."
-F 8 "-" H 4100 9300 50  0001 C CNN "Tolerance"
-F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4100 9475 50  0001 C CNN "Description"
-F 10 "100mW" H 4100 9950 50  0001 C CNN "Power"
-F 11 "0.09" H 4100 9375 50  0001 C CNN "Price"
-	1    4100 8550
+P 4250 8550
+F 0 "R20" H 4320 8596 50  0000 L CNN
+F 1 "0" H 4320 8505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4250 9550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3900 8600 50  0001 C CNN
+F 4 "Yageo" H 4250 9875 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 4250 9675 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4250 9775 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 4250 10075 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 4250 9300 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4250 9475 50  0001 C CNN "Description"
+F 10 "100mW" H 4250 9950 50  0001 C CNN "Power"
+F 11 "0.09" H 4250 9375 50  0001 C CNN "Price"
+	1    4250 8550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Resistor_0603:0 R31
 U 1 1 64979957
-P 4350 8550
-F 0 "R31" H 4420 8596 50  0000 L CNN
-F 1 "0" H 4420 8505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4350 9550 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 4000 8600 50  0001 C CNN
-F 4 "Yageo" H 4350 9875 50  0001 C CNN "Manufacturer"
-F 5 "AC0603JR-070RL" H 4350 9675 50  0001 C CNN "MPN"
-F 6 "Digikey" H 4350 9775 50  0001 C CNN "Supplier"
-F 7 "311-0.0LECT-ND" H 4350 10075 50  0001 C CNN "Supplier Nr."
-F 8 "-" H 4350 9300 50  0001 C CNN "Tolerance"
-F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4350 9475 50  0001 C CNN "Description"
-F 10 "100mW" H 4350 9950 50  0001 C CNN "Power"
-F 11 "0.09" H 4350 9375 50  0001 C CNN "Price"
-	1    4350 8550
+P 4500 8550
+F 0 "R31" H 4570 8596 50  0000 L CNN
+F 1 "0" H 4570 8505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4500 9550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 4150 8600 50  0001 C CNN
+F 4 "Yageo" H 4500 9875 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 4500 9675 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4500 9775 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 4500 10075 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 4500 9300 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4500 9475 50  0001 C CNN "Description"
+F 10 "100mW" H 4500 9950 50  0001 C CNN "Power"
+F 11 "0.09" H 4500 9375 50  0001 C CNN "Price"
+	1    4500 8550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 8400 4100 8250
+	4250 8400 4250 8250
 Wire Wire Line
-	4350 8150 4350 8400
+	4500 8150 4500 8400
 Wire Wire Line
-	4100 8150 4350 8150
+	4250 8150 4500 8150
 Wire Wire Line
-	4350 8700 4350 8950
+	4500 8700 4500 8950
 Wire Wire Line
-	4350 8950 4250 8950
+	4500 8950 4400 8950
 Wire Wire Line
-	4100 8950 4100 8700
+	4250 8950 4250 8700
 $Comp
 L power:GND #PWR025
 U 1 1 64B156F2
-P 4250 8950
-F 0 "#PWR025" H 4250 8700 50  0001 C CNN
-F 1 "GND" H 4255 8777 50  0000 C CNN
-F 2 "" H 4250 8950 50  0001 C CNN
-F 3 "" H 4250 8950 50  0001 C CNN
-	1    4250 8950
+P 4400 8950
+F 0 "#PWR025" H 4400 8700 50  0001 C CNN
+F 1 "GND" H 4405 8777 50  0000 C CNN
+F 2 "" H 4400 8950 50  0001 C CNN
+F 3 "" H 4400 8950 50  0001 C CNN
+	1    4400 8950
 	1    0    0    -1  
 $EndComp
-Connection ~ 4250 8950
+Connection ~ 4400 8950
 Wire Wire Line
-	4250 8950 4100 8950
-NoConn ~ 4100 7250
-NoConn ~ 4100 7350
+	4400 8950 4250 8950
+NoConn ~ 4250 7250
+NoConn ~ 4250 7350
 $Comp
 L power:+5V #PWR0116
 U 1 1 64FD0EEA
@@ -4240,21 +4213,21 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 658A4B70
-P 4350 7000
-F 0 "#FLG0104" H 4350 7075 50  0001 C CNN
-F 1 "PWR_FLAG" H 4450 7200 50  0000 C CNN
-F 2 "" H 4350 7000 50  0001 C CNN
-F 3 "~" H 4350 7000 50  0001 C CNN
-	1    4350 7000
+P 4500 7000
+F 0 "#FLG0104" H 4500 7075 50  0001 C CNN
+F 1 "PWR_FLAG" H 4600 7200 50  0000 C CNN
+F 2 "" H 4500 7000 50  0001 C CNN
+F 3 "~" H 4500 7000 50  0001 C CNN
+	1    4500 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 7050 4350 7050
+	4300 7050 4500 7050
 Wire Wire Line
-	4350 7000 4350 7050
-Connection ~ 4350 7050
+	4500 7000 4500 7050
+Connection ~ 4500 7050
 Wire Wire Line
-	4350 7050 4500 7050
+	4500 7050 4650 7050
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 65CF651F
@@ -4616,61 +4589,33 @@ F 8 "2N7002T" H 5000 5200 60  0001 L CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor_0603:0 R88
-U 1 1 61B8BE03
-P 3300 8750
-F 0 "R88" V 3800 8700 50  0000 L CNN
-F 1 "0" V 3300 8750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 9750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 2950 8800 50  0001 C CNN
-F 4 "Yageo" H 3300 10075 50  0001 C CNN "Manufacturer"
-F 5 "AC0603JR-070RL" H 3300 9875 50  0001 C CNN "MPN"
-F 6 "Digikey" H 3300 9975 50  0001 C CNN "Supplier"
-F 7 "311-0.0LECT-ND" H 3300 10275 50  0001 C CNN "Supplier Nr."
-F 8 "-" H 3300 9500 50  0001 C CNN "Tolerance"
-F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3300 9675 50  0001 C CNN "Description"
-F 10 "100mW" H 3300 10150 50  0001 C CNN "Power"
-F 11 "0.09" H 3300 9575 50  0001 C CNN "Price"
-	1    3300 8750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Resistor_0603:0 R89
 U 1 1 61B8C0BA
-P 3400 8750
-F 0 "R89" V 3700 8700 50  0000 L CNN
-F 1 "0" V 3400 8750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3400 9750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3050 8800 50  0001 C CNN
-F 4 "Yageo" H 3400 10075 50  0001 C CNN "Manufacturer"
-F 5 "AC0603JR-070RL" H 3400 9875 50  0001 C CNN "MPN"
-F 6 "Digikey" H 3400 9975 50  0001 C CNN "Supplier"
-F 7 "311-0.0LECT-ND" H 3400 10275 50  0001 C CNN "Supplier Nr."
-F 8 "-" H 3400 9500 50  0001 C CNN "Tolerance"
-F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3400 9675 50  0001 C CNN "Description"
-F 10 "100mW" H 3400 10150 50  0001 C CNN "Power"
-F 11 "0.09" H 3400 9575 50  0001 C CNN "Price"
-	1    3400 8750
+P 3650 8850
+F 0 "R89" V 3600 8950 50  0000 L CNN
+F 1 "0" V 3650 8800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 9850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3300 8900 50  0001 C CNN
+F 4 "Yageo" H 3650 10175 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 3650 9975 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3650 10075 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 3650 10375 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 3650 9600 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3650 9775 50  0001 C CNN "Description"
+F 10 "100mW" H 3650 10250 50  0001 C CNN "Power"
+F 11 "0.09" H 3650 9675 50  0001 C CNN "Price"
+	1    3650 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 8600 3300 8550
+	3650 9000 3650 9050
+Connection ~ 3650 9050
 Wire Wire Line
-	3300 8900 3300 8950
-Connection ~ 3300 8950
+	3650 9050 3750 9050
 Wire Wire Line
-	3300 8950 3200 8950
+	4250 7150 4300 7150
 Wire Wire Line
-	3400 8900 3400 8950
-Connection ~ 3400 8950
-Wire Wire Line
-	3400 8950 3500 8950
-Wire Wire Line
-	3400 8600 3400 8550
-Wire Wire Line
-	4100 7150 4150 7150
-Wire Wire Line
-	4150 7150 4150 7050
+	4300 7150 4300 7050
 $Comp
 L Resistor_0603:10KΩ R19
 U 1 1 61BFD74D
@@ -7318,10 +7263,117 @@ F 3 "~" H 9850 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9750 3550 9750 3600
+	9750 3550 9750 3650
 Wire Wire Line
-	9650 3600 9750 3600
-Connection ~ 9750 3600
+	9650 3600 9650 3250
 Wire Wire Line
-	9750 3600 9750 3650
+	9650 3250 9750 3250
+Connection ~ 9750 3250
+Wire Wire Line
+	3300 9000 3300 9050
+$Comp
+L Resistor_0603:0 R88
+U 1 1 61B8BE03
+P 3300 8850
+F 0 "R88" V 3250 8950 50  0000 L CNN
+F 1 "0" V 3300 8800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 9850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 2950 8900 50  0001 C CNN
+F 4 "Yageo" H 3300 10175 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 3300 9975 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3300 10075 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 3300 10375 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 3300 9600 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3300 9775 50  0001 C CNN "Description"
+F 10 "100mW" H 3300 10250 50  0001 C CNN "Power"
+F 11 "0.09" H 3300 9675 50  0001 C CNN "Price"
+	1    3300 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 9050 3200 9000
+$Comp
+L Resistor_0603:0 R100
+U 1 1 63F57AD3
+P 3500 8850
+F 0 "R100" V 3450 9000 50  0000 L CNN
+F 1 "0" V 3500 8800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 9850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3150 8900 50  0001 C CNN
+F 4 "Yageo" H 3500 10175 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 3500 9975 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3500 10075 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 3500 10375 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 3500 9600 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3500 9775 50  0001 C CNN "Description"
+F 10 "100mW" H 3500 10250 50  0001 C CNN "Power"
+F 11 "0.09" H 3500 9675 50  0001 C CNN "Price"
+	1    3500 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_0603:0 R99
+U 1 1 63F57AE1
+P 3400 8850
+F 0 "R99" V 3350 9000 50  0000 L CNN
+F 1 "0" V 3400 8800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3400 9850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 3050 8900 50  0001 C CNN
+F 4 "Yageo" H 3400 10175 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 3400 9975 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3400 10075 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 3400 10375 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 3400 9600 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3400 9775 50  0001 C CNN "Description"
+F 10 "100mW" H 3400 10250 50  0001 C CNN "Power"
+F 11 "0.09" H 3400 9675 50  0001 C CNN "Price"
+	1    3400 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 9000 3500 9050
+Connection ~ 3500 9050
+Wire Wire Line
+	3500 9050 3600 9050
+Wire Wire Line
+	3400 9000 3400 9050
+Wire Wire Line
+	3200 9050 3300 9050
+Connection ~ 3300 9050
+Wire Wire Line
+	3300 9050 3400 9050
+Connection ~ 3400 9050
+Wire Wire Line
+	3400 9050 3500 9050
+$Comp
+L Resistor_0603:0 R3
+U 1 1 61F06B6A
+P 3200 8850
+F 0 "R3" V 3150 9000 50  0000 L CNN
+F 1 "0" V 3200 8800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 9850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" V 2850 8900 50  0001 C CNN
+F 4 "Yageo" H 3200 10175 50  0001 C CNN "Manufacturer"
+F 5 "AC0603JR-070RL" H 3200 9975 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3200 10075 50  0001 C CNN "Supplier"
+F 7 "311-0.0LECT-ND" H 3200 10375 50  0001 C CNN "Supplier Nr."
+F 8 "-" H 3200 9600 50  0001 C CNN "Tolerance"
+F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3200 9775 50  0001 C CNN "Description"
+F 10 "100mW" H 3200 10250 50  0001 C CNN "Power"
+F 11 "0.09" H 3200 9675 50  0001 C CNN "Price"
+	1    3200 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 8550 3200 8700
+Wire Wire Line
+	3300 8550 3300 8700
+Wire Wire Line
+	3400 8550 3400 8700
+Wire Wire Line
+	3500 8550 3500 8700
+Wire Wire Line
+	3650 8550 3650 8700
+Wire Wire Line
+	3750 8550 3750 8700
 $EndSCHEMATC

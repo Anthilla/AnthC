@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "AnthC - Main"
-Date "2022-01-28"
-Rev "M2-R1"
+Date "2023-01-19"
+Rev "M2-R2"
 Comp "ANTHILLA"
 Comment1 "Ignacio de Mendizabal - www.clearemc.com"
 Comment2 ""
 Comment3 "https://www.anthilla.com/"
-Comment4 "https://github.com/Open-Hardware-Skunkworks/AnthC"
+Comment4 "https://github.com/Anthilla/AnthC"
 $EndDescr
 $Comp
 L Capacitors_0603:100nF C?

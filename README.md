@@ -21,15 +21,13 @@ The Anthilla Controller Board is a flexible controller for IoT projects. It can 
 
 ## Roadmap
 
-The board is designed to meet the following standards: 
+The version M2-R2 is stable. The next steps are the following:
 
-- RoHS
-- CE EMC/EMI
-- General/National EMS
-- EN 61131-2:2007
-- EN 61010-1:2010+A1:2019
-- EN IEC 61010-2-201:2018
-- Other Home/Civil/Industrial/Medical
+- Improve its manufacturability and testing
+- Get the Open Source Hardware certification (OSHW)
+- Perform EMC tests
+- Generate the CE marking certificate
+
 
 ## Photos
 ![AnthC lateral](Marketing/Photos/M2-R1/_DSC0009_small.JPG)

@@ -33,3 +33,4 @@ The board is designed to meet the following standards:
 
 ## Photos
 ![AnthC lateral](Marketing/Photos/M2-R1/_DSC0009_small.JPG)
+![AnthC lateral](Marketing/Photos/M2-R1/_DSC0050_small.JPG)

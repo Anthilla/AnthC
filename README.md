@@ -30,3 +30,6 @@ The board is designed to meet the following standards:
 - EN 61010-1:2010+A1:2019
 - EN IEC 61010-2-201:2018
 - Other Home/Civil/Industrial/Medical
+
+## Photos
+![AnthC lateral](Marketing/Photos/_DSC0009_small.JPG)

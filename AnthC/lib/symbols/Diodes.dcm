@@ -47,6 +47,12 @@ K TVS DIODE 45V 72.7V SMB
 F https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf
 $ENDCMP
 #
+$CMP SP3205-01ETG
+D TVS ESD 0.3pF Unidirectional +/-30KV
+K TVS ESD 0.3pF Unidirectional +/-30KV
+F https://www.littelfuse.com/media?resourcetype=datasheets&itemid=d1cdc83b-0960-4daf-a9e1-b6d87188f7ba&filename=littelfuse-tvs-diode-array-sp3205-datasheet
+$ENDCMP
+#
 $CMP TVS_2-Channel-7V
 D ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance
 K ESD Suppressors / TVS Diodes SOT-23 7V400W Low Capacitance

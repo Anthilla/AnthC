@@ -6,10 +6,22 @@ K zener diode
 F https://www.vishay.com/docs/85816/1n4728a.pdf
 $ENDCMP
 #
+$CMP B220AF-13
+D DIODE SCHOTTKY 20V 2A 0.4Vf SMAF
+K DIODE SCHOTTKY 20V 2A 0.4Vf SMAF
+F https://www.diodes.com/assets/Datasheets/B220AFB230AFB240AFB245AF.pdf
+$ENDCMP
+#
 $CMP BAT54S
 D BAT54S,235,DIODE SCHOTTKY TAPE -11, SOT23, R76<AZ
 K BAT54S,235,DIODE SCHOTTKY TAPE -11, SOT23, R76<AZ
 F https://www.mouser.be/datasheet/2/916/BAT54_SER-1598556.pdf
+$ENDCMP
+#
+$CMP IP4220CZ6_125_TVS
+D Dual USB 2.0 integrated ESD protection
+K Dual USB 2.0 integrated ESD protection
+F https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf
 $ENDCMP
 #
 $CMP PESD3V3L2BT
@@ -33,6 +45,12 @@ $CMP SMBJ45CA
 D TVS DIODE 45V 72.7V SMB
 K TVS DIODE 45V 72.7V SMB
 F https://www.bourns.com/docs/Product-Datasheets/SMBJ.pdf
+$ENDCMP
+#
+$CMP SP3205-01ETG
+D TVS ESD 0.3pF Unidirectional +/-30KV
+K TVS ESD 0.3pF Unidirectional +/-30KV
+F https://www.littelfuse.com/media?resourcetype=datasheets&itemid=d1cdc83b-0960-4daf-a9e1-b6d87188f7ba&filename=littelfuse-tvs-diode-array-sp3205-datasheet
 $ENDCMP
 #
 $CMP TVS_2-Channel-7V

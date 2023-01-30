@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "AnthC - Main"
-Date "2022-01-28"
-Rev "M2-R1"
+Date "2023-01-19"
+Rev "M2-R2"
 Comp "ANTHILLA"
 Comment1 "Ignacio de Mendizabal - www.clearemc.com"
 Comment2 ""
 Comment3 "https://www.anthilla.com/"
-Comment4 "https://github.com/Open-Hardware-Skunkworks/AnthC"
+Comment4 "https://github.com/Anthilla/AnthC"
 $EndDescr
 $Comp
 L Capacitors_0603:100nF C?
@@ -1035,7 +1035,7 @@ F 3 "" H 6150 1600 50  0001 C CNN
 $EndComp
 Connection ~ 6150 1600
 Wire Wire Line
-	6150 1600 6700 1600
+	6150 1600 6300 1600
 Wire Wire Line
 	3350 1450 3750 1450
 NoConn ~ 3750 1600
@@ -1115,4 +1115,22 @@ F 3 "~" H 10100 1600 50  0001 C CNN
 	1    9900 1600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP?
+U 1 1 64031DBF
+P 6300 1500
+AR Path="/64031DBF" Ref="TP?"  Part="1" 
+AR Path="/6243F6D9/64031DBF" Ref="TP22"  Part="1" 
+F 0 "TP22" H 6250 1700 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 6300 1700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6500 1500 50  0001 C CNN
+F 3 "~" H 6500 1500 50  0001 C CNN
+	1    6300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1500 6300 1600
+Connection ~ 6300 1600
+Wire Wire Line
+	6300 1600 6700 1600
 $EndSCHEMATC

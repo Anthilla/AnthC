@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "AnthC - Main"
 Date "2023-01-19"
-Rev "M2-R2"
+Rev "M2-R3"
 Comp "ANTHILLA"
 Comment1 "Ignacio de Mendizabal - www.clearemc.com"
 Comment2 ""
@@ -158,7 +158,7 @@ AR Path="/60746CFB" Ref="C13"  Part="1"
 AR Path="/5EEADDE8/60746CFB" Ref="C?"  Part="1" 
 AR Path="/606FCEC4/5EEADDE8/60746CFB" Ref="C?"  Part="1" 
 F 0 "C13" H 5750 1350 50  0000 L CNN
-F 1 "100nF" H 6075 1250 50  0000 L CNN
+F 1 "100nF" H 6100 1450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7450 1550 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6050 1350 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 7150 1700 50  0001 C CNN "Manufacturer"
@@ -1001,38 +1001,6 @@ Wire Notes Line
 	3000 11100 9200 11100
 Wire Notes Line
 	3000 6600 3000 11100
-Wire Wire Line
-	3250 9850 3250 10100
-Wire Wire Line
-	4650 10050 4950 10050
-$Comp
-L power:VBUS #PWR?
-U 1 1 6039ACD5
-P 4800 9850
-AR Path="/602E71BC/6039ACD5" Ref="#PWR?"  Part="1" 
-AR Path="/6039ACD5" Ref="#PWR0149"  Part="1" 
-F 0 "#PWR0149" H 4800 9700 50  0001 C CNN
-F 1 "VBUS" H 4815 10023 50  0000 C CNN
-F 2 "" H 4800 9850 50  0001 C CNN
-F 3 "" H 4800 9850 50  0001 C CNN
-	1    4800 9850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 9850 4650 9850
-$Comp
-L power:GND #PWR?
-U 1 1 6039ACBA
-P 3250 10100
-AR Path="/602E71BC/6039ACBA" Ref="#PWR?"  Part="1" 
-AR Path="/6039ACBA" Ref="#PWR0148"  Part="1" 
-F 0 "#PWR0148" H 3250 9850 50  0001 C CNN
-F 1 "GND" H 3255 9927 50  0000 C CNN
-F 2 "" H 3250 10100 50  0001 C CNN
-F 3 "" H 3250 10100 50  0001 C CNN
-	1    3250 10100
-	1    0    0    -1  
-$EndComp
 Text Notes 3200 6750 0    50   ~ 0
 USB INTERFACE
 $Comp
@@ -1774,7 +1742,7 @@ Wire Notes Line
 Text Label 10050 3700 3    50   ~ 0
 GPIO2
 Wire Wire Line
-	6150 6200 6150 6100
+	6150 6200 6150 6150
 $Comp
 L power:GND #PWR0162
 U 1 1 6059B80A
@@ -1790,8 +1758,8 @@ $Comp
 L Device:Battery_Cell BT1
 U 1 1 60574F5C
 P 6150 6000
-F 0 "BT1" H 6268 6096 50  0000 L CNN
-F 1 "COIN BATTERY" V 6300 5500 50  0000 L CNN
+F 0 "BT1" H 6300 6300 50  0000 L CNN
+F 1 "COIN BATTERY" V 6550 5700 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 6150 6060 50  0001 C CNN
 F 3 "~" V 6150 6060 50  0001 C CNN
 F 4 "C238061" H 6150 6000 50  0001 C CNN "LCSC-PN"
@@ -2169,32 +2137,32 @@ Wire Wire Line
 $Comp
 L AnthC-Lib-Symbols:1N5820 D?
 U 1 1 60EC1983
-P 6550 5950
+P 6700 5900
 AR Path="/602E71BC/60EC1983" Ref="D?"  Part="1" 
 AR Path="/60EC1983" Ref="D20"  Part="1" 
-F 0 "D20" H 6500 6050 50  0000 L CNN
-F 1 "B5819W" H 6450 6150 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 6550 5775 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 6550 5950 50  0001 C CNN
-F 4 "B5819W" H 6550 5950 50  0001 C CNN "MPN"
-F 5 "Changjiang Electronics Tech (CJ)" H 6550 5950 50  0001 C CNN "Manufacturer"
-F 6 "C8598" H 6550 5950 50  0001 C CNN "LCSC-PN"
-	1    6550 5950
+F 0 "D20" H 6650 6000 50  0000 L CNN
+F 1 "B5819W" H 6250 6000 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6700 5725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 6700 5900 50  0001 C CNN
+F 4 "B5819W" H 6700 5900 50  0001 C CNN "MPN"
+F 5 "Changjiang Electronics Tech (CJ)" H 6700 5900 50  0001 C CNN "Manufacturer"
+F 6 "C8598" H 6700 5900 50  0001 C CNN "LCSC-PN"
+	1    6700 5900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0229
 U 1 1 60F12C4B
-P 6550 6200
-F 0 "#PWR0229" H 6550 5950 50  0001 C CNN
-F 1 "GND" H 6555 6027 50  0000 C CNN
-F 2 "" H 6550 6200 50  0001 C CNN
-F 3 "" H 6550 6200 50  0001 C CNN
-	1    6550 6200
+P 6700 6150
+F 0 "#PWR0229" H 6700 5900 50  0001 C CNN
+F 1 "GND" H 6705 5977 50  0000 C CNN
+F 2 "" H 6700 6150 50  0001 C CNN
+F 3 "" H 6700 6150 50  0001 C CNN
+	1    6700 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 6200 6550 6100
+	6700 6150 6700 6050
 Wire Notes Line
 	4050 5150 4050 6550
 Wire Notes Line
@@ -2946,11 +2914,9 @@ Wire Wire Line
 	4500 7850 4250 7850
 Wire Wire Line
 	4500 7750 4500 7850
-Wire Wire Line
-	4500 7650 4700 7650
 Connection ~ 4500 7650
 Wire Wire Line
-	4500 7850 4700 7850
+	4500 7850 4800 7850
 Connection ~ 4500 7850
 Text Label 4700 7650 0    50   ~ 0
 DN
@@ -5317,7 +5283,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 5250 5950 5250
 Wire Wire Line
-	6150 5250 6150 5450
+	6150 5250 6150 5400
 $Comp
 L Resistor_0603:1K R90
 U 1 1 6212D5EC
@@ -5345,7 +5311,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 5750 6150 5800
 Wire Wire Line
-	6550 5450 6550 5800
+	6700 5400 6700 5750
 $Comp
 L Resistor_0603:0 R91
 U 1 1 623C06CC
@@ -5365,7 +5331,6 @@ F 11 "0.09" H 6150 6425 50  0001 C CNN "Price"
 	1    6150 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 6150 5450
 $Comp
 L Transistors_BJT:ULN2004D1013TR U11
 U 1 1 623EA7EA
@@ -6153,8 +6118,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 3750 2300 3950
 NoConn ~ 5850 5950
-Text Label 4950 10050 0    50   ~ 0
-DP
 Wire Wire Line
 	750  5700 1400 5700
 $Comp
@@ -6439,62 +6402,6 @@ F 3 "" H 14100 5250 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	11850 5750 16000 5750
-Text Label 3300 10050 0    50   ~ 0
-DN
-Wire Wire Line
-	3250 9850 3550 9850
-$Comp
-L Diodes:IP4220CZ6_125_TVS D?
-U 1 1 6039ACCB
-P 4150 9750
-AR Path="/602E71BC/6039ACCB" Ref="D?"  Part="1" 
-AR Path="/6039ACCB" Ref="D5"  Part="1" 
-F 0 "D5" H 4150 10183 60  0000 C CNN
-F 1 "IP4220CZ6_125_TVS" H 4152 9240 60  0000 C CNN
-F 2 "Semiconductors:SC-74-6_1.5x2.9mm_P0.95mm" H 5550 10150 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" H 4350 10050 60  0001 L CNN
-F 4 "1727-3578-1-ND" H 4350 10150 60  0001 L CNN "Digi-Key_PN"
-F 5 "IP4220CZ6,125" H 4350 10250 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 4350 10350 60  0001 L CNN "Category"
-F 7 "TVS - Diodes" H 4350 10450 60  0001 L CNN "Family"
-F 8 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" H 4350 10550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/nexperia-usa-inc/IP4220CZ6,125/1727-3578-1-ND/1133548" H 4350 10650 60  0001 L CNN "DK_Detail_Page"
-F 10 "TVS DIODE 5.5V 6TSOP" H 4350 10750 60  0001 L CNN "Description"
-F 11 "Nexperia USA Inc." H 4350 10850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4350 10950 60  0001 L CNN "Status"
-	1    4150 9750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 10050 3650 10050
-Wire Wire Line
-	3650 9650 3550 9650
-Wire Wire Line
-	3550 9650 3550 9850
-Connection ~ 3550 9850
-Wire Wire Line
-	3550 9850 3650 9850
-$Comp
-L power:GND #PWR?
-U 1 1 622447B6
-P 4850 9600
-AR Path="/602E71BC/622447B6" Ref="#PWR?"  Part="1" 
-AR Path="/622447B6" Ref="#PWR0164"  Part="1" 
-F 0 "#PWR0164" H 4850 9350 50  0001 C CNN
-F 1 "GND" H 4855 9427 50  0000 C CNN
-F 2 "" H 4850 9600 50  0001 C CNN
-F 3 "" H 4850 9600 50  0001 C CNN
-	1    4850 9600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 9650 4750 9650
-Wire Wire Line
-	4750 9650 4750 9550
-Wire Wire Line
-	4750 9550 4850 9550
-Wire Wire Line
-	4850 9550 4850 9600
 Text Notes 850  6250 0    50   ~ 0
 10K
 Wire Wire Line
@@ -6633,8 +6540,6 @@ RS485
 Wire Wire Line
 	6250 8950 5950 8950
 Wire Wire Line
-	1500 1300 1700 1300
-Wire Wire Line
 	1150 1300 1700 1300
 Connection ~ 8650 1350
 $Comp
@@ -6712,12 +6617,12 @@ Wire Wire Line
 	6400 2050 6400 2000
 Connection ~ 6400 2000
 Wire Wire Line
-	6400 2000 6500 2000
+	6400 2000 6450 2000
 Wire Wire Line
 	6200 2050 6200 1700
 Connection ~ 6200 1700
 Wire Wire Line
-	6200 1700 6500 1700
+	6200 1700 6300 1700
 Wire Wire Line
 	6050 1700 6200 1700
 Wire Wire Line
@@ -7121,7 +7026,7 @@ $Comp
 L Testpoints:TestPoint_1.5mm TP6
 U 1 1 6416C1F7
 P 6150 5800
-F 0 "TP6" H 6208 5872 50  0000 L CNN
+F 0 "TP6" H 6250 6000 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 6150 6000 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6350 5800 50  0001 C CNN
 F 3 "~" H 6350 5800 50  0001 C CNN
@@ -7247,8 +7152,6 @@ $EndComp
 Connection ~ 6150 5800
 Wire Wire Line
 	11550 2400 11550 2350
-Wire Wire Line
-	6150 5450 6550 5450
 Wire Wire Line
 	10950 2400 11550 2400
 $Comp
@@ -7376,4 +7279,134 @@ Wire Wire Line
 	3650 8550 3650 8700
 Wire Wire Line
 	3750 8550 3750 8700
+$Comp
+L Diodes:SP3205-01ETG D19
+U 1 1 63E0C688
+P 5050 7800
+F 0 "D19" V 5004 7879 50  0000 L CNN
+F 1 "SP3205-01ETG" V 5095 7879 50  0000 L CNN
+F 2 "Semiconductors:D_SOD-882" H 5050 8750 50  0001 C CNN
+F 3 "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=d1cdc83b-0960-4daf-a9e1-b6d87188f7ba&filename=littelfuse-tvs-diode-array-sp3205-datasheet" H 5050 8250 50  0001 C CNN
+F 4 "TVS ESD 0.3pF Unidirectional +/-30KV" H 5050 8650 50  0001 C CNN "Description"
+F 5 "Littelfuse" H 5050 8550 50  0001 C CNN "Manufacturer"
+F 6 "SP3205-01ETG" H 5050 8450 50  0001 C CNN "MPN"
+F 7 "Mouser" H 5050 8250 50  0001 C CNN "Supplier"
+F 8 "576-SP3205-01ETG" H 5050 8350 50  0001 C CNN "Supplier Part Number"
+	1    5050 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diodes:SP3205-01ETG D5
+U 1 1 63E0EA09
+P 4800 8000
+F 0 "D5" V 4754 8079 50  0000 L CNN
+F 1 "SP3205-01ETG" V 4800 7350 50  0000 L CNN
+F 2 "Semiconductors:D_SOD-882" H 4800 8950 50  0001 C CNN
+F 3 "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=d1cdc83b-0960-4daf-a9e1-b6d87188f7ba&filename=littelfuse-tvs-diode-array-sp3205-datasheet" H 4800 8450 50  0001 C CNN
+F 4 "TVS ESD 0.3pF Unidirectional +/-30KV" H 4800 8850 50  0001 C CNN "Description"
+F 5 "Littelfuse" H 4800 8750 50  0001 C CNN "Manufacturer"
+F 6 "SP3205-01ETG" H 4800 8650 50  0001 C CNN "MPN"
+F 7 "Mouser" H 4800 8450 50  0001 C CNN "Supplier"
+F 8 "576-SP3205-01ETG" H 4800 8550 50  0001 C CNN "Supplier Part Number"
+	1    4800 8000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 7650 5050 7650
+Wire Wire Line
+	4800 8150 4800 8300
+Wire Wire Line
+	5050 8300 5050 7950
+Wire Wire Line
+	4800 8300 4950 8300
+$Comp
+L power:GND #PWR019
+U 1 1 64282044
+P 4950 8300
+F 0 "#PWR019" H 4950 8050 50  0001 C CNN
+F 1 "GND" H 4955 8127 50  0000 C CNN
+F 2 "" H 4950 8300 50  0001 C CNN
+F 3 "" H 4950 8300 50  0001 C CNN
+	1    4950 8300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 8300
+Wire Wire Line
+	4950 8300 5050 8300
+$Comp
+L Testpoints:TestPoint_1.5mm TP4
+U 1 1 6403940F
+P 3050 4350
+F 0 "TP4" H 3108 4422 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 3050 4550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3250 4350 50  0001 C CNN
+F 3 "~" H 3250 4350 50  0001 C CNN
+	1    3050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 641E60FA
+P 3050 4350
+AR Path="/641E60FA" Ref="#PWR033"  Part="1" 
+AR Path="/5EEADDE8/641E60FA" Ref="#PWR?"  Part="1" 
+AR Path="/606FCEC4/5EEADDE8/641E60FA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR033" H 3050 4100 50  0001 C CNN
+F 1 "GND" H 3055 4177 50  0000 C CNN
+F 2 "" H 3050 4350 50  0001 C CNN
+F 3 "" H 3050 4350 50  0001 C CNN
+	1    3050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP23
+U 1 1 642C9E5D
+P 6300 1700
+F 0 "TP23" H 6350 1950 50  0000 R CNN
+F 1 "TestPoint_1.5mm" H 6300 1900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6500 1700 50  0001 C CNN
+F 3 "~" H 6500 1700 50  0001 C CNN
+	1    6300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoints:TestPoint_1.5mm TP24
+U 1 1 64358D8E
+P 6450 1650
+F 0 "TP24" H 6700 1800 50  0000 R CNN
+F 1 "TestPoint_1.5mm" H 6450 1850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6650 1650 50  0001 C CNN
+F 3 "~" H 6650 1650 50  0001 C CNN
+	1    6450 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 1700
+Wire Wire Line
+	6300 1700 6500 1700
+Wire Wire Line
+	6450 1650 6450 2000
+Connection ~ 6450 2000
+Wire Wire Line
+	6450 2000 6500 2000
+Wire Wire Line
+	6150 5400 6700 5400
+Connection ~ 6150 5400
+Wire Wire Line
+	6150 5400 6150 5450
+$Comp
+L Testpoints:TestPoint_1.5mm TP25
+U 1 1 64761A65
+P 6250 6150
+F 0 "TP25" V 6350 6200 50  0000 L CNN
+F 1 "TestPoint_1.5mm" H 6250 6350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6450 6150 50  0001 C CNN
+F 3 "~" H 6450 6150 50  0001 C CNN
+	1    6250 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 6150 6150 6150
+Connection ~ 6150 6150
+Wire Wire Line
+	6150 6150 6150 6100
 $EndSCHEMATC

@@ -25,6 +25,7 @@ F 0 "MH2" H 9950 10146 50  0000 L CNN
 F 1 "MH" H 9950 10055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 9850 10100 50  0001 C CNN
 F 3 "~" H 9850 10100 50  0001 C CNN
+F 4 "Mounted" H 9850 10100 50  0001 C CNN "Variant1"
 	1    9850 10100
 	1    0    0    -1  
 $EndComp
@@ -36,6 +37,7 @@ F 0 "MH3" H 9500 10396 50  0000 L CNN
 F 1 "MH" H 9500 10305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 9400 10350 50  0001 C CNN
 F 3 "~" H 9400 10350 50  0001 C CNN
+F 4 "Mounted" H 9400 10350 50  0001 C CNN "Variant1"
 	1    9400 10350
 	1    0    0    -1  
 $EndComp
@@ -47,6 +49,7 @@ F 0 "MH4" H 9950 10396 50  0000 L CNN
 F 1 "MH" H 9950 10305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 9850 10350 50  0001 C CNN
 F 3 "~" H 9850 10350 50  0001 C CNN
+F 4 "Mounted" H 9850 10350 50  0001 C CNN "Variant1"
 	1    9850 10350
 	1    0    0    -1  
 $EndComp
@@ -58,6 +61,7 @@ F 0 "MH1" H 9500 10146 50  0000 L CNN
 F 1 "MH" H 9500 10055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 9400 10100 50  0001 C CNN
 F 3 "~" H 9400 10100 50  0001 C CNN
+F 4 "Mounted" H 9400 10100 50  0001 C CNN "Variant1"
 	1    9400 10100
 	1    0    0    -1  
 $EndComp
@@ -96,6 +100,7 @@ F 9 "Digikey" H 11600 2625 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 11600 2925 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 11600 2150 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 11600 1400 50  0001 C CNN "MPN"
+F 13 "Mounted" H 11600 1400 50  0001 C CNN "Variant1"
 	1    11600 1400
 	1    0    0    -1  
 $EndComp
@@ -118,6 +123,7 @@ F 9 "Digikey" H 11400 2625 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 11400 2925 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 11400 2150 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 11400 1400 50  0001 C CNN "MPN"
+F 13 "Mounted" H 11400 1400 50  0001 C CNN "Variant1"
 	1    11400 1400
 	1    0    0    -1  
 $EndComp
@@ -147,6 +153,7 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 5350 19
 F 4 "C8963" H 5350 1850 50  0001 C CNN "LCSC-PN"
 F 5 "SP3485EN-L/TR" H 5350 1850 50  0001 C CNN "MPN"
 F 6 "Exar" H 5350 1850 50  0001 C CNN "Manufacturer"
+F 7 "Mounted" H 5350 1850 50  0001 C CNN "Variant1"
 	1    5350 1850
 	1    0    0    -1  
 $EndComp
@@ -171,6 +178,7 @@ F 10 "1276-1000-1-ND" H 6600 1600 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 8100 1550 50  0001 C CNN "Tolerance"
 F 12 "50V" H 6350 1400 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 6050 1350 50  0001 C CNN "MPN"
+F 14 "Mounted" H 6050 1350 50  0001 C CNN "Variant1"
 	1    6050 1350
 	1    0    0    -1  
 $EndComp
@@ -210,6 +218,7 @@ F 9 "Mouser" H 6050 3075 50  0001 C CNN "Supplier"
 F 10 "652-CR0603FX-1200ELF" H 6050 3375 50  0001 C CNN "Supplier Nr."
 F 11 "5%" H 6050 2600 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-1200ELF" H 6050 1850 50  0001 C CNN "MPN"
+F 13 "Mounted" H 6050 1850 50  0001 C CNN "Variant1"
 	1    6050 1850
 	-1   0    0    -1  
 $EndComp
@@ -313,6 +322,7 @@ F 9 "Mouser" H 13750 2475 50  0001 C CNN "Supplier"
 F 10 "660-RK73B1JTTDD203J" H 13750 2775 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 13750 2000 50  0001 C CNN "Tolerance"
 F 12 "RK73B1JTTDD203J" H 13750 1250 50  0001 C CNN "MPN"
+F 13 "Mounted" H 13750 1250 50  0001 C CNN "Variant1"
 	1    13750 1250
 	-1   0    0    1   
 $EndComp
@@ -337,6 +347,7 @@ F 9 "Digikey" H 13550 2275 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 13550 2575 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 13550 1800 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 13550 1050 50  0001 C CNN "MPN"
+F 13 "Mounted" H 13550 1050 50  0001 C CNN "Variant1"
 	1    13550 1050
 	0    -1   -1   0   
 $EndComp
@@ -357,6 +368,7 @@ F 9 "Digikey" H 5200 4725 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 5200 5025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 5200 4250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 5200 3500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 5200 3500 50  0001 C CNN "Variant1"
 	1    5200 3500
 	1    0    0    -1  
 $EndComp
@@ -377,6 +389,7 @@ F 9 "Digikey" H 4450 4725 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 4450 5025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 4450 4250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 4450 3500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 4450 3500 50  0001 C CNN "Variant1"
 	1    4450 3500
 	1    0    0    -1  
 $EndComp
@@ -463,6 +476,7 @@ F 9 "Mouser" H 15500 3125 50  0001 C CNN "Supplier"
 F 10 "660-RK73B1JTTDD203J" H 15500 3425 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 15500 2650 50  0001 C CNN "Tolerance"
 F 12 "RK73B1JTTDD203J" H 15500 1900 50  0001 C CNN "MPN"
+F 13 "Mounted" H 15500 1900 50  0001 C CNN "Variant1"
 	1    15500 1900
 	-1   0    0    1   
 $EndComp
@@ -510,6 +524,7 @@ F 9 "Mouser" H 15550 2375 50  0001 C CNN "Supplier"
 F 10 "660-RK73B1JTTDD203J" H 15550 2675 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 15550 1900 50  0001 C CNN "Tolerance"
 F 12 "RK73B1JTTDD203J" H 15550 1150 50  0001 C CNN "MPN"
+F 13 "Mounted" H 15550 1150 50  0001 C CNN "Variant1"
 	1    15550 1150
 	-1   0    0    1   
 $EndComp
@@ -601,6 +616,7 @@ F 9 "Digikey" H 15300 950 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 15300 950 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 15300 950 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 15300 950 50  0001 C CNN "MPN"
+F 13 "Mounted" H 15300 950 50  0001 C CNN "Variant1"
 	1    15300 950 
 	0    -1   -1   0   
 $EndComp
@@ -624,6 +640,7 @@ F 9 "Digikey" H 15250 2925 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 15250 3225 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 15250 2450 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 15250 1700 50  0001 C CNN "MPN"
+F 13 "Mounted" H 15250 1700 50  0001 C CNN "Variant1"
 	1    15250 1700
 	0    1    1    0   
 $EndComp
@@ -664,6 +681,7 @@ F 10 "1276-1000-1-ND" H 15500 3250 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 17000 3200 50  0001 C CNN "Tolerance"
 F 12 "50V" H 15250 3050 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 14950 3000 50  0001 C CNN "MPN"
+F 14 "Mounted" H 14950 3000 50  0001 C CNN "Variant1"
 	1    14950 3000
 	1    0    0    -1  
 $EndComp
@@ -695,6 +713,7 @@ F 4 "Adafruit" H 7800 4650 50  0001 C CNN "Manufacturer"
 F 5 "4684" H 7800 4650 50  0001 C CNN "Manufacturer Part Number"
 F 6 "Mouser" H 7800 4650 50  0001 C CNN "Supplier"
 F 7 "485-4684" H 7800 4650 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 7800 4650 50  0001 C CNN "Variant1"
 	1    7800 4650
 	1    0    0    -1  
 $EndComp
@@ -723,6 +742,7 @@ F 4 "10129381-940002BLF" H 12700 7550 50  0001 C CNN "MPN"
 F 5 "Amphenol ICC" H 12700 7550 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 12700 7550 50  0001 C CNN "Supplier"
 F 7 "649-1012938194002BLF" H 12700 7550 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 12700 7550 50  0001 C CNN "Variant1"
 	1    12700 7550
 	1    0    0    -1  
 $EndComp
@@ -763,6 +783,7 @@ F 3 "~" V 3050 3810 50  0001 C CNN
 F 4 "C158012" H 3050 3750 50  0001 C CNN "LCSC-PN"
 F 5 "B2B-XH-A(LF)(SN)" H 3050 3750 50  0001 C CNN "MPN"
 F 6 "JST Sales America" H 3050 3750 50  0001 C CNN "Manufacturer"
+F 7 "Mounted" H 3050 3750 50  0001 C CNN "Variant1"
 	1    3050 3750
 	1    0    0    -1  
 $EndComp
@@ -789,6 +810,7 @@ F 10 "1276-1184-1-ND" H 3050 4000 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 2800 3600 50  0001 C CNN "Tolerance"
 F 12 "25V" H 2800 3700 50  0001 C CNN "Voltage"
 F 13 "CL10B105KA8NNNC" H 2500 3650 50  0001 C CNN "MPN"
+F 14 "Mounted" H 2500 3650 50  0001 C CNN "Variant1"
 	1    2500 3650
 	1    0    0    -1  
 $EndComp
@@ -810,6 +832,7 @@ F 7 "81-GRT31CR61H106ME1L" H 3650 4000 50  0001 C CNN "Supplier Nr."
 F 8 "20%" H 3100 3600 50  0001 C CNN "Tolerance"
 F 9 "50V" H 3100 3700 50  0001 C CNN "Voltage"
 F 10 "GRT31CR61H106ME01L" H 2800 3650 50  0001 C CNN "MPN"
+F 11 "Mounted" H 2800 3650 50  0001 C CNN "Variant1"
 	1    2800 3650
 	1    0    0    -1  
 $EndComp
@@ -859,6 +882,7 @@ F 5 "12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 30
 F 6 "Mouser" H 3050 6900 50  0001 C CNN "Supplier"
 F 7 "RT0603FRE0712KL" H 3050 7000 50  0001 C CNN "MPN"
 F 8 "603-RT0603FRE0712KL" H 3050 6800 50  0001 C CNN "Supplier Part Number"
+F 9 "Mounted" H 3050 6050 50  0001 C CNN "Variant1"
 	1    3050 6050
 	0    -1   -1   0   
 $EndComp
@@ -878,6 +902,7 @@ F 5 "Thin Film Resistors - SMD 36kOhm,0603,1%,50ppm ,100mW,75V" H 3050 6650 50  
 F 6 "Mouser" H 3050 6350 50  0001 C CNN "Supplier"
 F 7 "RN73H1JTTD3602F50" H 3050 6450 50  0001 C CNN "MPN"
 F 8 "660-RN73H1JTD3602F50" H 3050 6250 50  0001 C CNN "Supplier Part Number"
+F 9 "Mounted" H 3050 5500 50  0001 C CNN "Variant1"
 	1    3050 5500
 	0    -1   -1   0   
 $EndComp
@@ -896,6 +921,7 @@ F 5 "Diode Schottky 20V 2A Surface Mount SMAF" H 2900 6350 50  0001 C CNN "Descr
 F 6 "B220AF-13" H 2950 6150 50  0001 C CNN "MPN"
 F 7 "Mouser" H 2900 6050 50  0001 C CNN "Supplier"
 F 8 "621-B220AF-13" H 2900 5950 50  0001 C CNN "Supplier Nr."
+F 9 "Mounted" H 2900 5200 50  0001 C CNN "Variant1"
 	1    2900 5200
 	-1   0    0    1   
 $EndComp
@@ -946,6 +972,7 @@ F 9 "Digikey" H 1400 6625 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 1400 6925 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 1400 6150 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 1400 5400 50  0001 C CNN "MPN"
+F 13 "Mounted" H 1400 5400 50  0001 C CNN "Variant1"
 	1    1400 5400
 	-1   0    0    1   
 $EndComp
@@ -1020,6 +1047,7 @@ F 9 "Micro Commercial Co" H 8100 6950 60  0001 L CNN "Manufacturer"
 F 10 "Active" H 8100 7050 60  0001 L CNN "Status"
 F 11 "Mouser" H 10800 6250 50  0001 C CNN "Supplier"
 F 12 "833-MMSS8050-H-TP" H 10100 6250 50  0001 C CNN "Supplier Part Number"
+F 13 "Mounted" H 7500 5850 50  0001 C CNN "Variant1"
 	1    7500 5850
 	-1   0    0    -1  
 $EndComp
@@ -1040,6 +1068,7 @@ F 9 "Micro Commercial Co" H 8100 7650 60  0001 L CNN "Manufacturer"
 F 10 "Active" H 8100 7750 60  0001 L CNN "Status"
 F 11 "Mouser" H 10800 6950 50  0001 C CNN "Supplier"
 F 12 "833-MMSS8050-H-TP" H 10100 6950 50  0001 C CNN "Supplier Part Number"
+F 13 "Mounted" H 7500 6550 50  0001 C CNN "Variant1"
 	1    7500 6550
 	-1   0    0    1   
 $EndComp
@@ -1087,6 +1116,7 @@ F 9 "Digikey" H 8000 7775 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 8000 8075 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8000 7300 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 8000 6550 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8000 6550 50  0001 C CNN "Variant1"
 	1    8000 6550
 	0    1    1    0   
 $EndComp
@@ -1123,6 +1153,7 @@ F 10 "1276-1000-1-ND" H 7800 1100 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 9300 1050 50  0001 C CNN "Tolerance"
 F 12 "50V" H 7550 900 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 7250 850 50  0001 C CNN "MPN"
+F 14 "Mounted" H 7250 850 50  0001 C CNN "Variant1"
 	1    7250 850 
 	1    0    0    -1  
 $EndComp
@@ -1147,6 +1178,7 @@ F 10 "187-CL31B106KBHNNNE" H 8400 1200 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 7850 800 50  0001 C CNN "Tolerance"
 F 12 "50V" H 7850 900 50  0001 C CNN "Voltage"
 F 13 "CL31B106KBHNNNE" H 7550 850 50  0001 C CNN "MPN"
+F 14 "Mounted" H 7550 850 50  0001 C CNN "Variant1"
 	1    7550 850 
 	1    0    0    -1  
 $EndComp
@@ -1202,6 +1234,7 @@ F 4 "BAT54S,235" H 750 7500 50  0001 C CNN "MPN"
 F 5 "Nexperia" H 750 7500 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 750 7500 50  0001 C CNN "Supplier"
 F 7 "771-BAT54S235" H 750 7500 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 750 7500 50  0001 C CNN "Variant1"
 	1    750  7500
 	0    -1   -1   0   
 $EndComp
@@ -1248,6 +1281,7 @@ F 9 "Mouser" H 1250 8725 50  0001 C CNN "Supplier"
 F 10 "652-CR0603-FX-2001LF" H 1250 9025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 1250 8250 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-2001ELF" H 1250 7500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 1250 7500 50  0001 C CNN "Variant1"
 	1    1250 7500
 	0    1    1    0   
 $EndComp
@@ -1267,6 +1301,7 @@ F 4 "BAT54S,235" H 750 8700 50  0001 C CNN "MPN"
 F 5 "Nexperia" H 750 8700 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 750 8700 50  0001 C CNN "Supplier"
 F 7 "771-BAT54S235" H 750 8700 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 750 8700 50  0001 C CNN "Variant1"
 	1    750  8700
 	0    -1   -1   0   
 $EndComp
@@ -1313,6 +1348,7 @@ F 9 "Mouser" H 1300 9925 50  0001 C CNN "Supplier"
 F 10 "652-CR0603-FX-2001LF" H 1300 10225 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 1300 9450 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-2001ELF" H 1300 8700 50  0001 C CNN "MPN"
+F 13 "Mounted" H 1300 8700 50  0001 C CNN "Variant1"
 	1    1300 8700
 	0    1    1    0   
 $EndComp
@@ -1330,6 +1366,7 @@ F 4 "BAT54S,235" H 1900 7450 50  0001 C CNN "MPN"
 F 5 "Nexperia" H 1900 7450 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 1900 7450 50  0001 C CNN "Supplier"
 F 7 "771-BAT54S235" H 1900 7450 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 1900 7450 50  0001 C CNN "Variant1"
 	1    1900 7450
 	0    -1   -1   0   
 $EndComp
@@ -1376,6 +1413,7 @@ F 9 "Mouser" H 2450 8675 50  0001 C CNN "Supplier"
 F 10 "652-CR0603-FX-2001LF" H 2450 8975 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 2450 8200 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-2001ELF" H 2450 7450 50  0001 C CNN "MPN"
+F 13 "Mounted" H 2450 7450 50  0001 C CNN "Variant1"
 	1    2450 7450
 	0    1    1    0   
 $EndComp
@@ -1393,6 +1431,7 @@ F 4 "BAT54S,235" H 1900 8700 50  0001 C CNN "MPN"
 F 5 "Nexperia" H 1900 8700 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 1900 8700 50  0001 C CNN "Supplier"
 F 7 "771-BAT54S235" H 1900 8700 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 1900 8700 50  0001 C CNN "Variant1"
 	1    1900 8700
 	0    -1   -1   0   
 $EndComp
@@ -1535,6 +1574,7 @@ F 10 "1276-1000-1-ND" H 12800 2950 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 14300 2900 50  0001 C CNN "Tolerance"
 F 12 "50V" H 12550 2750 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 12250 2700 50  0001 C CNN "MPN"
+F 14 "Mounted" H 12250 2700 50  0001 C CNN "Variant1"
 	1    12250 2700
 	1    0    0    -1  
 $EndComp
@@ -1587,6 +1627,7 @@ F 5 "Wurth Elektronik" H 7100 2150 50  0001 C CNN "Manufacturer"
 F 6 "0.274" H 6900 2050 50  0001 C CNN "Price"
 F 7 "Mouser" H 6950 2250 50  0001 C CNN "Supplier"
 F 8 "710-691312510002" H 7850 2250 50  0001 C CNN "Supplier Part Number"
+F 9 "Mounted" H 6750 1750 50  0001 C CNN "Variant1"
 	1    6750 1750
 	1    0    0    -1  
 $EndComp
@@ -1632,6 +1673,7 @@ F 10 "1276-1000-1-ND" H 9400 4900 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 10900 4850 50  0001 C CNN "Tolerance"
 F 12 "50V" H 9150 4700 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 8850 4650 50  0001 C CNN "MPN"
+F 14 "Mounted" H 8850 4650 50  0001 C CNN "Variant1"
 	1    8850 4650
 	1    0    0    -1  
 $EndComp
@@ -1691,6 +1733,7 @@ F 5 "Wurth Elektronik" H 1500 1550 50  0001 C CNN "Manufacturer"
 F 6 "0.411" H 1350 1350 50  0001 C CNN "Price"
 F 7 "Mouser" H 1350 1450 50  0001 C CNN "Supplier"
 F 8 "710-691312510003" H 2250 1450 50  0001 C CNN "Supplier Part Number"
+F 9 "Mounted" H 900 1100 50  0001 C CNN "Variant1"
 	1    900  1100
 	-1   0    0    -1  
 $EndComp
@@ -1728,6 +1771,7 @@ F 10 "1276-1000-1-ND" H 8800 4750 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 10300 4700 50  0001 C CNN "Tolerance"
 F 12 "50V" H 8550 4550 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 8250 4500 50  0001 C CNN "MPN"
+F 14 "Mounted" H 8250 4500 50  0001 C CNN "Variant1"
 	1    8250 4500
 	1    0    0    -1  
 $EndComp
@@ -1765,6 +1809,7 @@ F 3 "~" V 6150 6060 50  0001 C CNN
 F 4 "C238061" H 6150 6000 50  0001 C CNN "LCSC-PN"
 F 5 "BAT-TH_KEYSTONE-1025-7" H 6150 6000 50  0001 C CNN "MPN"
 F 6 "Keystone" H 6150 6000 50  0001 C CNN "Manufacturer"
+F 7 "Mounted" H 6150 6000 50  0001 C CNN "Variant1"
 	1    6150 6000
 	1    0    0    -1  
 $EndComp
@@ -1807,6 +1852,7 @@ F 10 "1276-1000-1-ND" H 4850 5950 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 6350 5900 50  0001 C CNN "Tolerance"
 F 12 "50V" H 4600 5750 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 4300 5700 50  0001 C CNN "MPN"
+F 14 "Mounted" H 4300 5700 50  0001 C CNN "Variant1"
 	1    4300 5700
 	1    0    0    -1  
 $EndComp
@@ -1831,6 +1877,7 @@ F 9 "Mouser" H 1050 9675 50  0001 C CNN "Supplier"
 F 10 "652-CR0603-FX-2001LF" H 1050 9975 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 1050 9200 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-2001ELF" H 1050 8450 50  0001 C CNN "MPN"
+F 13 "Mounted" H 1050 8450 50  0001 C CNN "Variant1"
 	1    1050 8450
 	-1   0    0    1   
 $EndComp
@@ -1860,6 +1907,7 @@ F 9 "Mouser" H 1000 8475 50  0001 C CNN "Supplier"
 F 10 "652-CR0603-FX-2001LF" H 1000 8775 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 1000 8000 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-2001ELF" H 1000 7250 50  0001 C CNN "MPN"
+F 13 "Mounted" H 1000 7250 50  0001 C CNN "Variant1"
 	1    1000 7250
 	-1   0    0    1   
 $EndComp
@@ -1888,6 +1936,7 @@ F 10 "1276-1000-1-ND" H 1600 9150 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 3100 9100 50  0001 C CNN "Tolerance"
 F 12 "50V" H 1350 8950 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 1050 8900 50  0001 C CNN "MPN"
+F 14 "Mounted" H 1050 8900 50  0001 C CNN "Variant1"
 	1    1050 8900
 	1    0    0    -1  
 $EndComp
@@ -1922,6 +1971,7 @@ F 10 "1276-1000-1-ND" H 1550 7950 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 3050 7900 50  0001 C CNN "Tolerance"
 F 12 "50V" H 1300 7750 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 1000 7700 50  0001 C CNN "MPN"
+F 14 "Mounted" H 1000 7700 50  0001 C CNN "Variant1"
 	1    1000 7700
 	1    0    0    -1  
 $EndComp
@@ -1959,6 +2009,7 @@ F 9 "Mouser" H 2200 8425 50  0001 C CNN "Supplier"
 F 10 "652-CR0603-FX-2001LF" H 2200 8725 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 2200 7950 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-2001ELF" H 2200 7200 50  0001 C CNN "MPN"
+F 13 "Mounted" H 2200 7200 50  0001 C CNN "Variant1"
 	1    2200 7200
 	-1   0    0    1   
 $EndComp
@@ -1987,6 +2038,7 @@ F 10 "1276-1000-1-ND" H 2750 7900 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 4250 7850 50  0001 C CNN "Tolerance"
 F 12 "50V" H 2500 7700 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 2200 7650 50  0001 C CNN "MPN"
+F 14 "Mounted" H 2200 7650 50  0001 C CNN "Variant1"
 	1    2200 7650
 	1    0    0    -1  
 $EndComp
@@ -2024,6 +2076,7 @@ F 9 "Mouser" H 2150 9675 50  0001 C CNN "Supplier"
 F 10 "652-CR0603-FX-2001LF" H 2150 9975 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 2150 9200 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-2001ELF" H 2150 8450 50  0001 C CNN "MPN"
+F 13 "Mounted" H 2150 8450 50  0001 C CNN "Variant1"
 	1    2150 8450
 	-1   0    0    1   
 $EndComp
@@ -2052,6 +2105,7 @@ F 10 "1276-1000-1-ND" H 2700 9150 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 4200 9100 50  0001 C CNN "Tolerance"
 F 12 "50V" H 2450 8950 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 2150 8900 50  0001 C CNN "MPN"
+F 14 "Mounted" H 2150 8900 50  0001 C CNN "Variant1"
 	1    2150 8900
 	1    0    0    -1  
 $EndComp
@@ -2085,6 +2139,7 @@ F 9 "Mouser" H 2400 9925 50  0001 C CNN "Supplier"
 F 10 "652-CR0603-FX-2001LF" H 2400 10225 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 2400 9450 50  0001 C CNN "Tolerance"
 F 12 "CR0603-FX-2001ELF" H 2400 8700 50  0001 C CNN "MPN"
+F 13 "Mounted" H 2400 8700 50  0001 C CNN "Variant1"
 	1    2400 8700
 	0    1    1    0   
 $EndComp
@@ -2147,6 +2202,7 @@ F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 6700 5900 50  0001 C CNN
 F 4 "B5819W" H 6700 5900 50  0001 C CNN "MPN"
 F 5 "Changjiang Electronics Tech (CJ)" H 6700 5900 50  0001 C CNN "Manufacturer"
 F 6 "C8598" H 6700 5900 50  0001 C CNN "LCSC-PN"
+F 7 "Mounted" H 6700 5900 50  0001 C CNN "Variant1"
 	1    6700 5900
 	0    1    1    0   
 $EndComp
@@ -2187,6 +2243,7 @@ F 7 "81-GRT31CR61H106ME1L" H 4300 5850 50  0001 C CNN "Supplier Nr."
 F 8 "20%" H 3750 5450 50  0001 C CNN "Tolerance"
 F 9 "50V" H 3750 5550 50  0001 C CNN "Voltage"
 F 10 "GRT31CR61H106ME01L" H 3450 5500 50  0001 C CNN "MPN"
+F 11 "Mounted" H 3450 5500 50  0001 C CNN "Variant1"
 	1    3450 5500
 	1    0    0    -1  
 $EndComp
@@ -2252,6 +2309,7 @@ F 9 "Digikey" H 8300 2875 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 3175 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 2400 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 1650 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 1650 50  0001 C CNN "Variant1"
 	1    8300 1650
 	0    1    1    0   
 $EndComp
@@ -2272,6 +2330,7 @@ F 9 "Digikey" H 8300 1750 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 1750 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 1750 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 1750 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 1750 50  0001 C CNN "Variant1"
 	1    8300 1750
 	0    1    1    0   
 $EndComp
@@ -2294,6 +2353,7 @@ F 9 "Digikey" H 8300 1850 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 1850 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 1850 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 1850 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 1850 50  0001 C CNN "Variant1"
 	1    8300 1850
 	0    1    1    0   
 $EndComp
@@ -2314,6 +2374,7 @@ F 9 "Digikey" H 8300 1950 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 1950 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 1950 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 1950 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 1950 50  0001 C CNN "Variant1"
 	1    8300 1950
 	0    1    1    0   
 $EndComp
@@ -2338,6 +2399,7 @@ F 9 "Digikey" H 8300 2050 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 2050 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 2050 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 2050 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 2050 50  0001 C CNN "Variant1"
 	1    8300 2050
 	0    1    1    0   
 $EndComp
@@ -2358,6 +2420,7 @@ F 9 "Digikey" H 8300 2250 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 2250 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 2250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 2250 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 2250 50  0001 C CNN "Variant1"
 	1    8300 2250
 	0    1    1    0   
 $EndComp
@@ -2378,6 +2441,7 @@ F 9 "Digikey" H 8300 2350 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 2350 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 2350 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 2350 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 2350 50  0001 C CNN "Variant1"
 	1    8300 2350
 	0    1    1    0   
 $EndComp
@@ -2398,6 +2462,7 @@ F 9 "Digikey" H 8300 2450 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 2450 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 2450 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 2450 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 2450 50  0001 C CNN "Variant1"
 	1    8300 2450
 	0    1    1    0   
 $EndComp
@@ -2418,6 +2483,7 @@ F 9 "Digikey" H 8300 2550 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 2550 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 2550 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 2550 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 2550 50  0001 C CNN "Variant1"
 	1    8300 2550
 	0    1    1    0   
 $EndComp
@@ -2438,6 +2504,7 @@ F 9 "Digikey" H 8300 2650 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 2650 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 2650 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 2650 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 2650 50  0001 C CNN "Variant1"
 	1    8300 2650
 	0    1    1    0   
 $EndComp
@@ -2476,6 +2543,7 @@ F 9 "Digikey" H 8300 2750 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 8300 2750 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8300 2750 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 8300 2750 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8300 2750 50  0001 C CNN "Variant1"
 	1    8300 2750
 	0    1    1    0   
 $EndComp
@@ -2496,6 +2564,7 @@ F 9 "Digikey" H 9350 3350 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 9350 3350 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 9350 3350 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 9350 3350 50  0001 C CNN "MPN"
+F 13 "Mounted" H 9350 3350 50  0001 C CNN "Variant1"
 	1    9350 3350
 	-1   0    0    1   
 $EndComp
@@ -2516,6 +2585,7 @@ F 9 "Digikey" H 9750 3400 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 9750 3400 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 9750 3400 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 9750 3400 50  0001 C CNN "MPN"
+F 13 "Mounted" H 9750 3400 50  0001 C CNN "Variant1"
 	1    9750 3400
 	-1   0    0    1   
 $EndComp
@@ -2538,6 +2608,7 @@ F 9 "Digikey" H 10800 2600 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 2600 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 2600 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 2600 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 2600 50  0001 C CNN "Variant1"
 	1    10800 2600
 	0    -1   -1   0   
 $EndComp
@@ -2558,6 +2629,7 @@ F 9 "Digikey" H 10800 2500 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 2500 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 2500 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 2500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 2500 50  0001 C CNN "Variant1"
 	1    10800 2500
 	0    -1   -1   0   
 $EndComp
@@ -2582,6 +2654,7 @@ F 9 "Digikey" H 10800 1400 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 1400 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 1400 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 1400 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 1400 50  0001 C CNN "Variant1"
 	1    10800 1400
 	0    -1   -1   0   
 $EndComp
@@ -2602,6 +2675,7 @@ F 9 "Digikey" H 10800 1500 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 1500 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 1500 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 1500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 1500 50  0001 C CNN "Variant1"
 	1    10800 1500
 	0    -1   -1   0   
 $EndComp
@@ -2622,6 +2696,7 @@ F 9 "Digikey" H 10800 1900 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 1900 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 1900 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 1900 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 1900 50  0001 C CNN "Variant1"
 	1    10800 1900
 	0    -1   -1   0   
 $EndComp
@@ -2642,6 +2717,7 @@ F 9 "Digikey" H 10800 2400 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 2400 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 2400 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 2400 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 2400 50  0001 C CNN "Variant1"
 	1    10800 2400
 	0    -1   -1   0   
 $EndComp
@@ -2662,6 +2738,7 @@ F 9 "Digikey" H 10800 2000 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 2000 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 2000 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 2000 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 2000 50  0001 C CNN "Variant1"
 	1    10800 2000
 	0    -1   -1   0   
 $EndComp
@@ -2682,6 +2759,7 @@ F 9 "Digikey" H 10800 1800 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 1800 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 1800 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 1800 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 1800 50  0001 C CNN "Variant1"
 	1    10800 1800
 	0    -1   -1   0   
 $EndComp
@@ -2702,6 +2780,7 @@ F 9 "Digikey" H 9150 3350 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 9150 3350 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 9150 3350 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 9150 3350 50  0001 C CNN "MPN"
+F 13 "Mounted" H 9150 3350 50  0001 C CNN "Variant1"
 	1    9150 3350
 	-1   0    0    1   
 $EndComp
@@ -2722,6 +2801,7 @@ F 9 "Digikey" H 10050 3400 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10050 3400 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10050 3400 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10050 3400 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10050 3400 50  0001 C CNN "Variant1"
 	1    10050 3400
 	1    0    0    -1  
 $EndComp
@@ -2742,6 +2822,7 @@ F 9 "Digikey" H 10800 1700 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 1700 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 1700 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 1700 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 1700 50  0001 C CNN "Variant1"
 	1    10800 1700
 	0    -1   -1   0   
 $EndComp
@@ -2762,6 +2843,7 @@ F 9 "Digikey" H 10800 1600 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 10800 1600 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 10800 1600 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 10800 1600 50  0001 C CNN "MPN"
+F 13 "Mounted" H 10800 1600 50  0001 C CNN "Variant1"
 	1    10800 1600
 	0    -1   -1   0   
 $EndComp
@@ -2805,6 +2887,7 @@ F 9 "Digikey" H 9950 3400 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 9950 3400 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 9950 3400 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 9950 3400 50  0001 C CNN "MPN"
+F 13 "Mounted" H 9950 3400 50  0001 C CNN "Variant1"
 	1    9950 3400
 	-1   0    0    1   
 $EndComp
@@ -2858,6 +2941,7 @@ F 5 "Farnell" H 3650 9300 50  0001 C CNN "Supplier"
 F 6 "3588205" H 3650 9200 50  0001 C CNN "Supplier Part Number"
 F 7 "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole" H 3650 9700 50  0001 C CNN "Description"
 F 8 "USB4105-GF-A" H 3650 7650 50  0001 C CNN "MPN"
+F 9 "Mounted" H 3650 7650 50  0001 C CNN "Variant1"
 	1    3650 7650
 	1    0    0    -1  
 $EndComp
@@ -2950,6 +3034,7 @@ F 9 "Digikey" H 11550 3425 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 11550 3725 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 11550 2950 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 11550 2200 50  0001 C CNN "MPN"
+F 13 "Mounted" H 11550 2200 50  0001 C CNN "Variant1"
 	1    11550 2200
 	-1   0    0    1   
 $EndComp
@@ -3190,6 +3275,7 @@ F 9 "Digikey" H 6600 4725 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 6600 5025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 6600 4250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 6600 3500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 6600 3500 50  0001 C CNN "Variant1"
 	1    6600 3500
 	1    0    0    -1  
 $EndComp
@@ -3254,6 +3340,7 @@ F 9 "Digikey" H 6600 5725 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 6600 6025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 6600 5250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 6600 4500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 6600 4500 50  0001 C CNN "Variant1"
 	1    6600 4500
 	1    0    0    -1  
 $EndComp
@@ -3380,6 +3467,7 @@ F 9 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resista
 F 10 "100mW" H 12050 3000 50  0001 C CNN "Power"
 F 11 "0.09" H 12050 2425 50  0001 C CNN "Price"
 F 12 "RC0603FR-07100RL" H 12050 1600 50  0001 C CNN "MPN"
+F 13 "Mounted" H 12050 1600 50  0001 C CNN "Variant1"
 	1    12050 1600
 	1    0    0    -1  
 $EndComp
@@ -3400,6 +3488,7 @@ F 9 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resista
 F 10 "100mW" H 12150 3000 50  0001 C CNN "Power"
 F 11 "0.09" H 12150 2425 50  0001 C CNN "Price"
 F 12 "RC0603FR-07100RL" H 12150 1600 50  0001 C CNN "MPN"
+F 13 "Mounted" H 12150 1600 50  0001 C CNN "Variant1"
 	1    12150 1600
 	1    0    0    -1  
 $EndComp
@@ -3420,6 +3509,7 @@ F 9 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resista
 F 10 "100mW" H 12250 3000 50  0001 C CNN "Power"
 F 11 "0.09" H 12250 2425 50  0001 C CNN "Price"
 F 12 "RC0603FR-07100RL" H 12250 1600 50  0001 C CNN "MPN"
+F 13 "Mounted" H 12250 1600 50  0001 C CNN "Variant1"
 	1    12250 1600
 	1    0    0    -1  
 $EndComp
@@ -3440,6 +3530,7 @@ F 9 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resista
 F 10 "100mW" H 12350 3000 50  0001 C CNN "Power"
 F 11 "0.09" H 12350 2425 50  0001 C CNN "Price"
 F 12 "RC0603FR-07100RL" H 12350 1600 50  0001 C CNN "MPN"
+F 13 "Mounted" H 12350 1600 50  0001 C CNN "Variant1"
 	1    12350 1600
 	1    0    0    -1  
 $EndComp
@@ -3456,6 +3547,7 @@ F 5 "Wurth Elektronik" H 13050 1800 50  0001 C CNN "Manufacturer"
 F 6 "0.983" H 12850 1600 50  0001 C CNN "Price"
 F 7 "Mouser" H 12900 1700 50  0001 C CNN "Supplier"
 F 8 "710-418117270904" H 13850 1700 50  0001 C CNN "Supplier Part Number"
+F 9 "Mounted" H 12150 1150 50  0001 C CNN "Variant1"
 	1    12150 1150
 	0    1    1    0   
 $EndComp
@@ -3507,6 +3599,7 @@ F 9 "Digikey" H 13500 3025 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 13500 3325 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 13500 2550 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 13500 1800 50  0001 C CNN "MPN"
+F 13 "Mounted" H 13500 1800 50  0001 C CNN "Variant1"
 	1    13500 1800
 	0    -1   -1   0   
 $EndComp
@@ -3537,6 +3630,7 @@ F 9 "Mouser" H 13700 3225 50  0001 C CNN "Supplier"
 F 10 "660-RK73B1JTTDD203J" H 13700 3525 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 13700 2750 50  0001 C CNN "Tolerance"
 F 12 "RK73B1JTTDD203J" H 13700 2000 50  0001 C CNN "MPN"
+F 13 "Mounted" H 13700 2000 50  0001 C CNN "Variant1"
 	1    13700 2000
 	-1   0    0    1   
 $EndComp
@@ -3567,6 +3661,7 @@ F 9 "Digikey" H 5150 5725 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 5150 6025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 5150 5250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 5150 4500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 5150 4500 50  0001 C CNN "Variant1"
 	1    5150 4500
 	1    0    0    -1  
 $EndComp
@@ -3587,6 +3682,7 @@ F 9 "Digikey" H 4400 5725 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 4400 6025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 4400 5250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 4400 4500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 4400 4500 50  0001 C CNN "Variant1"
 	1    4400 4500
 	1    0    0    -1  
 $EndComp
@@ -3629,6 +3725,7 @@ F 9 "Digikey" H 8000 7075 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 8000 7375 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 8000 6600 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 8000 5850 50  0001 C CNN "MPN"
+F 13 "Mounted" H 8000 5850 50  0001 C CNN "Variant1"
 	1    8000 5850
 	0    1    1    0   
 $EndComp
@@ -3659,6 +3756,7 @@ F 9 "1%" H 14750 4750 50  0001 C CNN "Tolerance"
 F 10 "0.07" H 14750 4825 50  0001 C CNN "Price"
 F 11 "Thick Film Resistors - SMD 0603 47Kohm 1% Anti-Sulfur AEC-Q200" H 14750 4925 50  0001 C CNN "Description"
 F 12 "CR0603-FX-2001ELF" H 14750 4000 50  0001 C CNN "MPN"
+F 13 "Mounted" H 14750 4000 50  0001 C CNN "Variant1"
 	1    14750 4000
 	1    0    0    -1  
 $EndComp
@@ -3694,6 +3792,7 @@ F 7 "20%" H 13200 4950 50  0001 C CNN "Tolerance"
 F 8 "50V" H 13200 5050 50  0001 C CNN "Voltage"
 F 9 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-20% 50V X5R 1206" H 14600 5150 50  0001 C CNN "Description"
 F 10 "GRT31CR61H106ME01L" H 12900 5000 50  0001 C CNN "MPN"
+F 11 "Mounted" H 12900 5000 50  0001 C CNN "Variant1"
 	1    12900 5000
 	1    0    0    -1  
 $EndComp
@@ -3724,6 +3823,7 @@ F 5 "REF5025AID" H 13750 5650 50  0001 C CNN "MPN"
 F 6 "Mouser" H 12800 5550 50  0001 C CNN "Supplier"
 F 7 "595-REF5025AID" H 13800 5550 50  0001 C CNN "Supplier Part Number"
 F 8 "3.53" H 13600 5450 50  0001 C CNN "Price"
+F 9 "Mounted" H 12300 4800 50  0001 C CNN "Variant1"
 	1    12300 4800
 	1    0    0    -1  
 $EndComp
@@ -3747,6 +3847,7 @@ F 9 "1276-1009-1-ND" H 14500 1500 50  0001 C CNN "Supplier Nr."
 F 10 "10%" H 16000 1450 50  0001 C CNN "Tolerance"
 F 11 "50V" H 14250 1300 50  0001 C CNN "Voltage"
 F 12 "CL10B103KB8NNNC" H 14500 1600 50  0001 C CNN "MPN"
+F 13 "Mounted" H 13950 1250 50  0001 C CNN "Variant1"
 	1    13950 1250
 	1    0    0    -1  
 $EndComp
@@ -3795,6 +3896,7 @@ F 9 "1276-1009-1-ND" H 16300 1400 50  0001 C CNN "Supplier Nr."
 F 10 "10%" H 17800 1350 50  0001 C CNN "Tolerance"
 F 11 "50V" H 16050 1200 50  0001 C CNN "Voltage"
 F 12 "CL10B103KB8NNNC" H 16300 1500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 15750 1150 50  0001 C CNN "Variant1"
 	1    15750 1150
 	1    0    0    -1  
 $EndComp
@@ -3823,6 +3925,7 @@ F 9 "1276-1009-1-ND" H 16250 2150 50  0001 C CNN "Supplier Nr."
 F 10 "10%" H 17750 2100 50  0001 C CNN "Tolerance"
 F 11 "50V" H 16000 1950 50  0001 C CNN "Voltage"
 F 12 "CL10B103KB8NNNC" H 16250 2250 50  0001 C CNN "MPN"
+F 13 "Mounted" H 15700 1900 50  0001 C CNN "Variant1"
 	1    15700 1900
 	1    0    0    -1  
 $EndComp
@@ -3881,6 +3984,7 @@ F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 4800 7050 50  0001 C CNN
 F 4 "B5819W" H 4800 7050 50  0001 C CNN "MPN"
 F 5 "Changjiang Electronics Tech (CJ)" H 4800 7050 50  0001 C CNN "Manufacturer"
 F 6 "C8598" H 4800 7050 50  0001 C CNN "LCSC-PN"
+F 7 "Mounted" H 4800 7050 50  0001 C CNN "Variant1"
 	1    4800 7050
 	-1   0    0    1   
 $EndComp
@@ -3900,6 +4004,7 @@ F 8 "-" H 3750 9600 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3750 9775 50  0001 C CNN "Description"
 F 10 "100mW" H 3750 10250 50  0001 C CNN "Power"
 F 11 "0.09" H 3750 9675 50  0001 C CNN "Price"
+F 12 "Mounted" H 3750 8850 50  0001 C CNN "Variant1"
 	1    3750 8850
 	1    0    0    -1  
 $EndComp
@@ -3944,6 +4049,7 @@ F 10 "1276-1000-1-ND" H 6050 7350 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 7550 7300 50  0001 C CNN "Tolerance"
 F 12 "50V" H 5800 7150 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 5500 7100 50  0001 C CNN "MPN"
+F 14 "Mounted" H 5500 7100 50  0001 C CNN "Variant1"
 	1    5500 7100
 	1    0    0    -1  
 $EndComp
@@ -3983,6 +4089,7 @@ F 5 "Mouser" H 5500 9600 50  0001 C CNN "Supplier"
 F 6 "Resistor SMD 0603 1/10W 47.5K Ohms .5%" H 5500 9900 50  0001 C CNN "Description"
 F 7 "603-RT0603DRE0747K5L" H 5500 9500 50  0001 C CNN "Supplier Part Number"
 F 8 "RT0603DRE0747K5L" H 5500 9700 50  0001 C CNN "MPN"
+F 9 "Mounted" H 5500 8750 50  0001 C CNN "Variant1"
 	1    5500 8750
 	0    1    1    0   
 $EndComp
@@ -3999,6 +4106,7 @@ F 5 "Digikey" H 5500 9250 50  0001 C CNN "Supplier"
 F 6 "22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 5500 9550 50  0001 C CNN "Description"
 F 7 "CR0603-FX-2212ELFCT-ND" H 5500 9150 50  0001 C CNN "Supplier Part Number"
 F 8 "CR0603-FX-2212ELF" H 5500 8400 50  0001 C CNN "MPN"
+F 9 "Mounted" H 5500 8400 50  0001 C CNN "Variant1"
 	1    5500 8400
 	0    1    1    0   
 $EndComp
@@ -4048,6 +4156,7 @@ F 6 "Mouser" H 6100 9875 50  0001 C CNN "Supplier"
 F 7 "603-RC0603FR-071KL" H 6100 10175 50  0001 C CNN "Supplier Part Number"
 F 8 "1%" H 6100 9400 50  0001 C CNN "Tolerance"
 F 9 "RC0603FR-071KL" H 6100 8650 50  0001 C CNN "MPN"
+F 10 "Mounted" H 6100 8650 50  0001 C CNN "Variant1"
 	1    6100 8650
 	0    -1   -1   0   
 $EndComp
@@ -4075,6 +4184,7 @@ F 8 "-" H 4250 9300 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4250 9475 50  0001 C CNN "Description"
 F 10 "100mW" H 4250 9950 50  0001 C CNN "Power"
 F 11 "0.09" H 4250 9375 50  0001 C CNN "Price"
+F 12 "Mounted" H 4250 8550 50  0001 C CNN "Variant1"
 	1    4250 8550
 	1    0    0    -1  
 $EndComp
@@ -4094,6 +4204,7 @@ F 8 "-" H 4500 9300 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4500 9475 50  0001 C CNN "Description"
 F 10 "100mW" H 4500 9950 50  0001 C CNN "Power"
 F 11 "0.09" H 4500 9375 50  0001 C CNN "Price"
+F 12 "Mounted" H 4500 8550 50  0001 C CNN "Variant1"
 	1    4500 8550
 	1    0    0    -1  
 $EndComp
@@ -4219,6 +4330,7 @@ F 6 "78-MMSZ5233B-E3-08" H 4650 6000 50  0001 C CNN "Supplier Part Number"
 F 7 "6V" H 4250 5800 50  0001 C CNN "Voltage"
 F 8 "500mW" H 4350 5900 50  0001 C CNN "Power"
 F 9 "MMSZ5233B-E3-08" H 3650 5500 50  0001 C CNN "MPN"
+F 10 "Mounted" H 3650 5500 50  0001 C CNN "Variant1"
 	1    3650 5500
 	0    1    1    0   
 $EndComp
@@ -4298,6 +4410,7 @@ F 6 "78-MMSZ5233B-E3-08" H 3250 2450 50  0001 C CNN "Supplier Part Number"
 F 7 "6V" H 2850 2250 50  0001 C CNN "Voltage"
 F 8 "500mW" H 2950 2350 50  0001 C CNN "Power"
 F 9 "MMSZ5233B-E3-08" H 2250 1950 50  0001 C CNN "MPN"
+F 10 "Mounted" H 2250 1950 50  0001 C CNN "Variant1"
 	1    2250 1950
 	0    1    1    0   
 $EndComp
@@ -4316,6 +4429,7 @@ F 7 "78-MMSZ5233B-E3-08" H 2950 2550 50  0001 C CNN "Supplier Part Number"
 F 8 "6V" H 2550 2350 50  0001 C CNN "Voltage"
 F 9 "500mW" H 2650 2450 50  0001 C CNN "Power"
 F 10 "MMSZ5233B-E3-08" H 1950 2050 50  0001 C CNN "MPN"
+F 11 "Mounted" H 1950 2050 50  0001 C CNN "Variant1"
 	1    1950 2050
 	0    1    1    0   
 $EndComp
@@ -4503,6 +4617,7 @@ F 5 "ON Semiconductor" H 5050 4800 60  0001 L CNN "Manufacturer"
 F 6 "Mouser" H 5050 4100 60  0001 L CNN "Supplier"
 F 7 "512-2N7002T" H 5650 4100 50  0001 C CNN "Supplier Part Number"
 F 8 "2N7002T" H 5050 4200 60  0001 L CNN "MPN"
+F 9 "Mounted" H 4850 3700 50  0001 C CNN "Variant1"
 	1    4850 3700
 	0    1    1    0   
 $EndComp
@@ -4519,6 +4634,7 @@ F 5 "ON Semiconductor" H 6450 4800 60  0001 L CNN "Manufacturer"
 F 6 "Mouser" H 6450 4100 60  0001 L CNN "Supplier"
 F 7 "512-2N7002T" H 7050 4100 50  0001 C CNN "Supplier Part Number"
 F 8 "2N7002T" H 6450 4200 60  0001 L CNN "MPN"
+F 9 "Mounted" H 6250 3700 50  0001 C CNN "Variant1"
 	1    6250 3700
 	0    1    1    0   
 $EndComp
@@ -4535,6 +4651,7 @@ F 5 "ON Semiconductor" H 6450 5800 60  0001 L CNN "Manufacturer"
 F 6 "Mouser" H 6450 5100 60  0001 L CNN "Supplier"
 F 7 "512-2N7002T" H 7050 5100 50  0001 C CNN "Supplier Part Number"
 F 8 "2N7002T" H 6450 5200 60  0001 L CNN "MPN"
+F 9 "Mounted" H 6250 4700 50  0001 C CNN "Variant1"
 	1    6250 4700
 	0    1    1    0   
 $EndComp
@@ -4551,6 +4668,7 @@ F 5 "ON Semiconductor" H 5000 5800 60  0001 L CNN "Manufacturer"
 F 6 "Mouser" H 5000 5100 60  0001 L CNN "Supplier"
 F 7 "512-2N7002T" H 5600 5100 50  0001 C CNN "Supplier Part Number"
 F 8 "2N7002T" H 5000 5200 60  0001 L CNN "MPN"
+F 9 "Mounted" H 4800 4700 50  0001 C CNN "Variant1"
 	1    4800 4700
 	0    1    1    0   
 $EndComp
@@ -4570,6 +4688,7 @@ F 8 "-" H 3650 9600 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3650 9775 50  0001 C CNN "Description"
 F 10 "100mW" H 3650 10250 50  0001 C CNN "Power"
 F 11 "0.09" H 3650 9675 50  0001 C CNN "Price"
+F 12 "Mounted" H 3650 8850 50  0001 C CNN "Variant1"
 	1    3650 8850
 	1    0    0    -1  
 $EndComp
@@ -4599,6 +4718,7 @@ F 9 "Digikey" H 5850 4725 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 5850 5025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 5850 4250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 5850 3500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 5850 3500 50  0001 C CNN "Variant1"
 	1    5850 3500
 	1    0    0    -1  
 $EndComp
@@ -4619,6 +4739,7 @@ F 9 "Digikey" H 5850 5725 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 5850 6025 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 5850 5250 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 5850 4500 50  0001 C CNN "MPN"
+F 13 "Mounted" H 5850 4500 50  0001 C CNN "Variant1"
 	1    5850 4500
 	1    0    0    -1  
 $EndComp
@@ -4643,6 +4764,7 @@ F 10 "1276-1000-1-ND" H 13000 4300 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 14500 4250 50  0001 C CNN "Tolerance"
 F 12 "50V" H 12750 4100 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 12450 4050 50  0001 C CNN "MPN"
+F 14 "Mounted" H 12450 4050 50  0001 C CNN "Variant1"
 	1    12450 4050
 	1    0    0    -1  
 $EndComp
@@ -4706,6 +4828,7 @@ F 6 "Nexperia" H 8850 8600 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 9000 8700 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 9650 8700 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 10600 7600 50  0001 C CNN "MPN"
+F 10 "Mounted" H 10600 7600 50  0001 C CNN "Variant1"
 	1    10600 7600
 	0    1    -1   0   
 $EndComp
@@ -4723,6 +4846,7 @@ F 6 "Nexperia" H 8850 9400 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 9000 9500 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 9650 9500 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 10600 8400 50  0001 C CNN "MPN"
+F 10 "Mounted" H 10600 8400 50  0001 C CNN "Variant1"
 	1    10600 8400
 	0    1    1    0   
 $EndComp
@@ -4745,6 +4869,7 @@ F 6 "Nexperia" H 8850 10000 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 9000 10100 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 9650 10100 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 10600 9000 50  0001 C CNN "MPN"
+F 10 "Mounted" H 10600 9000 50  0001 C CNN "Variant1"
 	1    10600 9000
 	0    1    1    0   
 $EndComp
@@ -4767,6 +4892,7 @@ F 6 "Nexperia" H 12450 9150 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 12600 9250 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 13250 9250 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 14200 8150 50  0001 C CNN "MPN"
+F 10 "Mounted" H 14200 8150 50  0001 C CNN "Variant1"
 	1    14200 8150
 	0    -1   1    0   
 $EndComp
@@ -4784,6 +4910,7 @@ F 6 "Nexperia" H 12450 9550 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 12600 9650 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 13250 9650 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 14200 8550 50  0001 C CNN "MPN"
+F 10 "Mounted" H 14200 8550 50  0001 C CNN "Variant1"
 	1    14200 8550
 	0    -1   -1   0   
 $EndComp
@@ -4803,6 +4930,7 @@ F 6 "Nexperia" H 12450 8650 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 12600 8750 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 13250 8750 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 14200 7650 50  0001 C CNN "MPN"
+F 10 "Mounted" H 14200 7650 50  0001 C CNN "Variant1"
 	1    14200 7650
 	0    -1   1    0   
 $EndComp
@@ -4820,6 +4948,7 @@ F 6 "Nexperia" H 12450 9550 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 12600 9650 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 13250 9650 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 14200 8550 50  0001 C CNN "MPN"
+F 10 "Mounted" H 14200 8550 50  0001 C CNN "Variant1"
 	1    14200 8550
 	0    -1   1    0   
 $EndComp
@@ -4837,6 +4966,7 @@ F 6 "Nexperia" H 8850 8050 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 9000 8150 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 9650 8150 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 10600 7050 50  0001 C CNN "MPN"
+F 10 "Mounted" H 10600 7050 50  0001 C CNN "Variant1"
 	1    10600 7050
 	0    1    -1   0   
 $EndComp
@@ -4856,6 +4986,7 @@ F 6 "78-MMSZ5233B-E3-08" H 4250 4200 50  0001 C CNN "Supplier Part Number"
 F 7 "6V" H 3850 4000 50  0001 C CNN "Voltage"
 F 8 "500mW" H 3950 4100 50  0001 C CNN "Power"
 F 9 "MMSZ5233B-E3-08" H 3250 3700 50  0001 C CNN "MPN"
+F 10 "Mounted" H 3250 3700 50  0001 C CNN "Variant1"
 	1    3250 3700
 	0    1    1    0   
 $EndComp
@@ -4901,6 +5032,7 @@ F 6 "Nexperia" H 8850 10000 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 9000 10100 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 9650 10100 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 10600 9000 50  0001 C CNN "MPN"
+F 10 "Mounted" H 10600 9000 50  0001 C CNN "Variant1"
 	1    10600 9000
 	0    1    -1   0   
 $EndComp
@@ -4918,6 +5050,7 @@ F 6 "Nexperia" H 12450 7850 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 12600 7950 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 13250 7950 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 14200 6850 50  0001 C CNN "MPN"
+F 10 "Mounted" H 14200 6850 50  0001 C CNN "Variant1"
 	1    14200 6850
 	0    -1   -1   0   
 $EndComp
@@ -4996,6 +5129,7 @@ F 6 "Nexperia" H 8850 7650 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 9000 7750 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 9650 7750 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 10600 6650 50  0001 C CNN "MPN"
+F 10 "Mounted" H 10600 6650 50  0001 C CNN "Variant1"
 	1    10600 6650
 	0    1    -1   0   
 $EndComp
@@ -5012,6 +5146,7 @@ F 5 "TLV9054SIRTER" H 14160 1400 50  0001 C CNN "Manufacturer Part Number"
 F 6 "Mouser" H 13270 1330 50  0001 C CNN "Supplier"
 F 7 "595-TLV9054SIRTER" H 14270 1330 50  0001 C CNN "Supplier Part Number"
 F 8 "TLV9054SIRTER" H 13000 1050 50  0001 C CNN "MPN"
+F 9 "Mounted" H 13000 1050 50  0001 C CNN "Variant1"
 	1    13000 1050
 	1    0    0    1   
 $EndComp
@@ -5027,6 +5162,7 @@ F 4 "Texas Instruments" H 15120 1310 50  0001 C CNN "Manufacturer"
 F 5 "Mouser" H 14920 1230 50  0001 C CNN "Supplier"
 F 6 "595-TLV9054SIRTER" H 15920 1230 50  0001 C CNN "Supplier Part Number"
 F 7 "TLV9054SIRTER" H 14650 950 50  0001 C CNN "MPN"
+F 8 "Mounted" H 14650 950 50  0001 C CNN "Variant1"
 	2    14650 950 
 	1    0    0    1   
 $EndComp
@@ -5042,6 +5178,7 @@ F 4 "Texas Instruments" H 13420 2160 50  0001 C CNN "Manufacturer"
 F 5 "Mouser" H 13220 2080 50  0001 C CNN "Supplier"
 F 6 "595-TLV9054SIRTER" H 14220 2080 50  0001 C CNN "Supplier Part Number"
 F 7 "TLV9054SIRTER" H 12950 1800 50  0001 C CNN "MPN"
+F 8 "Mounted" H 12950 1800 50  0001 C CNN "Variant1"
 	3    12950 1800
 	1    0    0    1   
 $EndComp
@@ -5057,6 +5194,7 @@ F 4 "Texas Instruments" H 14970 2060 50  0001 C CNN "Manufacturer"
 F 5 "Mouser" H 14770 1980 50  0001 C CNN "Supplier"
 F 6 "595-TLV9054SIRTER" H 15770 1980 50  0001 C CNN "Supplier Part Number"
 F 7 "TLV9054SIRTER" H 14500 1700 50  0001 C CNN "MPN"
+F 8 "Mounted" H 14500 1700 50  0001 C CNN "Variant1"
 	4    14500 1700
 	1    0    0    1   
 $EndComp
@@ -5089,6 +5227,7 @@ F 9 "1276-1009-1-ND" H 14450 2250 50  0001 C CNN "Supplier Nr."
 F 10 "10%" H 15950 2200 50  0001 C CNN "Tolerance"
 F 11 "50V" H 14200 2050 50  0001 C CNN "Voltage"
 F 12 "CL10B103KB8NNNC" H 14450 2350 50  0001 C CNN "MPN"
+F 13 "Mounted" H 13900 2000 50  0001 C CNN "Variant1"
 	1    13900 2000
 	1    0    0    -1  
 $EndComp
@@ -5118,6 +5257,7 @@ F 4 "Texas Instruments" H 13570 3160 50  0001 C CNN "Manufacturer"
 F 5 "Mouser" H 13370 3080 50  0001 C CNN "Supplier"
 F 6 "595-TLV9054SIRTER" H 14370 3080 50  0001 C CNN "Supplier Part Number"
 F 7 "TLV9054SIRTER" H 13100 2800 50  0001 C CNN "MPN"
+F 8 "Mounted" H 13100 2800 50  0001 C CNN "Variant1"
 	5    13100 2800
 	1    0    0    -1  
 $EndComp
@@ -5194,6 +5334,7 @@ F 6 "Nexperia" H 12450 7850 60  0001 L CNN "Manufacturer"
 F 7 "Mouser" H 12600 7950 50  0001 C CNN "Supplier"
 F 8 "771-PESD3V3L2BT-T/R" H 13250 7950 50  0001 C CNN "Supplier Part Number"
 F 9 "PESD3V3L2BT,215" H 14200 6850 50  0001 C CNN "MPN"
+F 10 "Mounted" H 14200 6850 50  0001 C CNN "Variant1"
 	1    14200 6850
 	0    -1   1    0   
 $EndComp
@@ -5229,6 +5370,7 @@ F 10 "187-CL31B106KBHNNNE" H 1700 3950 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 1150 3550 50  0001 C CNN "Tolerance"
 F 12 "50V" H 1150 3650 50  0001 C CNN "Voltage"
 F 13 "CL31B106KBHNNNE" H 850 3600 50  0001 C CNN "MPN"
+F 14 "Mounted" H 850 3600 50  0001 C CNN "Variant1"
 	1    850  3600
 	1    0    0    -1  
 $EndComp
@@ -5258,6 +5400,7 @@ F 4 "RV-3129-C3" H 6400 7350 50  0001 C CNN "MPN"
 F 5 "Micro Crystal" H 5700 7350 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 5650 7250 50  0001 C CNN "Supplier"
 F 7 "428-203618-MG01" H 6550 7250 50  0001 C CNN "Supplier Part Nummber"
+F 8 "Mounted" H 5050 6150 50  0001 C CNN "Variant1"
 	1    5050 6150
 	1    0    0    -1  
 $EndComp
@@ -5298,6 +5441,7 @@ F 6 "Mouser" H 5950 7125 50  0001 C CNN "Supplier"
 F 7 "603-RC0603FR-071KL" H 5950 7425 50  0001 C CNN "Supplier Part Number"
 F 8 "1%" H 5950 6650 50  0001 C CNN "Tolerance"
 F 9 "RC0603FR-071KL" H 5950 5900 50  0001 C CNN "MPN"
+F 10 "Mounted" H 5950 5900 50  0001 C CNN "Variant1"
 	1    5950 5900
 	1    0    0    -1  
 $EndComp
@@ -5328,6 +5472,7 @@ F 8 "-" H 6150 6350 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 6150 6525 50  0001 C CNN "Description"
 F 10 "100mW" H 6150 7000 50  0001 C CNN "Power"
 F 11 "0.09" H 6150 6425 50  0001 C CNN "Price"
+F 12 "Mounted" H 6150 5600 50  0001 C CNN "Variant1"
 	1    6150 5600
 	1    0    0    -1  
 $EndComp
@@ -5343,6 +5488,7 @@ F 4 "ST Microelectronics" H 11550 6250 50  0001 C CNN "Manufacturer"
 F 5 "ULN2004D1013TR" H 12450 6250 50  0001 C CNN "MPN"
 F 6 "Farnell" H 11350 6150 50  0001 C CNN "Supplier"
 F 7 "1564361" H 12250 6150 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 10850 5150 50  0001 C CNN "Variant1"
 	1    10850 5150
 	1    0    0    -1  
 $EndComp
@@ -5374,6 +5520,7 @@ F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q
 F 10 "100mW" H 5100 2550 50  0001 C CNN "Power"
 F 11 "0.09" H 5100 1975 50  0001 C CNN "Price"
 F 12 "No" H 5100 1150 50  0001 C CNN "Populated"
+F 13 "Mounted" H 5100 1150 50  0001 C CNN "Variant1"
 	1    5100 1150
 	-1   0    0    1   
 $EndComp
@@ -5413,6 +5560,7 @@ F 8 "-" H 5350 1900 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 5350 2075 50  0001 C CNN "Description"
 F 10 "100mW" H 5350 2550 50  0001 C CNN "Power"
 F 11 "0.09" H 5350 1975 50  0001 C CNN "Price"
+F 12 "NOT Mounted" H 5350 1150 50  0001 C CNN "Variant1"
 	1    5350 1150
 	-1   0    0    1   
 $EndComp
@@ -5428,6 +5576,7 @@ F 4 "Sensirion" H 9750 5400 50  0001 C CNN "Manufacturer"
 F 5 "SHT40-AD1B-R2" H 10350 5400 50  0001 C CNN "MPN"
 F 6 "Mouser" H 9750 5300 50  0001 C CNN "Supplier"
 F 7 "403-SHT40-AD1B-R2" H 10450 5300 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 9350 4800 50  0001 C CNN "Variant1"
 	1    9350 4800
 	-1   0    0    -1  
 $EndComp
@@ -5470,6 +5619,7 @@ F 8 "100mW" H 6550 11050 50  0001 C CNN "Power"
 F 9 "5%" H 6550 10400 50  0001 C CNN "Tolerance"
 F 10 "0.025" H 6550 10475 50  0001 C CNN "Price"
 F 11 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 6550 10575 50  0001 C CNN "Description"
+F 12 "Mounted" H 6550 9650 50  0001 C CNN "Variant1"
 	1    6550 9650
 	1    0    0    -1  
 $EndComp
@@ -5489,6 +5639,7 @@ F 8 "100mW" H 6450 11050 50  0001 C CNN "Power"
 F 9 "5%" H 6450 10400 50  0001 C CNN "Tolerance"
 F 10 "0.025" H 6450 10475 50  0001 C CNN "Price"
 F 11 "Thick Film Resistors - SMD 1/10Watt 470ohms 5% Commercial Use" H 6450 10575 50  0001 C CNN "Description"
+F 12 "Mounted" H 6450 9650 50  0001 C CNN "Variant1"
 	1    6450 9650
 	1    0    0    -1  
 $EndComp
@@ -5511,6 +5662,7 @@ F 7 "Digikey" H 6550 10800 50  0001 C CNN "Supplier"
 F 8 "732-12015-1-ND" H 6550 10700 50  0001 C CNN "Supplier Nr."
 F 9 "0.16" H 6550 10600 50  0001 C CNN "Supplier Price"
 F 10 "150060RS55040" H 6550 9950 50  0001 C CNN "MPN"
+F 11 "Mounted" H 6550 9950 50  0001 C CNN "Variant1"
 	1    6550 9950
 	0    -1   -1   0   
 $EndComp
@@ -5529,6 +5681,7 @@ F 7 "Digikey" H 6450 10800 50  0001 C CNN "Supplier"
 F 8 "732-12015-1-ND" H 6450 10700 50  0001 C CNN "Supplier Nr."
 F 9 "0.16" H 6450 10600 50  0001 C CNN "Supplier Price"
 F 10 "150060RS55040" H 6450 9950 50  0001 C CNN "MPN"
+F 11 "Mounted" H 6450 9950 50  0001 C CNN "Variant1"
 	1    6450 9950
 	0    -1   -1   0   
 $EndComp
@@ -5577,6 +5730,7 @@ F 10 "1276-1000-1-ND" H 6950 7350 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 8450 7300 50  0001 C CNN "Tolerance"
 F 12 "50V" H 6700 7150 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 6400 7100 50  0001 C CNN "MPN"
+F 14 "Mounted" H 6400 7100 50  0001 C CNN "Variant1"
 	1    6400 7100
 	1    0    0    -1  
 $EndComp
@@ -5628,6 +5782,7 @@ F 9 "Digikey" H 7650 2675 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 7650 2975 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 7650 2200 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 7650 1450 50  0001 C CNN "MPN"
+F 13 "Mounted" H 7650 1450 50  0001 C CNN "Variant1"
 	1    7650 1450
 	1    0    0    -1  
 $EndComp
@@ -5648,6 +5803,7 @@ F 9 "10%" H 7950 1750 50  0001 C CNN "Tolerance"
 F 10 "25V" H 7950 1850 50  0001 C CNN "Voltage"
 F 11 "X7R" H 8250 1850 50  0001 C CNN "Dielectric"
 F 12 "0.09" H 8700 1850 50  0001 C CNN "Price"
+F 13 "Mounted" H 7650 1800 50  0001 C CNN "Variant1"
 	1    7650 1800
 	1    0    0    -1  
 $EndComp
@@ -5685,6 +5841,7 @@ F 9 "Digikey" H 6650 10925 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 6650 11225 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 6650 10450 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 6650 9700 50  0001 C CNN "MPN"
+F 13 "Mounted" H 6650 9700 50  0001 C CNN "Variant1"
 	1    6650 9700
 	1    0    0    -1  
 $EndComp
@@ -5825,6 +5982,7 @@ F 9 "10%" H 6900 7050 50  0001 C CNN "Tolerance"
 F 10 "25V" H 6900 7150 50  0001 C CNN "Voltage"
 F 11 "X7R" H 7200 7150 50  0001 C CNN "Dielectric"
 F 12 "0.09" H 7650 7150 50  0001 C CNN "Price"
+F 13 "Mounted" H 6600 7100 50  0001 C CNN "Variant1"
 	1    6600 7100
 	1    0    0    -1  
 $EndComp
@@ -5845,6 +6003,7 @@ F 9 "10%" H 6000 7050 50  0001 C CNN "Tolerance"
 F 10 "25V" H 6000 7150 50  0001 C CNN "Voltage"
 F 11 "X7R" H 6300 7150 50  0001 C CNN "Dielectric"
 F 12 "0.09" H 6750 7150 50  0001 C CNN "Price"
+F 13 "Mounted" H 5700 7100 50  0001 C CNN "Variant1"
 	1    5700 7100
 	1    0    0    -1  
 $EndComp
@@ -5869,6 +6028,7 @@ F 10 "1276-1000-1-ND" H 15900 3250 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 17400 3200 50  0001 C CNN "Tolerance"
 F 12 "50V" H 15650 3050 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 15350 3000 50  0001 C CNN "MPN"
+F 14 "Mounted" H 15350 3000 50  0001 C CNN "Variant1"
 	1    15350 3000
 	1    0    0    -1  
 $EndComp
@@ -5904,6 +6064,7 @@ F 4 "Microchip" H 1850 5050 50  0001 C CNN "Manufacturer"
 F 5 "MCP73833-BZI/MF" H 2450 5050 50  0001 C CNN "MPN"
 F 6 "Mouser" H 1850 4950 50  0001 C CNN "Supplier"
 F 7 "579-MCP73833-BZI/MF" H 2550 4950 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 1650 3850 50  0001 C CNN "Variant1"
 	1    1650 3850
 	1    0    0    -1  
 $EndComp
@@ -5939,6 +6100,7 @@ F 6 "Mouser" H 2100 5325 50  0001 C CNN "Supplier"
 F 7 "603-RC0603FR-071KL" H 2100 5625 50  0001 C CNN "Supplier Part Number"
 F 8 "1%" H 2100 4850 50  0001 C CNN "Tolerance"
 F 9 "RC0603FR-071KL" H 2100 4100 50  0001 C CNN "MPN"
+F 10 "Mounted" H 2100 4100 50  0001 C CNN "Variant1"
 	1    2100 4100
 	1    0    0    -1  
 $EndComp
@@ -5970,6 +6132,7 @@ F 6 "Mouser" H 850 6125 50  0001 C CNN "Supplier"
 F 7 "603-RC0603FR-071KL" H 850 6425 50  0001 C CNN "Supplier Part Number"
 F 8 "1%" H 850 5650 50  0001 C CNN "Tolerance"
 F 9 "RC0603FR-071KL" H 850 4900 50  0001 C CNN "MPN"
+F 10 "Mounted" H 850 4900 50  0001 C CNN "Variant1"
 	1    850  4900
 	1    0    0    -1  
 $EndComp
@@ -5999,6 +6162,7 @@ F 4 "TDK" H 2400 4700 50  0001 C CNN "Manufacturer"
 F 5 "NTCG163JF103FT1" H 3100 4700 50  0001 C CNN "MPN"
 F 6 "Mouser" H 2500 4600 50  0001 C CNN "Supplier"
 F 7 "810-NTCG163JF103FT1" H 3200 4600 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 2300 4100 50  0001 C CNN "Variant1"
 	1    2300 4100
 	1    0    0    -1  
 $EndComp
@@ -6050,6 +6214,7 @@ F 9 "Digikey" H 3550 5225 50  0001 C CNN "Supplier"
 F 10 "311-100KHRCT-ND" H 3550 5525 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 3550 4750 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100KL" H 3550 4000 50  0001 C CNN "MPN"
+F 13 "Mounted" H 3550 4000 50  0001 C CNN "Variant1"
 	1    3550 4000
 	-1   0    0    1   
 $EndComp
@@ -6073,6 +6238,7 @@ F 9 "Mouser" H 3550 4825 50  0001 C CNN "Supplier"
 F 10 "603-RC0603FR-0751KL" H 3550 5125 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 3550 4350 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0751KL" H 3550 3600 50  0001 C CNN "MPN"
+F 13 "Mounted" H 3550 3600 50  0001 C CNN "Variant1"
 	1    3550 3600
 	-1   0    0    1   
 $EndComp
@@ -6138,6 +6304,7 @@ F 7 "81-GRT31CR61H106ME1L" H 2550 6350 50  0001 C CNN "Supplier Nr."
 F 8 "20%" H 2000 5950 50  0001 C CNN "Tolerance"
 F 9 "50V" H 2000 6050 50  0001 C CNN "Voltage"
 F 10 "GRT31CR61H106ME01L" H 1700 6000 50  0001 C CNN "MPN"
+F 11 "Mounted" H 1700 6000 50  0001 C CNN "Variant1"
 	1    1700 6000
 	1    0    0    -1  
 $EndComp
@@ -6222,16 +6389,8 @@ Wire Wire Line
 Text Label 14150 1050 0    50   ~ 0
 AIN1
 NoConn ~ 6250 8850
-Text Notes 4850 1100 0    50   ~ 0
+Text Notes 5400 1050 0    50   ~ 0
 DNP
-Wire Notes Line
-	5200 950  5200 1350
-Wire Notes Line
-	5200 1350 4750 1350
-Wire Notes Line
-	4750 1350 4750 950 
-Wire Notes Line
-	4750 950  5200 950 
 $Comp
 L Transistors_BJT:MMSS8050-H-TP Q6
 U 1 1 61FC46EE
@@ -6249,6 +6408,7 @@ F 9 "Micro Commercial Co" H 1900 7050 60  0001 L CNN "Manufacturer"
 F 10 "Active" H 1900 7150 60  0001 L CNN "Status"
 F 11 "Mouser" H 4600 6350 50  0001 C CNN "Supplier"
 F 12 "833-MMSS8050-H-TP" H 3900 6350 50  0001 C CNN "Supplier Part Number"
+F 13 "Mounted" H 1300 5950 50  0001 C CNN "Variant1"
 	1    1300 5950
 	1    0    0    -1  
 $EndComp
@@ -6301,6 +6461,7 @@ F 4 "Microchip" H 14100 4750 50  0001 C CNN "Manufacturer"
 F 5 "MCP3464T-E/NC" H 14100 4750 50  0001 C CNN "Manufacturer Part Number"
 F 6 "Mouser" H 14100 4750 50  0001 C CNN "Supplier"
 F 7 "579-MCP3464T-E/NC" H 14100 4750 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 14100 4750 50  0001 C CNN "Variant1"
 	1    14100 4750
 	1    0    0    -1  
 $EndComp
@@ -6359,6 +6520,7 @@ F 8 "-" H 14800 5100 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 14800 5275 50  0001 C CNN "Description"
 F 10 "100mW" H 14800 5750 50  0001 C CNN "Power"
 F 11 "0.09" H 14800 5175 50  0001 C CNN "Price"
+F 12 "Mounted" H 14800 4350 50  0001 C CNN "Variant1"
 	1    14800 4350
 	0    1    1    0   
 $EndComp
@@ -6437,6 +6599,7 @@ F 5 "Wurth Elektronik" H 1500 2250 50  0001 C CNN "Manufacturer"
 F 6 "0.411" H 1350 2050 50  0001 C CNN "Price"
 F 7 "Mouser" H 1350 2150 50  0001 C CNN "Supplier"
 F 8 "710-691312510003" H 2250 2150 50  0001 C CNN "Supplier Part Number"
+F 9 "Mounted" H 900 1800 50  0001 C CNN "Variant1"
 	1    900  1800
 	-1   0    0    -1  
 $EndComp
@@ -6457,6 +6620,7 @@ F 9 "10%" H 3950 5900 50  0001 C CNN "Tolerance"
 F 10 "50V" H 3700 5750 50  0001 C CNN "Voltage"
 F 11 "X7R" H 3800 5700 50  0001 C CNN "Dielectric"
 F 12 "0.09" H 3750 5900 50  0001 C CNN "Price"
+F 13 "Mounted" H 3250 5500 50  0001 C CNN "Variant1"
 	1    3250 5500
 	1    0    0    -1  
 $EndComp
@@ -6494,6 +6658,7 @@ F 9 "Digikey" H 9250 3350 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 9250 3350 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 9250 3350 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 9250 3350 50  0001 C CNN "MPN"
+F 13 "Mounted" H 9250 3350 50  0001 C CNN "Variant1"
 	1    9250 3350
 	-1   0    0    1   
 $EndComp
@@ -6532,6 +6697,7 @@ F 5 "Silicon Labs" H 6800 10550 50  0001 C CNN "Manufacturer"
 F 6 "CP2102N-A02-GQFN24" H 6800 10450 50  0001 C CNN "MPN"
 F 7 "Digikey" H 6800 10350 50  0001 C CNN "Supplier"
 F 8 "336-5887-ND" H 6800 10250 50  0001 C CNN "Supplier Nr."
+F 9 "Mounted" H 6800 8800 50  0001 C CNN "Variant1"
 	1    6800 8800
 	0    1    1    0   
 $EndComp
@@ -6554,6 +6720,7 @@ F 4 "" H 12150 3400 50  0001 C CNN "MPN"
 F 5 "Espressif" H 9550 4100 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 8950 4100 50  0001 C CNN "Supplier"
 F 7 "" H 12350 3300 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 9600 2150 50  0001 C CNN "Variant1"
 	1    9600 2150
 	1    0    0    -1  
 $EndComp
@@ -6576,6 +6743,7 @@ F 9 "Digikey" H 4700 1650 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 4700 1650 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 4700 1650 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 4700 1650 50  0001 C CNN "MPN"
+F 13 "Mounted" H 4700 1650 50  0001 C CNN "Variant1"
 	1    4700 1650
 	0    1    1    0   
 $EndComp
@@ -6596,6 +6764,7 @@ F 5 "Bourns" H 6250 4100 60  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 6250 3800 60  0001 C CNN "Supplier"
 F 7 "652-CDSOT23-SM712" H 6250 3400 60  0001 C CNN "Supplier Nr."
 F 8 "CDSOT23-SM712" H 6300 2350 50  0001 C CNN "MPN"
+F 9 "Mounted" H 6300 2350 50  0001 C CNN "Variant1"
 	1    6300 2350
 	0    1    1    0   
 $EndComp
@@ -6664,6 +6833,7 @@ F 9 "Digikey" H 4700 2050 50  0001 C CNN "Supplier"
 F 10 "311-100HRCT-ND" H 4700 2050 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 4700 2050 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-07100RL" H 4700 2050 50  0001 C CNN "MPN"
+F 13 "Mounted" H 4700 2050 50  0001 C CNN "Variant1"
 	1    4700 2050
 	0    1    1    0   
 $EndComp
@@ -6763,6 +6933,7 @@ F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q
 F 10 "100mW" H 3800 6600 50  0001 C CNN "Power"
 F 11 "0.09" H 3800 6025 50  0001 C CNN "Price"
 F 12 "No" H 3800 5200 50  0001 C CNN "Populated"
+F 13 "Mounted" H 3800 5200 50  0001 C CNN "Variant1"
 	1    3800 5200
 	0    -1   -1   0   
 $EndComp
@@ -6795,6 +6966,7 @@ F 9 "Digikey" H 900 7175 50  0001 C CNN "Supplier"
 F 10 "311-10.0KHRCT-ND" H 900 7475 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 900 6700 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0710KL" H 900 5950 50  0001 C CNN "MPN"
+F 13 "Mounted" H 900 5950 50  0001 C CNN "Variant1"
 	1    900  5950
 	0    -1   -1   0   
 $EndComp
@@ -6814,6 +6986,7 @@ F 4 "LM2735XMFX/NOPB " H 3300 6750 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 2400 6850 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 2300 6750 50  0001 C CNN "Supplier"
 F 7 "926-LM2735XMF/NOPB" H 3300 6850 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 2100 5950 50  0001 C CNN "Variant1"
 	1    2100 5950
 	1    0    0    -1  
 $EndComp
@@ -6857,6 +7030,7 @@ F 7 "Digikey" H 850 5450 50  0001 C CNN "Supplier"
 F 8 "732-12015-1-ND" H 850 5350 50  0001 C CNN "Supplier Nr."
 F 9 "0.16" H 850 5250 50  0001 C CNN "Supplier Price"
 F 10 "150060RS55040" H 850 4600 50  0001 C CNN "MPN"
+F 11 "Mounted" H 850 4600 50  0001 C CNN "Variant1"
 	1    850  4600
 	0    -1   -1   0   
 $EndComp
@@ -6886,6 +7060,7 @@ F 4 "Wurth Elektronik" H 2600 5650 50  0001 C CNN "Manufacturer"
 F 5 "74404064018" H 3300 5650 50  0001 C CNN "MPN"
 F 6 "Mouser" H 2450 5550 50  0001 C CNN "Supplier"
 F 7 "710-74404064018" H 3400 5550 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 2100 5200 50  0001 C CNN "Variant1"
 	1    2100 5200
 	0    -1   -1   0   
 $EndComp
@@ -6921,6 +7096,7 @@ F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q
 F 10 "100mW" H 4700 3550 50  0001 C CNN "Power"
 F 11 "0.09" H 4700 2975 50  0001 C CNN "Price"
 F 12 "No" H 4700 2150 50  0001 C CNN "Populated"
+F 13 "NOT Mounted" H 4700 2150 50  0001 C CNN "Variant1"
 	1    4700 2150
 	0    -1   -1   0   
 $EndComp
@@ -6952,6 +7128,7 @@ F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q
 F 10 "100mW" H 4700 2900 50  0001 C CNN "Power"
 F 11 "0.09" H 4700 2325 50  0001 C CNN "Price"
 F 12 "No" H 4700 1500 50  0001 C CNN "Populated"
+F 13 "NOT Mounted" H 4700 1500 50  0001 C CNN "Variant1"
 	1    4700 1500
 	0    -1   -1   0   
 $EndComp
@@ -6970,6 +7147,7 @@ F 0 "TP2" H 2308 1772 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 2250 1900 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2450 1700 50  0001 C CNN
 F 3 "~" H 2450 1700 50  0001 C CNN
+F 4 "Mounted" H 2250 1700 50  0001 C CNN "Variant1"
 	1    2250 1700
 	1    0    0    -1  
 $EndComp
@@ -6991,6 +7169,7 @@ F 0 "TP1" H 1392 1972 50  0000 R CNN
 F 1 "TestPoint_1.5mm" H 1450 2100 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1650 1900 50  0001 C CNN
 F 3 "~" H 1650 1900 50  0001 C CNN
+F 4 "Mounted" H 1450 1900 50  0001 C CNN "Variant1"
 	1    1450 1900
 	-1   0    0    1   
 $EndComp
@@ -7005,6 +7184,7 @@ F 0 "TP3" H 2658 3522 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 2600 3650 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2800 3450 50  0001 C CNN
 F 3 "~" H 2800 3450 50  0001 C CNN
+F 4 "Mounted" H 2600 3450 50  0001 C CNN "Variant1"
 	1    2600 3450
 	1    0    0    -1  
 $EndComp
@@ -7019,6 +7199,7 @@ F 0 "TP5" H 3308 5272 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 3250 5400 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3450 5200 50  0001 C CNN
 F 3 "~" H 3450 5200 50  0001 C CNN
+F 4 "Mounted" H 3250 5200 50  0001 C CNN "Variant1"
 	1    3250 5200
 	1    0    0    -1  
 $EndComp
@@ -7030,6 +7211,7 @@ F 0 "TP6" H 6250 6000 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 6150 6000 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6350 5800 50  0001 C CNN
 F 3 "~" H 6350 5800 50  0001 C CNN
+F 4 "Mounted" H 6150 5800 50  0001 C CNN "Variant1"
 	1    6150 5800
 	0    1    1    0   
 $EndComp
@@ -7050,6 +7232,7 @@ F 0 "TP11" H 15250 4700 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 15350 4650 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15550 4450 50  0001 C CNN
 F 3 "~" H 15550 4450 50  0001 C CNN
+F 4 "Mounted" H 15350 4450 50  0001 C CNN "Variant1"
 	1    15350 4450
 	1    0    0    -1  
 $EndComp
@@ -7068,6 +7251,7 @@ F 0 "TP12" H 15450 4700 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 15450 4650 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15650 4450 50  0001 C CNN
 F 3 "~" H 15650 4450 50  0001 C CNN
+F 4 "Mounted" H 15450 4450 50  0001 C CNN "Variant1"
 	1    15450 4450
 	1    0    0    -1  
 $EndComp
@@ -7084,6 +7268,7 @@ F 0 "TP15" H 15650 4700 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 15550 4650 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15750 4450 50  0001 C CNN
 F 3 "~" H 15750 4450 50  0001 C CNN
+F 4 "Mounted" H 15550 4450 50  0001 C CNN "Variant1"
 	1    15550 4450
 	1    0    0    -1  
 $EndComp
@@ -7102,6 +7287,7 @@ F 0 "TP7" H 12958 4772 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 12900 4900 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 13100 4700 50  0001 C CNN
 F 3 "~" H 13100 4700 50  0001 C CNN
+F 4 "Mounted" H 12900 4700 50  0001 C CNN "Variant1"
 	1    12900 4700
 	1    0    0    -1  
 $EndComp
@@ -7113,6 +7299,7 @@ F 0 "TP9" H 13700 1250 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 13750 1250 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 13950 1050 50  0001 C CNN
 F 3 "~" H 13950 1050 50  0001 C CNN
+F 4 "Mounted" H 13750 1050 50  0001 C CNN "Variant1"
 	1    13750 1050
 	1    0    0    -1  
 $EndComp
@@ -7124,6 +7311,7 @@ F 0 "TP8" H 13650 2000 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 13700 2000 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 13900 1800 50  0001 C CNN
 F 3 "~" H 13900 1800 50  0001 C CNN
+F 4 "Mounted" H 13700 1800 50  0001 C CNN "Variant1"
 	1    13700 1800
 	1    0    0    -1  
 $EndComp
@@ -7135,6 +7323,7 @@ F 0 "TP14" H 15500 1150 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 15550 1150 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15750 950 50  0001 C CNN
 F 3 "~" H 15750 950 50  0001 C CNN
+F 4 "Mounted" H 15550 950 50  0001 C CNN "Variant1"
 	1    15550 950 
 	1    0    0    -1  
 $EndComp
@@ -7146,6 +7335,7 @@ F 0 "TP13" H 15450 1900 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 15500 1900 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15700 1700 50  0001 C CNN
 F 3 "~" H 15700 1700 50  0001 C CNN
+F 4 "Mounted" H 15500 1700 50  0001 C CNN "Variant1"
 	1    15500 1700
 	1    0    0    -1  
 $EndComp
@@ -7162,6 +7352,7 @@ F 0 "TP10" H 9400 3700 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 9650 3800 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9850 3600 50  0001 C CNN
 F 3 "~" H 9850 3600 50  0001 C CNN
+F 4 "Mounted" H 9650 3600 50  0001 C CNN "Variant1"
 	1    9650 3600
 	0    -1   -1   0   
 $EndComp
@@ -7190,6 +7381,7 @@ F 8 "-" H 3300 9600 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3300 9775 50  0001 C CNN "Description"
 F 10 "100mW" H 3300 10250 50  0001 C CNN "Power"
 F 11 "0.09" H 3300 9675 50  0001 C CNN "Price"
+F 12 "Mounted" H 3300 8850 50  0001 C CNN "Variant1"
 	1    3300 8850
 	1    0    0    -1  
 $EndComp
@@ -7211,6 +7403,7 @@ F 8 "-" H 3500 9600 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3500 9775 50  0001 C CNN "Description"
 F 10 "100mW" H 3500 10250 50  0001 C CNN "Power"
 F 11 "0.09" H 3500 9675 50  0001 C CNN "Price"
+F 12 "Mounted" H 3500 8850 50  0001 C CNN "Variant1"
 	1    3500 8850
 	1    0    0    -1  
 $EndComp
@@ -7230,6 +7423,7 @@ F 8 "-" H 3400 9600 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3400 9775 50  0001 C CNN "Description"
 F 10 "100mW" H 3400 10250 50  0001 C CNN "Power"
 F 11 "0.09" H 3400 9675 50  0001 C CNN "Price"
+F 12 "Mounted" H 3400 8850 50  0001 C CNN "Variant1"
 	1    3400 8850
 	1    0    0    -1  
 $EndComp
@@ -7264,6 +7458,7 @@ F 8 "-" H 3200 9600 50  0001 C CNN "Tolerance"
 F 9 "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3200 9775 50  0001 C CNN "Description"
 F 10 "100mW" H 3200 10250 50  0001 C CNN "Power"
 F 11 "0.09" H 3200 9675 50  0001 C CNN "Price"
+F 12 "Mounted" H 3200 8850 50  0001 C CNN "Variant1"
 	1    3200 8850
 	1    0    0    -1  
 $EndComp
@@ -7292,6 +7487,7 @@ F 5 "Littelfuse" H 5050 8550 50  0001 C CNN "Manufacturer"
 F 6 "SP3205-01ETG" H 5050 8450 50  0001 C CNN "MPN"
 F 7 "Mouser" H 5050 8250 50  0001 C CNN "Supplier"
 F 8 "576-SP3205-01ETG" H 5050 8350 50  0001 C CNN "Supplier Part Number"
+F 9 "Mounted" H 5050 7800 50  0001 C CNN "Variant1"
 	1    5050 7800
 	0    1    1    0   
 $EndComp
@@ -7308,6 +7504,7 @@ F 5 "Littelfuse" H 4800 8750 50  0001 C CNN "Manufacturer"
 F 6 "SP3205-01ETG" H 4800 8650 50  0001 C CNN "MPN"
 F 7 "Mouser" H 4800 8450 50  0001 C CNN "Supplier"
 F 8 "576-SP3205-01ETG" H 4800 8550 50  0001 C CNN "Supplier Part Number"
+F 9 "Mounted" H 4800 8000 50  0001 C CNN "Variant1"
 	1    4800 8000
 	0    1    1    0   
 $EndComp
@@ -7341,6 +7538,7 @@ F 0 "TP4" H 3108 4422 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 3050 4550 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3250 4350 50  0001 C CNN
 F 3 "~" H 3250 4350 50  0001 C CNN
+F 4 "Mounted" H 3050 4350 50  0001 C CNN "Variant1"
 	1    3050 4350
 	1    0    0    -1  
 $EndComp
@@ -7366,6 +7564,7 @@ F 0 "TP23" H 6350 1950 50  0000 R CNN
 F 1 "TestPoint_1.5mm" H 6300 1900 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6500 1700 50  0001 C CNN
 F 3 "~" H 6500 1700 50  0001 C CNN
+F 4 "Mounted" H 6300 1700 50  0001 C CNN "Variant1"
 	1    6300 1700
 	1    0    0    -1  
 $EndComp
@@ -7377,6 +7576,7 @@ F 0 "TP24" H 6700 1800 50  0000 R CNN
 F 1 "TestPoint_1.5mm" H 6450 1850 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6650 1650 50  0001 C CNN
 F 3 "~" H 6650 1650 50  0001 C CNN
+F 4 "Mounted" H 6450 1650 50  0001 C CNN "Variant1"
 	1    6450 1650
 	1    0    0    -1  
 $EndComp
@@ -7401,6 +7601,7 @@ F 0 "TP25" V 6350 6200 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 6250 6350 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6450 6150 50  0001 C CNN
 F 3 "~" H 6450 6150 50  0001 C CNN
+F 4 "Mounted" H 6250 6150 50  0001 C CNN "Variant1"
 	1    6250 6150
 	0    1    1    0   
 $EndComp
@@ -7409,4 +7610,8 @@ Wire Wire Line
 Connection ~ 6150 6150
 Wire Wire Line
 	6150 6150 6150 6100
+Text Notes 4650 1350 0    50   ~ 0
+DNP
+Text Notes 4650 2350 0    50   ~ 0
+DNP
 $EndSCHEMATC

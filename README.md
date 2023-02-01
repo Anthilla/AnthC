@@ -1,6 +1,6 @@
 # AnthC - Anthilla Controller Board
 
-![Anthilla logo](Marketing/Logos/Anthilla-Logo.png)
+![Anthilla logo](Marketing/Logos/Anthilla-logo-white.png)
 ## Description
 
 The Anthilla Controller Board is a flexible controller for IoT projects. It can be easily adapted for different needs. The board has the Rasperry-pi form factor to fast the integration.

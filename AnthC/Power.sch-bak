@@ -33,6 +33,7 @@ F 10 "1276-1000-1-ND" H 8950 2250 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 10450 2200 50  0001 C CNN "Tolerance"
 F 12 "50V" H 8700 2050 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 8400 2000 50  0001 C CNN "MPN"
+F 14 "Mounted" H 8400 2000 50  0001 C CNN "Variant1"
 	1    8400 2000
 	1    0    0    -1  
 $EndComp
@@ -56,6 +57,7 @@ F 10 "1276-1000-1-ND" H 10450 2250 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 11950 2200 50  0001 C CNN "Tolerance"
 F 12 "50V" H 10200 2050 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 9900 2000 50  0001 C CNN "MPN"
+F 14 "Mounted" H 9900 2000 50  0001 C CNN "Variant1"
 	1    9900 2000
 	1    0    0    -1  
 $EndComp
@@ -98,6 +100,7 @@ F 8 "81-GRT31CR61A476KE3L" H 8900 2350 50  0001 C CNN "Supplier Nr."
 F 9 "10%" H 8350 1950 50  0001 C CNN "Tolerance"
 F 10 "10V" H 8350 2050 50  0001 C CNN "Voltage"
 F 11 "GRT31CR61A476KE13L" H 8650 2550 50  0001 C CNN "MPN"
+F 12 "Mounted" H 8050 2000 50  0001 C CNN "Variant1"
 	1    8050 2000
 	1    0    0    -1  
 $EndComp
@@ -122,6 +125,7 @@ F 8 "81-GRT31CR61A476KE3L" H 10400 2350 50  0001 C CNN "Supplier Nr."
 F 9 "10%" H 9850 1950 50  0001 C CNN "Tolerance"
 F 10 "10V" H 9850 2050 50  0001 C CNN "Voltage"
 F 11 "GRT31CR61A476KE13L" H 10150 2550 50  0001 C CNN "MPN"
+F 12 "Mounted" H 9550 2000 50  0001 C CNN "Variant1"
 	1    9550 2000
 	1    0    0    -1  
 $EndComp
@@ -146,6 +150,7 @@ F 10 "1276-1000-1-ND" H 3900 1850 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 5400 1800 50  0001 C CNN "Tolerance"
 F 12 "50V" H 3650 1650 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 3350 1600 50  0001 C CNN "MPN"
+F 14 "Mounted" H 3350 1600 50  0001 C CNN "Variant1"
 	1    3350 1600
 	-1   0    0    -1  
 $EndComp
@@ -167,6 +172,7 @@ F 7 "81-GRT31CR61H106ME1L" H 3950 1950 50  0001 C CNN "Supplier Nr."
 F 8 "20%" H 3400 1550 50  0001 C CNN "Tolerance"
 F 9 "50V" H 3400 1650 50  0001 C CNN "Voltage"
 F 10 "GRT31CR61H106ME01L" H 3100 1600 50  0001 C CNN "MPN"
+F 11 "Mounted" H 3100 1600 50  0001 C CNN "Variant1"
 	1    3100 1600
 	1    0    0    -1  
 $EndComp
@@ -234,6 +240,7 @@ F 10 "1276-1000-1-ND" H 6400 2150 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 7900 2100 50  0001 C CNN "Tolerance"
 F 12 "50V" H 6150 1950 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 5850 1900 50  0001 C CNN "MPN"
+F 14 "Mounted" H 5850 1900 50  0001 C CNN "Variant1"
 	1    5850 1900
 	-1   0    0    -1  
 $EndComp
@@ -298,6 +305,7 @@ F 9 "Mouser" H 5700 3675 50  0001 C CNN "Supplier"
 F 10 "667-ERJ-3EKF8201V" H 5700 3975 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 5700 3200 50  0001 C CNN "Tolerance"
 F 12 "ERJ-3EKF8201V" H 5700 2450 50  0001 C CNN "MPN"
+F 13 "Mounted" H 5700 2450 50  0001 C CNN "Variant1"
 	1    5700 2450
 	-1   0    0    1   
 $EndComp
@@ -339,6 +347,7 @@ F 8 "81-GRT31CR61A476KE3L" H 6300 2200 50  0001 C CNN "Supplier Nr."
 F 9 "10%" H 5750 1800 50  0001 C CNN "Tolerance"
 F 10 "10V" H 5750 1900 50  0001 C CNN "Voltage"
 F 11 "GRT31CR61A476KE13L" H 5450 1850 50  0001 C CNN "MPN"
+F 12 "Mounted" H 5450 1850 50  0001 C CNN "Variant1"
 	1    5450 1850
 	1    0    0    -1  
 $EndComp
@@ -362,6 +371,7 @@ F 9 "Digikey" H 5700 3025 50  0001 C CNN "Supplier"
 F 10 "311-43.0KHRCT-ND" H 5700 3325 50  0001 C CNN "Supplier Nr."
 F 11 "1%" H 5700 2550 50  0001 C CNN "Tolerance"
 F 12 "RC0603FR-0743KL" H 5700 1800 50  0001 C CNN "MPN"
+F 13 "Mounted" H 5700 1800 50  0001 C CNN "Variant1"
 	1    5700 1800
 	-1   0    0    1   
 $EndComp
@@ -402,6 +412,7 @@ F 10 "1276-6534-1-ND" H 3700 2450 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 5200 2400 50  0001 C CNN "Tolerance"
 F 12 "50V" H 3450 2250 50  0001 C CNN "Voltage"
 F 13 "CL10B223KB8WPNC" H 3150 2200 50  0001 C CNN "MPN"
+F 14 "Mounted" H 3150 2200 50  0001 C CNN "Variant1"
 	1    3150 2200
 	1    0    0    -1  
 $EndComp
@@ -444,6 +455,7 @@ F 10 "710-885012006055" H 4500 2800 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 4100 2600 50  0001 C CNN "Tolerance"
 F 12 "50V" H 3850 2450 50  0001 C CNN "Voltage"
 F 13 "885012006055" H 3400 2200 50  0001 C CNN "MPN"
+F 14 "Mounted" H 3400 2200 50  0001 C CNN "Variant1"
 	1    3400 2200
 	1    0    0    -1  
 $EndComp
@@ -487,6 +499,7 @@ F 8 "Mouser" H 3600 3525 50  0001 C CNN "Supplier"
 F 9 "71-TNPW020149R9BEED" H 3600 3825 50  0001 C CNN "Supplier Nr."
 F 10 "1%" H 3600 3050 50  0001 C CNN "Tolerance"
 F 11 "TNPW020149R9BEED" H 3600 3425 50  0001 C CNN "MPN"
+F 12 "Mounted" H 3600 2300 50  0001 C CNN "Variant1"
 	1    3600 2300
 	1    0    0    -1  
 $EndComp
@@ -504,6 +517,7 @@ F 3 "~" H 3600 2050 50  0001 C CNN
 F 4 "C1538" H 3600 2050 50  0001 C CNN "LCSC-PN"
 F 5 "0402B472K500NT" H 3600 2050 50  0001 C CNN "MPN"
 F 6 "Guangdong Fenghua Advanced Tech" H 3600 2050 50  0001 C CNN "Manufacturer"
+F 7 "Mounted" H 3600 2050 50  0001 C CNN "Variant1"
 	1    3600 2050
 	1    0    0    -1  
 $EndComp
@@ -533,6 +547,7 @@ F 7 "81-GRT31CR61H106ME1L" H 3700 1950 50  0001 C CNN "Supplier Nr."
 F 8 "20%" H 3150 1550 50  0001 C CNN "Tolerance"
 F 9 "50V" H 3150 1650 50  0001 C CNN "Voltage"
 F 10 "GRT31CR61H106ME01L" H 2850 1600 50  0001 C CNN "MPN"
+F 11 "Mounted" H 2850 1600 50  0001 C CNN "Variant1"
 	1    2850 1600
 	1    0    0    -1  
 $EndComp
@@ -550,6 +565,7 @@ F 3 "" H 4200 1750 50  0001 C CNN
 F 4 "C9865" H 4150 1850 50  0001 C CNN "LCSC-PN"
 F 5 "TPS54331DR" H 4150 1850 50  0001 C CNN "MPN"
 F 6 "Texas Instruments" H 4150 1850 50  0001 C CNN "Manufacturer"
+F 7 "Mounted" H 4150 1850 50  0001 C CNN "Variant1"
 	1    4150 1850
 	1    0    0    -1  
 $EndComp
@@ -574,6 +590,7 @@ F 10 "1276-1000-1-ND" H 5300 1650 50  0001 C CNN "Supplier Nr."
 F 11 "10%" H 6800 1600 50  0001 C CNN "Tolerance"
 F 12 "50V" H 5050 1450 50  0001 C CNN "Voltage"
 F 13 "CL10B104KB8NNNC" H 4750 1400 50  0001 C CNN "MPN"
+F 14 "Mounted" H 4750 1400 50  0001 C CNN "Variant1"
 	1    4750 1400
 	-1   0    0    -1  
 $EndComp
@@ -614,6 +631,7 @@ F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 4750 1800 50  0001 C CNN
 F 4 "B5819W" H 4750 1800 50  0001 C CNN "MPN"
 F 5 "Changjiang Electronics Tech (CJ)" H 4750 1800 50  0001 C CNN "Manufacturer"
 F 6 "C8598" H 4750 1800 50  0001 C CNN "LCSC-PN"
+F 7 "Mounted" H 4750 1800 50  0001 C CNN "Variant1"
 	1    4750 1800
 	0    1    1    0   
 $EndComp
@@ -632,6 +650,7 @@ F 4 "74439346100" H 6200 2050 50  0001 C CNN "MPN"
 F 5 "Wurth Elektronik" H 5500 2050 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 5350 1950 50  0001 C CNN "Supplier"
 F 7 "710-74439346100" H 6300 1950 50  0001 C CNN "Supplier Part Number"
+F 8 "Mounted" H 5000 1600 50  0001 C CNN "Variant1"
 	1    5000 1600
 	0    -1   -1   0   
 $EndComp
@@ -681,6 +700,7 @@ F 5 "Littelfuse" H 850 2800 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 850 1750 50  0001 C CNN "Supplier"
 F 7 "576-SMBJ30CA" H 850 1750 50  0001 C CNN "Supplier Part Number"
 F 8 "SMBJ30CA" H 850 2700 50  0001 C CNN "MPN"
+F 9 "Mounted" H 850 1750 50  0001 C CNN "Variant1"
 	1    850  1750
 	0    1    1    0   
 $EndComp
@@ -714,6 +734,7 @@ F 5 "TDK" H 2000 2650 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 2000 2450 50  0001 C CNN "Supplier"
 F 7 "810-ACM70607012PLTL1" H 2000 2350 50  0001 C CNN "Supplier Nr."
 F 8 "ACM7060-701-2PL-TL01" H 2000 1500 50  0001 C CNN "MPN"
+F 9 "Mounted" H 2000 1500 50  0001 C CNN "Variant1"
 	1    2000 1500
 	1    0    0    1   
 $EndComp
@@ -743,6 +764,7 @@ F 5 "Vishay Semiconductors" H 1350 2750 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 1350 2550 50  0001 C CNN "Supplier"
 F 7 "78-SI2347DS-T1-GE3" H 1350 2450 50  0001 C CNN "Supplier Nr."
 F 8 "SI2347DS-T1-GE3" H 1350 1450 50  0001 C CNN "MPN"
+F 9 "Mounted" H 1350 1450 50  0001 C CNN "Variant1"
 	1    1350 1450
 	0    -1   -1   0   
 $EndComp
@@ -766,6 +788,7 @@ F 6 "78-MMSZ5233B-E3-08" H 2650 2100 50  0001 C CNN "Supplier Part Number"
 F 7 "6V" H 2250 1900 50  0001 C CNN "Voltage"
 F 8 "500mW" H 2350 2000 50  0001 C CNN "Power"
 F 9 "MMSZ5233B-E3-08" H 1650 1600 50  0001 C CNN "MPN"
+F 10 "Mounted" H 1650 1600 50  0001 C CNN "Variant1"
 	1    1650 1600
 	0    1    1    0   
 $EndComp
@@ -819,6 +842,7 @@ F 6 "78-MMSZ5233B-E3-08" H 8200 2250 50  0001 C CNN "Supplier Part Number"
 F 7 "6V" H 7800 2050 50  0001 C CNN "Voltage"
 F 8 "500mW" H 7900 2150 50  0001 C CNN "Power"
 F 9 "MMSZ5233B-E3-08" H 7200 1750 50  0001 C CNN "MPN"
+F 10 "Mounted" H 7200 1750 50  0001 C CNN "Variant1"
 	1    7200 1750
 	0    1    1    0   
 $EndComp
@@ -844,6 +868,7 @@ F 5 "Mouser" H 6900 3000 50  0001 C CNN "Supplier"
 F 6 "12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 6900 3300 50  0001 C CNN "Description"
 F 7 "603-RT0603FRE0712KL" H 6900 2900 50  0001 C CNN "Supplier Part Number"
 F 8 "RT0603FRE0712KL" H 6900 2150 50  0001 C CNN "MPN"
+F 9 "Mounted" H 6900 2150 50  0001 C CNN "Variant1"
 	1    6900 2150
 	0    1    1    0   
 $EndComp
@@ -860,6 +885,7 @@ F 5 "Vishay Semiconductors" H 6900 2900 50  0001 C CNN "Manufacturer"
 F 6 "Mouser" H 6900 2700 50  0001 C CNN "Supplier"
 F 7 "78-SI2347DS-T1-GE3" H 6900 2600 50  0001 C CNN "Supplier Nr."
 F 8 "SI2347DS-T1-GE3" H 6900 1600 50  0001 C CNN "MPN"
+F 9 "Mounted" H 6900 1600 50  0001 C CNN "Variant1"
 	1    6900 1600
 	0    -1   -1   0   
 $EndComp
@@ -911,6 +937,7 @@ F 5 "Mouser" H 1350 2800 50  0001 C CNN "Supplier"
 F 6 "603-RT0603FRE0712KL" H 1350 2700 50  0001 C CNN "Supplier Part Number"
 F 7 "12 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 1350 3100 50  0001 C CNN "Description"
 F 8 "RT0603FRE0712KL" H 1350 1950 50  0001 C CNN "MPN"
+F 9 "Mounted" H 1350 1950 50  0001 C CNN "Variant1"
 	1    1350 1950
 	0    1    1    0   
 $EndComp
@@ -938,6 +965,7 @@ F 4 "Onsemi" H 8850 2850 50  0001 C CNN "Manufacturer"
 F 5 "BD33FC0FP-E2" H 9500 2850 50  0001 C CNN "MPN"
 F 6 "Mouser" H 8850 2950 50  0001 C CNN "Supplier"
 F 7 "755-BD33FC0FP-E2" H 9600 2950 50  0001 C CNN "Supplier Nr."
+F 8 "Mounted" H 8600 1850 50  0001 C CNN "Variant1"
 	1    8600 1850
 	1    0    0    -1  
 $EndComp
@@ -996,6 +1024,7 @@ F 8 "81-GRT31CR61A476KE3L" H 6050 2200 50  0001 C CNN "Supplier Nr."
 F 9 "10%" H 5500 1800 50  0001 C CNN "Tolerance"
 F 10 "10V" H 5500 1900 50  0001 C CNN "Voltage"
 F 11 "GRT31CR61A476KE13L" H 5200 1850 50  0001 C CNN "MPN"
+F 12 "Mounted" H 5200 1850 50  0001 C CNN "Variant1"
 	1    5200 1850
 	1    0    0    -1  
 $EndComp
@@ -1047,6 +1076,7 @@ F 0 "TP16" H 958 1522 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 900 1650 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1100 1450 50  0001 C CNN
 F 3 "~" H 1100 1450 50  0001 C CNN
+F 4 "Mounted" H 900 1450 50  0001 C CNN "Variant1"
 	1    900  1450
 	1    0    0    -1  
 $EndComp
@@ -1061,6 +1091,7 @@ F 0 "TP17" H 1858 1572 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 1800 1700 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2000 1500 50  0001 C CNN
 F 3 "~" H 2000 1500 50  0001 C CNN
+F 4 "Mounted" H 1800 1500 50  0001 C CNN "Variant1"
 	1    1800 1500
 	1    0    0    -1  
 $EndComp
@@ -1075,6 +1106,7 @@ F 0 "TP18" H 4658 1322 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 4600 1450 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4800 1250 50  0001 C CNN
 F 3 "~" H 4800 1250 50  0001 C CNN
+F 4 "Mounted" H 4600 1250 50  0001 C CNN "Variant1"
 	1    4600 1250
 	1    0    0    -1  
 $EndComp
@@ -1087,6 +1119,7 @@ F 0 "TP19" H 5358 1672 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 5300 1800 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5500 1600 50  0001 C CNN
 F 3 "~" H 5500 1600 50  0001 C CNN
+F 4 "Mounted" H 5300 1600 50  0001 C CNN "Variant1"
 	1    5300 1600
 	1    0    0    -1  
 $EndComp
@@ -1101,6 +1134,7 @@ F 0 "TP20" H 8108 1672 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 8050 1800 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8250 1600 50  0001 C CNN
 F 3 "~" H 8250 1600 50  0001 C CNN
+F 4 "Mounted" H 8050 1600 50  0001 C CNN "Variant1"
 	1    8050 1600
 	1    0    0    -1  
 $EndComp
@@ -1112,6 +1146,7 @@ F 0 "TP21" H 9958 1672 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 9900 1800 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10100 1600 50  0001 C CNN
 F 3 "~" H 10100 1600 50  0001 C CNN
+F 4 "Mounted" H 9900 1600 50  0001 C CNN "Variant1"
 	1    9900 1600
 	1    0    0    -1  
 $EndComp
@@ -1125,6 +1160,7 @@ F 0 "TP22" H 6250 1700 50  0000 L CNN
 F 1 "TestPoint_1.5mm" H 6300 1700 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6500 1500 50  0001 C CNN
 F 3 "~" H 6500 1500 50  0001 C CNN
+F 4 "Mounted" H 6300 1500 50  0001 C CNN "Variant1"
 	1    6300 1500
 	1    0    0    -1  
 $EndComp

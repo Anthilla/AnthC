@@ -22,14 +22,14 @@
 
   (layers
     (0 F.Cu signal)
-    (1 Second_Layer signal)
-    (2 Third_Layer signal)
-    (31 B.Cu power)
+    (1 Second_Layer signal hide)
+    (2 Third_Layer signal hide)
+    (31 B.Cu power hide)
     (32 B.Adhes user hide)
-    (33 F.Adhes user hide)
+    (33 F.Adhes user)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
-    (36 B.SilkS user)
+    (36 B.SilkS user hide)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -7133,7 +7133,7 @@
     (at 194 149.5)
     (descr "USB C")
     (path /617194FC)
-    (fp_text reference J1 (at -5.4 4.8 180 unlocked) (layer F.SilkS)
+    (fp_text reference J1 (at -8.2 -6.1 180 unlocked) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (fp_text value USB4105-GF-A (at 0 3.665) (layer F.Fab) hide
@@ -7376,7 +7376,7 @@
     (tags "Diode SMB (DO-214AA)")
     (path /6243F6D9/63ECF72F)
     (attr smd)
-    (fp_text reference D13 (at 3.5 0.1 90) (layer F.SilkS)
+    (fp_text reference D13 (at 4.9 0.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SMBJ30CA (at 0 3.1) (layer F.Fab) hide

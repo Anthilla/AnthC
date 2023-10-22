@@ -20986,31 +20986,6 @@
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 21.59 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00006329943f)
-    (property "Reference" "#PWR0130" (at 21.59 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 21.971 81.9658 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 21.59 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 21.59 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 19f1e5ad-e515-4cfc-a6ce-4c9f2d18ba54))
-    (instances
-      (project "AnthC"
-        (path "/550f0bb0-77ed-4437-b1eb-694978e817f0"
-          (reference "#PWR0130") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Inductors:1.8μH-5.8A") (at 53.34 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000633c8a0b)
@@ -23746,6 +23721,31 @@
       (project "AnthC"
         (path "/550f0bb0-77ed-4437-b1eb-694978e817f0"
           (reference "C45") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 21.59 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 62980c6b-cb0d-44df-a3b2-411a3ec3de3b)
+    (property "Reference" "#PWR048" (at 21.59 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 21.59 81.28 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 21.59 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 21.59 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 49c47a39-a4f6-4d71-aa78-d67a4700d519))
+    (instances
+      (project "AnthC"
+        (path "/550f0bb0-77ed-4437-b1eb-694978e817f0"
+          (reference "#PWR048") (unit 1)
         )
       )
     )

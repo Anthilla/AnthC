@@ -19,6 +19,11 @@ The Anthilla Controller Board is a flexible controller for IoT projects. It can 
 - RGB Led
 - USB-C port
 
+## Open Source
+
+(Chapter on going)
+
+
 ## Roadmap
 
 The version M2-R2 is stable. The next steps are the following:

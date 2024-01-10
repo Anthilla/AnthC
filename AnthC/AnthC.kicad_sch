@@ -5531,7 +5531,11 @@
     (uuid fc821a6c-0c68-4b80-88d7-6cefc7d6fa3a)
   )
 
+<<<<<<< HEAD
   (no_connect (at 252.73 81.28) (uuid 16d66f6c-ef19-47a3-8294-0c2413a493d8))
+=======
+  (no_connect (at 163.83 241.3) (uuid 1746be67-7fbb-47a5-8216-c11be583403e))
+>>>>>>> 6d6c8494051726a48b4dcee398a06a05e85b56e9
   (no_connect (at 31.75 92.71) (uuid 203de600-4f85-468d-8c65-9fbc9ae2e030))
   (no_connect (at 187.96 222.25) (uuid 204cb91d-2862-4f4b-91a2-2b54eb4176c7))
   (no_connect (at 176.53 241.3) (uuid 2dbe9173-9c4c-4738-90f3-e94b93cd8677))
@@ -5556,6 +5560,7 @@
   (no_connect (at 322.58 124.46) (uuid d76470a6-7ec0-4bd6-a74f-bc3b091f3541))
   (no_connect (at 31.75 97.79) (uuid df9debcb-1c05-4b5b-acea-feb4b15f2581))
   (no_connect (at 266.7 53.34) (uuid f21776ea-73be-4c62-8140-3b4b496e3c4d))
+  (no_connect (at 166.37 241.3) (uuid fbd15b05-ead7-4326-83b2-57d9035d1c26))
   (no_connect (at 31.75 95.25) (uuid fbe12c1e-83ad-48bd-a7ee-545c5e462d0a))
 
   (wire (pts (xy 87.63 143.51) (xy 87.63 151.13))
@@ -5895,6 +5900,13 @@
     (stroke (width 0) (type default))
     (uuid 1c8e9dfd-13f0-4b02-9ab3-87ccd6726795)
   )
+<<<<<<< HEAD
+=======
+  (wire (pts (xy 77.47 90.17) (xy 77.47 87.63))
+    (stroke (width 0) (type default))
+    (uuid 1d20686b-736e-4f4f-9e8e-cf3db79f8f9d)
+  )
+>>>>>>> 6d6c8494051726a48b4dcee398a06a05e85b56e9
   (wire (pts (xy 332.74 62.23) (xy 332.74 58.42))
     (stroke (width 0) (type default))
     (uuid 1e85ca9a-e323-47b2-a4dd-9d56bd746c8e)
@@ -6749,7 +6761,11 @@
     (stroke (width 0) (type default))
     (uuid 63779872-13ca-4da2-97e7-3021436a7773)
   )
+<<<<<<< HEAD
   (wire (pts (xy 160.02 49.53) (xy 160.02 44.45))
+=======
+  (wire (pts (xy 121.92 49.53) (xy 121.92 44.45))
+>>>>>>> 6d6c8494051726a48b4dcee398a06a05e85b56e9
     (stroke (width 0) (type default))
     (uuid 64a223d6-5ba8-4142-a870-430694fd56e2)
   )
@@ -15999,7 +16015,11 @@
     )
   )
 
+<<<<<<< HEAD
   (symbol (lib_id "Resistor_0603:0") (at 146.05 29.21 0) (mirror x) (unit 1)
+=======
+  (symbol (lib_id "Resistor_0603:0") (at 135.89 29.21 180) (unit 1)
+>>>>>>> 6d6c8494051726a48b4dcee398a06a05e85b56e9
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006242a65d)
     (property "Reference" "R65" (at 143.51 29.21 0)

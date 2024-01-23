@@ -28,10 +28,10 @@ https://certification.oshwa.org/it000013.html
 
 The board has been mentioned in the following articles:
 
-https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-1/
-https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-2-open-source-certification/
-https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-3-manufacturing-and-testing/
-https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-4-regulatory-compliance/
+[Building and Certifying an Open-Source IoT Controller, Part 1](https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-1/)
+[Building and Certifying an Open-Source IoT Controller, Part 2: Open-Source Certification](https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-2-open-source-certification/)
+[Building and Certifying an Open-Source IoT Controller, Part 3: Manufacturing and Testing](https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-3-manufacturing-and-testing/)
+[Building and Certifying an Open-Source IoT Controller, Part 4: Regulatory Compliance](https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-4-regulatory-compliance/)
 
 ## Roadmap
 

@@ -16,20 +16,27 @@ The Anthilla Controller Board is a flexible controller for IoT projects. It can 
 - Real time clock
 - Rechargeable LiPo battery
 - I2C and SPI communication
-- RGB Led
 - USB-C port
 
 ## Open Source
 
-(Chapter on going)
+The board M2-R3 got the Open Source Hardware Certification under the UID IT000013
 
+https://certification.oshwa.org/it000013.html
+
+## Articles
+
+The board has been mentioned in the following articles:
+
+https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-1/
+https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-2-open-source-certification/
+https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-3-manufacturing-and-testing/
+https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-4-regulatory-compliance/
 
 ## Roadmap
 
-The version M2-R2 is stable. The next steps are the following:
+The version M2-R3 is stable. The next steps are the following:
 
-- Improve its manufacturability and testing
-- Get the Open Source Hardware certification (OSHW)
 - Perform EMC tests
 - Generate the CE marking certificate
 

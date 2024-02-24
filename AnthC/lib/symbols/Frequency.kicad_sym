@@ -15,7 +15,7 @@
     (property "Manufacturer" "Seiko" (at -6.35 11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer Part Number" "SC32S-7PF20PPM" (at 8.89 13.97 0)
+    (property "MPN" "SC32S-7PF20PPM" (at 8.89 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Supplier" "Mouser" (at -5.08 13.97 0)

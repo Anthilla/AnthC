@@ -24,6 +24,8 @@ The board M2-R3 got the Open Source Hardware Certification under the UID IT00001
 
 https://certification.oshwa.org/it000013.html
 
+The board M2-R4 is being certified
+
 ## Articles
 
 The board has been mentioned in the following articles:
@@ -33,12 +35,22 @@ The board has been mentioned in the following articles:
 - [Building and Certifying an Open-Source IoT Controller, Part 3: Manufacturing and Testing](https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-3-manufacturing-and-testing/)
 - [Building and Certifying an Open-Source IoT Controller, Part 4: Regulatory Compliance](https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-4-regulatory-compliance/)
 
+## Last changes
+
+The version M2-R4 has the following differences
+
+- The PCB stackup is Signal + Power / GND / GND / Signal + Power
+- Battery control circuit: replaced the bipolar transistor by a MOSFET
+
 ## Roadmap
 
 The version M2-R3 is stable. The next steps are the following:
 
+- Manufacture and test the M2-R4
 - Perform EMC tests
-- Generate the CE marking certificate
+- Generate the CE certificate
+- Write the documentation for the final user
+- Develop a base Firmware
 
 
 ## Photos

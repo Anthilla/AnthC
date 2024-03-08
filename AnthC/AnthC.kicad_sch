@@ -9755,7 +9755,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 250.19 256.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dddee7a)
     (property "Reference" "MH2" (at 252.73 255.3716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9782,7 +9782,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 238.76 262.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dddf0ec)
     (property "Reference" "MH3" (at 241.3 261.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9809,7 +9809,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 250.19 262.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dddf190)
     (property "Reference" "MH4" (at 252.73 261.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9836,7 +9836,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 238.76 256.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dddf31b)
     (property "Reference" "MH1" (at 241.3 255.3716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -21106,7 +21106,7 @@
   )
 
   (symbol (lib_id "Testpoints:TestPoint_1.5mm") (at 327.66 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000065164d54)
     (property "Reference" "TP7" (at 329.1332 117.5512 0)
       (effects (font (size 1.27 1.27)) (justify left))

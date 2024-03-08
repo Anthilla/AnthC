@@ -3976,7 +3976,7 @@
   )
 
   (symbol (lib_id "Testpoints:TestPoint_1.5mm") (at 116.84 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063e07d61)
     (property "Reference" "TP18" (at 118.3132 29.9212 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3991,6 +3991,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Variant1" "Mounted" (at 116.84 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 116.84 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 76540697-e735-4428-befc-e01d9e5df9ed))

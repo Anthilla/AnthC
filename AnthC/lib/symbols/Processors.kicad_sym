@@ -213,7 +213,7 @@
       )
     )
   )
-  (symbol "ESP32-S3-WROOM" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "ESP32-S3-WROOM-1-N16" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -17.78 31.75 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -232,7 +232,10 @@
     (property "Supplier" "Mouser" (at -16.51 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "ESP32-S3-WROOM_0_1"
+    (property "MPN" "ESP32-S3-WROOM-1-N16" (at -1.27 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "ESP32-S3-WROOM-1-N16_0_1"
       (rectangle (start -19.05 30.48) (end 17.78 -21.59)
         (stroke (width 0) (type solid))
         (fill (type background))
@@ -256,7 +259,7 @@
         (fill (type none))
       )
     )
-    (symbol "ESP32-S3-WROOM_1_1"
+    (symbol "ESP32-S3-WROOM-1-N16_1_1"
       (pin passive line (at -24.13 -17.78 0) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))

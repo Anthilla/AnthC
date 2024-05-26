@@ -24,7 +24,9 @@ The board M2-R3 got the Open Source Hardware Certification under the UID IT00001
 
 https://certification.oshwa.org/it000013.html
 
-The board M2-R4 is being certified
+The board M2-R4 got the Open Source Hardware Certification under the UID IT000014
+
+https://certification.oshwa.org/it000014.html
 
 ## Articles
 

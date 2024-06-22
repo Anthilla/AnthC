@@ -56,5 +56,5 @@ The version M2-R3 is stable. The next steps are the following:
 
 
 ## Photos
-![AnthC lateral](Marketing/Photos/M2-R4/AnthC M2-R4 Top.PNG)
-![AnthC lateral](Marketing/Photos/M2-R1/AnthC M2-R4 Bottom.PNG)
+![AnthC M2-R4 TOP](Marketing/Photos/M2-R4/AnthC M2-R4 Top.png)
+![AnthC M2-R4 BOTTOM](Marketing/Photos/M2-R4/AnthC M2-R4 Bottom.png)

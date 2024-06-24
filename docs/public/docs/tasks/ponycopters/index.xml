@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working with Ponycopters on Anthilla Controller AnthC</title>
+    <link>http://localhost:1313/docs/tasks/ponycopters/</link>
+    <description>Recent content in Working with Ponycopters on Anthilla Controller AnthC</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 May 2024 07:16:31 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/tasks/ponycopters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuring Ponycopters</title>
+      <link>http://localhost:1313/docs/tasks/ponycopters/configuring-ponycopters/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/tasks/ponycopters/configuring-ponycopters/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title>Launching Ponycopters</title>
+      <link>http://localhost:1313/docs/tasks/ponycopters/launching-ponycopters/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/tasks/ponycopters/launching-ponycopters/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+  </channel>
+</rss>

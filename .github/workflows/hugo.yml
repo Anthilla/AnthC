@@ -50,7 +50,7 @@ jobs:
         with:
           node-version: '16'  # Choose the Node.js version you need
       - name: Install Node.js dependencies
-        run: npm install postcss-cli
+        run: npm install postcss-cli autoprefixer
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4

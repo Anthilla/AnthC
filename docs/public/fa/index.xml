@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>اسناد گلدی on Goldydocs</title>
+    <link>http://localhost:1313/fa/</link>
+    <description>Recent content in اسناد گلدی on Goldydocs</description>
+    <generator>Hugo</generator>
+    <language>fa</language>
+    <atom:link href="http://localhost:1313/fa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>مستدات راحت با داکسی</title>
+      <link>http://localhost:1313/fa/blog/2018/10/06/%D9%85%D8%B3%D8%AA%D8%AF%D8%A7%D8%AA-%D8%B1%D8%A7%D8%AD%D8%AA-%D8%A8%D8%A7-%D8%AF%D8%A7%DA%A9%D8%B3%DB%8C/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fa/blog/2018/10/06/%D9%85%D8%B3%D8%AA%D8%AF%D8%A7%D8%AA-%D8%B1%D8%A7%D8%AD%D8%AA-%D8%A8%D8%A7-%D8%AF%D8%A7%DA%A9%D8%B3%DB%8C/</guid>
+      <description>این یک نوشته معمولی شامل تصویر می باشد.&#xA;در مشخصات ابتدایی هر مطلب، عنوان، تاریخ و یک خلاصه که در لیست نوشته های نمایش داده می‌شود قرار دارد.&#xA;شامل تصویر&#xD;اینجا یک تصویر (featured-sunset-get.png) که شامل بالاین و کپشن است می‌باشد.&#xA;دریافت و تغییر سایز یک تصویر در نسخه هوگو ۰.۴۳&#xD;Photo: Riona MacNamara / CC-BY-CA مشخصات زیر که در اطلاعات پست آمده است روی تمامی تصاویر این پست اعمال می‌شوند:</description>
+    </item>
+    <item>
+      <title>درباره اسناد گلدی</title>
+      <link>http://localhost:1313/fa/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fa/about/</guid>
+      <description>درباره اسناد گلدی یک نمونه برای پوسته‌ی داکسی، قدرت گرفته از هوگو&#xA;اسناد گلدی یک نمونه سایت با استفاده از پوسته‌ی داکسی و قدرت گرفته از هوگو&#xD;است که به شما نشان می‌دهد چه ویژگی هایی دارد و یک ساختار کامل برای شما ایجاد کرده است.&#xD;این سایت برای شما ایجاد شده است که دریافت کنید و هرچقد که می‌خواهید آن را تغییر دهید. برای گرفتن ایده های بیشتر&#xD;می‌توانید از قسمت های مختلف سایت دیدن کنید.</description>
+    </item>
+    <item>
+      <title>نتایج جستجو</title>
+      <link>http://localhost:1313/fa/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fa/search/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

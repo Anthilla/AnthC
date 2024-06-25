@@ -45,12 +45,12 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Install Node.js dependencies
+        run: npm install postcss-cli autoprefixer
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '16'  # Choose the Node.js version you need
-      - name: Install Node.js dependencies
-        run: npm install postcss-cli autoprefixer
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4

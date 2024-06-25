@@ -46,7 +46,8 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Install Node.js dependencies
-        run: npm install postcss-cli autoprefixer
+        #run: npm install postcss-cli autoprefixer
+        run: npm ci
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:

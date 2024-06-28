@@ -50,11 +50,9 @@ jobs:
       - name: Install Node.js dependencies
         run: |
           #npm install -g postcss-cli autoprefixer
-          npm install -D autoprefixer
+          npm i -D postcss
           npm install -D postcss-cli
-          npm install -D postcss
-          
-        
+          npm i -D autoprefixer
       - name: Checkout
         uses: actions/checkout@v4
         with:

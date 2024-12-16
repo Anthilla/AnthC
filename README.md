@@ -37,6 +37,9 @@ The board has been mentioned in the following articles:
 - [Building and Certifying an Open-Source IoT Controller, Part 3: Manufacturing and Testing](https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-3-manufacturing-and-testing/)
 - [Building and Certifying an Open-Source IoT Controller, Part 4: Regulatory Compliance](https://www.allaboutcircuits.com/projects/building-and-certifying-an-open-source-iot-controller-part-4-regulatory-compliance/)
 
+## Hackaday page
+- [Hackaday Project Page](https://hackaday.io/project/194974-anthilla-controller-open-source-iot-controller)
+
 ## Last changes
 
 The version M2-R4 has the following differences

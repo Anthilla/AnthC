@@ -49,11 +49,10 @@ The version M2-R4 has the following differences
 
 ## Roadmap
 
-The version M2-R3 is stable. The next steps are the following:
+The version M2-R4 is stable. The next steps are the following:
 
-- Manufacture and test the M2-R4
+- Run functional tests on the M2-R4
 - Perform EMC tests
-- Generate the CE certificate
 - Write the documentation for the final user
 - Develop a base Firmware
 

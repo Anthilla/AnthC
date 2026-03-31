@@ -109,11 +109,16 @@
         "solder_mask_bridge": "ignore",
         "starved_thermal": "ignore",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
+<<<<<<< HEAD
         "track_dangling": "error",
+=======
+        "track_dangling": "warning",
+>>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -130,8 +135,13 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.075,
         "min_groove_width": 0.0,
+<<<<<<< HEAD
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
+=======
+        "min_hole_clearance": 0.15,
+        "min_hole_to_hole": 0.1,
+>>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -234,17 +244,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "M2-R5"
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -435,11 +456,17 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+<<<<<<< HEAD
+=======
+      "field_name_whitespace": "warning",
+>>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -462,8 +489,15 @@
       "similar_power": "warning",
       "simulation_model_issue": "error",
       "single_global_label": "ignore",
+<<<<<<< HEAD
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+=======
+      "stacked_pin_name": "warning",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+>>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -493,6 +527,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -510,6 +545,7 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -527,13 +563,18 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
+<<<<<<< HEAD
       "version": 4
+=======
+      "version": 5
+>>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -1280,6 +1321,13 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+<<<<<<< HEAD
+=======
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+>>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1465,6 +1513,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -1472,6 +1521,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1495,6 +1545,10 @@
     "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "D:/IDM/Repositorios/clients/Anthilla/AnthC/AnthC-M1R1/Doc/Schematics",
+<<<<<<< HEAD
+=======
+    "reuse_designators": true,
+>>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -1504,17 +1558,32 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "AnthC.kicad_sch",
+        "name": "AnthC",
+        "uuid": "550f0bb0-77ed-4437-b1eb-694978e817f0"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "550f0bb0-77ed-4437-b1eb-694978e817f0",
-      "Root"
+      "AnthC"
     ],
     [
       "00000000-0000-0000-0000-00006243f6d9",
       "Power"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }

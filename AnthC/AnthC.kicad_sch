@@ -1,24 +1,13 @@
 (kicad_sch
-<<<<<<< HEAD
-=======
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
->>>>>>> main
 	(uuid "550f0bb0-77ed-4437-b1eb-694978e817f0")
 	(paper "A3")
 	(title_block
 		(title "AnthC - Main")
-<<<<<<< HEAD
 		(date "2025-10-04")
 		(rev "0322cd1")
-=======
-		(date "2023-09-24")
-		(rev "M2-R5")
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 		(company "ANTHILLA")
 		(comment 1 "Ignacio de Mendizabal - hello@ignaciodemendizabal.com")
 		(comment 2 "projects@anthilla.com")
@@ -406,24 +395,6 @@
 					)
 				)
 				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
@@ -470,6 +441,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3505,354 +3494,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(at -5.08 20.32 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 17.78 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 15.24 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 12.7 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 0)
-					(length 3.81)
-					(name "Pin_33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -20.32 0)
-					(length 3.81)
-					(name "Pin_35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -22.86 0)
-					(length 3.81)
-					(name "Pin_37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -25.4 0)
-					(length 3.81)
-					(name "Pin_39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 22.86 180)
 					(length 3.81)
 					(name "Pin_2"
@@ -3871,11 +3512,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 20.32 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -3894,10 +3530,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 20.32 180)
 					(length 3.81)
 					(name "Pin_4"
@@ -3916,11 +3548,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_5"
@@ -3939,10 +3566,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 17.78 180)
 					(length 3.81)
 					(name "Pin_6"
@@ -3961,11 +3584,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_7"
@@ -3984,10 +3602,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 15.24 180)
 					(length 3.81)
 					(name "Pin_8"
@@ -4006,11 +3620,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_9"
@@ -4029,10 +3638,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 12.7 180)
 					(length 3.81)
 					(name "Pin_10"
@@ -4051,11 +3656,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_11"
@@ -4074,10 +3674,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 10.16 180)
 					(length 3.81)
 					(name "Pin_12"
@@ -4096,11 +3692,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_13"
@@ -4119,10 +3710,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_14"
@@ -4141,11 +3728,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_15"
@@ -4164,10 +3746,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_16"
@@ -4186,11 +3764,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_17"
@@ -4209,10 +3782,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_18"
@@ -4231,11 +3800,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_19"
@@ -4254,10 +3818,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_20"
@@ -4276,11 +3836,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_21"
@@ -4299,10 +3854,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_22"
@@ -4321,11 +3872,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_23"
@@ -4344,10 +3890,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_24"
@@ -4366,11 +3908,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_25"
@@ -4389,10 +3926,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_26"
@@ -4411,11 +3944,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_27"
@@ -4434,10 +3962,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_28"
@@ -4456,11 +3980,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_29"
@@ -4479,10 +3998,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -12.7 180)
 					(length 3.81)
 					(name "Pin_30"
@@ -4501,11 +4016,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_31"
@@ -4524,10 +4034,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -15.24 180)
 					(length 3.81)
 					(name "Pin_32"
@@ -4546,11 +4052,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_33"
@@ -4569,10 +4070,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -17.78 180)
 					(length 3.81)
 					(name "Pin_34"
@@ -4591,11 +4088,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -20.32 0)
 					(length 3.81)
 					(name "Pin_35"
@@ -4614,10 +4106,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -20.32 180)
 					(length 3.81)
 					(name "Pin_36"
@@ -4636,11 +4124,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -22.86 0)
 					(length 3.81)
 					(name "Pin_37"
@@ -4659,10 +4142,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -22.86 180)
 					(length 3.81)
 					(name "Pin_38"
@@ -4681,11 +4160,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 					(at -5.08 -25.4 0)
 					(length 3.81)
 					(name "Pin_39"
@@ -4704,10 +4178,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at 7.62 -25.4 180)
 					(length 3.81)
 					(name "Pin_40"
@@ -5195,6 +4665,222 @@
 					)
 				)
 				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1/B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4/B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1/A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 12.7 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4/A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -11.43 -22.86 90)
 					(length 5.08)
 					(name "SHIELD"
@@ -5259,222 +4945,6 @@
 						)
 					)
 					(number "S4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1/B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1/A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4/B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 12.7 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4/A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6039,8 +5509,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-=======
 					(at 7.62 0 180)
 					(length 3.81)
 					(name ""
@@ -6059,7 +5527,6 @@
 					)
 				)
 				(pin passive line
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 					(at 0 -5.08 90)
 					(length 5.08)
 					(name ""
@@ -6077,45 +5544,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-<<<<<<< HEAD
-=======
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
->>>>>>> main
 			)
 			(embedded_fonts no)
 		)
@@ -7847,82 +7275,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-<<<<<<< HEAD
-					(number "8"
-=======
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 5.08)
 					(name ""
@@ -7940,8 +7292,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-=======
 				(pin passive line
 					(at 7.62 0 180)
 					(length 5.08)
@@ -7996,7 +7346,6 @@
 						)
 					)
 				)
->>>>>>> main
 			)
 			(embedded_fonts no)
 		)
@@ -8714,30 +8063,6 @@
 					)
 				)
 				(pin power_in line
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(at -8.89 15.24 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at -8.89 -13.97 90)
 					(length 2.54)
 					(name "VREGIN"
@@ -8755,30 +8080,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-<<<<<<< HEAD
-				(pin input line
-					(at -6.35 15.24 270)
-					(length 2.54)
-					(name "~{DCD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 				(pin power_in line
 					(at -6.35 -13.97 90)
 					(length 2.54)
@@ -8797,30 +8098,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-<<<<<<< HEAD
-				(pin output line
-					(at -3.81 15.24 270)
-					(length 2.54)
-					(name "~{DTR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 				(pin input line
 					(at -3.81 -13.97 90)
 					(length 2.54)
@@ -8839,30 +8116,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-<<<<<<< HEAD
-				(pin input line
-					(at -1.27 15.24 270)
-					(length 2.54)
-					(name "~{DSR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 				(pin no_connect line
 					(at -1.27 -13.97 90)
 					(length 2.54)
@@ -8881,27 +8134,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(pin output line
-					(at 1.27 15.24 270)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 				(pin bidirectional line
 					(at 1.27 -13.97 90)
 					(length 2.54)
@@ -8920,27 +8152,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(pin input line
-					(at 3.81 15.24 270)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 				(pin bidirectional line
 					(at 3.81 -13.97 90)
 					(length 2.54)
@@ -8959,28 +8170,17 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(pin output line
-					(at 6.35 15.24 270)
-					(length 2.54)
-					(name "~{RTS}"
-=======
 				(pin bidirectional line
 					(at 17.78 -8.89 180)
 					(length 2.54)
 					(name "RXT/IO1"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "19"
-=======
 					(number "13"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8988,28 +8188,17 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(pin input line
-					(at 17.78 3.81 180)
-					(length 2.54)
-					(name "~{CTS}"
-=======
 				(pin bidirectional line
 					(at 17.78 -6.35 180)
 					(length 2.54)
 					(name "TXT/IO0"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "18"
-=======
 					(number "14"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9018,26 +8207,16 @@
 					)
 				)
 				(pin output line
-<<<<<<< HEAD
-					(at 17.78 1.27 180)
-					(length 2.54)
-					(name "SUSPEND"
-=======
 					(at 17.78 -3.81 180)
 					(length 2.54)
 					(name "~{SUSPEND}"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "17"
-=======
 					(number "15"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9064,26 +8243,16 @@
 					)
 				)
 				(pin output line
-<<<<<<< HEAD
-					(at 17.78 -3.81 180)
-					(length 2.54)
-					(name "~{SUSPEND}"
-=======
 					(at 17.78 1.27 180)
 					(length 2.54)
 					(name "SUSPEND"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "15"
-=======
 					(number "17"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9091,28 +8260,17 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(pin bidirectional line
-					(at 17.78 -6.35 180)
-					(length 2.54)
-					(name "TXT/IO0"
-=======
 				(pin input line
 					(at 17.78 3.81 180)
 					(length 2.54)
 					(name "~{CTS}"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "14"
-=======
 					(number "18"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9120,26 +8278,16 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(pin bidirectional line
-					(at 17.78 -8.89 180)
-					(length 2.54)
-					(name "RXT/IO1"
-=======
 				(pin output line
 					(at 6.35 15.24 270)
 					(length 2.54)
 					(name "~{RTS}"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "13"
-=======
 					(number "19"
 						(effects
 							(font
@@ -9249,10 +8397,6 @@
 						)
 					)
 					(number "25"
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9395,6 +8539,24 @@
 			)
 			(symbol "LM2735X_1_1"
 				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -7.62 7.62 0)
 					(length 2.54)
 					(name "VIN"
@@ -9431,16 +8593,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 12.7 2.54 180)
 					(length 2.54)
-					(name "PGND"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9467,24 +8629,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 12.7 7.62 180)
 					(length 2.54)
 					(name "SW"
@@ -9503,16 +8647,16 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 2.54 180)
+					(at 5.08 -5.08 90)
 					(length 2.54)
-					(name "FB"
+					(name "EPAD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9655,8 +8799,6 @@
 			)
 			(symbol "MCP3464RT-E_NC_1_1"
 				(pin passive line
-<<<<<<< HEAD
-=======
 					(at -15.24 -1.27 0)
 					(length 2.54)
 					(name "REFIN-"
@@ -9693,10 +8835,6 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 					(at -15.24 22.86 0)
 					(length 2.54)
 					(name "CH0"
@@ -9841,36 +8979,16 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(at -15.24 1.27 0)
-					(length 2.54)
-					(name "REFIN+"
-=======
 					(at 13.97 -1.27 180)
 					(length 2.54)
 					(name "~{CS}"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-					(at 13.97 -1.27 180)
-					(length 2.54)
-					(name "~{CS}"
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(number "2"
-=======
 					(number "11"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-					(number "11"
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9879,33 +8997,15 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(at -15.24 -1.27 0)
-					(length 2.54)
-					(name "REFIN-"
-=======
 					(at 13.97 1.27 180)
 					(length 2.54)
 					(name "SCK"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-					(at 13.97 1.27 180)
-					(length 2.54)
-					(name "SCK"
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(number "1"
-=======
-=======
->>>>>>> main
 					(number "12"
 						(effects
 							(font
@@ -10015,10 +9115,6 @@
 						)
 					)
 					(number "18"
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10080,156 +9176,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-<<<<<<< HEAD
-				(pin passive line
-					(at 2.54 26.67 270)
-					(length 2.54)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 13.97 180)
-					(length 2.54)
-					(name "~{IRQ}/MDAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 10.16 180)
-					(length 2.54)
-					(name "MCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 6.35 180)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 3.81 180)
-					(length 2.54)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 1.27 180)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -1.27 180)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			)
 			(embedded_fonts no)
 		)
@@ -10408,24 +9354,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{PG}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "VSS"
@@ -10436,78 +9364,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "THERM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10534,16 +9390,16 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 7.62 180)
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "VBAT"
+					(name "~{PG}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10552,16 +9408,34 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "EP"
+					(name "THERM"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10735,16 +9609,70 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 7.62 0)
+					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "VCC"
+					(name "X1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "X2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 7.62 180)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10789,78 +9717,6 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "X1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -3.81 0)
-					(length 2.54)
-					(name "X2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 7.62 180)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 8.89 1.27 180)
 					(length 2.54)
 					(name "MFP"
@@ -10871,6 +9727,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11039,24 +9913,6 @@
 				)
 			)
 			(symbol "REF5025AID_1_1"
-				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "Temp"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -11069,25 +9925,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11113,6 +9950,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Temp"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 2.54)
@@ -11131,18 +9986,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 0 180)
+				(pin passive line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(hide yes)
-					(name "DNC"
+					(name "Trim/NR"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11168,27 +10022,17 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "Trim/NR"
-=======
 				(pin no_connect line
 					(at -5.08 -5.08 90)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "5"
-=======
 					(number "7"
 						(effects
 							(font
@@ -11209,7 +10053,6 @@
 						)
 					)
 					(number "8"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11597,8 +10440,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-=======
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -11617,7 +10458,6 @@
 						)
 					)
 				)
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
@@ -11629,24 +10469,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11736,34 +10558,17 @@
 						(type background)
 					)
 				)
-<<<<<<< HEAD
-<<<<<<< HEAD
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-=======
-=======
->>>>>>> main
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "10"
-=======
 					(number "8"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11789,38 +10594,17 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-<<<<<<< HEAD
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-=======
-=======
->>>>>>> main
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "+"
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(number "8"
-=======
 					(number "10"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-					(number "10"
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11898,11 +10682,6 @@
 				)
 			)
 			(symbol "TLV9054_5_1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 				(pin power_in line
 					(at 0 8.89 270)
 					(length 3.81)
@@ -11939,10 +10718,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 				(pin passive line
 					(at -3.81 8.89 270)
 					(length 3.81)
@@ -11961,48 +10736,6 @@
 						)
 					)
 				)
-<<<<<<< HEAD
-<<<<<<< HEAD
-				(pin power_in line
-					(at 0 8.89 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			)
 			(embedded_fonts no)
 		)
@@ -12228,25 +10961,7 @@
 			)
 			(symbol "ESP32-S3-WROOM-1-N16_1_1"
 				(pin passive line
-					(at -24.13 20.32 0)
-					(length 5.08)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 17.78 0)
+					(at -24.13 -17.78 0)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -12255,295 +10970,7 @@
 							)
 						)
 					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -24.13 15.24 0)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -24.13 12.7 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 10.16 0)
-					(length 5.08)
-					(name "IO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 7.62 0)
-					(length 5.08)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 5.08 0)
-					(length 5.08)
-					(name "IO6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 2.54 0)
-					(length 5.08)
-					(name "IO7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 0 0)
-					(length 5.08)
-					(name "IO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 -2.54 0)
-					(length 5.08)
-					(name "IO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -24.13 15.24 0)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -24.13 12.7 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 10.16 0)
-					(length 5.08)
-					(name "IO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 7.62 0)
-					(length 5.08)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 5.08 0)
-					(length 5.08)
-					(name "IO6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 2.54 0)
-					(length 5.08)
-					(name "IO7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 0 0)
-					(length 5.08)
-					(name "IO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -24.13 -2.54 0)
-					(length 5.08)
-					(name "IO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12786,24 +11213,6 @@
 					)
 				)
 				(pin passive line
-					(at -24.13 -17.78 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -11.43 -26.67 90)
 					(length 5.08)
 					(name "IO3"
@@ -12984,18 +11393,15 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 19.05 180)
+					(at 22.86 -11.43 180)
 					(length 5.08)
-					(name "IO43"
+					(name "IO48"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "37"
-=======
 					(number "25"
 						(effects
 							(font
@@ -13177,7 +11583,6 @@
 						)
 					)
 					(number "35"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13204,16 +11609,16 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 13.97 180)
+					(at 22.86 19.05 180)
 					(length 5.08)
-					(name "IO42"
+					(name "IO43"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "35"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13222,178 +11627,16 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 11.43 180)
+					(at 22.86 -16.51 180)
 					(length 5.08)
-					(name "IO41"
+					(name "IO2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 8.89 180)
-					(length 5.08)
-					(name "IO40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 6.35 180)
-					(length 5.08)
-					(name "IO39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 3.81 180)
-					(length 5.08)
-					(name "IO38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 1.27 180)
-					(length 5.08)
-					(name "IO37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -1.27 180)
-					(length 5.08)
-					(name "IO36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -3.81 180)
-					(length 5.08)
-					(name "IO35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -6.35 180)
-					(length 5.08)
-					(name "IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -8.89 180)
-					(length 5.08)
-					(name "IO45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -11.43 180)
-					(length 5.08)
-					(name "IO48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13420,27 +11663,15 @@
 					)
 				)
 				(pin passive line
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(at 22.86 -16.51 180)
-					(length 5.08)
-					(name "IO2"
-=======
-=======
->>>>>>> main
 					(at -24.13 17.78 0)
 					(length 5.08)
 					(name "GND"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-					(number "38"
-=======
 					(number "40"
 						(effects
 							(font
@@ -13460,10 +11691,6 @@
 						)
 					)
 					(number "41"
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13890,7 +12117,6 @@
 			(pin_numbers
 				(hide yes)
 			)
-<<<<<<< HEAD
 			(pin_names
 				(offset 0)
 			)
@@ -16108,14 +14334,11 @@
 				)
 			)
 			(embedded_fonts no)
-<<<<<<< HEAD
 		)
 		(symbol "Resistor_0603:5K1Ω"
 			(pin_numbers
 				(hide yes)
 			)
-=======
->>>>>>> main
 			(pin_names
 				(offset 0)
 			)
@@ -16134,15 +14357,10 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(property "Value" "5K1Ω"
 				(at 3.81 -1.27 0)
-=======
-			(property "Value" "100KΩ"
-				(at 1.27 -1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
->>>>>>> main
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16294,10 +14512,7 @@
 					)
 				)
 			)
-<<<<<<< HEAD
 			(symbol "5K1Ω_1_1"
-=======
-			(symbol "100KΩ_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -16336,2017 +14551,6 @@
 				)
 			)
 			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:10KΩ"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10KΩ"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-				(at 0 23.495 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Panasonic"
-				(at 0 33.655 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "ERJ-3EKF1002V"
-				(at 0 28.575 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 31.115 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Nr." "667-ERJ-3EKF1002V"
-				(at 0 38.735 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "100mW"
-				(at 0 35.56 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "10KΩ_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "10KΩ_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:120Ω"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "120Ω"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Thick Film Resistors - SMD 120ohm 1% 1/10W"
-				(at 0 23.495 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 0 33.655 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CR0603-FX-1200ELF"
-				(at 0 28.575 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 31.115 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Nr." "652-CR0603FX-1200ELF"
-				(at 0 38.735 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "100mW"
-				(at 0 35.56 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "5%"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.025"
-				(at 0 20.955 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Thick Film Resistors - SMD 120ohm 1% 1/10W"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "120Ω_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "120Ω_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:12K"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "12K"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 31.75 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.es/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "RES SMD 12K OHM 1% 1/10W 0603"
-				(at 0 29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at 0 26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RT0603FRE0712KL"
-				(at 0 24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part Number" "603-RT0603FRE0712KL"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RES SMD 12K OHM 1% 1/10W 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "12K_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "12K_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:1K"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1K"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-				(at 0 23.495 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at 0 33.655 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0603FR-071KL"
-				(at 0 28.575 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 31.115 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part Number" "603-RC0603FR-071KL"
-				(at 0 38.735 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1K_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1K_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:20K"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "20K"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.be/datasheet/2/219/RK73B-1825463.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Thick Film Resistors - SMD 1/10W 20K OHM 5%"
-				(at 0 23.495 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "KOA Speer"
-				(at 0 33.655 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RK73B1JTTDD203J"
-				(at 0 28.575 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 31.115 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Nr." "660-RK73B1JTTDD203J"
-				(at 0 38.735 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "100mW"
-				(at 0 35.56 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.019"
-				(at 0 20.955 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Thick Film Resistors - SMD 1/10W 20K OHM 5%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "20K_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "20K_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:22K1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22K1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 31.75 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "RES SMD 22.1K OHM 1% 1/10W 0603"
-				(at 0 29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Bourns Inc."
-				(at 0 26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CR0603-FX-2212ELF"
-				(at 0 24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Digikey"
-				(at 0 21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part Number" "CR0603-FX-2212ELFCT-ND"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RES SMD 22.1K OHM 1% 1/10W 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "22K1_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "22K1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:2KΩ"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2KΩ"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.be/datasheet/2/54/crxxxxx-1858361.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Thick Film Resistors - SMD 2K OHM 1% 0603"
-				(at 0 23.495 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 0 33.655 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CR0603-FX-2001ELF"
-				(at 0 28.575 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 31.115 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Nr." "652-CR0603-FX-2001LF"
-				(at 0 38.735 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "100mW"
-				(at 0 35.56 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.07"
-				(at 0 20.955 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Thick Film Resistors - SMD 2K OHM 1% 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2KΩ_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2KΩ_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:36KΩ"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "36KΩ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 31.75 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.be/datasheet/2/219/RN73H-1843478.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Thin Film Resistors - SMD 36kOhm,0603,1%,50ppm ,100mW,75V"
-				(at 0 29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "KOA Speer"
-				(at 0 26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RN73H1JTTD3602F50"
-				(at 0 24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part Number" "660-RN73H1JTD3602F50"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Thin Film Resistors - SMD 36kOhm,0603,1%,50ppm ,100mW,75V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "36KΩ_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "36KΩ_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:47K5"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "47K5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 31.75 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/sei-packaging.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor SMD 0603 1/10W 47.5K Ohms .5%"
-				(at 0 29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RT0603DRE0747K5L"
-				(at 0 24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part Number" "603-RT0603DRE0747K5L"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistor SMD 0603 1/10W 47.5K Ohms .5%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "47K5_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "47K5_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_0603:51KΩ"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "51KΩ"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.be/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf"
-				(at -8.89 1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Thick Film Resistors - SMD 51 kOhms 100mW 0603 1%"
-				(at 0 23.495 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 33.655 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0603FR-0751KL"
-				(at 0 28.575 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 31.115 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Nr." "603-RC0603FR-0751KL"
-				(at 0 38.735 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "100mW"
-				(at 0 35.56 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.01"
-				(at 0 20.955 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Thick Film Resistors - SMD 51 kOhms 100mW 0603 1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "51KΩ_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "51KΩ_1_1"
->>>>>>> main
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-<<<<<<< HEAD
-=======
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 		)
 		(symbol "Testpoints:TestPoint_1.5mm"
 			(pin_numbers
@@ -19065,24 +15269,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -19093,6 +15279,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19522,108 +15726,16 @@
 					)
 				)
 				(pin open_collector line
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(at 10.16 12.7 180)
-					(length 2.54)
-					(name "O1"
-=======
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "O7"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "O7"
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "O3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "O4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "O5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-=======
 					(number "10"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-					(number "10"
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19650,33 +15762,15 @@
 					)
 				)
 				(pin open_collector line
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "O7"
-=======
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "O5"
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "O5"
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-<<<<<<< HEAD
-<<<<<<< HEAD
-					(number "10"
-=======
-=======
->>>>>>> main
 					(number "12"
 						(effects
 							(font
@@ -19750,10 +15844,6 @@
 						)
 					)
 					(number "16"
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -20110,24 +16200,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -20138,6 +16210,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -20494,24 +16584,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -20522,6 +16594,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -21189,15 +17279,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
-<<<<<<< HEAD
-<<<<<<< HEAD
-			(power)
-=======
 			(power global)
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-			(power global)
->>>>>>> main
 			(pin_numbers
 				(hide yes)
 			)
@@ -45254,17 +41336,10 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000619264a1")
 		(property "Reference" "#PWR08"
-<<<<<<< HEAD
 			(at 134.62 182.88 0)
-=======
-			(at 128.27 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45272,16 +41347,9 @@
 			)
 		)
 		(property "Value" "+5V"
-<<<<<<< HEAD
 			(at 135.001 174.6758 0)
-=======
-			(at 128.651 174.6758 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45289,17 +41357,10 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
 			(at 134.62 179.07 0)
-=======
-			(at 128.27 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45307,17 +41368,10 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
 			(at 134.62 179.07 0)
-=======
-			(at 128.27 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45325,17 +41379,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 134.62 179.07 0)
-=======
-			(at 128.27 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45546,16 +41593,9 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a1538b")
 		(property "Reference" "D3"
-<<<<<<< HEAD
 			(at 129.4384 181.0766 90)
-=======
-			(at 123.0884 181.0766 90)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45564,16 +41604,9 @@
 			)
 		)
 		(property "Value" "B5819W"
-<<<<<<< HEAD
 			(at 130.81 176.53 0)
-=======
-			(at 124.46 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45582,17 +41615,10 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-<<<<<<< HEAD
 			(at 128.27 174.625 0)
-=======
-			(at 121.92 174.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45600,17 +41626,10 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
-<<<<<<< HEAD
 			(at 128.27 179.07 0)
-=======
-			(at 121.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45618,17 +41637,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 128.27 179.07 0)
-=======
-			(at 121.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45636,17 +41648,10 @@
 			)
 		)
 		(property "MPN" "B5819W"
-<<<<<<< HEAD
 			(at 128.27 179.07 0)
-=======
-			(at 121.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45654,17 +41659,10 @@
 			)
 		)
 		(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
-<<<<<<< HEAD
 			(at 128.27 179.07 0)
-=======
-			(at 121.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45672,17 +41670,10 @@
 			)
 		)
 		(property "LCSC-PN" "C8598"
-<<<<<<< HEAD
 			(at 128.27 179.07 0)
-=======
-			(at 121.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45690,17 +41681,10 @@
 			)
 		)
 		(property "Variant1" "Mounted"
-<<<<<<< HEAD
 			(at 128.27 179.07 0)
-=======
-			(at 121.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46349,178 +42333,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-=======
-		(lib_id "Resistor_0603:0")
-		(at 92.71 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061b8c0ba")
-		(property "Reference" "R89"
-			(at 91.44 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 92.71 226.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.71 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
-			(at 83.82 223.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 92.71 201.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 92.71 191.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AC0603JR-070RL"
-			(at 92.71 196.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 92.71 193.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Nr." "311-0.0LECT-ND"
-			(at 92.71 186.055 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "-"
-			(at 92.71 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 92.71 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.09"
-			(at 92.71 203.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
-			(at 92.71 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83141af8-054d-4f23-a6e1-9f47629baa1a")
-		)
-		(pin "2"
-			(uuid "69c5597a-9ce9-4028-91c6-fb3f77e8ed15")
-		)
-		(instances
-			(project "AnthC"
-				(path "/550f0bb0-77ed-4437-b1eb-694978e817f0"
-					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 		(lib_id "IntegratedCircuits:TLV9054")
 		(at 330.2 26.67 0)
 		(mirror x)
@@ -48775,178 +44587,6 @@
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-=======
-		(lib_id "Resistor_0603:0")
-		(at 95.25 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061f08d4b")
-		(property "Reference" "R4"
-			(at 93.98 220.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 95.25 226.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 95.25 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
-			(at 86.36 223.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 95.25 201.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 95.25 191.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AC0603JR-070RL"
-			(at 95.25 196.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 95.25 193.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Nr." "311-0.0LECT-ND"
-			(at 95.25 186.055 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "-"
-			(at 95.25 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 95.25 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.09"
-			(at 95.25 203.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
-			(at 95.25 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aafb8c71-21ab-41af-9b5d-a96ac1187b16")
-		)
-		(pin "2"
-			(uuid "9fe6b3cf-7d55-494d-948e-69e6c697942a")
-		)
-		(instances
-			(project "AnthC"
-				(path "/550f0bb0-77ed-4437-b1eb-694978e817f0"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 		(lib_id "Thermistors:NTC_10K")
 		(at 58.42 104.14 0)
 		(unit 1)
@@ -49094,16 +44734,9 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061f7a582")
 		(property "Reference" "C39"
-<<<<<<< HEAD
 			(at 190.881 179.1716 0)
-=======
-			(at 168.021 179.1716 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49112,16 +44745,9 @@
 			)
 		)
 		(property "Value" "1uF"
-<<<<<<< HEAD
 			(at 190.881 181.483 0)
-=======
-			(at 168.021 181.483 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49130,17 +44756,10 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-<<<<<<< HEAD
 			(at 204.47 173.99 0)
-=======
-			(at 181.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49148,17 +44767,10 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-<<<<<<< HEAD
 			(at 187.96 180.34 0)
-=======
-			(at 165.1 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49166,17 +44778,10 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-<<<<<<< HEAD
 			(at 237.49 176.53 0)
-=======
-			(at 214.63 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49184,17 +44789,10 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-<<<<<<< HEAD
 			(at 194.31 163.83 0)
-=======
-			(at 171.45 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49202,17 +44800,10 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-<<<<<<< HEAD
 			(at 205.74 166.37 0)
-=======
-			(at 182.88 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49220,17 +44811,10 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-<<<<<<< HEAD
 			(at 196.85 168.91 0)
-=======
-			(at 173.99 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49238,17 +44822,10 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-<<<<<<< HEAD
 			(at 201.93 171.45 0)
-=======
-			(at 179.07 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49256,17 +44833,10 @@
 			)
 		)
 		(property "Tolerance" "10%"
-<<<<<<< HEAD
 			(at 195.58 181.61 0)
-=======
-			(at 172.72 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49274,17 +44844,10 @@
 			)
 		)
 		(property "Voltage" "25V"
-<<<<<<< HEAD
 			(at 195.58 179.07 0)
-=======
-			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49292,17 +44855,10 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-<<<<<<< HEAD
 			(at 203.2 179.07 0)
-=======
-			(at 180.34 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49310,17 +44866,10 @@
 			)
 		)
 		(property "Price" "0.09"
-<<<<<<< HEAD
 			(at 214.63 179.07 0)
-=======
-			(at 191.77 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49328,17 +44877,10 @@
 			)
 		)
 		(property "Variant1" "Mounted"
-<<<<<<< HEAD
 			(at 187.96 180.34 0)
-=======
-			(at 165.1 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49372,16 +44914,9 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061f7b0dc")
 		(property "Reference" "C19"
-<<<<<<< HEAD
 			(at 169.291 179.1716 0)
-=======
-			(at 147.701 179.1716 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49390,16 +44925,9 @@
 			)
 		)
 		(property "Value" "1uF"
-<<<<<<< HEAD
 			(at 169.291 181.483 0)
-=======
-			(at 147.701 181.483 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49408,17 +44936,10 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-<<<<<<< HEAD
 			(at 182.88 173.99 0)
-=======
-			(at 161.29 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49426,17 +44947,10 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-<<<<<<< HEAD
 			(at 166.37 180.34 0)
-=======
-			(at 144.78 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49444,17 +44958,10 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-<<<<<<< HEAD
 			(at 215.9 176.53 0)
-=======
-			(at 194.31 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49462,17 +44969,10 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-<<<<<<< HEAD
 			(at 172.72 163.83 0)
-=======
-			(at 151.13 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49480,17 +44980,10 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-<<<<<<< HEAD
 			(at 184.15 166.37 0)
-=======
-			(at 162.56 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49498,17 +44991,10 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-<<<<<<< HEAD
 			(at 175.26 168.91 0)
-=======
-			(at 153.67 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49516,17 +45002,10 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-<<<<<<< HEAD
 			(at 180.34 171.45 0)
-=======
-			(at 158.75 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49534,17 +45013,10 @@
 			)
 		)
 		(property "Tolerance" "10%"
-<<<<<<< HEAD
 			(at 173.99 181.61 0)
-=======
-			(at 152.4 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49552,17 +45024,10 @@
 			)
 		)
 		(property "Voltage" "25V"
-<<<<<<< HEAD
 			(at 173.99 179.07 0)
-=======
-			(at 152.4 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49570,17 +45035,10 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-<<<<<<< HEAD
 			(at 181.61 179.07 0)
-=======
-			(at 160.02 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49588,17 +45046,10 @@
 			)
 		)
 		(property "Price" "0.09"
-<<<<<<< HEAD
 			(at 193.04 179.07 0)
-=======
-			(at 171.45 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49606,17 +45057,10 @@
 			)
 		)
 		(property "Variant1" "Mounted"
-<<<<<<< HEAD
 			(at 166.37 180.34 0)
-=======
-			(at 144.78 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50374,17 +45818,10 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062069d77")
 		(property "Reference" "#PWR0102"
-<<<<<<< HEAD
 			(at 347.98 171.45 0)
-=======
-			(at 347.98 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50392,16 +45829,9 @@
 			)
 		)
 		(property "Value" "+5V"
-<<<<<<< HEAD
 			(at 348.361 163.2458 0)
-=======
-			(at 348.361 156.8958 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50409,17 +45839,10 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
 			(at 347.98 167.64 0)
-=======
-			(at 347.98 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50427,17 +45850,10 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
 			(at 347.98 167.64 0)
-=======
-			(at 347.98 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50445,17 +45861,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 347.98 167.64 0)
-=======
-			(at 347.98 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64442,17 +59851,10 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000633f46bf")
 		(property "Reference" "#PWR055"
-<<<<<<< HEAD
 			(at 163.83 193.04 0)
-=======
-			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64460,16 +59862,9 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
 			(at 163.83 190.5 0)
-=======
-			(at 142.24 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64477,17 +59872,10 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
 			(at 163.83 186.69 0)
-=======
-			(at 142.24 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64495,17 +59883,10 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
 			(at 163.83 186.69 0)
-=======
-			(at 142.24 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64513,17 +59894,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 163.83 186.69 0)
-=======
-			(at 142.24 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64554,16 +59928,9 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000633f61b5")
 		(property "Reference" "C6"
-<<<<<<< HEAD
 			(at 156.21 177.8 0)
-=======
-			(at 134.62 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64572,16 +59939,9 @@
 			)
 		)
 		(property "Value" "100nF"
-<<<<<<< HEAD
 			(at 152.4 180.34 0)
-=======
-			(at 130.81 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64590,17 +59950,10 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-<<<<<<< HEAD
 			(at 196.85 175.26 0)
-=======
-			(at 175.26 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64608,17 +59961,10 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
-<<<<<<< HEAD
 			(at 161.29 180.34 0)
-=======
-			(at 139.7 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64626,17 +59972,10 @@
 			)
 		)
 		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-<<<<<<< HEAD
 			(at 223.52 177.8 0)
-=======
-			(at 201.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64644,17 +59983,10 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-<<<<<<< HEAD
 			(at 189.23 171.45 0)
-=======
-			(at 167.64 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64662,17 +59994,10 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-<<<<<<< HEAD
 			(at 171.45 181.61 0)
-=======
-			(at 149.86 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64680,17 +60005,10 @@
 			)
 		)
 		(property "Manufacturer Nr." "CL10B104KB8NNNC"
-<<<<<<< HEAD
 			(at 175.26 171.45 0)
-=======
-			(at 153.67 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64698,17 +60016,10 @@
 			)
 		)
 		(property "Price" "0.09"
-<<<<<<< HEAD
 			(at 195.58 171.45 0)
-=======
-			(at 173.99 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64716,17 +60027,10 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-<<<<<<< HEAD
 			(at 170.18 176.53 0)
-=======
-			(at 148.59 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64734,17 +60038,10 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1000-1-ND"
-<<<<<<< HEAD
 			(at 175.26 173.99 0)
-=======
-			(at 153.67 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64752,17 +60049,10 @@
 			)
 		)
 		(property "Tolerance" "10%"
-<<<<<<< HEAD
 			(at 213.36 175.26 0)
-=======
-			(at 191.77 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64770,17 +60060,10 @@
 			)
 		)
 		(property "Voltage" "50V"
-<<<<<<< HEAD
 			(at 168.91 179.07 0)
-=======
-			(at 147.32 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64788,17 +60071,10 @@
 			)
 		)
 		(property "MPN" "CL10B104KB8NNNC"
-<<<<<<< HEAD
 			(at 161.29 180.34 0)
-=======
-			(at 139.7 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64806,17 +60082,10 @@
 			)
 		)
 		(property "Variant1" "Mounted"
-<<<<<<< HEAD
 			(at 161.29 180.34 0)
-=======
-			(at 139.7 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65861,16 +61130,9 @@
 			)
 		)
 		(property "Value" "SP3205-01ETG"
-<<<<<<< HEAD
 			(at 129.794 201.422 90)
-=======
-			(at 130.2766 199.263 90)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67782,17 +63044,10 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000065313c77")
 		(property "Reference" "#PWR026"
-<<<<<<< HEAD
 			(at 185.42 193.04 0)
-=======
-			(at 162.56 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67800,16 +63055,9 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
 			(at 185.42 190.5 0)
-=======
-			(at 162.56 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67817,17 +63065,10 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
 			(at 185.42 186.69 0)
-=======
-			(at 162.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67835,17 +63076,10 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
 			(at 185.42 186.69 0)
-=======
-			(at 162.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67853,17 +63087,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 185.42 186.69 0)
-=======
-			(at 162.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67894,16 +63121,9 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006531567d")
 		(property "Reference" "C31"
-<<<<<<< HEAD
 			(at 177.8 177.8 0)
-=======
-			(at 154.94 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67912,16 +63132,9 @@
 			)
 		)
 		(property "Value" "100nF"
-<<<<<<< HEAD
 			(at 173.99 180.34 0)
-=======
-			(at 151.13 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67930,17 +63143,10 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-<<<<<<< HEAD
 			(at 218.44 175.26 0)
-=======
-			(at 195.58 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67948,17 +63154,10 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
-<<<<<<< HEAD
 			(at 182.88 180.34 0)
-=======
-			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67966,17 +63165,10 @@
 			)
 		)
 		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-<<<<<<< HEAD
 			(at 245.11 177.8 0)
-=======
-			(at 222.25 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67984,17 +63176,10 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-<<<<<<< HEAD
 			(at 210.82 171.45 0)
-=======
-			(at 187.96 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68002,17 +63187,10 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-<<<<<<< HEAD
 			(at 193.04 181.61 0)
-=======
-			(at 170.18 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68020,17 +63198,10 @@
 			)
 		)
 		(property "Manufacturer Nr." "CL10B104KB8NNNC"
-<<<<<<< HEAD
 			(at 196.85 171.45 0)
-=======
-			(at 173.99 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68038,17 +63209,10 @@
 			)
 		)
 		(property "Price" "0.09"
-<<<<<<< HEAD
 			(at 217.17 171.45 0)
-=======
-			(at 194.31 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68056,17 +63220,10 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-<<<<<<< HEAD
 			(at 191.77 176.53 0)
-=======
-			(at 168.91 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68074,17 +63231,10 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1000-1-ND"
-<<<<<<< HEAD
 			(at 196.85 173.99 0)
-=======
-			(at 173.99 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68092,17 +63242,10 @@
 			)
 		)
 		(property "Tolerance" "10%"
-<<<<<<< HEAD
 			(at 234.95 175.26 0)
-=======
-			(at 212.09 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68110,17 +63253,10 @@
 			)
 		)
 		(property "Voltage" "50V"
-<<<<<<< HEAD
 			(at 190.5 179.07 0)
-=======
-			(at 167.64 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68128,17 +63264,10 @@
 			)
 		)
 		(property "MPN" "CL10B104KB8NNNC"
-<<<<<<< HEAD
 			(at 182.88 180.34 0)
-=======
-			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68146,17 +63275,10 @@
 			)
 		)
 		(property "Variant1" "Mounted"
-<<<<<<< HEAD
 			(at 182.88 180.34 0)
-=======
-			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68190,17 +63312,10 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000653f9ce2")
 		(property "Reference" "#PWR024"
-<<<<<<< HEAD
 			(at 185.42 177.8 0)
-=======
-			(at 162.56 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68208,16 +63323,9 @@
 			)
 		)
 		(property "Value" "+3V3"
-<<<<<<< HEAD
 			(at 185.801 169.5958 0)
-=======
-			(at 162.941 169.5958 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68225,17 +63333,10 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
 			(at 185.42 173.99 0)
-=======
-			(at 162.56 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68243,17 +63344,10 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
 			(at 185.42 173.99 0)
-=======
-			(at 162.56 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68261,17 +63355,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 185.42 173.99 0)
-=======
-			(at 162.56 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68302,17 +63389,10 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000658a4b70")
 		(property "Reference" "#FLG0104"
-<<<<<<< HEAD
 			(at 120.65 175.895 0)
-=======
-			(at 114.3 175.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68320,16 +63400,9 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-<<<<<<< HEAD
 			(at 123.19 172.72 0)
-=======
-			(at 116.84 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68337,39 +63410,21 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
 			(at 120.65 177.8 0)
-=======
-			(at 114.3 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-<<<<<<< HEAD
-<<<<<<< HEAD
-		(property "Datasheet" "~"
-			(at 120.65 177.8 0)
-=======
-=======
->>>>>>> main
 		(property "Datasheet" ""
-			(at 114.3 177.8 0)
+			(at 120.65 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68377,17 +63432,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 120.65 177.8 0)
-=======
-			(at 114.3 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70580,6 +65628,8 @@
 		(uuid "27d6ae75-970e-4072-ba22-4992019ce974")
 		(property "Reference" "R84"
 			(at 127.508 188.976 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70589,6 +65639,8 @@
 		)
 		(property "Value" "5K1Ω"
 			(at 133.35 192.024 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70598,92 +65650,112 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.35 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20052"
 			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 2K OHM 1% 0603"
 			(at 133.35 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Vishay"
 			(at 133.35 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "CRCW02015K10JNED"
 			(at 133.35 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Supplier" "Mouser"
 			(at 133.35 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Supplier Nr." "71-CRCW02015K10JNED"
 			(at 133.35 150.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Power" "100mW"
 			(at 133.35 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "1%"
 			(at 133.35 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Price" "0.09"
 			(at 133.35 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -71881,18 +66953,12 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-<<<<<<< HEAD
 		(uuid "873169df-e58b-4b2c-bc9a-41384b019d56")
 		(property "Reference" "#PWR056"
 			(at 137.16 200.66 0)
-=======
-		(uuid "89a29a6c-a237-4dc5-a3f8-c82febd00ea7")
-		(property "Reference" "#PWR046"
-			(at 115.57 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71900,13 +66966,9 @@
 			)
 		)
 		(property "Value" "GND"
-<<<<<<< HEAD
 			(at 137.16 198.12 0)
-=======
-			(at 111.76 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71914,14 +66976,10 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
 			(at 137.16 194.31 0)
-=======
-			(at 115.57 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71929,14 +66987,10 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
 			(at 137.16 194.31 0)
-=======
-			(at 115.57 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71944,14 +66998,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 137.16 194.31 0)
-=======
-			(at 115.57 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72730,17 +67780,10 @@
 		(dnp no)
 		(uuid "d2cf0839-c91a-4dee-b105-4e276147722e")
 		(property "Reference" "#PWR051"
-<<<<<<< HEAD
 			(at 163.83 177.8 0)
-=======
-			(at 142.24 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72748,16 +67791,9 @@
 			)
 		)
 		(property "Value" "+3V3"
-<<<<<<< HEAD
 			(at 164.211 169.5958 0)
-=======
-			(at 142.621 169.5958 0)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72765,17 +67801,10 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
 			(at 163.83 173.99 0)
-=======
-			(at 142.24 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72783,17 +67812,10 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
 			(at 163.83 173.99 0)
-=======
-			(at 142.24 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72801,17 +67823,10 @@
 			)
 		)
 		(property "Description" ""
-<<<<<<< HEAD
 			(at 163.83 173.99 0)
-=======
-			(at 142.24 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73528,13 +68543,17 @@
 		(lib_id "Resistor_0603:5K1Ω")
 		(at 137.16 189.23 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f305d442-8ea7-4cda-90b2-3def32d3b99b")
 		(property "Reference" "R68"
 			(at 139.192 189.738 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73544,6 +68563,8 @@
 		)
 		(property "Value" "5K1Ω"
 			(at 137.16 192.024 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73553,92 +68574,112 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20052"
 			(at 128.27 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 2K OHM 1% 0603"
 			(at 137.16 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Vishay"
 			(at 137.16 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "CRCW02015K10JNED"
 			(at 137.16 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Supplier" "Mouser"
 			(at 137.16 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Supplier Nr." "71-CRCW02015K10JNED"
 			(at 137.16 150.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Power" "100mW"
 			(at 137.16 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "1%"
 			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Price" "0.09"
 			(at 137.16 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -73648,7 +68689,7 @@
 			(uuid "f8293e7a-bb96-4b3b-82f4-6020a5bd0bad")
 		)
 		(instances
-			(project ""
+			(project "AnthC"
 				(path "/550f0bb0-77ed-4437-b1eb-694978e817f0"
 					(reference "R68")
 					(unit 1)

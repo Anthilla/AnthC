@@ -1,9 +1,6 @@
 {
   "board": {
-<<<<<<< HEAD
-=======
-    "active_layer": 0,
->>>>>>> main
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -18,7 +15,6 @@
       "vias": 1.0,
       "zones": 1.0
     },
-    "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -53,19 +49,10 @@
       "conflict_shadows",
       "shapes"
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
     "visible_layers": "00000000_00000000_0ffffff5_f755ffff",
     "zone_display_mode": 0
-=======
-=======
->>>>>>> main
-    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
-    "zone_display_mode": 1
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
   },
   "git": {
-    "integration_disabled": false,
     "repo_password": "",
     "repo_type": "",
     "repo_username": "",
@@ -105,8 +92,6 @@
       11
     ],
     "col_widths": [
-<<<<<<< HEAD
-<<<<<<< HEAD
       162,
       147,
       91,
@@ -119,25 +104,6 @@
       91,
       91,
       91
-=======
-=======
->>>>>>> main
-      222,
-      207,
-      136,
-      92,
-      136,
-      136,
-      136,
-      98,
-      136,
-      136,
-      136,
-      136
-<<<<<<< HEAD
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
->>>>>>> main
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -146,14 +112,6 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "show_time_domain_details": false,
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-    "show_time_domain_details": false,
->>>>>>> main
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -164,14 +122,6 @@
     "files": []
   },
   "schematic": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "hierarchy_collapsed": [],
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-    "hierarchy_collapsed": [],
->>>>>>> main
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -179,14 +129,6 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      "ruleAreas": true,
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
-=======
-      "ruleAreas": true,
->>>>>>> main
       "symbols": true,
       "text": true,
       "wires": true

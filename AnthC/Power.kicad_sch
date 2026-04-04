@@ -1,15 +1,19 @@
 (kicad_sch
+<<<<<<< HEAD
+=======
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
+>>>>>>> main
 	(uuid "bea9488f-a968-4de2-97b9-1ca42d7370a1")
 	(paper "A4")
 	(title_block
 		(title "AnthC - Main")
-		(date "2023-01-19")
-		(rev "M2-R2")
+		(date "2025-10-04")
+		(rev "0322cd1")
 		(company "ANTHILLA")
-		(comment 1 "Ignacio de Mendizabal - www.clearemc.com")
+		(comment 1 "Ignacio de Mendizabal - hello@ignaciodemendizabal.com")
+		(comment 2 "projects@anthilla.com")
 		(comment 3 "https://www.anthilla.com/")
 		(comment 4 "https://github.com/Anthilla/AnthC")
 	)
@@ -268,24 +272,6 @@
 			)
 			(symbol "TPS54331DR_1_1"
 				(pin input line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 10.16 0)
 					(length 2.54)
 					(name "VIN"
@@ -340,24 +326,6 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "VSENSE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "COMP"
@@ -394,6 +362,42 @@
 					)
 				)
 				(pin input line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 10.16 6.35 180)
 					(length 2.54)
 					(name "PH"
@@ -412,16 +416,16 @@
 					)
 				)
 				(pin input line
-					(at 2.54 -10.16 90)
+					(at 10.16 -1.27 180)
 					(length 2.54)
-					(name "PAD"
+					(name "VSENSE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1896,6 +1900,10 @@
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 					)
 					(stroke
 						(width 0.3048)
@@ -1908,6 +1916,23 @@
 				(polyline
 					(pts
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
+<<<<<<< HEAD
+=======
+>>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+=======
+>>>>>>> main
 					)
 					(stroke
 						(width 0.3302)
@@ -3027,24 +3052,6 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "4"
@@ -3055,6 +3062,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4328,24 +4353,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -4356,6 +4363,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)

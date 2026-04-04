@@ -1,13 +1,10 @@
 (kicad_sch
 <<<<<<< HEAD
-	(version 20250114)
-	(generator "eeschema")
-	(generator_version "9.0")
 =======
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
->>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
+>>>>>>> main
 	(uuid "bea9488f-a968-4de2-97b9-1ca42d7370a1")
 	(paper "A4")
 	(title_block
@@ -1904,6 +1901,9 @@
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 					)
 					(stroke
 						(width 0.3048)
@@ -1916,6 +1916,7 @@
 				(polyline
 					(pts
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
+<<<<<<< HEAD
 =======
 >>>>>>> d58bfbb (Saving the project in KiCAD 10 format)
 					)
@@ -1930,6 +1931,8 @@
 				(polyline
 					(pts
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
+=======
+>>>>>>> main
 					)
 					(stroke
 						(width 0.3302)

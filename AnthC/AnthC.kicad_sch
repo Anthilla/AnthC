@@ -6,13 +6,12 @@
 	(paper "A3")
 	(title_block
 		(title "AnthC - Main")
-		(date "2025-10-04")
-		(rev "0322cd1")
+		(date "2026-05-17")
+		(rev "M2-R5")
 		(company "ANTHILLA")
 		(comment 1 "Ignacio de Mendizabal - hello@ignaciodemendizabal.com")
 		(comment 2 "projects@anthilla.com")
-		(comment 3 "https://www.anthilla.com/")
-		(comment 4 "https://github.com/Anthilla/AnthC")
+		(comment 3 "https://github.com/Anthilla/AnthC")
 	)
 	(lib_symbols
 		(symbol "AnthC-Lib-Symbols:1N5820"
@@ -15307,7 +15306,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistors_BJT:ULN2004D1013TR"
+		(symbol "Transistors_BJT:ULN2003D1013TR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -15326,7 +15325,7 @@
 					)
 				)
 			)
-			(property "Value" "ULN2004D1013TR"
+			(property "Value" "ULN2003D1013TR"
 				(at -2.54 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15380,7 +15379,7 @@
 					)
 				)
 			)
-			(property "MPN" "ULN2004D1013TR"
+			(property "MPN" "ULN2003D1013TR"
 				(at 40.64 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15402,7 +15401,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number" "1564361"
+			(property "Supplier Part Number" "1467825"
 				(at 35.56 25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15424,7 +15423,7 @@
 					)
 				)
 			)
-			(symbol "ULN2004D1013TR_1_1"
+			(symbol "ULN2003D1013TR_1_1"
 				(rectangle
 					(start -7.62 -5.08)
 					(end 7.62 20.32)
@@ -18963,6 +18962,16 @@
 		)
 		(uuid "0b2509bf-df5b-449e-bd68-e3a2aabe211d")
 	)
+	(polyline
+		(pts
+			(xy 195.58 167.64) (xy 195.58 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b400d2a-d70b-4efd-9752-9b6c1f2d8fb4")
+	)
 	(wire
 		(pts
 			(xy 300.99 179.07) (xy 300.99 199.39)
@@ -19142,16 +19151,6 @@
 			(type default)
 		)
 		(uuid "1140ae6a-47d9-4d65-aec4-8d465860ca3e")
-	)
-	(polyline
-		(pts
-			(xy 195.58 167.64) (xy 195.58 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11451312-62d5-4dbf-ab95-88e6beeba088")
 	)
 	(wire
 		(pts
@@ -19793,6 +19792,16 @@
 		)
 		(uuid "2840ae37-ffaa-4345-ae43-23255ccd7c8d")
 	)
+	(polyline
+		(pts
+			(xy 229.87 280.67) (xy 229.87 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284ec9b0-42b6-4c7a-8f11-a8c57cf66b3e")
+	)
 	(wire
 		(pts
 			(xy 256.54 179.07) (xy 256.54 184.15)
@@ -20025,7 +20034,7 @@
 	)
 	(polyline
 		(pts
-			(xy 195.58 182.88) (xy 237.49 182.88)
+			(xy 195.58 181.61) (xy 229.87 181.61)
 		)
 		(stroke
 			(width 0)
@@ -20542,16 +20551,6 @@
 			(type default)
 		)
 		(uuid "3d1e52a2-63c5-44bf-b173-6b36a98625a4")
-	)
-	(polyline
-		(pts
-			(xy 195.58 182.88) (xy 195.58 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc7ebab-55bf-464a-9c8c-71eaeb70e1ba")
 	)
 	(wire
 		(pts
@@ -21215,7 +21214,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 281.94) (xy 233.68 281.94)
+			(xy 76.2 281.94) (xy 229.87 281.94)
 		)
 		(stroke
 			(width 0)
@@ -21255,7 +21254,7 @@
 	)
 	(polyline
 		(pts
-			(xy 237.49 182.88) (xy 237.49 281.94)
+			(xy 229.87 181.61) (xy 229.87 280.67)
 		)
 		(stroke
 			(width 0)
@@ -23853,6 +23852,16 @@
 		)
 		(uuid "b5d1b317-e05e-4ab3-826b-2d6eac3dca46")
 	)
+	(polyline
+		(pts
+			(xy 195.58 181.61) (xy 198.12 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b657976f-6478-4fb8-a8ec-74b035a0661b")
+	)
 	(wire
 		(pts
 			(xy 43.18 132.08) (xy 43.18 143.51)
@@ -24092,6 +24101,16 @@
 			(type default)
 		)
 		(uuid "be3fe903-87b4-4a4c-b97c-532c5802870d")
+	)
+	(polyline
+		(pts
+			(xy 195.58 180.34) (xy 195.58 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be525a09-129e-4d04-a270-5a6248163e31")
 	)
 	(wire
 		(pts
@@ -27660,6 +27679,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 250.19 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "AnthC"
 				(path "/550f0bb0-77ed-4437-b1eb-694978e817f0"
@@ -27736,6 +27766,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 238.76 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 238.76 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -27832,6 +27873,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 250.19 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "AnthC"
 				(path "/550f0bb0-77ed-4437-b1eb-694978e817f0"
@@ -27908,6 +27960,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 238.76 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 238.76 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -28091,6 +28154,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 294.64 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "31f372bd-9483-49fd-a2a8-7af554d0da2e")
 		)
@@ -28260,6 +28334,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 289.56 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 289.56 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -28526,6 +28611,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 203.2 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26d1f8fe-eb1d-4cec-a906-e8b3d27ca377")
 		)
@@ -28696,6 +28792,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 203.2 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 203.2 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28883,6 +28990,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 190.5 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 190.5 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -29085,6 +29203,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 190.5 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8614b7a-cf6a-425e-9eee-1f89bf6ebfca")
 		)
@@ -29191,6 +29320,17 @@
 		)
 		(property "Supplier" "Mouser"
 			(at 227.33 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
+			(at 243.84 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29518,6 +29658,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 143.51 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "114e9c53-d366-4d02-8150-ba8c2bc223a7")
 		)
@@ -29718,6 +29869,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 125.73 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 125.73 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -29975,6 +30137,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 125.73 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 125.73 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -30319,6 +30492,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 347.98 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "591e37d1-646e-47b9-a00b-2cc02a748490")
 		)
@@ -30566,6 +30750,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 342.9 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 342.9 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30831,6 +31026,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 393.7 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92427422-1c70-470a-aade-d1153467300e")
 		)
@@ -31078,6 +31284,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 349.25 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 349.25 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31343,6 +31560,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 344.17 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79d739f6-d0b5-461c-9dc7-e3f7df25dadc")
 		)
@@ -31513,6 +31741,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 394.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 394.97 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31778,6 +32017,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 90.17 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dfcbb0c5-5751-44e8-9fde-14981045632b")
 		)
@@ -31948,6 +32198,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 90.17 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 90.17 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32148,6 +32409,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8b2c2cd-710d-48af-8232-c65e689dc3f2")
 		)
@@ -32296,6 +32568,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 71.12 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 71.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -32524,6 +32807,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 123.19 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23ab06d4-03e0-4c62-a8cf-afbe3d93eef7")
 		)
@@ -32705,6 +32999,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 132.08 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68950360-8a3f-434a-9c4b-690967320f23")
 		)
@@ -32874,6 +33179,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 113.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -33142,6 +33458,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 379.73 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 379.73 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -33562,6 +33889,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 26.67 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70206d8e-6ed7-4e1f-a729-9060108c5d62")
 		)
@@ -33743,6 +34081,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 224.79 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 224.79 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -33955,6 +34304,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 325.12 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 325.12 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -34249,6 +34609,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 25.4 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 25.4 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34603,6 +34974,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 26.67 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fcf59d25-9373-44e1-ab26-1051517ddd92")
 		)
@@ -34859,6 +35241,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 388.62 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5b936b7-55c0-4095-bb18-7511f0eb19aa")
 		)
@@ -35029,6 +35422,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 387.35 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 387.35 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35371,6 +35775,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 31.75 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8994f97-ee0b-4738-9a98-2faf0b8b7476")
 		)
@@ -35552,6 +35967,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 25.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 25.4 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -35767,6 +36193,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 19.05 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 19.05 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36112,6 +36549,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 33.02 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94e343b4-b24b-4256-8522-53dd891d7b51")
 		)
@@ -36291,6 +36739,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 55.88 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "603dcbac-ea37-4a47-a462-0f27d3a3d8c5")
 		)
@@ -36419,6 +36878,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 48.26 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 48.26 189.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36764,6 +37234,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 62.23 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dde9f530-153f-4c9c-a215-1945a7e3af2c")
 		)
@@ -36892,6 +37373,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 48.26 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 48.26 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37237,6 +37729,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 60.96 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62a23992-2b6b-4d03-8548-8e04926b8ea2")
 		)
@@ -37418,6 +37921,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 55.88 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 55.88 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -37684,6 +38198,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 54.61 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21ebcc67-a252-424e-827b-a0787037a967")
 		)
@@ -37865,6 +38390,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 54.61 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 54.61 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -38089,6 +38625,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 22.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 22.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -38469,6 +39016,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 74.93 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08c0bc13-3a71-485e-8c80-772981e9a422")
 		)
@@ -38594,6 +39152,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 74.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -38806,6 +39375,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -39104,6 +39684,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 35.56 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd9b6d12-17fb-4e8b-b99e-306d00589e17")
 		)
@@ -39252,6 +39843,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 85.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 85.09 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -39684,6 +40286,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 106.68 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "479a0132-cbf0-4b39-9b8f-c6f4164857db")
 		)
@@ -39900,6 +40513,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 312.42 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 312.42 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -40186,6 +40810,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 311.15 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 311.15 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -40541,6 +41176,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 184.15 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ed4ae3c-8ad7-4056-909f-12bf1a2284b5")
 		)
@@ -40666,6 +41312,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 92.71 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 92.71 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -40975,6 +41632,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 354.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ca24e66-40f7-4348-915b-bce5d998f205")
 		)
@@ -41222,6 +41890,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 353.06 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -41566,6 +42245,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 400.05 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "11c400e0-94c5-44c7-a22f-aedc90cfc70d")
 		)
@@ -41682,6 +42372,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 128.27 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 128.27 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41850,6 +42551,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 92.71 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97a19aa1-55f1-4cc7-b967-81d520190dbc")
 		)
@@ -41976,6 +42688,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 119.38 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 119.38 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -42139,6 +42862,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 91.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 91.44 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42317,6 +43051,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 83.82 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49404a4c-8b31-41ad-8ab8-466c6a49b0aa")
 		)
@@ -42431,6 +43176,17 @@
 			)
 		)
 		(property "MPN" "TLV9054SIRTER"
+			(at 330.2 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 330.2 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -42604,6 +43360,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 372.11 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9dbf2aa6-7aae-403b-8846-5ee8d4172151")
 		)
@@ -42757,6 +43524,17 @@
 			)
 		)
 		(property "MPN" "TLV9054SIRTER"
+			(at 328.93 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 328.93 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -42930,6 +43708,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 368.3 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07d3089d-8722-4c78-a83b-4b23f41f7a0b")
 		)
@@ -43084,6 +43873,17 @@
 			)
 		)
 		(property "MPN" "TLV9054SIRTER"
+			(at 332.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 332.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -43312,6 +44112,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 148.59 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2adb22a9-2610-49e5-a416-caf66fdb3448")
 		)
@@ -43481,6 +44292,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 148.59 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -43749,6 +44571,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 316.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 316.23 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -44170,6 +45003,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 398.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a114651-4bd1-4a6e-9d27-cb834401b85b")
 		)
@@ -44571,6 +45415,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 81.28 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08029866-ecb0-4683-89f5-0237df995ddb")
 		)
@@ -44697,6 +45552,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 58.42 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 58.42 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -44887,6 +45753,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 187.96 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b55fffa2-510c-422c-a613-502cc694004a")
 		)
@@ -45057,6 +45934,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 166.37 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 166.37 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -45293,6 +46181,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 77.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 77.47 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45791,6 +46690,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 293.37 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6fa6455-f454-49c5-b4d8-4d550b1c001c")
 		)
@@ -46058,6 +46968,17 @@
 			)
 		)
 		(property "MPN" "MCP3464RT-E/NC"
+			(at 358.14 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 358.14 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -46628,6 +47549,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 389.89 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4708dbb-2ae0-4cf5-9fcc-18a6082478f5")
 		)
@@ -46763,6 +47695,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 139.7 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c0b4ed9-0096-4ee5-b719-954662bf158b")
 		)
@@ -46889,6 +47832,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 139.7 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 139.7 213.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47116,6 +48070,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 158.75 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ed4d96e-6eee-429a-8314-0f01353a950e")
 		)
@@ -47260,6 +48225,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 158.75 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16ae7af2-2847-4c32-a520-fbb655ad5c34")
 		)
@@ -47395,6 +48371,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 121.92 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 121.92 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47653,6 +48640,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 152.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a3e15c9-03c5-4b9c-ae88-ebe776e95c3f")
 		)
@@ -47669,7 +48667,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistors_BJT:ULN2004D1013TR")
+		(lib_id "Transistors_BJT:ULN2003D1013TR")
 		(at 275.59 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -47689,7 +48687,7 @@
 				)
 			)
 		)
-		(property "Value" "ULN2004D1013TR"
+		(property "Value" "ULN2003D1013TR"
 			(at 275.59 108.5596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47700,7 +48698,7 @@
 			)
 		)
 		(property "Footprint" "IC:SO-16_3.9x9.9mm_P1.27mm"
-			(at 267.97 135.89 0)
+			(at 300.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47721,7 +48719,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TRANSISTOR ARRAY, 7 NPN 50V 500 mA"
 			(at 275.59 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -47733,7 +48731,7 @@
 			)
 		)
 		(property "Manufacturer" "ST Microelectronics"
-			(at 293.37 102.87 0)
+			(at 295.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47743,7 +48741,7 @@
 				)
 			)
 		)
-		(property "MPN" "ULN2004D1013TR"
+		(property "MPN" "ULN2003D1013TR"
 			(at 316.23 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -47755,7 +48753,7 @@
 			)
 		)
 		(property "Supplier" "Farnell"
-			(at 288.29 105.41 0)
+			(at 290.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47765,7 +48763,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "1564361"
+		(property "Supplier Part Number" "1467825"
 			(at 311.15 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -47777,6 +48775,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 275.59 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 275.59 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -47999,6 +49008,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 143.51 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b2922cc-6e99-4f23-869b-9187a39391b7")
 		)
@@ -48159,6 +49179,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -49244,6 +50275,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 375.92 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f39c995-25f7-42cd-b689-283f5f100a58")
 		)
@@ -49783,6 +50825,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 269.24 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e3d2e13-f535-4a83-b3e5-41b772a83f70")
 		)
@@ -49928,6 +50981,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 269.24 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 269.24 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50141,6 +51205,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 41.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 41.91 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -50564,6 +51639,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 327.66 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c853b57d-b215-4f20-a825-e87a34491e4d")
 		)
@@ -50712,6 +51798,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 43.18 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 43.18 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -50873,6 +51970,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 269.24 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ac06faa-c06a-40dd-9092-d70ca1d33c4e")
 		)
@@ -51017,6 +52125,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 269.24 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 269.24 213.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51256,6 +52375,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 269.24 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da71fc61-2cd7-4632-b789-a6f419f21a44")
 		)
@@ -51410,6 +52540,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 269.24 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2130c5ff-e157-4091-b6b6-3eb81116f1ef")
 		)
@@ -51555,6 +52696,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 375.92 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 375.92 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51747,6 +52899,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 306.07 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab6dedc5-0770-4404-b8f2-a894e8fa028f")
 		)
@@ -51918,6 +53081,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 308.61 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 308.61 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52107,6 +53281,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 311.15 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1cb11fbc-7a96-4bcf-b8cb-ee2283486c3a")
 		)
@@ -52278,6 +53463,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 313.69 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 313.69 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52515,6 +53711,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 375.92 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21e5c449-03d5-443e-b697-c0a93d9c4c0a")
 		)
@@ -52669,6 +53876,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 375.92 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d7ceb4d4-1bc7-4eec-ad36-9a65a3e96c6a")
 		)
@@ -52799,6 +54017,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 237.49 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 237.49 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -52993,6 +54222,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 210.82 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "674b4843-ee80-42a0-957e-16117ff5014a")
 		)
@@ -53171,6 +54411,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 210.82 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "194c3a7e-2ffe-4f73-abb7-7e6ee789e0d9")
 		)
@@ -53313,6 +54564,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 375.92 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 375.92 217.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53466,6 +54728,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 375.92 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 375.92 217.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53656,6 +54929,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 210.82 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb530717-e58d-414f-973a-f1c235954d06")
 		)
@@ -53834,6 +55118,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 210.82 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56dd80bb-57c5-4de9-b60e-6e36ef17494d")
 		)
@@ -53994,6 +55289,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 375.92 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 375.92 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54181,6 +55487,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 210.82 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b9b6320-1dd8-47cd-8131-9d79394eb397")
 		)
@@ -54197,7 +55514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_0603:100")
+		(lib_id "Resistor_0603:0")
 		(at 210.82 57.15 270)
 		(unit 1)
 		(body_style 1)
@@ -54208,7 +55525,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062c53f73")
 		(property "Reference" "R57"
-			(at 215.9 55.88 90)
+			(at 215.9 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54217,8 +55534,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 210.82 57.15 90)
+		(property "Value" "0"
+			(at 211.074 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54228,7 +55545,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.82 55.372 90)
+			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54238,8 +55555,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 210.82 57.15 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 212.09 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54249,8 +55566,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 210.82 57.15 0)
+		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)"
+			(at 234.315 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54261,18 +55578,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 210.82 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Nr." "RC0603FR-07100RL"
-			(at 210.82 57.15 0)
+			(at 244.475 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54283,7 +55589,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 210.82 57.15 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54293,8 +55599,8 @@
 				)
 			)
 		)
-		(property "Price" "0.09"
-			(at 210.82 57.15 0)
+		(property "Supplier" "Mouser"
+			(at 241.935 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54304,8 +55610,8 @@
 				)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 210.82 57.15 0)
+		(property "Supplier Nr." "603-RC0603JR-070RL"
+			(at 249.555 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54315,41 +55621,8 @@
 				)
 			)
 		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 210.82 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 210.82 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 210.82 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
-			(at 210.82 57.15 0)
+		(property "MPN" "RC0603JR-070RL"
+			(at 239.395 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54537,6 +55810,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 210.82 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6a621783-815a-4620-b0c8-5e38be3085ea")
 		)
@@ -54715,6 +55999,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 210.82 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ceb4b2de-5ab6-4bff-ae6e-b5a988179f4a")
 		)
@@ -54731,7 +56026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_0603:100")
+		(lib_id "Resistor_0603:0")
 		(at 210.82 64.77 270)
 		(unit 1)
 		(body_style 1)
@@ -54751,8 +56046,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 210.82 64.77 90)
+		(property "Value" "0"
+			(at 210.566 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54762,7 +56057,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.82 62.992 90)
+			(at 236.22 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54772,8 +56067,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 210.82 64.77 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 212.09 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54783,8 +56078,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 210.82 64.77 0)
+		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)"
+			(at 234.315 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54795,17 +56090,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 210.82 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Nr." "RC0603FR-07100RL"
 			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -54827,7 +56111,7 @@
 				)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Supplier" "Mouser"
 			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -54838,7 +56122,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier Nr." "603-RC0603JR-070RL"
 			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -54849,40 +56133,7 @@
 				)
 			)
 		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 210.82 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 210.82 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 210.82 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
+		(property "MPN" "RC0603JR-070RL"
 			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -54909,7 +56160,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_0603:100")
+		(lib_id "Resistor_0603:0")
 		(at 210.82 67.31 270)
 		(unit 1)
 		(body_style 1)
@@ -54929,8 +56180,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 210.82 67.31 90)
+		(property "Value" "0"
+			(at 210.566 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54940,7 +56191,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.82 65.532 90)
+			(at 236.22 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54950,8 +56201,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 210.82 67.31 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 212.09 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54961,8 +56212,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 210.82 67.31 0)
+		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)"
+			(at 234.315 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54973,17 +56224,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 210.82 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Nr." "RC0603FR-07100RL"
 			(at 210.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -55005,7 +56245,7 @@
 				)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Supplier" "Mouser"
 			(at 210.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -55016,7 +56256,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier Nr." "603-RC0603JR-070RL"
 			(at 210.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -55027,40 +56267,7 @@
 				)
 			)
 		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 210.82 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 210.82 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 210.82 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
+		(property "MPN" "RC0603JR-070RL"
 			(at 210.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -55087,7 +56294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_0603:100")
+		(lib_id "Resistor_0603:0")
 		(at 210.82 69.85 270)
 		(unit 1)
 		(body_style 1)
@@ -55107,7 +56314,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 210.82 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55118,7 +56325,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.82 68.072 90)
+			(at 236.22 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55128,8 +56335,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 210.82 69.85 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 212.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55139,8 +56346,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 210.82 69.85 0)
+		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)"
+			(at 234.315 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55151,17 +56358,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 210.82 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Nr." "RC0603FR-07100RL"
 			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -55183,7 +56379,7 @@
 				)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Supplier" "Mouser"
 			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -55194,7 +56390,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier Nr." "603-RC0603JR-070RL"
 			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -55205,40 +56401,7 @@
 				)
 			)
 		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 210.82 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 210.82 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 210.82 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
+		(property "MPN" "RC0603JR-070RL"
 			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -55506,6 +56669,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 80.01 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e2ed983-3b1e-4428-95a3-df2f610abed1")
 		)
@@ -55753,7 +56927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_0603:100")
+		(lib_id "Resistor_0603:0")
 		(at 237.49 85.09 180)
 		(unit 1)
 		(body_style 1)
@@ -55773,8 +56947,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 237.49 85.09 90)
+		(property "Value" "0"
+			(at 237.744 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55784,7 +56958,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 239.268 85.09 90)
+			(at 237.49 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55794,8 +56968,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 237.49 85.09 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 246.38 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55805,8 +56979,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 237.49 85.09 0)
+		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)"
+			(at 237.49 108.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55817,17 +56991,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 237.49 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Nr." "RC0603FR-07100RL"
 			(at 237.49 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -55849,7 +57012,7 @@
 				)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Supplier" "Mouser"
 			(at 237.49 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -55860,7 +57023,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier Nr." "603-RC0603JR-070RL"
 			(at 237.49 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -55871,40 +57034,7 @@
 				)
 			)
 		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 237.49 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 237.49 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 237.49 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
+		(property "MPN" "RC0603JR-070RL"
 			(at 237.49 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -56094,6 +57224,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 130.81 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2360ebf0-6cdb-4b89-9e4d-1d728934f454")
 		)
@@ -56273,6 +57414,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07506dfb-97bb-4e14-be61-e5a697a80c05")
 		)
@@ -56408,6 +57560,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 53.34 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -56673,6 +57836,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 247.65 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5fb5c55e-448d-4fb3-b4fd-b537e5b017fa")
 		)
@@ -56842,6 +58016,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 274.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57029,6 +58214,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9ff7ff4-e543-4fdf-81dc-304cc9e63d61")
 		)
@@ -57165,6 +58361,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 154.94 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 154.94 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57352,6 +58559,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 234.95 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d1163dff-4b78-4499-8240-f26e0554c84a")
 		)
@@ -57520,6 +58738,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -57862,6 +59091,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f45e3f44-538a-4abe-9675-77c5a286f45f")
 		)
@@ -58031,6 +59271,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 274.32 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58218,6 +59469,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dfe9f08f-3f71-48c9-bfdd-e8c696369967")
 		)
@@ -58387,6 +59649,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 274.32 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58574,6 +59847,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e77bfd5-41f7-4c14-8b1b-1e0d306e111c")
 		)
@@ -58752,6 +60036,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c61c6779-eed5-40e2-bbbb-86c458afb34d")
 		)
@@ -58768,7 +60063,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_0603:100")
+		(lib_id "Resistor_0603:0")
 		(at 232.41 85.09 180)
 		(unit 1)
 		(body_style 1)
@@ -58788,7 +60083,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 232.41 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58799,7 +60094,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 234.188 85.09 90)
+			(at 232.41 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58809,8 +60104,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 232.41 85.09 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 241.3 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58820,8 +60115,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 232.41 85.09 0)
+		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)"
+			(at 232.41 108.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58832,17 +60127,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 232.41 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Nr." "RC0603FR-07100RL"
 			(at 232.41 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -58864,7 +60148,7 @@
 				)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Supplier" "Mouser"
 			(at 232.41 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -58875,7 +60159,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Supplier Nr." "603-RC0603JR-070RL"
 			(at 232.41 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -58886,40 +60170,7 @@
 				)
 			)
 		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 232.41 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 232.41 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 232.41 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
+		(property "MPN" "RC0603JR-070RL"
 			(at 232.41 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -59108,6 +60359,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 255.27 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3dd71376-b85c-43b5-aa58-82bf6a929ea5")
 		)
@@ -59286,6 +60548,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45c0a71f-1cf7-453e-a8e9-5fdd9adfd9e5")
 		)
@@ -59455,6 +60728,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 274.32 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 274.32 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59675,6 +60959,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 53.34 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f304e2c9-9877-4198-b610-78fa211a0ecd")
 		)
@@ -59815,6 +61110,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 53.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 53.34 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60092,6 +61398,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 161.29 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b975181f-52d0-4268-bdca-45d851a03954")
 		)
@@ -60349,6 +61666,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 374.65 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e09a512-8584-4097-b3cc-90ae7a02f218")
 		)
@@ -60476,6 +61804,17 @@
 		)
 		(property "Supplier Part Number" "710-418217270904A"
 			(at 322.58 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 308.61 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60682,6 +62021,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 160.02 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f60ff5a-ab8f-4f25-80d9-ff1c41334e57")
 		)
@@ -60851,6 +62201,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 167.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 167.64 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -61119,7 +62480,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e0c688")
 		(property "Reference" "D19"
-			(at 130.2766 196.9516 90)
+			(at 130.302 199.136 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61219,6 +62580,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 128.27 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 128.27 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61355,6 +62727,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 121.92 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 121.92 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61533,6 +62916,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 88.9 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "851aea1a-2e81-43d9-afe7-b4669d2a2f22")
 		)
@@ -61693,6 +63087,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 86.36 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 86.36 224.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61949,6 +63354,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 160.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 160.02 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62358,6 +63774,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 107.95 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb90ea3f-993e-4b5c-bc00-ac1d8e0a8cd7")
 		)
@@ -62517,6 +63944,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 114.3 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 114.3 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -62688,6 +64126,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 85.09 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 85.09 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62933,6 +64382,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 327.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 327.66 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -63285,6 +64745,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 182.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "41d26f75-01bb-4c00-af0e-4de404708128")
 		)
@@ -63618,6 +65089,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 194.31 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b105e91-5a64-4ffb-b14d-7d26461711b2")
 		)
@@ -63788,6 +65270,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 194.31 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 194.31 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -64165,6 +65658,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 172.72 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2fb53781-ccbc-4322-9b16-dc0227655b60")
 		)
@@ -64403,6 +65907,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 168.91 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 168.91 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -65033,6 +66548,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 21.59 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f748fad-7d7a-4781-aac3-e282eeca9970")
 		)
@@ -65159,6 +66685,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 312.42 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 312.42 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -65372,6 +66909,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6744914a-ef87-412b-bfe3-53092122eb7d")
 		)
@@ -65495,6 +67043,17 @@
 			)
 		)
 		(property "MPN" "MCP7940N-I/SN"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -65758,6 +67317,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 133.35 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "970b76a4-57c4-413c-963b-98748f87001e")
 		)
@@ -65886,6 +67456,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 19.05 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 19.05 190.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66056,6 +67637,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 166.37 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b526594a-b01e-4eef-a2f8-0c9b955550ff")
 		)
@@ -66216,6 +67808,17 @@
 		)
 		(property "Price" "0.032"
 			(at 153.67 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 115.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66460,6 +68063,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 191.77 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54831be6-f9e2-4875-bd72-ed52cde37514")
 		)
@@ -66585,6 +68199,17 @@
 			)
 		)
 		(property "MPN" "SC32S-7PF20PPM"
+			(at 119.38 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 119.38 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -66928,6 +68553,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 26.67 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "66a9aaff-7d77-4a53-80a1-0d002cdd7d0e")
 		)
@@ -67241,6 +68877,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 36.83 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8d66edc-19a6-433f-9ca1-ce4422d81968")
 		)
@@ -67359,6 +69006,17 @@
 		)
 		(property "Supplier Part Number" "710-79527141"
 			(at 158.75 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
+			(at 152.4 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67494,6 +69152,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 337.82 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 337.82 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -67753,6 +69422,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 123.19 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2000b241-1769-4202-ac70-0633fa7b174c")
 		)
@@ -67953,6 +69633,17 @@
 		)
 		(property "Supplier Part Number" "621-DMN67D8L-7"
 			(at 55.88 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68267,6 +69958,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 19.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70a0f53e-d131-4d5b-bb00-52f8d6bb70b0")
 		)
@@ -68437,6 +70139,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 22.86 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 22.86 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68673,6 +70386,17 @@
 		)
 		(property "Price" "0.09"
 			(at 137.16 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 137.16 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

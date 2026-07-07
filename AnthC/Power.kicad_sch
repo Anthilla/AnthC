@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "AnthC - Main")
-		(date "2025-10-04")
-		(rev "0322cd1")
+		(date "2026-05-17")
+		(rev "M2-R5")
 		(company "ANTHILLA")
 		(comment 1 "Ignacio de Mendizabal - hello@ignaciodemendizabal.com")
 		(comment 2 "projects@anthilla.com")
-		(comment 3 "https://www.anthilla.com/")
+		(comment 3 "https://github.com/Anthilla/AnthC")
 		(comment 4 "https://github.com/Anthilla/AnthC")
 	)
 	(lib_symbols
@@ -6385,6 +6385,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 218.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7228444-9013-4870-98c9-2e8078e1232b")
 		)
@@ -6514,6 +6525,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 50.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6655,6 +6677,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 34.29 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 34.29 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6826,6 +6859,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 41.91 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef7da772-e31e-488f-bef6-d40caca2be10")
 		)
@@ -6951,6 +6995,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 175.26 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 175.26 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7089,6 +7144,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 175.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 175.26 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7257,6 +7323,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 182.88 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa18337a-ec8b-42bb-8441-38e292f5a8bb")
 		)
@@ -7384,6 +7461,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 34.29 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 34.29 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,6 +7640,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 132.08 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7753,6 +7852,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 213.36 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f2520e7-9f72-49bb-840c-b6cee0661dff")
 		)
@@ -7934,6 +8044,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 251.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 251.46 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8191,6 +8312,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 204.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d23cb32a-538c-4817-a987-44c53d2c15ae")
 		)
@@ -8350,6 +8482,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 242.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 242.57 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8552,6 +8695,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52d2921a-3ba7-438e-afff-4499d48a3258")
 		)
@@ -8700,6 +8854,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 78.74 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 78.74 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9057,6 +9222,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 148.59 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "074d04aa-f3ae-404a-9f08-161d2e37b3b0")
 		)
@@ -9390,6 +9566,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 144.78 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2b0b9a5-db6f-4308-9439-15ecc518e0e6")
 		)
@@ -9638,6 +9825,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 144.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 144.78 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9915,6 +10113,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 77.47 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b601f07-05e6-4f0f-b92b-3eb94bed4507")
 		)
@@ -10183,6 +10392,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 83.82 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e414a0d1-e7af-42b7-b80d-43e0aec25625")
 		)
@@ -10416,6 +10636,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 88.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b26fb765-cace-4332-a6ed-0dd9f2991bb2")
 		)
@@ -10531,6 +10762,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 88.9 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
 			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10699,6 +10941,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 72.39 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48f9ae26-fb47-4fca-827c-e9fbac3611fd")
 		)
@@ -10812,6 +11065,17 @@
 			)
 		)
 		(property "Variant1" "Mounted"
+			(at 105.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "No"
 			(at 105.41 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11035,6 +11299,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 120.65 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb0dc558-0a42-4693-8057-6e23749ff702")
 		)
@@ -11238,6 +11513,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "Yes"
+			(at 120.65 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3251f548-4ccc-4179-b853-4c5dc69a5970")
 		)
@@ -11363,6 +11649,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 127 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 127 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11618,6 +11915,17 @@
 				)
 			)
 		)
+		(property "Alternates accepted" "No"
+			(at 116.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76540697-e735-4428-befc-e01d9e5df9ed")
 		)
@@ -11741,6 +12049,17 @@
 		)
 		(property "Variant1" "Mounted"
 			(at 21.59 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternates accepted" "Yes"
+			(at 21.59 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

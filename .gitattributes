@@ -1,0 +1,8 @@
+# Linguist: show KiCad sources in the language bar
+*.kicad_pcb linguist-detectable=true
+*.kicad_sch linguist-detectable=true
+*.kicad_sym linguist-detectable=true
+*.kicad_mod linguist-detectable=true
+
+# Linguist: exclude exported/generated HTML (iBOM, schematic exports)
+*.html linguist-detectable=false

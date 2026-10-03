@@ -60893,7 +60893,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LM2735X 1.6-MHz Space-Efficient Boost and SEPIC DC/DC Regulator WSON-6"
 			(at 53.34 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -60904,7 +60904,7 @@
 				)
 			)
 		)
-		(property "MPN" "LM2735XMFX/NOPB "
+		(property "MPN" "LM2735XSD/NOPB"
 			(at 83.82 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -60937,30 +60937,8 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "926-LM2735XMF/NOPB"
+		(property "Supplier Part Number" "926-LM2735XSD/NOPB"
 			(at 83.82 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant1" "Mounted"
-			(at 53.34 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternates accepted" "No"
-			(at 53.34 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

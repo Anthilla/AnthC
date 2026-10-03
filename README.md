@@ -20,13 +20,13 @@ The Anthilla Controller Board is a flexible controller for IoT projects. It can 
 
 ## Open Source
 
-The board M2-R3 got the Open Source Hardware Certification under the UID IT000013
-
-https://certification.oshwa.org/it000013.html
-
 The board M2-R4 got the Open Source Hardware Certification under the UID IT000014
 
 https://certification.oshwa.org/it000014.html
+
+The board M2-R3 got the Open Source Hardware Certification under the UID IT000013
+
+https://certification.oshwa.org/it000013.html
 
 ## Articles
 
@@ -42,6 +42,11 @@ The board has been mentioned in the following articles:
 
 ## Last changes
 
+The version M2-R5 has been updated to:
+
+- Work with USB-C (Bug fixed)
+- Replaced the ULN2004 by a ULN2003
+
 The version M2-R4 has the following differences
 
 - The PCB stackup is Signal + Power / GND / GND / Signal + Power
@@ -49,13 +54,12 @@ The version M2-R4 has the following differences
 
 ## Roadmap
 
-The version M2-R4 is stable. The next steps are the following:
+The version M2-R5 is stable. The next steps are the following:
 
-- Run functional tests on the M2-R4
+- Prepare a pre-compliance test plan for Electromagnetic Compatibility (EMC)
 - Perform EMC tests
 - Write the documentation for the final user
 - Develop a base Firmware
-
 
 ## Photos
 ![AnthC M2-R4 TOP](Marketing/Photos/M2-R4/AnthC-M2-R4_Top.png)

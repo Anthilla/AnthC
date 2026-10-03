@@ -23,7 +23,7 @@ AnthC (Anthilla Controller) is an ESP32-based controller for industrial and fiel
 | Outputs | 6 × open collector (ULN2003), TODO: max V / mA per channel |
 | Analog inputs | 4 × 16-bit ADC, each switchable 0–5V V or 4–20 mA (multiplexed) |
 | Fieldbus | RS485 half-duplex (SP3485EN), Modbus RTU capable. TODO: on-board termination? |
-| RTC | RV-3129-C3, CR2032 coin cell |
+| RTC | MCP7940N, CR2032 coin cell |
 | Expansion | I2C, SPI |
 | USB | USB-C (programming + 5 V power) |
 | Form factor | Raspberry Pi footprint, 85 × 56 mm |
@@ -93,7 +93,7 @@ All About Circuits — *Building and Certifying an Open-Source IoT Controller*:
 
 ## Photos
 
-M2-R4 shown; M2-R5 is visually near-identical (TODO: replace with M2-R5 photos).
+M2-R4 shown; M2-R5 is visually near-identical (They will be replaced)
 
 ![AnthC M2-R4 top](Marketing/Photos/M2-R4/AnthC-M2-R4_Top.png)
 ![AnthC M2-R4 bottom](Marketing/Photos/M2-R4/AnthC-M2-R4_Bottom.png)

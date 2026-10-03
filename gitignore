@@ -1,0 +1,18 @@
+# KiCad backups / autosave / locks
+*-backups/
+_autosave-*
+*.bak
+*.bck
+*-bak
+*.lck
+~*.lck
+
+# KiCad per-user state and caches
+*.kicad_prl
+fp-info-cache
+
+# Editor / OS
+.history/
+.vscode/
+Thumbs.db
+.DS_Store

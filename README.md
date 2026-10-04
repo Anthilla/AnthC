@@ -7,8 +7,7 @@
 
 ![Anthilla logo](Marketing/Logos/Anthilla-logo-white.png)
 
-AnthC (Anthilla Controller) is an ESP32-based controller for industrial and field IoT: read 4–20 mA sensors, talk Modbus over RS485, switch loads, and keep running on battery when the supply drops. Raspberry Pi footprint, so it drops into existing enclosures and DIN-rail mounts.
-AnthC (Anthilla Controller) is an ESP32-based controller for industrial and field IoT: read 4–20 mA sensors, talk Modbus over RS485, switch loads, and keep running on battery when the supply drops. Raspberry Pi footprint, so it drops into existing enclosures and DIN-rail mounts.
+AnthC (Anthilla Controller) is an ESP32-based controller for industrial and field IoT: read 4–20 mA sensors, talks RS485, switch loads, and keep running on battery when the supply drops. Raspberry Pi footprint, so it drops into existing enclosures and DIN-rail mounts.
 
 **[Buy on Elecrow](https://www.elecrow.com/anthc-controller.html)** · **[Download M2-R5 files](https://github.com/Anthilla/AnthC/releases/tag/M2-R5)** · [Hackaday project](https://hackaday.io/project/194974-anthilla-controller-open-source-iot-controller) · [Design articles](#articles)
 
@@ -22,7 +21,7 @@ AnthC (Anthilla Controller) is an ESP32-based controller for industrial and fiel
 | Digital inputs | 4 × Digital signals [0-3.3V] |
 | Outputs | 6 × open collector (ULN2003), 500mA per channel |
 | Analog inputs | 4 × 16-bit ADC, each switchable 0–5V V or 4–20 mA (multiplexed) |
-| Fieldbus | RS485 half-duplex (SP3485EN), Modbus RTU capable. On-board termination |
+| Fieldbus | RS485 half-duplex (SP3485EN). On-board termination |
 | RTC | MCP7940N, CR2032 coin cell |
 | Expansion | I2C, SPI |
 | USB | USB-C (programming + 5 V power) |

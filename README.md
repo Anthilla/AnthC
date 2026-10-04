@@ -29,7 +29,7 @@ AnthC (Anthilla Controller) is an ESP32-based controller for industrial and fiel
 
 ## Manuals
 
-1. [User manual](Doc/Manual/AnthC-Manual-user.md)
+1. [User manual](AnthC/Doc/Manual/AnthC-Manual-user.md)
 
 ## Getting started
 

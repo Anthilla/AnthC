@@ -27,6 +27,10 @@ AnthC (Anthilla Controller) is an ESP32-based controller for industrial and fiel
 | USB | USB-C (programming + 5 V power) |
 | Form factor | Raspberry Pi footprint, 85 × 56 mm |
 
+## Manuals
+
+1. [User manual](Doc/Manual/AnthC-Manual-user.md)
+
 ## Getting started
 
 1. Power the board from USB-C or 7–28 V on the J5 terminal.

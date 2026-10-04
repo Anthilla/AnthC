@@ -1,6 +1,7 @@
-# AnthC M2-R5 — User Manual (draft)
+# AnthC M2-R5 — User Manual
 
-Revision: draft, 2026-10-04 · Spectral Electronics
+Revision: published
+Date: 2026-10-04
 
 ## Introduction
 
@@ -74,8 +75,8 @@ Use one CR2032 (3 V lithium manganese dioxide, primary, non-rechargeable). It ke
 
 **Disposal:**
 
-1. Do not dispose of the cell with household waste.
-2. ⚠️ Keep cells away from children: swallowing a coin cell can cause severe internal burns.
+- Do not dispose of the cell with household waste.
+
 
 ## LiPo battery and charging
 
@@ -107,9 +108,10 @@ The temperature sensor (NTC TH1) is on the PCB, not on the battery. Charging pau
 
 **The battery charges only when 7–28 V is applied to J5 pin 1 (VDD).** Powering the board from USB-C or from J5 pin 3 (5V\_IN) does not charge the battery, and may discharge it. Use USB-C for programming and debugging, with the battery disconnected or J5 VDD connected.
 
-### ⚠️ Warnings
+### ⚠️ Warnings ⚠️
 
-- **Check polarity before connecting.** J6 has no reverse-polarity protection. A reversed battery is short-circuited through the board and can overheat or ignite.
-- Disconnect the battery before wiring J5, J2 or J3, and for shipping or storage.
-- Do not charge below 0 °C or above 45 °C cell temperature, or a damaged cell.
-- Disconnect the battery for storage longer than a few months.
+- **Check polarity before connecting.** J6 has no reverse-polarity protection. A reversed battery is short-circuited through the board and can overheat or ignite
+- Disconnect the battery before wiring J5, J2 or J3, and for shipping or storage
+- Do not charge below 0 °C or above 45 °C cell temperature, or a damaged cell
+- Disconnect the battery for storage longer than a few months
+- ⚠️ Keep cells away from children: swallowing a coin cell can cause severe internal burns ⚠️

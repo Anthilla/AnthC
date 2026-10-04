@@ -16,13 +16,13 @@ AnthC (Anthilla Controller) is an ESP32-based controller for industrial and fiel
 
 | | |
 |---|---|
-| MCU | ESP32 (TODO: exact module and flash size) — Wi-Fi + Bluetooth |
-| Power input | 7–28 V DC, or 5 V direct (TODO: which connector/pins) |
+| MCU | ESP32-S3-WROOM-1: Dual-Core 32bit microprocessor. WiFi (802.11b/g/n) and Bluetooth. On board antenna |
+| Power input | 7–28 V DC or 5 V direct through USB|
 | Battery backup | Rechargeable LiPo, on-board charger |
-| Digital inputs | 4 × TODO: isolated? input voltage range |
-| Outputs | 6 × open collector (ULN2003), TODO: max V / mA per channel |
+| Digital inputs | 4 × Digital signals [0-3.3V] |
+| Outputs | 6 × open collector (ULN2003), 500mA per channel |
 | Analog inputs | 4 × 16-bit ADC, each switchable 0–5V V or 4–20 mA (multiplexed) |
-| Fieldbus | RS485 half-duplex (SP3485EN), Modbus RTU capable. TODO: on-board termination? |
+| Fieldbus | RS485 half-duplex (SP3485EN), Modbus RTU capable. On-board termination |
 | RTC | MCP7940N, CR2032 coin cell |
 | Expansion | I2C, SPI |
 | USB | USB-C (programming + 5 V power) |
@@ -30,7 +30,7 @@ AnthC (Anthilla Controller) is an ESP32-based controller for industrial and fiel
 
 ## Getting started
 
-1. Power the board from USB-C or 7–28 V on the TODO terminal.
+1. Power the board from USB-C or 7–28 V on the J5 terminal.
 2. Install [ESP-IDF](https://docs.espressif.com/projects/esp-idf/) or the Arduino ESP32 core.
 3. Select board ESP32-S3-dev and flash an example 
 
